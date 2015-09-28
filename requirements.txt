@@ -1,0 +1,5 @@
+Flask
+pykml==0.0.2
+Flask-Failsafe
+SPARQLWrapper
+beautifulsoup4
