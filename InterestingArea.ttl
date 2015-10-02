@@ -240,6 +240,12 @@
 
 :InterestingBridge rdf:type owl:Class ;
                    
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:intersectionOf ( :Bridge
+                                                              :InterestingPlace
+                                                            )
+                                       ] ;
+                   
                    rdfs:subClassOf :InterestingPlace .
 
 
@@ -292,7 +298,16 @@
 
 ###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Place
 
-:Place rdf:type owl:Class .
+:Place rdf:type owl:Class ;
+       
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :LongCoordinate ;
+                             owl:someValuesFrom xsd:string
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :LatCoordinate ;
+                             owl:someValuesFrom xsd:string
+                           ] .
 
 
 
@@ -347,7 +362,7 @@
              
              owl:equivalentClass [ rdf:type owl:Restriction ;
                                    owl:onProperty :hasPlace ;
-                                   owl:onClass :InterestingPlace ;
+                                   owl:onClass :InterestingBridge ;
                                    owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
                                  ] ;
              
@@ -399,6 +414,7 @@
 ###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Brug1
 
 :Brug1 rdf:type :Bridge ,
+                :InterestingPlace ,
                 owl:NamedIndividual ;
        
        :PostalCode "1012"^^xsd:string ;
@@ -406,6 +422,13 @@
        :LatCoordinate "4.902219164013409"^^xsd:string ;
        
        :LongCoordinate "52.373649120152706"^^xsd:string .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Brug2
+
+:Brug2 rdf:type :Bridge ,
+                owl:NamedIndividual .
 
 
 
@@ -430,6 +453,7 @@
 ###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#NieuweBrug
 
 :NieuweBrug rdf:type :Bridge ,
+                     :InterestingPlace ,
                      owl:NamedIndividual ;
             
             :PostalCode "1012"^^xsd:string ;
@@ -458,6 +482,7 @@
 ###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#StationsBrug
 
 :StationsBrug rdf:type :Bridge ,
+                       :InterestingPlace ,
                        owl:NamedIndividual ;
               
               :PostalCode "1012"^^xsd:string ;
