@@ -1,0 +1,493 @@
+@prefix : <http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19> .
+
+<http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#hasAddress
+
+:hasAddress rdf:type owl:ObjectProperty ;
+            
+            rdfs:range :Address ;
+            
+            rdfs:domain :Place ;
+            
+            owl:inverseOf :isAddressOf .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#hasCity
+
+:hasCity rdf:type owl:ObjectProperty ;
+         
+         rdfs:range :City ;
+         
+         rdfs:domain :Place ;
+         
+         owl:inverseOf :isCityOf .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#hasCountry
+
+:hasCountry rdf:type owl:ObjectProperty ;
+            
+            rdfs:range :Country ;
+            
+            rdfs:domain :Place ;
+            
+            owl:inverseOf :isCountryOf .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#hasDestination
+
+:hasDestination rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#hasPlace
+
+:hasPlace rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#hasStart
+
+:hasStart rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#isAddressOf
+
+:isAddressOf rdf:type owl:ObjectProperty ;
+             
+             rdfs:domain :Address ;
+             
+             rdfs:range :Place .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#isCityOf
+
+:isCityOf rdf:type owl:ObjectProperty ;
+          
+          rdfs:domain :Country ;
+          
+          rdfs:range :Place .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#isCountryOf
+
+:isCountryOf rdf:type owl:ObjectProperty ;
+             
+             rdfs:domain :City ;
+             
+             rdfs:range :Place .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#isDestinationOf
+
+:isDestinationOf rdf:type owl:ObjectProperty ;
+                 
+                 owl:inverseOf :hasDestination .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#isPlaceOf
+
+:isPlaceOf rdf:type owl:ObjectProperty ;
+           
+           owl:inverseOf :hasPlace .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#isStartOf
+
+:isStartOf rdf:type owl:ObjectProperty ;
+           
+           owl:inverseOf :hasStart .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#LatCoordinate
+
+:LatCoordinate rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#LongCoordinate
+
+:LongCoordinate rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#PostalCode
+
+:PostalCode rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :Place ;
+            
+            rdfs:range xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Address
+
+:Address rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Bridge
+
+:Bridge rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Place .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Building
+
+:Building rdf:type owl:Class ;
+          
+          rdfs:subClassOf :Place .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Canal
+
+:Canal rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Water .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#City
+
+:City rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Country
+
+:Country rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#CulturalBuilding
+
+:CulturalBuilding rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :InterestingBuilding .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Heritage
+
+:Heritage rdf:type owl:Class ;
+          
+          rdfs:subClassOf :InterestingBuilding .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#House
+
+:House rdf:type owl:Class ;
+       
+       rdfs:subClassOf :InterestingBuilding .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#InterestingArea
+
+:InterestingArea rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#InterestingBridge
+
+:InterestingBridge rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :InterestingPlace .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#InterestingBuilding
+
+:InterestingBuilding rdf:type owl:Class ;
+                     
+                     rdfs:subClassOf :InterestingPlace .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#InterestingNature
+
+:InterestingNature rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :InterestingPlace .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#InterestingPlace
+
+:InterestingPlace rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#InterestingSquare
+
+:InterestingSquare rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :InterestingPlace .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Museum
+
+:Museum rdf:type owl:Class ;
+        
+        rdfs:subClassOf :InterestingBuilding .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Nature
+
+:Nature rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Place .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Place
+
+:Place rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Pond
+
+:Pond rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Water .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#PublicBuilding
+
+:PublicBuilding rdf:type owl:Class ;
+                
+                rdfs:subClassOf :InterestingBuilding .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#ReligiousBuilding
+
+:ReligiousBuilding rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :InterestingBuilding .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Route
+
+:Route rdf:type owl:Class ;
+       
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasPlace ;
+                             owl:someValuesFrom :Place
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasStart ;
+                             owl:onClass :Place ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasDestination ;
+                             owl:onClass :Place ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                           ] .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#ScenicRoute
+
+:ScenicRoute rdf:type owl:Class ;
+             
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasPlace ;
+                                   owl:onClass :InterestingPlace ;
+                                   owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+                                 ] ;
+             
+             rdfs:subClassOf :Route .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#ShortestRoute
+
+:ShortestRoute rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Route .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Square
+
+:Square rdf:type owl:Class ;
+        
+        rdfs:subClassOf :Place .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Tree
+
+:Tree rdf:type owl:Class ;
+      
+      rdfs:subClassOf :InterestingNature .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Water
+
+:Water rdf:type owl:Class ;
+       
+       rdfs:subClassOf :InterestingNature .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Brug1
+
+:Brug1 rdf:type :Bridge ,
+                owl:NamedIndividual ;
+       
+       :PostalCode "1012"^^xsd:string ;
+       
+       :LatCoordinate "4.902219164013409"^^xsd:string ;
+       
+       :LongCoordinate "52.373649120152706"^^xsd:string .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#CentralStation
+
+:CentralStation rdf:type owl:NamedIndividual ,
+                         owl:Thing ;
+                
+                :PostalCode "1012"^^xsd:string .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Dam
+
+:Dam rdf:type owl:NamedIndividual ,
+              owl:Thing ;
+     
+     :PostalCode "1012"^^xsd:string .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#NieuweBrug
+
+:NieuweBrug rdf:type :Bridge ,
+                     owl:NamedIndividual ;
+            
+            :PostalCode "1012"^^xsd:string ;
+            
+            :LatCoordinate "4.898759114384676"^^xsd:string ;
+            
+            :LongCoordinate "52.37685198146036"^^xsd:string .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Route1
+
+:Route1 rdf:type owl:NamedIndividual ;
+        
+        :hasPlace :Brug1 ;
+        
+        :hasStart :CentralStation ;
+        
+        :hasDestination :Dam ;
+        
+        :hasPlace :NieuweBrug ,
+                  :StationsBrug .
+
+
+
+###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#StationsBrug
+
+:StationsBrug rdf:type :Bridge ,
+                       owl:NamedIndividual ;
+              
+              :PostalCode "1012"^^xsd:string ;
+              
+              :LatCoordinate "4.899048792958214"^^xsd:string ;
+              
+              :LongCoordinate "52.37778201218573"^^xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    General axioms
+#
+#################################################################
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :CulturalBuilding
+                :Heritage
+                :House
+                :Museum
+                :PublicBuilding
+              )
+] .
+
+
+
+
+###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
+
