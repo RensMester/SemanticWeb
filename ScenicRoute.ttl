@@ -1,12 +1,28 @@
-@prefix : <http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#> .
+@prefix : <http://www.jimlemmers.com/scenicroute##> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix scr: <http://www.jimlemmers.com/scenicroute#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19> .
+@base <http://www.jimlemmers.com/scenicroute#> .
 
-<http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19> rdf:type owl:Ontology .
+<http://www.jimlemmers.com/scenicroute#> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Datatypes
+#
+#################################################################
+
+
+###  http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string
+
+<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> rdf:type rdfs:Datatype .
+
+
+
 
 
 #################################################################
@@ -16,115 +32,49 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#hasAddress
+###  http://www.jimlemmers.com/scenicroute#hasDestination
 
-:hasAddress rdf:type owl:ObjectProperty ;
-            
-            rdfs:range :Address ;
-            
-            rdfs:domain :Place ;
-            
-            owl:inverseOf :isAddressOf .
+<http://www.jimlemmers.com/scenicroute#hasDestination> rdf:type owl:ObjectProperty .
 
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#hasCity
+###  http://www.jimlemmers.com/scenicroute#hasPlace
 
-:hasCity rdf:type owl:ObjectProperty ;
-         
-         rdfs:range :City ;
-         
-         rdfs:domain :Place ;
-         
-         owl:inverseOf :isCityOf .
+<http://www.jimlemmers.com/scenicroute#hasPlace> rdf:type owl:ObjectProperty .
 
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#hasCountry
+###  http://www.jimlemmers.com/scenicroute#hasStart
 
-:hasCountry rdf:type owl:ObjectProperty ;
-            
-            rdfs:range :Country ;
-            
-            rdfs:domain :Place ;
-            
-            owl:inverseOf :isCountryOf .
+<http://www.jimlemmers.com/scenicroute#hasStart> rdf:type owl:ObjectProperty ;
+
+                                                                                                                  rdfs:range <http://www.jimlemmers.com/scenicroute#Place> ;
+
+                                                                                                                  rdfs:domain <http://www.jimlemmers.com/scenicroute#Route> .
 
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#hasDestination
+###  http://www.jimlemmers.com/scenicroute#isDestinationOf
 
-:hasDestination rdf:type owl:ObjectProperty .
+<http://www.jimlemmers.com/scenicroute#isDestinationOf> rdf:type owl:ObjectProperty ;
 
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#hasPlace
-
-:hasPlace rdf:type owl:ObjectProperty .
+                                                                                                                         owl:inverseOf <http://www.jimlemmers.com/scenicroute#hasDestination> .
 
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#hasStart
+###  http://www.jimlemmers.com/scenicroute#isPlaceOf
 
-:hasStart rdf:type owl:ObjectProperty ;
-          
-          rdfs:range :Place ;
-          
-          rdfs:domain :Route .
+<http://www.jimlemmers.com/scenicroute#isPlaceOf> rdf:type owl:ObjectProperty ;
+
+                                                                                                                   owl:inverseOf <http://www.jimlemmers.com/scenicroute#hasPlace> .
 
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#isAddressOf
+###  http://www.jimlemmers.com/scenicroute#isStartOf
 
-:isAddressOf rdf:type owl:ObjectProperty ;
-             
-             rdfs:domain :Address ;
-             
-             rdfs:range :Place .
+<http://www.jimlemmers.com/scenicroute#isStartOf> rdf:type owl:ObjectProperty ;
 
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#isCityOf
-
-:isCityOf rdf:type owl:ObjectProperty ;
-          
-          rdfs:domain :Country ;
-          
-          rdfs:range :Place .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#isCountryOf
-
-:isCountryOf rdf:type owl:ObjectProperty ;
-             
-             rdfs:domain :City ;
-             
-             rdfs:range :Place .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#isDestinationOf
-
-:isDestinationOf rdf:type owl:ObjectProperty ;
-                 
-                 owl:inverseOf :hasDestination .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#isPlaceOf
-
-:isPlaceOf rdf:type owl:ObjectProperty ;
-           
-           owl:inverseOf :hasPlace .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#isStartOf
-
-:isStartOf rdf:type owl:ObjectProperty ;
-           
-           owl:inverseOf :hasStart .
+                                                                                                                   owl:inverseOf <http://www.jimlemmers.com/scenicroute#hasStart> .
 
 
 
@@ -137,25 +87,25 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#LatCoordinate
+###  http://www.jimlemmers.com/scenicroute#LatCoordinate
 
-:LatCoordinate rdf:type owl:DatatypeProperty .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#LongCoordinate
-
-:LongCoordinate rdf:type owl:DatatypeProperty .
+<http://www.jimlemmers.com/scenicroute#LatCoordinate> rdf:type owl:DatatypeProperty .
 
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#PostalCode
+###  http://www.jimlemmers.com/scenicroute#LongCoordinate
 
-:PostalCode rdf:type owl:DatatypeProperty ;
-            
-            rdfs:domain :Place ;
-            
-            rdfs:range xsd:string .
+<http://www.jimlemmers.com/scenicroute#LongCoordinate> rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#PostalCode
+
+<http://www.jimlemmers.com/scenicroute#PostalCode> rdf:type owl:DatatypeProperty ;
+
+                                                                                                                    rdfs:domain <http://www.jimlemmers.com/scenicroute#Place> ;
+
+                                                                                                                    rdfs:range <http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> .
 
 
 
@@ -168,255 +118,217 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Address
+###  http://www.jimlemmers.com/scenicroute#Address
 
-:Address rdf:type owl:Class .
+<http://www.jimlemmers.com/scenicroute#Address> rdf:type owl:Class .
 
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Bridge
+###  http://www.jimlemmers.com/scenicroute#Bridge
 
-:Bridge rdf:type owl:Class ;
-        
-        rdfs:subClassOf :Place .
+<http://www.jimlemmers.com/scenicroute#Bridge> rdf:type owl:Class ;
 
+                                                                                                                rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Place> .
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Building
 
-:Building rdf:type owl:Class ;
-          
-          rdfs:subClassOf :Place .
+###  http://www.jimlemmers.com/scenicroute#Building
 
+<http://www.jimlemmers.com/scenicroute#Building> rdf:type owl:Class ;
 
+                                                                                                                  rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Place> .
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Canal
 
-:Canal rdf:type owl:Class ;
-       
-       rdfs:subClassOf :Water .
 
+###  http://www.jimlemmers.com/scenicroute#Canal
 
+<http://www.jimlemmers.com/scenicroute#Canal> rdf:type owl:Class ;
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#City
+                                                                                                               rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Water> .
 
-:City rdf:type owl:Class .
 
 
+###  http://www.jimlemmers.com/scenicroute#City
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Country
+<http://www.jimlemmers.com/scenicroute#City> rdf:type owl:Class .
 
-:Country rdf:type owl:Class .
 
 
+###  http://www.jimlemmers.com/scenicroute#Country
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#CulturalBuilding
+<http://www.jimlemmers.com/scenicroute#Country> rdf:type owl:Class .
 
-:CulturalBuilding rdf:type owl:Class ;
-                  
-                  rdfs:subClassOf :InterestingBuilding .
 
 
+###  http://www.jimlemmers.com/scenicroute#CulturalBuilding
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Heritage
+<http://www.jimlemmers.com/scenicroute#CulturalBuilding> rdf:type owl:Class ;
 
-:Heritage rdf:type owl:Class ;
-          
-          rdfs:subClassOf :InterestingBuilding .
+                                                                                                                          rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Building> .
 
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#House
+###  http://www.jimlemmers.com/scenicroute#Heritage
 
-:House rdf:type owl:Class ;
-       
-       rdfs:subClassOf :InterestingBuilding .
+<http://www.jimlemmers.com/scenicroute#Heritage> rdf:type owl:Class ;
 
+                                                                                                                  rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Building> .
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#InterestingArea
 
-:InterestingArea rdf:type owl:Class .
+###  http://www.jimlemmers.com/scenicroute#House
 
+<http://www.jimlemmers.com/scenicroute#House> rdf:type owl:Class ;
 
+                                                                                                               rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Building> .
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#InterestingBridge
 
-:InterestingBridge rdf:type owl:Class ;
-                   
-                   owl:equivalentClass [ rdf:type owl:Class ;
-                                         owl:intersectionOf ( :Bridge
-                                                              :InterestingPlace
-                                                            )
-                                       ] ;
-                   
-                   rdfs:subClassOf :InterestingPlace .
 
+###  http://www.jimlemmers.com/scenicroute#InterestingArea
 
+<http://www.jimlemmers.com/scenicroute#InterestingArea> rdf:type owl:Class .
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#InterestingBuilding
 
-:InterestingBuilding rdf:type owl:Class ;
-                     
-                     owl:equivalentClass [ rdf:type owl:Class ;
-                                           owl:intersectionOf ( :Building
-                                                                :InterestingPlace
-                                                              )
-                                         ] ;
-                     
-                     rdfs:subClassOf :InterestingPlace .
 
+###  http://www.jimlemmers.com/scenicroute#InterestingPlace
 
+<http://www.jimlemmers.com/scenicroute#InterestingPlace> rdf:type owl:Class .
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#InterestingNature
 
-:InterestingNature rdf:type owl:Class ;
-                   
-                   rdfs:subClassOf :InterestingPlace .
 
+###  http://www.jimlemmers.com/scenicroute#Museum
 
+<http://www.jimlemmers.com/scenicroute#Museum> rdf:type owl:Class ;
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#InterestingPlace
+                                                                                                                rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Building> .
 
-:InterestingPlace rdf:type owl:Class .
 
 
+###  http://www.jimlemmers.com/scenicroute#Nature
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#InterestingSquare
+<http://www.jimlemmers.com/scenicroute#Nature> rdf:type owl:Class ;
 
-:InterestingSquare rdf:type owl:Class ;
-                   
-                   rdfs:subClassOf :InterestingPlace .
+                                                                                                                rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Place> .
 
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Museum
+###  http://www.jimlemmers.com/scenicroute#Place
 
-:Museum rdf:type owl:Class ;
-        
-        rdfs:subClassOf :InterestingBuilding .
+<http://www.jimlemmers.com/scenicroute#Place> rdf:type owl:Class ;
 
+                                                                                                               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <http://www.jimlemmers.com/scenicroute#LatCoordinate> ;
+                                                                                                                                     owl:someValuesFrom <http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string>
+                                                                                                                                   ] ,
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <http://www.jimlemmers.com/scenicroute#LongCoordinate> ;
+                                                                                                                                     owl:someValuesFrom <http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string>
+                                                                                                                                   ] .
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Nature
 
-:Nature rdf:type owl:Class ;
-        
-        rdfs:subClassOf :Place .
+###  http://www.jimlemmers.com/scenicroute#Pond
 
+<http://www.jimlemmers.com/scenicroute#Pond> rdf:type owl:Class ;
 
+                                                                                                              rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Water> .
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Place
 
-:Place rdf:type owl:Class ;
-       
-       owl:equivalentClass [ rdf:type owl:Restriction ;
-                             owl:onProperty :LongCoordinate ;
-                             owl:someValuesFrom xsd:string
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :LatCoordinate ;
-                             owl:someValuesFrom xsd:string
-                           ] .
 
+###  http://www.jimlemmers.com/scenicroute#PublicBuilding
 
+<http://www.jimlemmers.com/scenicroute#PublicBuilding> rdf:type owl:Class ;
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Pond
+                                                                                                                        rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Building> .
 
-:Pond rdf:type owl:Class ;
-      
-      rdfs:subClassOf :Water .
 
 
+###  http://www.jimlemmers.com/scenicroute#ReligiousBuilding
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#PublicBuilding
+<http://www.jimlemmers.com/scenicroute#ReligiousBuilding> rdf:type owl:Class ;
 
-:PublicBuilding rdf:type owl:Class ;
-                
-                rdfs:subClassOf :InterestingBuilding .
+                                                                                                                           rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Building> .
 
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#ReligiousBuilding
+###  http://www.jimlemmers.com/scenicroute#Route
 
-:ReligiousBuilding rdf:type owl:Class ;
-                   
-                   rdfs:subClassOf :InterestingBuilding .
+<http://www.jimlemmers.com/scenicroute#Route> rdf:type owl:Class ;
 
+                                                                                                               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <http://www.jimlemmers.com/scenicroute#hasStart> ;
+                                                                                                                                     owl:onClass <http://www.jimlemmers.com/scenicroute#Place> ;
+                                                                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                                                                                   ] ,
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <http://www.jimlemmers.com/scenicroute#hasDestination> ;
+                                                                                                                                     owl:onClass <http://www.jimlemmers.com/scenicroute#Place> ;
+                                                                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                                                                                   ] ,
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <http://www.jimlemmers.com/scenicroute#hasPlace> ;
+                                                                                                                                     owl:someValuesFrom <http://www.jimlemmers.com/scenicroute#Place>
+                                                                                                                                   ] .
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Route
 
-:Route rdf:type owl:Class ;
-       
-       owl:equivalentClass [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasPlace ;
-                             owl:someValuesFrom :Place
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasStart ;
-                             owl:onClass :Place ;
-                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasDestination ;
-                             owl:onClass :Place ;
-                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
-                           ] .
+###  http://www.jimlemmers.com/scenicroute#ScenicRoute
 
+<http://www.jimlemmers.com/scenicroute#ScenicRoute> rdf:type owl:Class ;
 
+                                                                                                                     owl:equivalentClass [ rdf:type owl:Class ;
+                                                                                                                                           owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                                                           owl:onProperty <http://www.jimlemmers.com/scenicroute#hasPlace> ;
+                                                                                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                                                                owl:intersectionOf ( <http://www.jimlemmers.com/scenicroute#Bridge>
+                                                                                                                                                                                                     <http://www.jimlemmers.com/scenicroute#InterestingPlace>
+                                                                                                                                                                                                   )
+                                                                                                                                                                              ]
+                                                                                                                                                         ]
+                                                                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                                                                           owl:onProperty <http://www.jimlemmers.com/scenicroute#hasPlace> ;
+                                                                                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                                                                owl:intersectionOf ( <http://www.jimlemmers.com/scenicroute#Building>
+                                                                                                                                                                                                     <http://www.jimlemmers.com/scenicroute#InterestingPlace>
+                                                                                                                                                                                                   )
+                                                                                                                                                                              ]
+                                                                                                                                                         ]
+                                                                                                                                                       )
+                                                                                                                                         ] ;
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#ScenicRoute
+                                                                                                                     rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Route> .
 
-:ScenicRoute rdf:type owl:Class ;
-             
-             owl:equivalentClass [ rdf:type owl:Class ;
-                                   owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                                                          owl:onProperty :hasPlace ;
-                                                          owl:onClass :InterestingBridge ;
-                                                          owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
-                                                        ]
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty :hasPlace ;
-                                                          owl:onClass :InterestingBuilding ;
-                                                          owl:minQualifiedCardinality "3"^^xsd:nonNegativeInteger
-                                                        ]
-                                                      )
-                                 ] ;
-             
-             rdfs:subClassOf :Route .
 
 
+###  http://www.jimlemmers.com/scenicroute#ShortestRoute
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#ShortestRoute
+<http://www.jimlemmers.com/scenicroute#ShortestRoute> rdf:type owl:Class ;
 
-:ShortestRoute rdf:type owl:Class ;
-               
-               rdfs:subClassOf :Route .
+                                                                                                                       rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Route> .
 
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Square
+###  http://www.jimlemmers.com/scenicroute#Square
 
-:Square rdf:type owl:Class ;
-        
-        rdfs:subClassOf :Place .
+<http://www.jimlemmers.com/scenicroute#Square> rdf:type owl:Class ;
 
+                                                                                                                rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Place> .
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Tree
 
-:Tree rdf:type owl:Class ;
-      
-      rdfs:subClassOf :InterestingNature .
+###  http://www.jimlemmers.com/scenicroute#Tree
 
+<http://www.jimlemmers.com/scenicroute#Tree> rdf:type owl:Class ;
 
+                                                                                                              rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Nature> .
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Water
 
-:Water rdf:type owl:Class ;
-       
-       rdfs:subClassOf :InterestingNature .
+
+###  http://www.jimlemmers.com/scenicroute#Water
+
+<http://www.jimlemmers.com/scenicroute#Water> rdf:type owl:Class ;
+
+                                                                                                               rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Nature> .
 
 
 
@@ -429,134 +341,131 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Bijenkorf
+###  http://www.jimlemmers.com/scenicroute#Bijenkorf
 
-:Bijenkorf rdf:type :Building ,
-                    :InterestingPlace ,
-                    owl:NamedIndividual ;
-           
-           :LongCoordinate "4.89452"^^xsd:string ;
-           
-           :LatCoordinate "52.37354"^^xsd:string .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Brug1
-
-:Brug1 rdf:type :Bridge ,
-                :InterestingPlace ,
-                owl:NamedIndividual ;
-       
-       :PostalCode "1012"^^xsd:string ;
-       
-       :LongCoordinate "4.902219164013409"^^xsd:string ;
-       
-       :LatCoordinate "52.373649120152706"^^xsd:string .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Brug2
-
-:Brug2 rdf:type :Bridge ,
-                owl:NamedIndividual .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#CentralStation
-
-:CentralStation rdf:type owl:NamedIndividual ,
-                         owl:Thing ;
-                
-                :PostalCode "1012"^^xsd:string .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Dam
-
-:Dam rdf:type owl:NamedIndividual ,
-              owl:Thing ;
-     
-     :PostalCode "1012"^^xsd:string .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#NieuweBrug
-
-:NieuweBrug rdf:type :Bridge ,
-                     :InterestingPlace ,
-                     owl:NamedIndividual ;
-            
-            :PostalCode "1012"^^xsd:string ;
-            
-            :LongCoordinate "4.898759114384676"^^xsd:string ;
-            
-            :LatCoordinate "52.37685198146036"^^xsd:string .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Route1
-
-:Route1 rdf:type owl:NamedIndividual ;
-        
-        :hasPlace :Brug1 ;
-        
-        :hasStart :CentralStation ;
-        
-        :hasDestination :Dam ;
-        
-        :hasPlace :NieuweBrug ,
-                  :StationsBrug .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Route2
-
-:Route2 rdf:type owl:NamedIndividual ,
-                 owl:Thing ;
-        
-        :hasPlace :Bijenkorf ,
-                  :NieuweBrug ,
-                  :Sexmuseum ,
-                  :StationsBrug ,
-                  :VictoriaHotel .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#Sexmuseum
-
-:Sexmuseum rdf:type :Building ,
-                    :InterestingPlace ,
-                    owl:NamedIndividual ;
-           
-           :LongCoordinate "4.8973"^^xsd:string ;
-           
-           :LatCoordinate "52.3765"^^xsd:string .
-
-
-
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#StationsBrug
-
-:StationsBrug rdf:type :Bridge ,
-                       :InterestingPlace ,
+scr:Bijenkorf rdf:type <http://www.jimlemmers.com/scenicroute#Building> ,
+                       <http://www.jimlemmers.com/scenicroute#InterestingPlace> ,
                        owl:NamedIndividual ;
-              
-              :PostalCode "1012"^^xsd:string ;
-              
-              :LongCoordinate "4.899048792958214"^^xsd:string ;
-              
-              :LatCoordinate "52.37778201218573"^^xsd:string .
+
+              <http://www.jimlemmers.com/scenicroute#LongCoordinate> "4.89452"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> ;
+
+              <http://www.jimlemmers.com/scenicroute#LatCoordinate> "52.37354"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> .
 
 
 
-###  http://www.semanticweb.org/rens/ontologies/2015/8/untitled-ontology-19#VictoriaHotel
+###  http://www.jimlemmers.com/scenicroute#CentralStation
 
-:VictoriaHotel rdf:type :Building ,
-                        :InterestingPlace ,
-                        owl:NamedIndividual ;
-               
-               :LongCoordinate "4.8982"^^xsd:string ;
-               
-               :LatCoordinate "52.37719"^^xsd:string .
+scr:CentralStation rdf:type owl:NamedIndividual ;
+
+                   <http://www.jimlemmers.com/scenicroute#PostalCode> "1012"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#Route1
+
+scr:Route1 rdf:type owl:NamedIndividual ;
+
+           <http://www.jimlemmers.com/scenicroute#hasStart> scr:CentralStation ;
+
+           <http://www.jimlemmers.com/scenicroute#hasPlace> <http://www.jimlemmers.com/scenicroute#Brug1> ;
+
+           <http://www.jimlemmers.com/scenicroute#hasDestination> <http://www.jimlemmers.com/scenicroute#Dam> ;
+
+           <http://www.jimlemmers.com/scenicroute#hasPlace> <http://www.jimlemmers.com/scenicroute#NieuweBrug> ,
+                                                                                                                             <http://www.jimlemmers.com/scenicroute#StationsBrug> .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#Brug1
+
+<http://www.jimlemmers.com/scenicroute#Brug1> rdf:type <http://www.jimlemmers.com/scenicroute#Bridge> ,
+                                                                                                                        <http://www.jimlemmers.com/scenicroute#InterestingPlace> ,
+                                                                                                                        owl:NamedIndividual ;
+
+                                                                                                               <http://www.jimlemmers.com/scenicroute#PostalCode> "1012"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> ;
+
+                                                                                                               <http://www.jimlemmers.com/scenicroute#LongCoordinate> "4.902219164013409"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> ;
+
+                                                                                                               <http://www.jimlemmers.com/scenicroute#LatCoordinate> "52.373649120152706"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#Brug2
+
+<http://www.jimlemmers.com/scenicroute#Brug2> rdf:type <http://www.jimlemmers.com/scenicroute#Bridge> ,
+                                                                                                                        owl:NamedIndividual .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#Dam
+
+<http://www.jimlemmers.com/scenicroute#Dam> rdf:type owl:NamedIndividual ;
+
+                                                                                                             <http://www.jimlemmers.com/scenicroute#PostalCode> "1012"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#NieuweBrug
+
+<http://www.jimlemmers.com/scenicroute#NieuweBrug> rdf:type <http://www.jimlemmers.com/scenicroute#Bridge> ,
+                                                                                                                             <http://www.jimlemmers.com/scenicroute#InterestingPlace> ,
+                                                                                                                             owl:NamedIndividual ;
+
+                                                                                                                    <http://www.jimlemmers.com/scenicroute#PostalCode> "1012"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> ;
+
+                                                                                                                    <http://www.jimlemmers.com/scenicroute#LongCoordinate> "4.898759114384676"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> ;
+
+                                                                                                                    <http://www.jimlemmers.com/scenicroute#LatCoordinate> "52.37685198146036"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#Route2
+
+<http://www.jimlemmers.com/scenicroute#Route2> rdf:type owl:NamedIndividual ;
+
+                                                                                                                <http://www.jimlemmers.com/scenicroute#hasPlace> scr:Bijenkorf ,
+                                                                                                                                                                                                                                  <http://www.jimlemmers.com/scenicroute#NieuweBrug> ,
+                                                                                                                                                                                                                                  <http://www.jimlemmers.com/scenicroute#Sexmuseum> ,
+                                                                                                                                                                                                                                  <http://www.jimlemmers.com/scenicroute#StationsBrug> ,
+                                                                                                                                                                                                                                  <http://www.jimlemmers.com/scenicroute#VictoriaHotel> .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#Sexmuseum
+
+<http://www.jimlemmers.com/scenicroute#Sexmuseum> rdf:type <http://www.jimlemmers.com/scenicroute#Building> ,
+                                                                                                                            <http://www.jimlemmers.com/scenicroute#InterestingPlace> ,
+                                                                                                                            owl:NamedIndividual ;
+
+                                                                                                                   <http://www.jimlemmers.com/scenicroute#LongCoordinate> "4.8973"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> ;
+
+                                                                                                                   <http://www.jimlemmers.com/scenicroute#LatCoordinate> "52.3765"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#StationsBrug
+
+<http://www.jimlemmers.com/scenicroute#StationsBrug> rdf:type <http://www.jimlemmers.com/scenicroute#Bridge> ,
+                                                                                                                               <http://www.jimlemmers.com/scenicroute#InterestingPlace> ,
+                                                                                                                               owl:NamedIndividual ;
+
+                                                                                                                      <http://www.jimlemmers.com/scenicroute#PostalCode> "1012"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> ;
+
+                                                                                                                      <http://www.jimlemmers.com/scenicroute#LongCoordinate> "4.899048792958214"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> ;
+
+                                                                                                                      <http://www.jimlemmers.com/scenicroute#LatCoordinate> "52.37778201218573"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#VictoriaHotel
+
+<http://www.jimlemmers.com/scenicroute#VictoriaHotel> rdf:type <http://www.jimlemmers.com/scenicroute#Building> ,
+                                                                                                                                <http://www.jimlemmers.com/scenicroute#InterestingPlace> ,
+                                                                                                                                owl:NamedIndividual ;
+
+                                                                                                                       <http://www.jimlemmers.com/scenicroute#LongCoordinate> "4.8982"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> ;
+
+                                                                                                                       <http://www.jimlemmers.com/scenicroute#LatCoordinate> "52.37719"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> .
 
 
 
@@ -569,36 +478,36 @@
 #################################################################
 
 
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :Bridge
-                :Building
-                :Nature
-                :Square
-              )
-] .
 [ rdf:type owl:AllDifferent ;
-  owl:distinctMembers ( :Brug1
-                        :NieuweBrug
-                        :StationsBrug
-                      )
-] .
-[ rdf:type owl:AllDifferent ;
-  owl:distinctMembers ( :Bijenkorf
-                        :Sexmuseum
-                        :VictoriaHotel
+  owl:distinctMembers ( scr:Bijenkorf
+                        <http://www.jimlemmers.com/scenicroute#Sexmuseum>
+                        <http://www.jimlemmers.com/scenicroute#VictoriaHotel>
                       )
 ] .
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :CulturalBuilding
-                :Heritage
-                :House
-                :Museum
-                :PublicBuilding
+  owl:members ( <http://www.jimlemmers.com/scenicroute#CulturalBuilding>
+                <http://www.jimlemmers.com/scenicroute#Heritage>
+                <http://www.jimlemmers.com/scenicroute#House>
+                <http://www.jimlemmers.com/scenicroute#Museum>
+                <http://www.jimlemmers.com/scenicroute#PublicBuilding>
+              )
+] .
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( <http://www.jimlemmers.com/scenicroute#Brug1>
+                        <http://www.jimlemmers.com/scenicroute#NieuweBrug>
+                        <http://www.jimlemmers.com/scenicroute#StationsBrug>
+                      )
+] .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.jimlemmers.com/scenicroute#Bridge>
+                <http://www.jimlemmers.com/scenicroute#Building>
+                <http://www.jimlemmers.com/scenicroute#Nature>
+                <http://www.jimlemmers.com/scenicroute#Square>
               )
 ] .
 
 
 
 
-###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
 
