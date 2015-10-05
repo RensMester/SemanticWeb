@@ -1,0 +1,16 @@
+﻿OBJECTNUMMER;SELECTIE;FILTER;Naam;Status;Monumentnummer;Aanwijzingsdatum;Monumentenregister;Weblink;COORDS;CENTERLNG1;CENTERLAT1;CENTERLNG2;CENTERLAT2;
+1;"GEMEENTE";"";"Beatrixpark";"Gemeentelijk monument";200535;"28-6-2005";"";"";"POINT(4.880579 52.343752)";4.880579;52.343752;4,880579;52,343752;
+2;"RIJKS";"";"Zorgvlied";"Rijksmonument";530057;"20-12-2007";"http://monumentenregister.cultureelerfgoed.nl/php/monument_pdf.php?OBJnr=1021247";"";"POINT(4.899389 52.336038)";4.899389;52.336038;4,899389;52,336038;
+3;"RIJKS";"";"Artis-Papegaaienlaan";"Rijksmonument";518296;"27-9-2001";"http://monumentenregister.cultureelerfgoed.nl/php/monument_pdf.php?OBJnr=1010763";"";"POINT(4.913290 52.367057)";4.913290;52.367057;4,913290;52,367057;
+4;"RIJKS";"";"Kinderbrug- plantsoen";"Rijksmonument";527783;"22-9-2004";"http://monumentenregister.cultureelerfgoed.nl/php/monument_pdf.php?OBJnr=1019177";"";"POINT(4.885422 52.347628)";4.885422;52.347628;4,885422;52,347628;
+5;"RIJKS";"";"Artis- Hollandse Tuin";"Rijksmonument";518297;"27-9-2001";"http://monumentenregister.cultureelerfgoed.nl/php/monument_pdf.php?OBJnr=1010764";"";"POINT(4.915938 52.366618)";4.915938;52.366618;4,915938;52,366618;
+6;"RIJKS";"";"Vondelpark- parkaanleg";"Rijksmonument";504839;"24-5-1996";"http://monumentenregister.cultureelerfgoed.nl/php/monument_pdf.php?OBJnr=504839";"";"POINT(4.867001 52.357929)";4.867001;52.357929;4,867001;52,357929;
+7;"GEMEENTE";"";"Muzenhof";"Gemeentelijk monument";200602;"27-6-2007";"";"";"POINT(4.875725 52.347353)";4.875725;52.347353;4,875725;52,347353;
+8;"RIJKS";"";"Harmoniehof- plantsoenaanleg";"Rijksmonument";527822;"22-9-2004";"http://monumentenregister.cultureelerfgoed.nl/php/monument_pdf.php?OBJnr=1019206";"";"POINT(4.883856 52.351144)";4.883856;52.351144;4,883856;52,351144;
+9;"RIJKS";"";"De Nieuwe Ooster";"Rijksmonument";526958;"31-10-2003";"http://monumentenregister.cultureelerfgoed.nl/php/monument_pdf.php?OBJnr=1018421";"http://www.arboretum-denieuweooster.nl";"POINT(4.938715 52.345685)";4.938715;52.345685;4,938715;52,345685;
+10;"RIJKS";"";"Buitenplaats Frankendael";"Rijksmonument";422421;"29-2-1992";"http://monumentenregister.cultureelerfgoed.nl/php/monument_pdf.php?OBJnr=422421";"";"POINT(4.933523 52.351147)";4.933523;52.351147;4,933523;52,351147;
+11;"GEMEENTE";"";"Huis te Vraag";"Gemeentelijk monument";222151;"28-8-2009";"";"";"POINT(4.848598 52.346567)";4.848598;52.346567;4,848598;52,346567;
+12;"RIJKS";"";"Amstelrust";"Rijksmonument";515155;"19-12-2006";"http://monumentenregister.cultureelerfgoed.nl/php/monument_pdf.php?OBJnr=1008044";"";"POINT(4.897997 52.330478)";4.897997;52.330478;4,897997;52,330478;
+13;"RIJKS";"";"Brug 382 inclusief plantsoen";"Rijksmonument";526747;"3-2-2003";"http://monumentenregister.cultureelerfgoed.nl/php/monument_pdf.php?OBJnr=1018242";"";"POINT(4.863975 52.375558)";4.863975;52.375558;4,863975;52,375558;
+14;"RIJKS";"";"Museumtuin Rijksmuseum";"Rijksmonument";530421;"4-10-2011";"http://monumentenregister.cultureelerfgoed.nl/php/monument_pdf.php?OBJnr=1021594";"";"POINT(4.884997 52.359310)";4.884997;52.359310;4,884997;52,359310;
+
