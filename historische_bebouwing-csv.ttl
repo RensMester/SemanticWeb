@@ -1,0 +1,792 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix scr: <jimlemmers.com/scenicroute#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.jimlemmers.com/scenicroute#Atheneum+Illustre+1632> a <shttp://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.895002" ;
+	geo:lat "52.369927" .
+
+<http://www.jimlemmers.com/scenicroute#Oude+Kerk+1306> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.897985" ;
+	geo:lat "52.374313" .
+
+<http://www.jimlemmers.com/scenicroute#Windmolenzijdepoorthuis+1300-1380> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.896731" ;
+	geo:lat "52.377051" .
+
+<http://www.jimlemmers.com/scenicroute#Haarlemmerpoort+1425-1579> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.894687" ;
+	geo:lat "52.378914" .
+
+<http://www.jimlemmers.com/scenicroute#Bindwijkerpoort+1340-1425> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.891025" ;
+	geo:lat "52.368971" .
+
+<http://www.jimlemmers.com/scenicroute#Heiligewegspoort+1425-1610> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.889951" ;
+	geo:lat "52.367348" .
+
+<http://www.jimlemmers.com/scenicroute#Regulierspoort+1452-1591> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893346" ;
+	geo:lat "52.367084" .
+
+<http://www.jimlemmers.com/scenicroute#Olofspoort+1380-1618> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.899706" ;
+	geo:lat "52.376228" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Anthonispoort+1466-1617> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.900337" ;
+	geo:lat "52.372796" .
+
+<http://www.jimlemmers.com/scenicroute#Schreierstoren+1482> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.902257" ;
+	geo:lat "52.3764" .
+
+<http://www.jimlemmers.com/scenicroute#Nieuwe+Kerk+1408> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.891796" ;
+	geo:lat "52.373937" .
+
+<http://www.jimlemmers.com/scenicroute#St.-Elisabethskapel+1361-1492> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.891381" ;
+	geo:lat "52.372835" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Pieterskapel+1382-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893356" ;
+	geo:lat "52.371009" .
+
+<http://www.jimlemmers.com/scenicroute#Regulierenklooster+1394-1532> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.899042" ;
+	geo:lat "52.363939" .
+
+<http://www.jimlemmers.com/scenicroute#St.-Marienveld+ten+Nieuwenlichte-+of+Oude+Nonnenklooster+1389-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.895856" ;
+	geo:lat "52.369045" .
+
+<http://www.jimlemmers.com/scenicroute#Kartuizerklooster+Sint-Andries-ter-Zaliger-Haven+1392-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.881851" ;
+	geo:lat "52.379304" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Claraconvent+1397-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893962" ;
+	geo:lat "52.369627" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Agnes-+of+Agnietenklooster+1397-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.895185" ;
+	geo:lat "52.370147" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Dionisius-+of+Nieuwe+Nonnenklooster+1403-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.89402" ;
+	geo:lat "52.368343" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Margarethaconvent+of+Margrietenklooster+1406-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.89413" ;
+	geo:lat "52.370993" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Paulusbroedersklooster+1409-1579> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.897679" ;
+	geo:lat "52.37101" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Cecili%C3%83%C2%ABnklooster+1411-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.895813" ;
+	geo:lat "52.371059" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Maria+Magdalenaklooster+1411-1579> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.894156" ;
+	geo:lat "52.370448" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Catrijnenklooster++1412-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.895519" ;
+	geo:lat "52.370668" .
+
+<http://www.jimlemmers.com/scenicroute#Luci%C3%83%C2%ABnconvent+1414-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.890439" ;
+	geo:lat "52.370251" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Mariaconvent+1417-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.892995" ;
+	geo:lat "52.369553" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Ursula+of+Elf+Duizend+Maagdenconvent+1419-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.897476" ;
+	geo:lat "52.370428" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Barbaraconvent+1425-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.894073" ;
+	geo:lat "52.37002" .
+
+<http://www.jimlemmers.com/scenicroute#Stadhuis+1390-1652> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.892128" ;
+	geo:lat "52.373079" .
+
+<http://www.jimlemmers.com/scenicroute#Korsjespoort+ca.+1490-1600> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.89239" ;
+	geo:lat "52.376939" .
+
+<http://www.jimlemmers.com/scenicroute#Sint+Olofskapel%2F+Oudezijds+Kapel+1450-1586> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.899951" ;
+	geo:lat "52.376152" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Jacobskapel+1435-1752> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.896904" ;
+	geo:lat "52.377238" .
+
+<http://www.jimlemmers.com/scenicroute#Heilige+Sacramentsgasthuis+1422-1544> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.891266" ;
+	geo:lat "52.370174" .
+
+<http://www.jimlemmers.com/scenicroute#Begijnhof+1307> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.890088" ;
+	geo:lat "52.369561" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Nicolaasgasthuis+1403-1867> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.904449" ;
+	geo:lat "52.368064" .
+
+<http://www.jimlemmers.com/scenicroute#Sint+Geertruidenklooster+1432-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893186" ;
+	geo:lat "52.375426" .
+
+<http://www.jimlemmers.com/scenicroute#Cellebroedersklooster+1440-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893252" ;
+	geo:lat "52.370486" .
+
+<http://www.jimlemmers.com/scenicroute#Sint+Maria+Magdalenaklooster+in+Bethanien+1462-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.898448" ;
+	geo:lat "52.371828" .
+
+<http://www.jimlemmers.com/scenicroute#Minderbroeders-+of+Grauwmonnikenklooster+1462-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.899441" ;
+	geo:lat "52.372994" .
+
+<http://www.jimlemmers.com/scenicroute#Cellezusters-+of+St.-Alexiusklooster+1475-1616> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.899897" ;
+	geo:lat "52.373746" .
+
+<http://www.jimlemmers.com/scenicroute#Clarissenklooster+1494-1579> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.891984" ;
+	geo:lat "52.367327" .
+
+<http://www.jimlemmers.com/scenicroute#Zuiderkerk+1611> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.899758" ;
+	geo:lat "52.370268" .
+
+<http://www.jimlemmers.com/scenicroute#Westerkerk+1620> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.883868" ;
+	geo:lat "52.374484" .
+
+<http://www.jimlemmers.com/scenicroute#Noorderkerk+1623> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.886444" ;
+	geo:lat "52.379626" .
+
+<http://www.jimlemmers.com/scenicroute#Heiligewegspoort+1610-1663> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.88851" ;
+	geo:lat "52.366821" .
+
+<http://www.jimlemmers.com/scenicroute#Haarlemmerpoort+1615-1837> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.88335" ;
+	geo:lat "52.384865" .
+
+<http://www.jimlemmers.com/scenicroute#Zaagmolenpoort+1613-1857> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.87894" ;
+	geo:lat "52.378947" .
+
+<http://www.jimlemmers.com/scenicroute#Raampoort+1648-1844> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.876336" ;
+	geo:lat "52.374128" .
+
+<http://www.jimlemmers.com/scenicroute#Regulierspoort+1591-1688> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.896278" ;
+	geo:lat "52.365984" .
+
+<http://www.jimlemmers.com/scenicroute#Sint-Anthonispoort+1617-1663> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.905378" ;
+	geo:lat "52.367995" .
+
+<http://www.jimlemmers.com/scenicroute#Pesthuis+1616-1635> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.886734" ;
+	geo:lat "52.365993" .
+
+<http://www.jimlemmers.com/scenicroute#Dolhuis+1562-1793> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.897382" ;
+	geo:lat "52.370756" .
+
+<http://www.jimlemmers.com/scenicroute#Aalmoezeniershuis+1578-1666> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.890882" ;
+	geo:lat "52.367282" .
+
+<http://www.jimlemmers.com/scenicroute#Rasphuis+1596-1815> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.891222" ;
+	geo:lat "52.367535" .
+
+<http://www.jimlemmers.com/scenicroute#Spinhuis+1597-1782> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.897103" ;
+	geo:lat "52.370589" .
+
+<http://www.jimlemmers.com/scenicroute#Burgerweeshuis+1579-1966> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.890528" ;
+	geo:lat "52.370313" .
+
+<http://www.jimlemmers.com/scenicroute#Oudemannen-+en+Oudevrouwengasthuis+1601> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.897679" ;
+	geo:lat "52.37101" .
+
+<http://www.jimlemmers.com/scenicroute#Prinsenhof+1661-1795> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.895529" ;
+	geo:lat "52.370982" .
+
+<http://www.jimlemmers.com/scenicroute#De+Beurs+van+Hendrick+de+Keyser+1611-1838> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893115" ;
+	geo:lat "52.372083" .
+
+<http://www.jimlemmers.com/scenicroute#Wisselbank+1609-1820> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.892208" ;
+	geo:lat "52.373301" .
+
+<http://www.jimlemmers.com/scenicroute#Stadsbank+van+Lening+1614> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.894424" ;
+	geo:lat "52.370964" .
+
+<http://www.jimlemmers.com/scenicroute#De+Waag+1617> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.900345" ;
+	geo:lat "52.372814" .
+
+<http://www.jimlemmers.com/scenicroute#Montelbaanstoren+1517> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.905661" ;
+	geo:lat "52.37202" .
+
+<http://www.jimlemmers.com/scenicroute#Begijnhofkapel+1671> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.889632" ;
+	geo:lat "52.369321" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Blaauwhoofd+1613-1830> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.889965" ;
+	geo:lat "52.389436" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+De+Bogt+1613-1830> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.885418" ;
+	geo:lat "52.388721" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Westerbeer+1613-1830> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.883643" ;
+	geo:lat "52.3865" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Sloterdijk+1613-1813> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.88208" ;
+	geo:lat "52.384048" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Haarlem+1613-1815> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.880554" ;
+	geo:lat "52.381642" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Karthuizers+1613-1875> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.879067" ;
+	geo:lat "52.379283" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Slotermeer+1613-1875> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.877447" ;
+	geo:lat "52.37683" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Rijkeroord+1613-1877> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.875997" ;
+	geo:lat "52.374449" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Rijk+1613-1807> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.875384" ;
+	geo:lat "52.371851" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Nieuwkerk+1613-1807> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.876926" ;
+	geo:lat "52.369377" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Osdorp+1613-1807> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.878467" ;
+	geo:lat "52.3671" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Sloten+1613-1807> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.880256" ;
+	geo:lat "52.364674" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Schinkel+1663-1805> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.88291" ;
+	geo:lat "52.362635" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Amstelveen+1663-1804> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.886184" ;
+	geo:lat "52.361037" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Wetering+1663-1803> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.889552" ;
+	geo:lat "52.35951" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Reguliers+1663-1804> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893777" ;
+	geo:lat "52.359168" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Ouderkerk+1663-1804> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.898057" ;
+	geo:lat "52.358908" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Westerblokhuis+1663-1877> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.902158" ;
+	geo:lat "52.359632" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Oosterblokhuis+1663-1864> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.906238" ;
+	geo:lat "52.360379" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Weesp+1663-1807> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.910129" ;
+	geo:lat "52.361183" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Diemen+1663-1756> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.914039" ;
+	geo:lat "52.361916" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Muiden+1663-1809> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.917932" ;
+	geo:lat "52.362708" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Oetewaal+1663-1810> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.921532" ;
+	geo:lat "52.364136" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Oosterbeer+1663-1844> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.92456" ;
+	geo:lat "52.366084" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Jaap+Hannes+1663-1788> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.927609" ;
+	geo:lat "52.367822" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Zeeburg+1663-1877> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.930581" ;
+	geo:lat "52.369688" .
+
+<http://www.jimlemmers.com/scenicroute#Walenweeshuis+1683-1967> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.891271" ;
+	geo:lat "52.361807" .
+
+<http://www.jimlemmers.com/scenicroute#Aalmoezeniersweeshuis+1666-1825> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.883144" ;
+	geo:lat "52.365392" .
+
+<http://www.jimlemmers.com/scenicroute#Oosterkerk+1671> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.919267" ;
+	geo:lat "52.369988" .
+
+<http://www.jimlemmers.com/scenicroute#Amstelkerk+1668> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.896672" ;
+	geo:lat "52.362309" .
+
+<http://www.jimlemmers.com/scenicroute#Eilandskerk+1659-1939> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.888399" ;
+	geo:lat "52.384092" .
+
+<http://www.jimlemmers.com/scenicroute#Nieuwe+Lutherse+Kerk+1671> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893745" ;
+	geo:lat "52.377923" .
+
+<http://www.jimlemmers.com/scenicroute#Oude+Lutherse+Kerk+1633> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.889346" ;
+	geo:lat "52.368376" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+1592-1663> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.899902" ;
+	geo:lat "52.365891" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Beer+1613-1861> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.883841" ;
+	geo:lat "52.386536" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Kraay+1613-1838> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.882275" ;
+	geo:lat "52.384054" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Bok+1613-1879> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.890161" ;
+	geo:lat "52.38943" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Vervanger+1688-1878> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.88559" ;
+	geo:lat "52.388736" .
+
+<http://www.jimlemmers.com/scenicroute#VOC-werf+1660-1795> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.926123" ;
+	geo:lat "52.370726" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+1592-1663> geo:long "4.902928" ;
+	geo:lat "52.366573" .
+
+<http://www.jimlemmers.com/scenicroute#Klokken-+en+geschutgieterij+Hemony+1655-1683> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.883879" ;
+	geo:lat "52.367003" .
+
+<http://www.jimlemmers.com/scenicroute#R.C.+Maagdenhuis+1783> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.890212" ;
+	geo:lat "52.368591" .
+
+<http://www.jimlemmers.com/scenicroute#Engels+Presbyteriaanse+Kerk+1607> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.890116" ;
+	geo:lat "52.369331" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+1592-1663> geo:long "4.889495" ;
+	geo:lat "52.366088" .
+
+<http://www.jimlemmers.com/scenicroute#Gasthuiskerk+1578-1864> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893599" ;
+	geo:lat "52.368616" .
+
+<http://www.jimlemmers.com/scenicroute#Kapel+ter+Heilige+Stede%2F+Nieuwezijds+Kapel+1345> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.891926" ;
+	geo:lat "52.370238" .
+
+<http://www.jimlemmers.com/scenicroute#St.-Pietersgasthuis+1395-1578> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893242" ;
+	geo:lat "52.371091" .
+
+<http://www.jimlemmers.com/scenicroute#Grote+Synagoge+1671> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.903912" ;
+	geo:lat "52.367236" .
+
+<http://www.jimlemmers.com/scenicroute#Nieuwe+Synagoge+1752> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.904063" ;
+	geo:lat "52.367023" .
+
+<http://www.jimlemmers.com/scenicroute#Obbene+Sjoel+1685> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.903778" ;
+	geo:lat "52.367076" .
+
+<http://www.jimlemmers.com/scenicroute#Dritt+Sjoel+1700> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.903712" ;
+	geo:lat "52.367224" .
+
+<http://www.jimlemmers.com/scenicroute#Diaconie+Weeshuis+1657-1880> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.900026" ;
+	geo:lat "52.367876" .
+
+<http://www.jimlemmers.com/scenicroute#Portugese+Synagoge+1671> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.905356" ;
+	geo:lat "52.367533" .
+
+<http://www.jimlemmers.com/scenicroute#Oudevrouwenhuis+Diaconie+1683> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.902719" ;
+	geo:lat "52.365357" .
+
+<http://www.jimlemmers.com/scenicroute#Synagoge+aan+de+Uilenburgerstraat+1766> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.905335" ;
+	geo:lat "52.370171" .
+
+<http://www.jimlemmers.com/scenicroute#Waag+Westerhal+1619-1857> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.884533" ;
+	geo:lat "52.374155" .
+
+<http://www.jimlemmers.com/scenicroute#Oude+Walenkerk+1586> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.897242" ;
+	geo:lat "52.371015" .
+
+<http://www.jimlemmers.com/scenicroute#Armeense+Kerk+1714> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.902094" ;
+	geo:lat "52.371716" .
+
+<http://www.jimlemmers.com/scenicroute#Onze-Lieve-Vrouwekapel+1345-1597> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.89501" ;
+	geo:lat "52.375219" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+1592-1663> geo:long "4.894259" ;
+	geo:lat "52.365328" .
+
+<http://www.jimlemmers.com/scenicroute#Olofspoort+gevangenis> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.899665" ;
+	geo:lat "52.376225" .
+
+<http://www.jimlemmers.com/scenicroute#Magazijn+Admiraliteit+1579-1632> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.895115" ;
+	geo:lat "52.370073" .
+
+<http://www.jimlemmers.com/scenicroute#Leidsepoort+1663-1862> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.88224" ;
+	geo:lat "52.363875" .
+
+<http://www.jimlemmers.com/scenicroute#Muiderpoort+1663> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.919458" ;
+	geo:lat "52.363723" .
+
+<http://www.jimlemmers.com/scenicroute#Utrechtse+Poort+1663-1859> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.900047" ;
+	geo:lat "52.359506" .
+
+<http://www.jimlemmers.com/scenicroute#Weesperpoort+1663-1857> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.908035" ;
+	geo:lat "52.361055" .
+
+<http://www.jimlemmers.com/scenicroute#Weteringpoort+1668-1842> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.888055" ;
+	geo:lat "52.360319" .
+
+<http://www.jimlemmers.com/scenicroute#Swijgh+Utregt+rond+1490-1882> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.896059" ;
+	geo:lat "52.36827" .
+
+<http://www.jimlemmers.com/scenicroute#Rondeel+1535-1895> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.894385" ;
+	geo:lat "52.367343" .
+
+<http://www.jimlemmers.com/scenicroute#Jan+Roodenpoortstoren+rond+1490-1829> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.889748" ;
+	geo:lat "52.37453" .
+
+<http://www.jimlemmers.com/scenicroute#Versterking> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.895101" ;
+	geo:lat "52.375881" .
+
+<http://www.jimlemmers.com/scenicroute#Haarlemmerpoort+1380-1425> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.896064" ;
+	geo:lat "52.377722" .
+
+<http://www.jimlemmers.com/scenicroute#Haarlemmerpoort+1579-1613> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.8928" ;
+	geo:lat "52.380021" .
+
+<http://www.jimlemmers.com/scenicroute#Haringpakkerstoren+rond+1490-1829> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.895294" ;
+	geo:lat "52.379167" .
+
+<http://www.jimlemmers.com/scenicroute#Onze-Lieve-Vrouwegasthuis+ca+1350-1582> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.894339" ;
+	geo:lat "52.375424" .
+
+<http://www.jimlemmers.com/scenicroute#St.+Jorishof+1403-1901> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.89229" ;
+	geo:lat "52.367916" .
+
+<http://www.jimlemmers.com/scenicroute#Stadhuis+%2F+Paleis+1655> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.891614" ;
+	geo:lat "52.373153" .
+
+<http://www.jimlemmers.com/scenicroute#Korenbeurs+van+Hendrick+de+Keyser+1617-1884> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.89677" ;
+	geo:lat "52.375393" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmetershuisje+1620> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.894919" ;
+	geo:lat "52.376254" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Palm+1613-1831> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.880762" ;
+	geo:lat "52.381677" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Kat+1613-1869> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.879303" ;
+	geo:lat "52.379306" .
+
+<http://www.jimlemmers.com/scenicroute#Gortmolen+De+Hoyberg+1613-1875> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.877672" ;
+	geo:lat "52.376857" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Blom+1613-1877> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.876224" ;
+	geo:lat "52.374473" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Smeerpot%2F+De+Victor+1613-1898> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.875644" ;
+	geo:lat "52.371898" .
+
+<http://www.jimlemmers.com/scenicroute#Zeemtouwersmolen+De+Grote+Stinkmolen+1613-1808> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.877222" ;
+	geo:lat "52.369442" .
+
+<http://www.jimlemmers.com/scenicroute#Zeemtouwersmolen+De+Star%2F+Kleine+Stinkmolen+1613-1797> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.878724" ;
+	geo:lat "52.367156" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Liefde+1663-1870> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.880472" ;
+	geo:lat "52.364745" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Roomolen+1663-1844> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.883101" ;
+	geo:lat "52.362766" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Spring+1663-1874> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.886405" ;
+	geo:lat "52.3612" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Wetering+1663-1873> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.889624" ;
+	geo:lat "52.359661" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Hoop+1663-1868> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893776" ;
+	geo:lat "52.35922" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Roode+Haan+1663-1872> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.898108" ;
+	geo:lat "52.358998" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Groen%2F+De+Leeuw+1663-1868> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.902123" ;
+	geo:lat "52.359805" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Bul+1663-1863> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.906179" ;
+	geo:lat "52.360545" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Fortuin+1663-1863> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.910073" ;
+	geo:lat "52.361331" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Valk+1663-1870> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.913979" ;
+	geo:lat "52.362065" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Drie+Prinsen%2F+De+Hond+1663-1865> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.917852" ;
+	geo:lat "52.362884" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Ruyter+1663-1863> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.921403" ;
+	geo:lat "52.36428" .
+
+<http://www.jimlemmers.com/scenicroute#Korenmolen+De+Gooyer1663-1814> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.924418" ;
+	geo:lat "52.366199" .
+
+<http://www.jimlemmers.com/scenicroute#Houtzaagmolen+Oostindische+Compagnie> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.927486" ;
+	geo:lat "52.367942" .
+
+<http://www.jimlemmers.com/scenicroute#Chocolade%2Floodwitmolen+De+Zon+1663-1856> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.930351" ;
+	geo:lat "52.369783" .
+
+<http://www.jimlemmers.com/scenicroute#Admiraliteitswerf%2FMarineterrein+1657> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.916339" ;
+	geo:lat "52.372298" .
+
+<http://www.jimlemmers.com/scenicroute#Peperwerf+Rapenburg+1602-1660> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.908807" ;
+	geo:lat "52.371833" .
+
+<http://www.jimlemmers.com/scenicroute#Werven+Bickerseiland+ca.+1640-1725> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.889163" ;
+	geo:lat "52.384945" .
+
+<http://www.jimlemmers.com/scenicroute#Werven+Marken+1602-1700> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.906189" ;
+	geo:lat "52.369714" .
+
+<http://www.jimlemmers.com/scenicroute#Werven+Uilenburg+1593-1660> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.905154" ;
+	geo:lat "52.370536" .
+
+<http://www.jimlemmers.com/scenicroute#Pottenbakkerij+Blankenburg+1754-1764> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.866374" ;
+	geo:lat "52.360121" .
+
+<http://www.jimlemmers.com/scenicroute#Lijnbanen+Oostenburg+1661-1943> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.928125" ;
+	geo:lat "52.369707" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+1592-1663> geo:long "4.906543" ;
+	geo:lat "52.36804" ;
+	geo:long "4.909344" ;
+	geo:lat "52.369344" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+Rijzenhoofd+1592-1663> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.912519" ;
+	geo:lat "52.370883" .
+
+<http://www.jimlemmers.com/scenicroute#Bolwerk+1578-1613> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.892172" ;
+	geo:lat "52.379997" ;
+	geo:long "4.889383" ;
+	geo:lat "52.37705" ;
+	geo:long "4.886727" ;
+	geo:lat "52.374234" ;
+	geo:long "4.886298" ;
+	geo:lat "52.370981" .
+
+<http://www.jimlemmers.com/scenicroute#Hortus+Botanicus+1682> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.908338" ;
+	geo:lat "52.367116" .
+
+<http://www.jimlemmers.com/scenicroute#Engelsche+Weeshuis+1779-1864> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.897534" ;
+	geo:lat "52.372314" .
+
+<http://www.jimlemmers.com/scenicroute#Waag+1533-1808> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.892448" ;
+	geo:lat "52.373128" .
+
+<http://www.jimlemmers.com/scenicroute#Toren+Leeuwenburg+ca.+1490-1614> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893634" ;
+	geo:lat "52.367216" .
+
+<http://www.jimlemmers.com/scenicroute#Glashuis+De+Twee+Rozen+1657-1679> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.877484" ;
+	geo:lat "52.372282" .
+
+<http://www.jimlemmers.com/scenicroute#Glashuis+De+Twee+Rozen+1621-1657> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.885357" ;
+	geo:lat "52.371242" .
+
+<http://www.jimlemmers.com/scenicroute#Glashuis+Abraham+van+Tongerloo+1613-1619> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.893095" ;
+	geo:lat "52.367085" .
+
+<http://www.jimlemmers.com/scenicroute#Glashuis+Jan+Hendriksz+Soop+1601-1631> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.897145" ;
+	geo:lat "52.368749" .
+
+<http://www.jimlemmers.com/scenicroute#Glashuis+Antonio+Obizzo+1597-1601> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.889957" ;
+	geo:lat "52.369473" .
+
+<http://www.jimlemmers.com/scenicroute#Werven+Realeneiland+ca.+1613-1725> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.888101" ;
+	geo:lat "52.387564" .
+
+<http://www.jimlemmers.com/scenicroute#Stads+Klok-+en+geschutsgieterij+1614> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.880376" ;
+	geo:lat "52.37865" .
+
+<http://www.jimlemmers.com/scenicroute#Het+Haantje+1661> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.899267" ;
+	geo:lat "52.375088" .
+
+<http://www.jimlemmers.com/scenicroute#Nieuwezijds+Huiszittenhuis+1654-1870> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.885231" ;
+	geo:lat "52.376482" .
+
+<http://www.jimlemmers.com/scenicroute#Oudezijds+Huiszittenhuis+1654> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.903352" ;
+	geo:lat "52.367722" .
+
+<http://www.jimlemmers.com/scenicroute#Oude+Kerks+kapel+1250-1306> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.898111" ;
+	geo:lat "52.374319" .
+
+<http://www.jimlemmers.com/scenicroute#Pottenbakkerij+Aan+den+Overtoom+ca.+1650-1879> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.861879" ;
+	geo:lat "52.358955" .
+
+<http://www.jimlemmers.com/scenicroute#Pesthuis+1630-1937> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.87135" ;
+	geo:lat "52.364267" .
+
+<http://www.jimlemmers.com/scenicroute#Stallen+Oudezijds+Huiszittenhuis+1769-1938> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.955204" ;
+	geo:lat "52.365842" .
+
+<http://www.jimlemmers.com/scenicroute#Galgenveld+ca.+1360-1795> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.902306" ;
+	geo:lat "52.383773" .
+
+<http://www.jimlemmers.com/scenicroute#Stadsschuitenmakerswerf++1664-1857> a <http://www.jimlemmers.com/scenicroute#Place> ;
+	geo:long "4.922326" ;
+	geo:lat "52.369442" .
