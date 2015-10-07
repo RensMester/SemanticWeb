@@ -1,9 +1,8 @@
 import requests as req
 from bs4 import BeautifulSoup as bs
-from time import sleep
-from pprint import PrettyPrinter
 import json
 import re
+import rd2wgs84 as rd_convert
 # import rd2wgs84 as jesus
 
 base_url = 'http://monumentenregister.cultureelerfgoed.nl/php/main.php?cAction=search&cOffset=1&cLimit=%s&oOrder=ASC&cSubmit=1&sProvincie=Noord-Holland&sGemeente=Amsterdam&sPlaats=&sStraat=&sHuisnummer=&sPostcode=&sOmschrijving=&sCompMonNr=&sCompMonName=&sStatus=&sHoofdcategorie=&sSubcategorie=&sFunctie='
@@ -46,7 +45,7 @@ def parse_attr(selector, attr):
     return [sel.attrs.get(attr) for sel in selector]
 
 
-chunks = ['50']  # , '2511']
+chunks = ['5000', '2511']
 for chunk in chunks:
     monument_list = bs(req.get(base_url % (chunk)).text)
     urls = parse_href(monument_list.select('td a')[1:-1])
@@ -59,8 +58,12 @@ for chunk in chunks:
         attrs.pop(24)
         attrs.pop(42)
         p_attrs = parse_table(attrs)
-        p_attrs
+        p_attrs['url'] = monument_url
+        x, y = p_attrs['X-Y coörd'].split('-')
+        if x and y:
+            x, y = int(x), int(y)
+            p_attrs['lat'], p_attrs['lon'] = rd_convert.convert(x, y)
         results.append(p_attrs)
 
-with open('results.json','w') as dump:
+with open('results.json', 'w') as dump:
     json.dump(results, dump)
