@@ -1,0 +1,4170 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix : <http://www.jimlemmers.com/scenicroute#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.jimlemmers.com/scenicroute#Muntsluis+%281%29> a :Bridge ;
+	geo:long "4.893583" ;
+	geo:lat "52.367168" .
+
+<http://www.jimlemmers.com/scenicroute#Heiligewegsluis+%282%29> a :Bridge ;
+	geo:long "4.8896288749" ;
+	geo:lat "52.3674130265" .
+
+<http://www.jimlemmers.com/scenicroute#Krijtbergbrug+%283%29> a :Bridge ;
+	geo:long "4.8877835151" ;
+	geo:lat "52.3684087644" .
+
+<http://www.jimlemmers.com/scenicroute#Heibrug+%284%29> a :Bridge ;
+	geo:long "4.8878264304" ;
+	geo:lat "52.3687756095" .
+
+<http://www.jimlemmers.com/scenicroute#Raambrug+%285%29> a :Bridge ;
+	geo:long "4.8880624648" ;
+	geo:lat "52.3702036562" .
+
+<http://www.jimlemmers.com/scenicroute#Gasthuisbrug+%286%29> a :Bridge ;
+	geo:long "4.8884701606" ;
+	geo:lat "52.3722080843" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+7> a :Bridge ;
+	geo:long "4.8713683959" ;
+	geo:lat "52.3725748979" .
+
+<http://www.jimlemmers.com/scenicroute#Huiszittenbrug+%288%29> a :Bridge ;
+	geo:long "4.8888778564" ;
+	geo:lat "52.3732430148" .
+
+<http://www.jimlemmers.com/scenicroute#Torensluis+%289%29> a :Bridge ;
+	geo:long "4.8894196626" ;
+	geo:lat "52.3745562936" .
+
+<http://www.jimlemmers.com/scenicroute#Lijnbaansbrug+%2810%29> a :Bridge ;
+	geo:long "4.8913025733" ;
+	geo:lat "52.3762821642" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+11> a :Bridge ;
+	geo:long "4.8910879966" ;
+	geo:lat "52.3764262566" .
+
+<http://www.jimlemmers.com/scenicroute#Korsjesbrug+%2812%29> a :Bridge ;
+	geo:long "4.8920965072" ;
+	geo:lat "52.3770419189" .
+
+<http://www.jimlemmers.com/scenicroute#Melkmarktsbrug+%2813%29> a :Bridge ;
+	geo:long "4.8976755019" ;
+	geo:lat "52.3787185726" .
+
+<http://www.jimlemmers.com/scenicroute#Haarlemmersluis+%2814%29> a :Bridge ;
+	geo:long "4.8944568511" ;
+	geo:lat "52.3790460366" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+15> a :Bridge ;
+	geo:long "4.8941135284" ;
+	geo:lat "52.3788495585" .
+
+<http://www.jimlemmers.com/scenicroute#Melkmeisjesbrug+%2816%29> a :Bridge ;
+	geo:long "4.8922681686" ;
+	geo:lat "52.3792294154" .
+
+<http://www.jimlemmers.com/scenicroute#West-Indische+brug+%2817%29> a :Bridge ;
+	geo:long "4.8917531844" ;
+	geo:lat "52.3792687108" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+18> a :Bridge ;
+	geo:long "4.8898005363" ;
+	geo:lat "52.376858531" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+19> a :Bridge ;
+	geo:long "4.890143859" ;
+	geo:lat "52.3769109277" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+20> a :Bridge ;
+	geo:long "4.8880195495" ;
+	geo:lat "52.3748412143" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+21> a :Bridge ;
+	geo:long "4.8876762267" ;
+	geo:lat "52.3748412143" .
+
+<http://www.jimlemmers.com/scenicroute#Warmoesbrug+%2822%29> a :Bridge ;
+	geo:long "4.8871934291" ;
+	geo:lat "52.3734100425" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+23> a :Bridge ;
+	geo:long "4.8708104964" ;
+	geo:lat "52.36679723" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+24> a :Bridge ;
+	geo:long "4.8870539542" ;
+	geo:lat "52.3722604864" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+25> a :Bridge ;
+	geo:long "4.8868822928" ;
+	geo:lat "52.3702691618" .
+
+<http://www.jimlemmers.com/scenicroute#Vingboomsbrug+%2826%29> a :Bridge ;
+	geo:long "4.8867320892" ;
+	geo:lat "52.3687870734" .
+
+<http://www.jimlemmers.com/scenicroute#Beulingsluis+%2827%29> a :Bridge ;
+	geo:long "4.8869788524" ;
+	geo:lat "52.3681238022" .
+
+<http://www.jimlemmers.com/scenicroute#Vierheemskinderensluis+%2828%29> a :Bridge ;
+	geo:long "4.8865389701" ;
+	geo:lat "52.367530944" .
+
+<http://www.jimlemmers.com/scenicroute#Koningssluis+%2829%29> a :Bridge ;
+	geo:long "4.8883038636" ;
+	geo:lat "52.3667808523" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+30> a :Bridge ;
+	geo:long "4.8928099748" ;
+	geo:lat "52.3651758099" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+31> a :Bridge ;
+	geo:long "4.8958998796" ;
+	geo:lat "52.3646254962" .
+
+<http://www.jimlemmers.com/scenicroute#Kaassluis+%2832%29> a :Bridge ;
+	geo:long "4.8960554477" ;
+	geo:lat "52.3648023834" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+34> a :Bridge ;
+	geo:long "4.8978525277" ;
+	geo:lat "52.3651496046" .
+
+<http://www.jimlemmers.com/scenicroute#Hendrick+Jacobsz+Staetsbrug+%2835%29> a :Bridge ;
+	geo:long "4.9005025502" ;
+	geo:lat "52.3656343994" .
+
+<http://www.jimlemmers.com/scenicroute#Lucas+Jansz+Sinckbrug+%2836%29> a :Bridge ;
+	geo:long "4.9011355516" ;
+	geo:lat "52.3643437853" .
+
+<http://www.jimlemmers.com/scenicroute#Peylsluis+%2837%29> a :Bridge ;
+	geo:long "4.8983621474" ;
+	geo:lat "52.3638425976" .
+
+<http://www.jimlemmers.com/scenicroute#Oetgenssluis+%2838%29> a :Bridge ;
+	geo:long "4.8961681005" ;
+	geo:lat "52.3634003684" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+39> a :Bridge ;
+	geo:long "4.8959910747" ;
+	geo:lat "52.3635707091" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+40> a :Bridge ;
+	geo:long "4.8960018035" ;
+	geo:lat "52.3632038207" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+41> a :Bridge ;
+	geo:long "4.8923647281" ;
+	geo:lat "52.3638655279" .
+
+<http://www.jimlemmers.com/scenicroute#Wielrijdersbrug+%2842%29> a :Bridge ;
+	geo:long "4.8894679424" ;
+	geo:lat "52.3642782709" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+43> a :Bridge ;
+	geo:long "4.886447775" ;
+	geo:lat "52.3659668738" .
+
+<http://www.jimlemmers.com/scenicroute#Hemonybrug+%2844%29> a :Bridge ;
+	geo:long "4.8845652955" ;
+	geo:lat "52.3667904894" .
+
+<http://www.jimlemmers.com/scenicroute#Steenhouwerijbrug+%2845%29> a :Bridge ;
+	geo:long "4.8851124662" ;
+	geo:lat "52.3670033988" .
+
+<http://www.jimlemmers.com/scenicroute#Quellijnbrug+%2846%29> a :Bridge ;
+	geo:long "4.8847530502" ;
+	geo:lat "52.3670001233" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+47> a :Bridge ;
+	geo:long "4.8845648643" ;
+	geo:lat "52.3688673203" .
+
+<http://www.jimlemmers.com/scenicroute#Felix+Meritisbrug+%2848%29> a :Bridge ;
+	geo:long "4.8846833127" ;
+	geo:lat "52.3703639554" .
+
+<http://www.jimlemmers.com/scenicroute#Kees+Fensbrug+%2849%29> a :Bridge ;
+	geo:long "4.8848603385" ;
+	geo:lat "52.3723683761" .
+
+<http://www.jimlemmers.com/scenicroute#Latjesbrug+%2850%29> a :Bridge ;
+	geo:long "4.909890713" ;
+	geo:lat "52.3691733781" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+51> a :Bridge ;
+	geo:long "4.8860297816" ;
+	geo:lat "52.3754747211" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+52> a :Bridge ;
+	geo:long "4.8857079166" ;
+	geo:lat "52.3754910956" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+53> a :Bridge ;
+	geo:long "4.8862229007" ;
+	geo:lat "52.3753142511" .
+
+<http://www.jimlemmers.com/scenicroute#Noordschebrug+%2854%29> a :Bridge ;
+	geo:long "4.8879287856" ;
+	geo:lat "52.3775214816" .
+
+<http://www.jimlemmers.com/scenicroute#Pastoorsbrug+%2855%29> a :Bridge ;
+	geo:long "4.8897634166" ;
+	geo:lat "52.3795845202" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+56> a :Bridge ;
+	geo:long "4.89019257" ;
+	geo:lat "52.3796303644" .
+
+<http://www.jimlemmers.com/scenicroute#Papiermolensluis+%2857%29> a :Bridge ;
+	geo:long "4.8886368888" ;
+	geo:lat "52.3804228067" .
+
+<http://www.jimlemmers.com/scenicroute#Haringpakkersbrug+%2858%29> a :Bridge ;
+	geo:long "4.8949990886" ;
+	geo:lat "52.3795124792" .
+
+<http://www.jimlemmers.com/scenicroute#Lekkeresluis+%2859%29> a :Bridge ;
+	geo:long "4.8882935661" ;
+	geo:lat "52.3803638652" .
+
+<http://www.jimlemmers.com/scenicroute#Prinsensluis+%2860%29> a :Bridge ;
+	geo:long "4.8862229007" ;
+	geo:lat "52.3781043816" .
+
+<http://www.jimlemmers.com/scenicroute#Leliesluis+%2861%29> a :Bridge ;
+	geo:long "4.8843346256" ;
+	geo:lat "52.3760740224" .
+
+<http://www.jimlemmers.com/scenicroute#Grote+Brouwerssluis+%2862%29> a :Bridge ;
+	geo:long "4.8845277446" ;
+	geo:lat "52.3759102797" .
+
+<http://www.jimlemmers.com/scenicroute#Nieuwe-Wercksbrug+%2863%29> a :Bridge ;
+	geo:long "4.8830900806" ;
+	geo:lat "52.3740042698" .
+
+<http://www.jimlemmers.com/scenicroute#Reesluis+%2864%29> a :Bridge ;
+	geo:long "4.8829184192" ;
+	geo:lat "52.3724256908" .
+
+<http://www.jimlemmers.com/scenicroute#Berensluis+%2865%29> a :Bridge ;
+	geo:long "4.8827413934" ;
+	geo:lat "52.370432736" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+66> a :Bridge ;
+	geo:long "4.882569732" ;
+	geo:lat "52.3689260877" .
+
+<http://www.jimlemmers.com/scenicroute#Kleine+Brouwerssluis+%2867%29> a :Bridge ;
+	geo:long "4.8827092069" ;
+	geo:lat "52.3662795028" .
+
+<http://www.jimlemmers.com/scenicroute#Aalmoezeniersbrug+%2868%29> a :Bridge ;
+	geo:long "4.8845219489" ;
+	geo:lat "52.3650284051" .
+
+<http://www.jimlemmers.com/scenicroute#Antiquairbrug+%2869%29> a :Bridge ;
+	geo:long "4.888051736" ;
+	geo:lat "52.3626927926" .
+
+<http://www.jimlemmers.com/scenicroute#Walenweeshuissluis+%2870%29> a :Bridge ;
+	geo:long "4.8917102691" ;
+	geo:lat "52.3622145173" .
+
+<http://www.jimlemmers.com/scenicroute#Duyfjesbrug+%2871%29> a :Bridge ;
+	geo:long "4.8963022109" ;
+	geo:lat "52.3616248557" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+72> a :Bridge ;
+	geo:long "4.896098363" ;
+	geo:lat "52.3614545075" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+73> a :Bridge ;
+	geo:long "4.8960876342" ;
+	geo:lat "52.3617755477" .
+
+<http://www.jimlemmers.com/scenicroute#Kerksluis+%2874%29> a :Bridge ;
+	geo:long "4.89603399" ;
+	geo:lat "52.3624110694" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+75> a :Bridge ;
+	geo:long "4.8990166064" ;
+	geo:lat "52.3620900338" .
+
+<http://www.jimlemmers.com/scenicroute#Frans+Hendriksz+Oetgensbrug+%2876%29> a :Bridge ;
+	geo:long "4.9019992229" ;
+	geo:lat "52.3626600342" .
+
+<http://www.jimlemmers.com/scenicroute#Henrick+de+Keijserbrug+%2877%29> a :Bridge ;
+	geo:long "4.902642953" ;
+	geo:lat "52.3614872668" .
+
+<http://www.jimlemmers.com/scenicroute#Gooyersbrug+%2878%29> a :Bridge ;
+	geo:long "4.9269330379" ;
+	geo:lat "52.3667513725" .
+
+<http://www.jimlemmers.com/scenicroute#Brandweerbrug+%2879%29> a :Bridge ;
+	geo:long "4.8866248008" ;
+	geo:lat "52.3575887384" .
+
+<http://www.jimlemmers.com/scenicroute#Entrepotdoksluis+%2880%29> a :Bridge ;
+	geo:long "4.9192726489" ;
+	geo:lat "52.3679567546" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+81> a :Bridge ;
+	geo:long "4.8961627361" ;
+	geo:lat "52.3598066829" .
+
+<http://www.jimlemmers.com/scenicroute#Museumbrug+%2882%29> a :Bridge ;
+	geo:long "4.8862492915" ;
+	geo:lat "52.3607763843" .
+
+<http://www.jimlemmers.com/scenicroute#Freddy+Heinekenbrug+%2884%29> a :Bridge ;
+	geo:long "4.8908895131" ;
+	geo:lat "52.3583635573" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+85> a :Bridge ;
+	geo:long "4.9035978194" ;
+	geo:lat "52.3679698564" .
+
+<http://www.jimlemmers.com/scenicroute#Bakkerijbrug+%2886%29> a :Bridge ;
+	geo:long "4.8909807082" ;
+	geo:lat "52.3600032457" .
+
+<http://www.jimlemmers.com/scenicroute#Spiegelbrug+%2887%29> a :Bridge ;
+	geo:long "4.8877405998" ;
+	geo:lat "52.3626371033" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+88> a :Bridge ;
+	geo:long "4.8869037505" ;
+	geo:lat "52.3617722718" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+89> a :Bridge ;
+	geo:long "4.8884594318" ;
+	geo:lat "52.3608189721" .
+
+<http://www.jimlemmers.com/scenicroute#Weteringpoort+%2890%29> a :Bridge ;
+	geo:long "4.8881751176" ;
+	geo:lat "52.360525771" .
+
+<http://www.jimlemmers.com/scenicroute#Paerlduiker+%2891%29> a :Bridge ;
+	geo:long "4.9173414584" ;
+	geo:lat "52.3702675242" .
+
+<http://www.jimlemmers.com/scenicroute#Blauwezandbrug+%2892%29> a :Bridge ;
+	geo:long "4.9335151788" ;
+	geo:lat "52.3930788612" .
+
+<http://www.jimlemmers.com/scenicroute#Pieter+Goemansbrug+%2893%29> a :Bridge ;
+	geo:long "4.8825532075" ;
+	geo:lat "52.366070055" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+94> a :Bridge ;
+	geo:long "4.8809224244" ;
+	geo:lat "52.3654804449" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+95> a :Bridge ;
+	geo:long "4.8900204774" ;
+	geo:lat "52.382219037" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+96> a :Bridge ;
+	geo:long "4.8821991559" ;
+	geo:lat "52.3673769961" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+97> a :Bridge ;
+	geo:long "4.8869413015" ;
+	geo:lat "52.3617689959" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+98> a :Bridge ;
+	geo:long "4.8800158378" ;
+	geo:lat "52.3667317192" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+99> a :Bridge ;
+	geo:long "4.8794472095" ;
+	geo:lat "52.36714116" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+100> a :Bridge ;
+	geo:long "4.8792272683" ;
+	geo:lat "52.3678093591" .
+
+<http://www.jimlemmers.com/scenicroute#Nieuwe+Amstelbrug+%28101%29> a :Bridge ;
+	geo:long "4.905786502" ;
+	geo:lat "52.3562028761" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+102> a :Bridge ;
+	geo:long "4.8813676711" ;
+	geo:lat "52.3685266792" .
+
+<http://www.jimlemmers.com/scenicroute#Looierssluis+%28103%29> a :Bridge ;
+	geo:long "4.8823118087" ;
+	geo:lat "52.3688018126" .
+
+<http://www.jimlemmers.com/scenicroute#Makelaarsbruggetje+%28105%29> a :Bridge ;
+	geo:long "4.8945265886" ;
+	geo:lat "52.3701430635" .
+
+<http://www.jimlemmers.com/scenicroute#Niek+Engelschmanbrug+%28106%29> a :Bridge ;
+	geo:long "4.8849940177" ;
+	geo:lat "52.3740093717" .
+
+<http://www.jimlemmers.com/scenicroute#Baanbrug+%28107%29> a :Bridge ;
+	geo:long "4.8782724019" ;
+	geo:lat "52.3688394796" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+108> a :Bridge ;
+	geo:long "4.8721462365" ;
+	geo:lat "52.371340165" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+109> a :Bridge ;
+	geo:long "4.9978452798" ;
+	geo:lat "52.3799989431" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+110> a :Bridge ;
+	geo:long "4.8773550864" ;
+	geo:lat "52.3704853297" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+111> a :Bridge ;
+	geo:long "4.879608142" ;
+	geo:lat "52.37110435" .
+
+<http://www.jimlemmers.com/scenicroute#Caetsbaanbrug+%28112%29> a :Bridge ;
+	geo:long "4.8825800296" ;
+	geo:lat "52.3718674689" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+113> a :Bridge ;
+	geo:long "4.9333864328" ;
+	geo:lat "52.3636165699" .
+
+<http://www.jimlemmers.com/scenicroute#Oesjesduiker+%28114%29> a :Bridge ;
+	geo:long "4.9205976602" ;
+	geo:lat "52.3692112342" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+115> a :Bridge ;
+	geo:long "4.9380642053" ;
+	geo:lat "52.3578442827" .
+
+<http://www.jimlemmers.com/scenicroute#Ceintuurbrug+%28116%29> a :Bridge ;
+	geo:long "4.8864531394" ;
+	geo:lat "52.3522580088" .
+
+<http://www.jimlemmers.com/scenicroute#Jordaanbrug+%28117%29> a :Bridge ;
+	geo:long "4.8763304826" ;
+	geo:lat "52.3723341768" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+118> a :Bridge ;
+	geo:long "4.8768669244" ;
+	geo:lat "52.3739602467" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+119> a :Bridge ;
+	geo:long "4.8770707723" ;
+	geo:lat "52.3738685465" .
+
+<http://www.jimlemmers.com/scenicroute#Atlasbrug+%28120%29> a :Bridge ;
+	geo:long "4.8792379972" ;
+	geo:lat "52.3743565205" .
+
+<http://www.jimlemmers.com/scenicroute#Rosa+Overbeekbrug+%28121%29> a :Bridge ;
+	geo:long "4.88114773" ;
+	geo:lat "52.3748215646" .
+
+<http://www.jimlemmers.com/scenicroute#Beudekerbrug+%28122%29> a :Bridge ;
+	geo:long "4.8830360051" ;
+	geo:lat "52.3662485743" .
+
+<http://www.jimlemmers.com/scenicroute#Kees+de+Jongenbrug+%28123%29> a :Bridge ;
+	geo:long "4.8832559463" ;
+	geo:lat "52.3751916314" .
+
+<http://www.jimlemmers.com/scenicroute#Pansemertbrug+%28124%29> a :Bridge ;
+	geo:long "4.8845219489" ;
+	geo:lat "52.376563799" .
+
+<http://www.jimlemmers.com/scenicroute#Hilletjesbrug+%28125%29> a :Bridge ;
+	geo:long "4.8824083682" ;
+	geo:lat "52.3761904688" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+126> a :Bridge ;
+	geo:long "4.8805469152" ;
+	geo:lat "52.375804036" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+127> a :Bridge ;
+	geo:long "4.8777359601" ;
+	geo:lat "52.3752669544" .
+
+<http://www.jimlemmers.com/scenicroute#Anjeliersbrug+%28128%29> a :Bridge ;
+	geo:long "4.8791897174" ;
+	geo:lat "52.3777099682" .
+
+<http://www.jimlemmers.com/scenicroute#Van+Kinsbergenbrug+%28129%29> a :Bridge ;
+	geo:long "4.8573297139" ;
+	geo:lat "52.3684808235" .
+
+<http://www.jimlemmers.com/scenicroute#Trapjesbrug+%28130%29> a :Bridge ;
+	geo:long "4.8782294866" ;
+	geo:lat "52.3762690649" .
+
+<http://www.jimlemmers.com/scenicroute#Oude+Koekjesbrug+%28131%29> a :Bridge ;
+	geo:long "4.915077674" ;
+	geo:lat "52.3618312381" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+132> a :Bridge ;
+	geo:long "4.8737877485" ;
+	geo:lat "52.3810173186" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+135> a :Bridge ;
+	geo:long "4.8682355758" ;
+	geo:lat "52.3704722287" .
+
+<http://www.jimlemmers.com/scenicroute#Willemsparkbrug+%28136%29> a :Bridge ;
+	geo:long "4.8586332675" ;
+	geo:lat "52.3539749212" .
+
+<http://www.jimlemmers.com/scenicroute#Diamantbrug+%28137%29> a :Bridge ;
+	geo:long "4.8867320892" ;
+	geo:lat "52.3546564252" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+138> a :Bridge ;
+	geo:long "4.8723554488" ;
+	geo:lat "52.3693717264" .
+
+<http://www.jimlemmers.com/scenicroute#Staatsliedenbrug+%28139%29> a :Bridge ;
+	geo:long "4.8770439502" ;
+	geo:lat "52.3832046182" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+140> a :Bridge ;
+	geo:long "4.8637938377" ;
+	geo:lat "52.3630580473" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+141> a :Bridge ;
+	geo:long "4.9278181668" ;
+	geo:lat "52.350994856" .
+
+<http://www.jimlemmers.com/scenicroute#Ouwe+Fransenbrug+%28142%29> a :Bridge ;
+	geo:long "4.8811530944" ;
+	geo:lat "52.3807881043" .
+
+<http://www.jimlemmers.com/scenicroute#Korrelbrug+%28143%29> a :Bridge ;
+	geo:long "4.8867320892" ;
+	geo:lat "52.3534834455" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+144> a :Bridge ;
+	geo:long "4.9276411411" ;
+	geo:lat "52.3500020024" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+145> a :Bridge ;
+	geo:long "4.8601782199" ;
+	geo:lat "52.3621915861" .
+
+<http://www.jimlemmers.com/scenicroute#Oranjebrug+%28146%29> a :Bridge ;
+	geo:long "4.8863243934" ;
+	geo:lat "52.3816853078" .
+
+<http://www.jimlemmers.com/scenicroute#Westertoegang+%28147%29> a :Bridge ;
+	geo:long "4.8969352123" ;
+	geo:lat "52.381420078" .
+
+<http://www.jimlemmers.com/scenicroute#Dommersbrug+%28148%29> a :Bridge ;
+	geo:long "4.8848652717" ;
+	geo:lat "52.3825562982" .
+
+<http://www.jimlemmers.com/scenicroute#Bullebak+%28149%29> a :Bridge ;
+	geo:long "4.8826336738" ;
+	geo:lat "52.3838856714" .
+
+<http://www.jimlemmers.com/scenicroute#Rotterdammerbrug+%28150%29> a :Bridge ;
+	geo:long "4.8797047015" ;
+	geo:lat "52.3814724692" .
+
+<http://www.jimlemmers.com/scenicroute#Willemsbrug+%28151%29> a :Bridge ;
+	geo:long "4.8822581645" ;
+	geo:lat "52.3849105056" .
+
+<http://www.jimlemmers.com/scenicroute#Mirakelbrug+%28152%29> a :Bridge ;
+	geo:long "4.8815286037" ;
+	geo:lat "52.3856701119" .
+
+<http://www.jimlemmers.com/scenicroute#Kattenslootbrug+%28155%29> a :Bridge ;
+	geo:long "4.8790395137" ;
+	geo:lat "52.3818850477" .
+
+<http://www.jimlemmers.com/scenicroute#Groenmarktbrug+%28156%29> a :Bridge ;
+	geo:long "4.8768937465" ;
+	geo:lat "52.3703313921" .
+
+<http://www.jimlemmers.com/scenicroute#Tunfun+%28158%29> a :Bridge ;
+	geo:long "4.9047028896" ;
+	geo:lat "52.3678748682" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+159> a :Bridge ;
+	geo:long "4.9230491992" ;
+	geo:lat "52.3613464016" .
+
+<http://www.jimlemmers.com/scenicroute#Bullebakssluis+%28160%29> a :Bridge ;
+	geo:long "4.8762607452" ;
+	geo:lat "52.3737211707" .
+
+<http://www.jimlemmers.com/scenicroute#Zaagpoort+%28161%29> a :Bridge ;
+	geo:long "4.8780953761" ;
+	geo:lat "52.3784991704" .
+
+<http://www.jimlemmers.com/scenicroute#Sa%C3%AF%C2%BF%C2%BDdja+en+Adindabrug+%28162%29> a :Bridge ;
+	geo:long "4.8474162694" ;
+	geo:lat "52.3754880101" .
+
+<http://www.jimlemmers.com/scenicroute#Blauwehoofdbrug+%28163%29> a :Bridge ;
+	geo:long "4.938804495" ;
+	geo:lat "52.3752030936" .
+
+<http://www.jimlemmers.com/scenicroute#Smederij+Meisterbrug+%28164%29> a :Bridge ;
+	geo:long "4.8695874091" ;
+	geo:lat "52.3685921873" .
+
+<http://www.jimlemmers.com/scenicroute#Raampoort+%28165%29> a :Bridge ;
+	geo:long "4.875423896" ;
+	geo:lat "52.3740814217" .
+
+<http://www.jimlemmers.com/scenicroute#Nassaubrug+%28166%29> a :Bridge ;
+	geo:long "4.8749035474" ;
+	geo:lat "52.3732757654" .
+
+<http://www.jimlemmers.com/scenicroute#Rijckerbrug+%28167%29> a :Bridge ;
+	geo:long "4.8745334026" ;
+	geo:lat "52.3718903951" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+168> a :Bridge ;
+	geo:long "4.933697569" ;
+	geo:lat "52.3438494174" .
+
+<http://www.jimlemmers.com/scenicroute#Oude+Kinkerbrug+%28169%29> a :Bridge ;
+	geo:long "4.876797187" ;
+	geo:lat "52.3684939251" .
+
+<http://www.jimlemmers.com/scenicroute#Koekjesbrug+%28170%29> a :Bridge ;
+	geo:long "4.8782402154" ;
+	geo:lat "52.3662371098" .
+
+<http://www.jimlemmers.com/scenicroute#Van+Hallbrug+%28171%29> a :Bridge ;
+	geo:long "4.8729294416" ;
+	geo:lat "52.3790198396" .
+
+<http://www.jimlemmers.com/scenicroute#Liefdesbruggetje+%28172%29> a :Bridge ;
+	geo:long "4.8978417989" ;
+	geo:lat "52.3551380587" .
+
+<http://www.jimlemmers.com/scenicroute#Wiegbrug+%28173%29> a :Bridge ;
+	geo:long "4.8648774501" ;
+	geo:lat "52.3702331338" .
+
+<http://www.jimlemmers.com/scenicroute#Leidsebrug+%28174%29> a :Bridge ;
+	geo:long "4.881212103" ;
+	geo:lat "52.3632496819" .
+
+<http://www.jimlemmers.com/scenicroute#Marnixbrug+%28175%29> a :Bridge ;
+	geo:long "4.8801606771" ;
+	geo:lat "52.3652282203" .
+
+<http://www.jimlemmers.com/scenicroute#Stadshoudersbrug+%28176%29> a :Bridge ;
+	geo:long "4.8870271322" ;
+	geo:lat "52.3599999697" .
+
+<http://www.jimlemmers.com/scenicroute#Wasknijper+%28177%29> a :Bridge ;
+	geo:long "4.906902301" ;
+	geo:lat "52.3918348806" .
+
+<http://www.jimlemmers.com/scenicroute#Osdorperbrug+%28178%29> a :Bridge ;
+	geo:long "4.8770815011" ;
+	geo:lat "52.366654744" .
+
+<http://www.jimlemmers.com/scenicroute#Hennetjesbrug+%28179%29> a :Bridge ;
+	geo:long "4.8667335388" ;
+	geo:lat "52.3637541521" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+180> a :Bridge ;
+	geo:long "4.8743027326" ;
+	geo:lat "52.3665482886" .
+
+<http://www.jimlemmers.com/scenicroute#Pesthuysbrug+%28181%29> a :Bridge ;
+	geo:long "4.8733639594" ;
+	geo:lat "52.3655394062" .
+
+<http://www.jimlemmers.com/scenicroute#Het+Sluisje+%28182%29> a :Bridge ;
+	geo:long "4.8646414157" ;
+	geo:lat "52.3854589296" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+183> a :Bridge ;
+	geo:long "4.8735570785" ;
+	geo:lat "52.3676324838" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+184> a :Bridge ;
+	geo:long "4.871561515" ;
+	geo:lat "52.3657949046" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+185> a :Bridge ;
+	geo:long "4.895545828" ;
+	geo:lat "52.3539192209" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+186> a :Bridge ;
+	geo:long "4.8578500625" ;
+	geo:lat "52.3643208553" .
+
+<http://www.jimlemmers.com/scenicroute#Spinozabrug+%28187%29> a :Bridge ;
+	geo:long "4.9119019386" ;
+	geo:lat "52.361267779" .
+
+<http://www.jimlemmers.com/scenicroute#Oetewalerbrug+%28189%29> a :Bridge ;
+	geo:long "4.9282526847" ;
+	geo:lat "52.3553182604" .
+
+<http://www.jimlemmers.com/scenicroute#Hartmanbrug+%28190%29> a :Bridge ;
+	geo:long "4.9409127113" ;
+	geo:lat "52.3584110617" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+191> a :Bridge ;
+	geo:long "4.897047865" ;
+	geo:lat "52.3546007257" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+192> a :Bridge ;
+	geo:long "4.9064034101" ;
+	geo:lat "52.364347061" .
+
+<http://www.jimlemmers.com/scenicroute#Westergasbrug+%28193%29> a :Bridge ;
+	geo:long "4.8748659965" ;
+	geo:lat "52.3856291851" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+194> a :Bridge ;
+	geo:long "4.9218100187" ;
+	geo:lat "52.3521711784" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+195> a :Bridge ;
+	geo:long "4.9529021856" ;
+	geo:lat "52.3578999781" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+196> a :Bridge ;
+	geo:long "4.9478596326" ;
+	geo:lat "52.3626305516" .
+
+<http://www.jimlemmers.com/scenicroute#Zouthavenbrug+%28197%29> a :Bridge ;
+	geo:long "4.9132215854" ;
+	geo:lat "52.3777050562" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+198> a :Bridge ;
+	geo:long "4.8840552446" ;
+	geo:lat "52.3629974447" .
+
+<http://www.jimlemmers.com/scenicroute#Overtoomsesluis+%28199%29> a :Bridge ;
+	geo:long "4.8548030731" ;
+	geo:lat "52.3578639399" .
+
+<http://www.jimlemmers.com/scenicroute#Vondelbrug+%28200%29> a :Bridge ;
+	geo:long "4.8768830177" ;
+	geo:lat "52.360507753" .
+
+<http://www.jimlemmers.com/scenicroute#Sleutelbrug+%28201%29> a :Bridge ;
+	geo:long "4.8942690965" ;
+	geo:lat "52.3693438859" .
+
+<http://www.jimlemmers.com/scenicroute#Grimnessesluis+%28202%29> a :Bridge ;
+	geo:long "4.8926597711" ;
+	geo:lat "52.3691408139" .
+
+<http://www.jimlemmers.com/scenicroute#Lommertbrug+%28203%29> a :Bridge ;
+	geo:long "4.8947089788" ;
+	geo:lat "52.3707555381" .
+
+<http://www.jimlemmers.com/scenicroute#Varkenssluis+%28204%29> a :Bridge ;
+	geo:long "4.8957657691" ;
+	geo:lat "52.3718379925" .
+
+<http://www.jimlemmers.com/scenicroute#St.+Jansbrug+%28205%29> a :Bridge ;
+	geo:long "4.8968279239" ;
+	geo:lat "52.3726895265" .
+
+<http://www.jimlemmers.com/scenicroute#Oudekerksbrug+%28206%29> a :Bridge ;
+	geo:long "4.8984157916" ;
+	geo:lat "52.3739209466" .
+
+<http://www.jimlemmers.com/scenicroute#Liesdelsluis+%28207%29> a :Bridge ;
+	geo:long "4.899370658" ;
+	geo:lat "52.374739691" .
+
+<http://www.jimlemmers.com/scenicroute#Armbrug+%28208%29> a :Bridge ;
+	geo:long "4.9000197526" ;
+	geo:lat "52.3753652015" .
+
+<http://www.jimlemmers.com/scenicroute#Vredenburgerbrug+%28209%29> a :Bridge ;
+	geo:long "4.9007063981" ;
+	geo:lat "52.3751556074" .
+
+<http://www.jimlemmers.com/scenicroute#Stormsteegbrug+%28210%29> a :Bridge ;
+	geo:long "4.9001699563" ;
+	geo:lat "52.3745071692" .
+
+<http://www.jimlemmers.com/scenicroute#Majoor+Bosshardtbrug+%28211%29> a :Bridge ;
+	geo:long "4.8992794629" ;
+	geo:lat "52.3736982455" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+212> a :Bridge ;
+	geo:long "4.9487608548" ;
+	geo:lat "52.3622898624" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+213> a :Bridge ;
+	geo:long "4.9209892627" ;
+	geo:lat "52.375447074" .
+
+<http://www.jimlemmers.com/scenicroute#Stoofbrug+%28214%29> a :Bridge ;
+	geo:long "4.8977720615" ;
+	geo:lat "52.3723816661" .
+
+<http://www.jimlemmers.com/scenicroute#Paulusbroedersluis+%28215%29> a :Bridge ;
+	geo:long "4.8969030257" ;
+	geo:lat "52.3715039247" .
+
+<http://www.jimlemmers.com/scenicroute#Ruslandbrug+%28216%29> a :Bridge ;
+	geo:long "4.8957443115" ;
+	geo:lat "52.3702658866" .
+
+<http://www.jimlemmers.com/scenicroute#Frankendaelbrug+%28217%29> a :Bridge ;
+	geo:long "4.9345558759" ;
+	geo:lat "52.3510866037" .
+
+<http://www.jimlemmers.com/scenicroute#Gasthuisbrug+%28218%29> a :Bridge ;
+	geo:long "4.8948645469" ;
+	geo:lat "52.3693127701" .
+
+<http://www.jimlemmers.com/scenicroute#Doelensluis+%28220%29> a :Bridge ;
+	geo:long "4.8937970277" ;
+	geo:lat "52.367537495" .
+
+<http://www.jimlemmers.com/scenicroute#Halvemaansbrug+%28221%29> a :Bridge ;
+	geo:long "4.8958623286" ;
+	geo:lat "52.3673409657" .
+
+<http://www.jimlemmers.com/scenicroute#Aluminiumbrug+%28222%29> a :Bridge ;
+	geo:long "4.8962592956" ;
+	geo:lat "52.3683792856" .
+
+<http://www.jimlemmers.com/scenicroute#Oost-Indische+brug+%28223%29> a :Bridge ;
+	geo:long "4.8976647731" ;
+	geo:lat "52.3698925032" .
+
+<http://www.jimlemmers.com/scenicroute#Bushuissluis+%28224%29> a :Bridge ;
+	geo:long "4.8987322923" ;
+	geo:lat "52.3709929925" .
+
+<http://www.jimlemmers.com/scenicroute#Zandbrug+%28225%29> a :Bridge ;
+	geo:long "4.8980563756" ;
+	geo:lat "52.369921981" .
+
+<http://www.jimlemmers.com/scenicroute#Raemsluis+%28226%29> a :Bridge ;
+	geo:long "4.8989736911" ;
+	geo:lat "52.3696566805" .
+
+<http://www.jimlemmers.com/scenicroute#Staalmeestersbrug+%28227%29> a :Bridge ;
+	geo:long "4.8976325866" ;
+	geo:lat "52.368235167" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+228> a :Bridge ;
+	geo:long "4.9034047004" ;
+	geo:lat "52.3770386441" .
+
+<http://www.jimlemmers.com/scenicroute#B.+Bijvoetbrug+%28229%29> a :Bridge ;
+	geo:long "4.8990380641" ;
+	geo:lat "52.3680975987" .
+
+<http://www.jimlemmers.com/scenicroute#Moddermolenbrug+%28230%29> a :Bridge ;
+	geo:long "4.9001002189" ;
+	geo:lat "52.3694470593" .
+
+<http://www.jimlemmers.com/scenicroute#Postjesbrug+%28231%29> a :Bridge ;
+	geo:long "4.853107917" ;
+	geo:lat "52.363796737" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+232> a :Bridge ;
+	geo:long "4.9073636409" ;
+	geo:lat "52.3663681327" .
+
+<http://www.jimlemmers.com/scenicroute#Victoria+Regiabruggetje+%28233%29> a :Bridge ;
+	geo:long "4.906312215" ;
+	geo:lat "52.3666432795" .
+
+<http://www.jimlemmers.com/scenicroute#Piet+Meerburgbrug+%28234%29> a :Bridge ;
+	geo:long "4.9081575748" ;
+	geo:lat "52.3658964484" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+235> a :Bridge ;
+	geo:long "4.9368357536" ;
+	geo:lat "52.3523169878" .
+
+<http://www.jimlemmers.com/scenicroute#Blauwbrug+%28236%29> a :Bridge ;
+	geo:long "4.9009048816" ;
+	geo:lat "52.3663550304" .
+
+<http://www.jimlemmers.com/scenicroute#Walter+S%C3%AF%C2%BF%C2%BDskindbrug+%28237%29> a :Bridge ;
+	geo:long "4.9019133922" ;
+	geo:lat "52.3659226532" .
+
+<http://www.jimlemmers.com/scenicroute#M.S.+Vaz+Diasbrug+%28238%29> a :Bridge ;
+	geo:long "4.9048101779" ;
+	geo:lat "52.3664598485" .
+
+<http://www.jimlemmers.com/scenicroute#Hortusbrug+%28239%29> a :Bridge ;
+	geo:long "4.9070846912" ;
+	geo:lat "52.3673638941" .
+
+<http://www.jimlemmers.com/scenicroute#L.H.+Sarlouisbrug+%28240%29> a :Bridge ;
+	geo:long "4.9055504676" ;
+	geo:lat "52.3651823612" .
+
+<http://www.jimlemmers.com/scenicroute#Dirk+van+Nimwegenbrug+%28241%29> a :Bridge ;
+	geo:long "4.90257858" ;
+	geo:lat "52.3646189448" .
+
+<http://www.jimlemmers.com/scenicroute#Magere+Brug+%28242%29> a :Bridge ;
+	geo:long "4.9023747321" ;
+	geo:lat "52.3635903637" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+243> a :Bridge ;
+	geo:long "4.9469315883" ;
+	geo:lat "52.3517599606" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+244> a :Bridge ;
+	geo:long "4.8425131914" ;
+	geo:lat "52.4042011084" .
+
+<http://www.jimlemmers.com/scenicroute#Rinus+Michelsbrug+%28245%29> a :Bridge ;
+	geo:long "4.9458050605" ;
+	geo:lat "52.3442836492" .
+
+<http://www.jimlemmers.com/scenicroute#Hoge+Sluis+%28246%29> a :Bridge ;
+	geo:long "4.9040484306" ;
+	geo:lat "52.3603832647" .
+
+<http://www.jimlemmers.com/scenicroute#Oudshoornbrug+%28247%29> a :Bridge ;
+	geo:long "4.9016451713" ;
+	geo:lat "52.3585748692" .
+
+<http://www.jimlemmers.com/scenicroute#Paleis+voor+Volksvlijtbrug+%28248%29> a :Bridge ;
+	geo:long "4.8992204543" ;
+	geo:lat "52.358089997" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+249> a :Bridge ;
+	geo:long "4.9019563075" ;
+	geo:lat "52.3730088475" .
+
+<http://www.jimlemmers.com/scenicroute#Jan+Vinckbrug+%28250%29> a :Bridge ;
+	geo:long "4.9034207937" ;
+	geo:lat "52.3629302904" .
+
+<http://www.jimlemmers.com/scenicroute#Dr.+D%C3%AF%C2%BF%C2%BDnnerbrug+%28251%29> a :Bridge ;
+	geo:long "4.9066126224" ;
+	geo:lat "52.3634970041" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+252> a :Bridge ;
+	geo:long "4.9052286025" ;
+	geo:lat "52.3620228781" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+253> a :Bridge ;
+	geo:long "4.9044883128" ;
+	geo:lat "52.3629663244" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+254> a :Bridge ;
+	geo:long "4.929282653" ;
+	geo:lat "52.3433283336" .
+
+<http://www.jimlemmers.com/scenicroute#Tulpbrug+%28255%29> a :Bridge ;
+	geo:long "4.9057006713" ;
+	geo:lat "52.3594332111" .
+
+<http://www.jimlemmers.com/scenicroute#Zuid-Afrikabrug+%28256%29> a :Bridge ;
+	geo:long "4.9216437217" ;
+	geo:lat "52.3523022431" .
+
+<http://www.jimlemmers.com/scenicroute#Dr.+Meijer+de+Hondbrug+%28257%29> a :Bridge ;
+	geo:long "4.9072670814" ;
+	geo:lat "52.3623996039" .
+
+<http://www.jimlemmers.com/scenicroute#Ben+Polakbrug+%28258%29> a :Bridge ;
+	geo:long "4.9108773347" ;
+	geo:lat "52.3643159417" .
+
+<http://www.jimlemmers.com/scenicroute#Lau+Mazirelbrug+%28259%29> a :Bridge ;
+	geo:long "4.9106681224" ;
+	geo:lat "52.3652265825" .
+
+<http://www.jimlemmers.com/scenicroute#Halverstadbrug+%28260%29> a :Bridge ;
+	geo:long "4.9106466647" ;
+	geo:lat "52.3630547715" .
+
+<http://www.jimlemmers.com/scenicroute#Veebrug+%28261%29> a :Bridge ;
+	geo:long "4.9394374963" ;
+	geo:lat "52.366574493" .
+
+<http://www.jimlemmers.com/scenicroute#Slachthuisbrug+%28262%29> a :Bridge ;
+	geo:long "4.9394160386" ;
+	geo:lat "52.3673213127" .
+
+<http://www.jimlemmers.com/scenicroute#Weesperpoort+%28263%29> a :Bridge ;
+	geo:long "4.9083346006" ;
+	geo:lat "52.360578187" .
+
+<http://www.jimlemmers.com/scenicroute#Artisbrug+%28264%29> a :Bridge ;
+	geo:long "4.9186181899" ;
+	geo:lat "52.363916302" .
+
+<http://www.jimlemmers.com/scenicroute#Muiderpoortbrug+%28265%29> a :Bridge ;
+	geo:long "4.9199700233" ;
+	geo:lat "52.3632447682" .
+
+<http://www.jimlemmers.com/scenicroute#Kinkerbrug+%28266%29> a :Bridge ;
+	geo:long "4.8599797365" ;
+	geo:lat "52.364605842" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+267> a :Bridge ;
+	geo:long "4.9309831735" ;
+	geo:lat "52.3422763155" .
+
+<http://www.jimlemmers.com/scenicroute#Kippebrug+%28270%29> a :Bridge ;
+	geo:long "4.9194979545" ;
+	geo:lat "52.371710261" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+271> a :Bridge ;
+	geo:long "4.9453973647" ;
+	geo:lat "52.3527069026" .
+
+<http://www.jimlemmers.com/scenicroute#Mariniersbrug+%28272%29> a :Bridge ;
+	geo:long "4.9211716529" ;
+	geo:lat "52.3751556074" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+273> a :Bridge ;
+	geo:long "4.9286872026" ;
+	geo:lat "52.3409653545" .
+
+<http://www.jimlemmers.com/scenicroute#Kattenburgerbrug+%28274%29> a :Bridge ;
+	geo:long "4.9144554015" ;
+	geo:lat "52.3708914604" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+275> a :Bridge ;
+	geo:long "4.8422288772" ;
+	geo:lat "52.4044498377" .
+
+<http://www.jimlemmers.com/scenicroute#Pelikaanbrug+%28277%29> a :Bridge ;
+	geo:long "4.9189025041" ;
+	geo:lat "52.3692767413" .
+
+<http://www.jimlemmers.com/scenicroute#Scharrebiersluis+%28278%29> a :Bridge ;
+	geo:long "4.9116659042" ;
+	geo:lat "52.3703019146" .
+
+<http://www.jimlemmers.com/scenicroute#Kikkerbilsluis+%28279%29> a :Bridge ;
+	geo:long "4.9078035232" ;
+	geo:lat "52.3727124522" .
+
+<http://www.jimlemmers.com/scenicroute#Montelbaansbrug+%28280%29> a :Bridge ;
+	geo:long "4.9058937904" ;
+	geo:lat "52.3722801372" .
+
+<http://www.jimlemmers.com/scenicroute#Peperbrug+%28281%29> a :Bridge ;
+	geo:long "4.9073743697" ;
+	geo:lat "52.3715203006" .
+
+<http://www.jimlemmers.com/scenicroute#Waalseilandbrug+%28283%29> a :Bridge ;
+	geo:long "4.9034476157" ;
+	geo:lat "52.3736491202" .
+
+<http://www.jimlemmers.com/scenicroute#Kamperbrug+%28285%29> a :Bridge ;
+	geo:long "4.902219164" ;
+	geo:lat "52.377169635" .
+
+<http://www.jimlemmers.com/scenicroute#Keizersbrug+%28286%29> a :Bridge ;
+	geo:long "4.9040323373" ;
+	geo:lat "52.3710486713" .
+
+<http://www.jimlemmers.com/scenicroute#Sint+Anthoniesluis+%28287%29> a :Bridge ;
+	geo:long "4.9010604497" ;
+	geo:lat "52.3696042753" .
+
+<http://www.jimlemmers.com/scenicroute#Lastagebrug+%28288%29> a :Bridge ;
+	geo:long "4.904477584" ;
+	geo:lat "52.3716021802" .
+
+<http://www.jimlemmers.com/scenicroute#Snoekjesbrug+%28289%29> a :Bridge ;
+	geo:long "4.9012750264" ;
+	geo:lat "52.3705311834" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+290> a :Bridge ;
+	geo:long "4.9016237136" ;
+	geo:lat "52.3709798916" .
+
+<http://www.jimlemmers.com/scenicroute#Steenvoetsluis+%28291%29> a :Bridge ;
+	geo:long "4.9029648181" ;
+	geo:lat "52.3695747973" .
+
+<http://www.jimlemmers.com/scenicroute#Schottenburchsbrug+%28292%29> a :Bridge ;
+	geo:long "4.902514207" ;
+	geo:lat "52.3720083006" .
+
+<http://www.jimlemmers.com/scenicroute#Armeenschebrug+%28293%29> a :Bridge ;
+	geo:long "4.9022728082" ;
+	geo:lat "52.371526851" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+294> a :Bridge ;
+	geo:long "4.9048852798" ;
+	geo:lat "52.3759579546" .
+
+<http://www.jimlemmers.com/scenicroute#Boomsbrug+%28295%29> a :Bridge ;
+	geo:long "4.9027556058" ;
+	geo:lat "52.3724668192" .
+
+<http://www.jimlemmers.com/scenicroute#Boomsluis+%28296%29> a :Bridge ;
+	geo:long "4.9029540893" ;
+	geo:lat "52.3724733694" .
+
+<http://www.jimlemmers.com/scenicroute#Gelderschebrug+%28297%29> a :Bridge ;
+	geo:long "4.9012642976" ;
+	geo:lat "52.3733871171" .
+
+<http://www.jimlemmers.com/scenicroute#Bantammerbrug+%28298%29> a :Bridge ;
+	geo:long "4.9012535688" ;
+	geo:lat "52.3741698465" .
+
+<http://www.jimlemmers.com/scenicroute#Hoofdbrug+%28299%29> a :Bridge ;
+	geo:long "4.9026054021" ;
+	geo:lat "52.3764426307" .
+
+<http://www.jimlemmers.com/scenicroute#Kraansluis+%28300%29> a :Bridge ;
+	geo:long "4.9034905311" ;
+	geo:lat "52.3753128031" .
+
+<http://www.jimlemmers.com/scenicroute#Kolkswaterkering+%28301%29> a :Bridge ;
+	geo:long "4.9023425456" ;
+	geo:lat "52.3766325699" .
+
+<http://www.jimlemmers.com/scenicroute#Kolksluis+%28302%29> a :Bridge ;
+	geo:long "4.9006098386" ;
+	geo:lat "52.3758171355" .
+
+<http://www.jimlemmers.com/scenicroute#Nieuwe+Brug+%28303%29> a :Bridge ;
+	geo:long "4.8987591144" ;
+	geo:lat "52.3768519815" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+304> a :Bridge ;
+	geo:long "4.9353551742" ;
+	geo:lat "52.3515502545" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+305> a :Bridge ;
+	geo:long "4.840801942" ;
+	geo:lat "52.3520466667" .
+
+<http://www.jimlemmers.com/scenicroute#Stationsbrug+%28306%29> a :Bridge ;
+	geo:long "4.899048793" ;
+	geo:lat "52.3777820122" .
+
+<http://www.jimlemmers.com/scenicroute#Riekerhavenbrug+%28307%29> a :Bridge ;
+	geo:long "4.8465525981" ;
+	geo:lat "52.342384468" .
+
+<http://www.jimlemmers.com/scenicroute#Meerbrug+%28308%29> a :Bridge ;
+	geo:long "4.906017172" ;
+	geo:lat "52.4172934863" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+311> a :Bridge ;
+	geo:long "4.9125671264" ;
+	geo:lat "52.3385137531" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+312> a :Bridge ;
+	geo:long "4.9036246415" ;
+	geo:lat "52.4178120621" .
+
+<http://www.jimlemmers.com/scenicroute#Eenhoornsluis+%28313%29> a :Bridge ;
+	geo:long "4.8893713828" ;
+	geo:lat "52.3814495481" .
+
+<http://www.jimlemmers.com/scenicroute#Westerdok-sluis+%28314%29> a :Bridge ;
+	geo:long "4.8932981368" ;
+	geo:lat "52.3831391317" .
+
+<http://www.jimlemmers.com/scenicroute#Galgenbrug+%28315%29> a :Bridge ;
+	geo:long "4.8883843299" ;
+	geo:lat "52.3855620652" .
+
+<http://www.jimlemmers.com/scenicroute#Zandhoeksbrug+%28316%29> a :Bridge ;
+	geo:long "4.8899078246" ;
+	geo:lat "52.3871336267" .
+
+<http://www.jimlemmers.com/scenicroute#Petemayenbrug+%28317%29> a :Bridge ;
+	geo:long "4.8901224014" ;
+	geo:lat "52.3884006574" .
+
+<http://www.jimlemmers.com/scenicroute#Zoutkeetsbrug+%28318%29> a :Bridge ;
+	geo:long "4.885728943" ;
+	geo:lat "52.3881485637" .
+
+<http://www.jimlemmers.com/scenicroute#Drieharingenbrug+%28320%29> a :Bridge ;
+	geo:long "4.8872148868" ;
+	geo:lat "52.3869208144" .
+
+<http://www.jimlemmers.com/scenicroute#Sloterdijkerbrug+%28321%29> a :Bridge ;
+	geo:long "4.8859006044" ;
+	geo:lat "52.3856799343" .
+
+<http://www.jimlemmers.com/scenicroute#Camera+Obscurabrug+%28322%29> a :Bridge ;
+	geo:long "4.8373418924" ;
+	geo:lat "52.3762412288" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+323> a :Bridge ;
+	geo:long "4.9017095443" ;
+	geo:lat "52.4181719534" .
+
+<http://www.jimlemmers.com/scenicroute#Beltbrug+%28324%29> a :Bridge ;
+	geo:long "4.8698395368" ;
+	geo:lat "52.3754045003" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+325> a :Bridge ;
+	geo:long "4.905786502" ;
+	geo:lat "52.3590908592" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+327> a :Bridge ;
+	geo:long "4.9187254783" ;
+	geo:lat "52.3674113888" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+328> a :Bridge ;
+	geo:long "4.9322974559" ;
+	geo:lat "52.366530273" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+330> a :Bridge ;
+	geo:long "4.8359095928" ;
+	geo:lat "52.4071383146" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+331> a :Bridge ;
+	geo:long "4.8347401496" ;
+	geo:lat "52.4061598131" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+332> a :Bridge ;
+	geo:long "4.9325603124" ;
+	geo:lat "52.3672476139" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+333> a :Bridge ;
+	geo:long "4.9420446035" ;
+	geo:lat "52.3477344116" .
+
+<http://www.jimlemmers.com/scenicroute#Heinz+Stuybrug+%28334%29> a :Bridge ;
+	geo:long "4.9501395103" ;
+	geo:lat "52.3469299132" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+335> a :Bridge ;
+	geo:long "4.9391102668" ;
+	geo:lat "52.3536145062" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+336> a :Bridge ;
+	geo:long "4.9410199996" ;
+	geo:lat "52.3548857751" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+337> a :Bridge ;
+	geo:long "4.9410199996" ;
+	geo:lat "52.3548857751" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+338> a :Bridge ;
+	geo:long "4.9438524123" ;
+	geo:lat "52.3532606413" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+339> a :Bridge ;
+	geo:long "4.9882858869" ;
+	geo:lat "52.3779424733" .
+
+<http://www.jimlemmers.com/scenicroute#Schollenbrug+%28340%29> a :Bridge ;
+	geo:long "4.9131357547" ;
+	geo:lat "52.3485454491" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+341> a :Bridge ;
+	geo:long "4.9452739831" ;
+	geo:lat "52.3445097758" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+342> a :Bridge ;
+	geo:long "4.9504721042" ;
+	geo:lat "52.3620703785" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+343> a :Bridge ;
+	geo:long "4.9941491958" ;
+	geo:lat "52.3932589081" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+344> a :Bridge ;
+	geo:long "4.9942403909" ;
+	geo:lat "52.3938841563" .
+
+<http://www.jimlemmers.com/scenicroute#IJszeebrug+%28345%29> a :Bridge ;
+	geo:long "4.8840981599" ;
+	geo:lat "52.3884595881" .
+
+<http://www.jimlemmers.com/scenicroute#Westerkeersluis+%28346%29> a :Bridge ;
+	geo:long "4.8855358239" ;
+	geo:lat "52.3904500925" .
+
+<http://www.jimlemmers.com/scenicroute#Een+Honderd+Roebrug+%28347%29> a :Bridge ;
+	geo:long "4.8801606771" ;
+	geo:lat "52.3851339687" .
+
+<http://www.jimlemmers.com/scenicroute#Zeilstraatbrug+%28348%29> a :Bridge ;
+	geo:long "4.852351534" ;
+	geo:lat "52.350967004" .
+
+<http://www.jimlemmers.com/scenicroute#Noordpoolbrug+%28349%29> a :Bridge ;
+	geo:long "4.8845273134" ;
+	geo:lat "52.3893762789" .
+
+<http://www.jimlemmers.com/scenicroute#Torontobrug+%28350%29> a :Bridge ;
+	geo:long "4.9048852798" ;
+	geo:lat "52.3589205013" .
+
+<http://www.jimlemmers.com/scenicroute#Postje+van+Gerrit+Vreling+%28351%29> a :Bridge ;
+	geo:long "4.9636256572" ;
+	geo:lat "52.4065263446" .
+
+<http://www.jimlemmers.com/scenicroute#Jaap+Hannisbrug+%28352%29> a :Bridge ;
+	geo:long "4.9341267225" ;
+	geo:lat "52.3684922874" .
+
+<http://www.jimlemmers.com/scenicroute#Dageraadsbrug+%28353%29> a :Bridge ;
+	geo:long "4.9252968904" ;
+	geo:lat "52.3672312364" .
+
+<http://www.jimlemmers.com/scenicroute#Oosterbeerbrug+%28354%29> a :Bridge ;
+	geo:long "4.9263805028" ;
+	geo:lat "52.3661797871" .
+
+<http://www.jimlemmers.com/scenicroute#Evert+van+der+Wallbrug+%28355%29> a :Bridge ;
+	geo:long "4.9331772205" ;
+	geo:lat "52.356781143" .
+
+<http://www.jimlemmers.com/scenicroute#Langebrug+%28356%29> a :Bridge ;
+	geo:long "4.9000680324" ;
+	geo:lat "52.401548455" .
+
+<http://www.jimlemmers.com/scenicroute#Gerben+Wagenaarbrug+%28357%29> a :Bridge ;
+	geo:long "4.9139082309" ;
+	geo:lat "52.3867358305" .
+
+<http://www.jimlemmers.com/scenicroute#Machineslootbrug+%28358%29> a :Bridge ;
+	geo:long "4.8580753681" ;
+	geo:lat "52.3647679888" .
+
+<http://www.jimlemmers.com/scenicroute#Molenslootbrug+%28359%29> a :Bridge ;
+	geo:long "4.856508958" ;
+	geo:lat "52.3711223637" .
+
+<http://www.jimlemmers.com/scenicroute#Theophile+de+Bockbrug+%28360%29> a :Bridge ;
+	geo:long "4.8534834262" ;
+	geo:lat "52.3547956735" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+361> a :Bridge ;
+	geo:long "4.8518097278" ;
+	geo:lat "52.3997401082" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+362> a :Bridge ;
+	geo:long "4.9330484744" ;
+	geo:lat "52.3906808935" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+363> a :Bridge ;
+	geo:long "4.8965704318" ;
+	geo:lat "52.4163544724" .
+
+<http://www.jimlemmers.com/scenicroute#Buiksloter+Kerkepadbrug+%28364%29> a :Bridge ;
+	geo:long "4.9156892177" ;
+	geo:lat "52.4013275298" .
+
+<http://www.jimlemmers.com/scenicroute#Passagebrug+%28366%29> a :Bridge ;
+	geo:long "4.9235695478" ;
+	geo:lat "52.3972263012" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+367> a :Bridge ;
+	geo:long "4.9235695478" ;
+	geo:lat "52.3953212114" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+368> a :Bridge ;
+	geo:long "4.9383914348" ;
+	geo:lat "52.3911555869" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+371> a :Bridge ;
+	geo:long "4.9060225364" ;
+	geo:lat "52.3888737383" .
+
+<http://www.jimlemmers.com/scenicroute#Molenpadsbrug+%28372%29> a :Bridge ;
+	geo:long "4.8985069867" ;
+	geo:lat "52.4196703782" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+373> a :Bridge ;
+	geo:long "4.9594467755" ;
+	geo:lat "52.4028592556" .
+
+<http://www.jimlemmers.com/scenicroute#Los+Postje+%28374%29> a :Bridge ;
+	geo:long "4.9659860011" ;
+	geo:lat "52.4059634556" .
+
+<http://www.jimlemmers.com/scenicroute#Bakkersbrug+%28375%29> a :Bridge ;
+	geo:long "4.9648702022" ;
+	geo:lat "52.4079793505" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+376> a :Bridge ;
+	geo:long "4.9637544032" ;
+	geo:lat "52.3834829344" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+377> a :Bridge ;
+	geo:long "4.9649935838" ;
+	geo:lat "52.3835091288" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+378> a :Bridge ;
+	geo:long "4.9665760871" ;
+	geo:lat "52.3817638941" .
+
+<http://www.jimlemmers.com/scenicroute#Wipbrug+%28379%29> a :Bridge ;
+	geo:long "4.9871647235" ;
+	geo:lat "52.3886936735" .
+
+<http://www.jimlemmers.com/scenicroute#Gerrit+Werfbrug+%28380%29> a :Bridge ;
+	geo:long "4.9952864524" ;
+	geo:lat "52.3906579772" .
+
+<http://www.jimlemmers.com/scenicroute#Vier+Windstrekenbrug+%28381%29> a :Bridge ;
+	geo:long "4.8556506511" ;
+	geo:lat "52.3743450581" .
+
+<http://www.jimlemmers.com/scenicroute#Jan+van+Galenbrug+%28382%29> a :Bridge ;
+	geo:long "4.8644214746" ;
+	geo:lat "52.375429062" .
+
+<http://www.jimlemmers.com/scenicroute#Anna+van+Saksenbrug+%28383%29> a :Bridge ;
+	geo:long "4.8626619455" ;
+	geo:lat "52.3775904406" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+385> a :Bridge ;
+	geo:long "4.9156892177" ;
+	geo:lat "52.4013275298" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+386> a :Bridge ;
+	geo:long "4.8488163825" ;
+	geo:lat "52.3580768923" .
+
+<http://www.jimlemmers.com/scenicroute#Wagon+Litsbrug%28387%29> a :Bridge ;
+	geo:long "4.8958945152" ;
+	geo:lat "52.379625642" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+388> a :Bridge ;
+	geo:long "4.8520189401" ;
+	geo:lat "52.3998317547" .
+
+<http://www.jimlemmers.com/scenicroute#Zebrabrug+%28389%29> a :Bridge ;
+	geo:long "4.9231940385" ;
+	geo:lat "52.3737359083" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+390> a :Bridge ;
+	geo:long "4.8361188051" ;
+	geo:lat "52.407231582" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+391> a :Bridge ;
+	geo:long "4.834718692" ;
+	geo:lat "52.4062318106" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+392> a :Bridge ;
+	geo:long "4.8455870029" ;
+	geo:lat "52.3495563579" .
+
+<http://www.jimlemmers.com/scenicroute#Wil+de+Graaffbrug+%28393%29> a :Bridge ;
+	geo:long "4.8539447662" ;
+	geo:lat "52.3765441501" .
+
+<http://www.jimlemmers.com/scenicroute#Lof+der+Zotheidbrug+%28394%29> a :Bridge ;
+	geo:long "4.8533224937" ;
+	geo:lat "52.375902282" .
+
+<http://www.jimlemmers.com/scenicroute#Geert+Geertsenbrug+%28395%29> a :Bridge ;
+	geo:long "4.8496961471" ;
+	geo:lat "52.3741076217" .
+
+<http://www.jimlemmers.com/scenicroute#Desideriusbrug+%28396%29> a :Bridge ;
+	geo:long "4.8522925254" ;
+	geo:lat "52.37362947" .
+
+<http://www.jimlemmers.com/scenicroute#Zoutmanbrug+%28397%29> a :Bridge ;
+	geo:long "4.8474055406" ;
+	geo:lat "52.3851609807" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+398> a :Bridge ;
+	geo:long "4.9670588847" ;
+	geo:lat "52.4073641196" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+399> a :Bridge ;
+	geo:long "4.8904871818" ;
+	geo:lat "52.4085929365" .
+
+<http://www.jimlemmers.com/scenicroute#P.L.+Kramerbrug+%28400%29> a :Bridge ;
+	geo:long "4.909777629" ;
+	geo:lat "52.3498660158" .
+
+<http://www.jimlemmers.com/scenicroute#Ernst+Cahn+en+Alfred+Kohnbrug+%28401%29> a :Bridge ;
+	geo:long "4.9041449901" ;
+	geo:lat "52.3491156242" .
+
+<http://www.jimlemmers.com/scenicroute#Han+van+Zomerenbrug+%28402%29> a :Bridge ;
+	geo:long "4.8997998115" ;
+	geo:lat "52.3484405886" .
+
+<http://www.jimlemmers.com/scenicroute#Maasbrug+%28403%29> a :Bridge ;
+	geo:long "4.8952400562" ;
+	geo:lat "52.3480145899" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+404> a :Bridge ;
+	geo:long "4.8912650224" ;
+	geo:lat "52.3482243128" .
+
+<http://www.jimlemmers.com/scenicroute#Mozartbrug+%28405%29> a :Bridge ;
+	geo:long "4.8847687122" ;
+	geo:lat "52.3495579963" .
+
+<http://www.jimlemmers.com/scenicroute#Boerenweteringbrug+%28406%29> a :Bridge ;
+	geo:long "4.8864316818" ;
+	geo:lat "52.3497939263" .
+
+<http://www.jimlemmers.com/scenicroute#Timo+Smeehuyzenbrug+%28407%29> a :Bridge ;
+	geo:long "4.8790395137" ;
+	geo:lat "52.3511832663" .
+
+<http://www.jimlemmers.com/scenicroute#Schildersbrug+%28408%29> a :Bridge ;
+	geo:long "4.8733103153" ;
+	geo:lat "52.3521466038" .
+
+<http://www.jimlemmers.com/scenicroute#Muziekbrug+%28409%29> a :Bridge ;
+	geo:long "4.8705583688" ;
+	geo:lat "52.3521072843" .
+
+<http://www.jimlemmers.com/scenicroute#Lyceumbrug+%28410%29> a :Bridge ;
+	geo:long "4.8652958747" ;
+	geo:lat "52.3507048664" .
+
+<http://www.jimlemmers.com/scenicroute#Godenbrug+%28411%29> a :Bridge ;
+	geo:long "4.8601299402" ;
+	geo:lat "52.3487617233" .
+
+<http://www.jimlemmers.com/scenicroute#Stadionbrug+%28413%29> a :Bridge ;
+	geo:long "4.8574638244" ;
+	geo:lat "52.3422959796" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+414> a :Bridge ;
+	geo:long "4.8653817054" ;
+	geo:lat "52.3433578291" .
+
+<http://www.jimlemmers.com/scenicroute#Parnassusbrug+%28415%29> a :Bridge ;
+	geo:long "4.8679566261" ;
+	geo:lat "52.3439772295" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+416> a :Bridge ;
+	geo:long "4.8727524158" ;
+	geo:lat "52.3444327618" .
+
+<http://www.jimlemmers.com/scenicroute#Beethovenbrug+%28417%29> a :Bridge ;
+	geo:long "4.8766040679" ;
+	geo:lat "52.3445851511" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+418> a :Bridge ;
+	geo:long "4.8814105865" ;
+	geo:lat "52.3460926295" .
+
+<http://www.jimlemmers.com/scenicroute#Hildo+Kropbrug+%28419%29> a :Bridge ;
+	geo:long "4.8845594999" ;
+	geo:lat "52.3476508493" .
+
+<http://www.jimlemmers.com/scenicroute#Kindertjesbrug+%28420%29> a :Bridge ;
+	geo:long "4.8861098167" ;
+	geo:lat "52.3473886921" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+421> a :Bridge ;
+	geo:long "4.8604678985" ;
+	geo:lat "52.3425319484" .
+
+<http://www.jimlemmers.com/scenicroute#Prinsessebrug+%28422%29> a :Bridge ;
+	geo:long "4.8857021209" ;
+	geo:lat "52.3444933899" .
+
+<http://www.jimlemmers.com/scenicroute#Berlagebrug+%28423%29> a :Bridge ;
+	geo:long "4.912856805" ;
+	geo:lat "52.3473477299" .
+
+<http://www.jimlemmers.com/scenicroute#Zorgvliedbrug+%28424%29> a :Bridge ;
+	geo:long "4.9060332652" ;
+	geo:lat "52.3360734881" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+425> a :Bridge ;
+	geo:long "4.9085652705" ;
+	geo:lat "52.360124459" .
+
+<http://www.jimlemmers.com/scenicroute#Velibor+Vasovicbrug+%28426%29> a :Bridge ;
+	geo:long "4.955654132" ;
+	geo:lat "52.3438887442" .
+
+<http://www.jimlemmers.com/scenicroute#Boerenoorlogbrug+%28427%29> a :Bridge ;
+	geo:long "4.9164938804" ;
+	geo:lat "52.3500233015" .
+
+<http://www.jimlemmers.com/scenicroute#Omvalbrug+%28429%29> a :Bridge ;
+	geo:long "4.9188595887" ;
+	geo:lat "52.3424729563" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+430> a :Bridge ;
+	geo:long "4.883599269" ;
+	geo:lat "52.3441492836" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+431> a :Bridge ;
+	geo:long "4.8783689615" ;
+	geo:lat "52.3443000353" .
+
+<http://www.jimlemmers.com/scenicroute#Nollewoudsbrug+%28432%29> a :Bridge ;
+	geo:long "4.9365997192" ;
+	geo:lat "52.3937073855" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+433> a :Bridge ;
+	geo:long "4.8829179879" ;
+	geo:lat "52.343795343" .
+
+<http://www.jimlemmers.com/scenicroute#Barometerbrug+%28434%29> a :Bridge ;
+	geo:long "4.9229097244" ;
+	geo:lat "52.3435216925" .
+
+<http://www.jimlemmers.com/scenicroute#Thermometerbrug+%28435%29> a :Bridge ;
+	geo:long "4.9242293712" ;
+	geo:lat "52.3442394069" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+436> a :Bridge ;
+	geo:long "4.9260908242" ;
+	geo:lat "52.3453536438" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+437> a :Bridge ;
+	geo:long "4.9130177375" ;
+	geo:lat "52.3920083853" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+438> a :Bridge ;
+	geo:long "4.9123149987" ;
+	geo:lat "52.3917661333" .
+
+<http://www.jimlemmers.com/scenicroute#Utrechtsebrug+%28439%29> a :Bridge ;
+	geo:long "4.9093752977" ;
+	geo:lat "52.3388218495" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+440> a :Bridge ;
+	geo:long "4.8825907584" ;
+	geo:lat "52.4123658942" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+441> a :Bridge ;
+	geo:long "4.9263161298" ;
+	geo:lat "52.3460385578" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+442> a :Bridge ;
+	geo:long "4.9286764737" ;
+	geo:lat "52.3465366704" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+443> a :Bridge ;
+	geo:long "4.9330162879" ;
+	geo:lat "52.3439510117" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+445> a :Bridge ;
+	geo:long "4.9341052648" ;
+	geo:lat "52.3687706964" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+448> a :Bridge ;
+	geo:long "4.9287783977" ;
+	geo:lat "52.347860574" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+449> a :Bridge ;
+	geo:long "4.8782563087" ;
+	geo:lat "52.342523755" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+450> a :Bridge ;
+	geo:long "4.8720443126" ;
+	geo:lat "52.359703487" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+451> a :Bridge ;
+	geo:long "4.8715829726" ;
+	geo:lat "52.3589286916" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+452> a :Bridge ;
+	geo:long "4.8721194145" ;
+	geo:lat "52.3585650408" .
+
+<http://www.jimlemmers.com/scenicroute#Hulstbrug+%28453%29> a :Bridge ;
+	geo:long "4.8629087087" ;
+	geo:lat "52.3568810694" .
+
+<http://www.jimlemmers.com/scenicroute#Willemsbrug+%28454%29> a :Bridge ;
+	geo:long "4.8617768165" ;
+	geo:lat "52.3556590033" .
+
+<http://www.jimlemmers.com/scenicroute#Brandbrug+%28455%29> a :Bridge ;
+	geo:long "4.8594325658" ;
+	geo:lat "52.3565894803" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+456> a :Bridge ;
+	geo:long "4.9238002177" ;
+	geo:lat "52.3486830783" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+457> a :Bridge ;
+	geo:long "4.9274694797" ;
+	geo:lat "52.3465759948" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+458> a :Bridge ;
+	geo:long "4.9326354142" ;
+	geo:lat "52.3431153101" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+459> a :Bridge ;
+	geo:long "4.9472534534" ;
+	geo:lat "52.3647565239" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+460> a :Bridge ;
+	geo:long "4.9468672153" ;
+	geo:lat "52.3628467568" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+461> a :Bridge ;
+	geo:long "4.9481010314" ;
+	geo:lat "52.3656966362" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+462> a :Bridge ;
+	geo:long "4.9478113528" ;
+	geo:lat "52.3647597995" .
+
+<http://www.jimlemmers.com/scenicroute#Van+Slingelandtbrug+%28463%29> a :Bridge ;
+	geo:long "4.8654675361" ;
+	geo:lat "52.3854507442" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+464> a :Bridge ;
+	geo:long "4.9045067179" ;
+	geo:lat "52.3662417094" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+465> a :Bridge ;
+	geo:long "4.9084311601" ;
+	geo:lat "52.360830438" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+466> a :Bridge ;
+	geo:long "4.8431086418" ;
+	geo:lat "52.3721867959" .
+
+<http://www.jimlemmers.com/scenicroute#Witte+Boogbrug+%28469%29> a :Bridge ;
+	geo:long "4.9501096356" ;
+	geo:lat "52.386190383" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+470> a :Bridge ;
+	geo:long "4.9544846889" ;
+	geo:lat "52.3870190355" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+471> a :Bridge ;
+	geo:long "4.9693763133" ;
+	geo:lat "52.3871892851" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+472> a :Bridge ;
+	geo:long "4.9468672153" ;
+	geo:lat "52.3628467568" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+473> a :Bridge ;
+	geo:long "4.8803162452" ;
+	geo:lat "52.4184844021" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+474> a :Bridge ;
+	geo:long "4.8824351903" ;
+	geo:lat "52.4166947446" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+475> a :Bridge ;
+	geo:long "4.8816466209" ;
+	geo:lat "52.4160141976" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+476> a :Bridge ;
+	geo:long "4.8798173543" ;
+	geo:lat "52.4145418245" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+478> a :Bridge ;
+	geo:long "4.9278288957" ;
+	geo:lat "52.3455797649" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+479> a :Bridge ;
+	geo:long "4.930296528" ;
+	geo:lat "52.3439051304" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+480> a :Bridge ;
+	geo:long "4.9309241649" ;
+	geo:lat "52.3441345361" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+482> a :Bridge ;
+	geo:long "4.8917317268" ;
+	geo:lat "52.3329545383" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+483> a :Bridge ;
+	geo:long "4.9121379729" ;
+	geo:lat "52.4135340385" .
+
+<http://www.jimlemmers.com/scenicroute#Oosterdoksdoorgang+%28485%29> a :Bridge ;
+	geo:long "4.9109041568" ;
+	geo:lat "52.3774971105" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+486> a :Bridge ;
+	geo:long "4.9046707031" ;
+	geo:lat "52.3783911062" .
+
+<http://www.jimlemmers.com/scenicroute#Kortjewantsbrug+%28487%29> a :Bridge ;
+	geo:long "4.912819254" ;
+	geo:lat "52.3710617722" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+488> a :Bridge ;
+	geo:long "4.8753380653" ;
+	geo:lat "52.4176043053" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+489> a :Bridge ;
+	geo:long "4.8382162925" ;
+	geo:lat "52.3788233614" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+490> a :Bridge ;
+	geo:long "4.9188971397" ;
+	geo:lat "52.3895858056" .
+
+<http://www.jimlemmers.com/scenicroute#Meeuwenpleinbrug+%28491%29> a :Bridge ;
+	geo:long "4.9182426807" ;
+	geo:lat "52.3897429499" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+492> a :Bridge ;
+	geo:long "4.8805469152" ;
+	geo:lat "52.4151471394" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+493> a :Bridge ;
+	geo:long "4.9191814538" ;
+	geo:lat "52.389467947" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+494> a :Bridge ;
+	geo:long "4.9160110828" ;
+	geo:lat "52.3906170551" .
+
+<http://www.jimlemmers.com/scenicroute#Bijleveldschesluis+%28495%29> a :Bridge ;
+	geo:long "4.9003094312" ;
+	geo:lat "52.3726453126" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+496> a :Bridge ;
+	geo:long "4.8818987485" ;
+	geo:lat "52.3420649257" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+497> a :Bridge ;
+	geo:long "4.8854929086" ;
+	geo:lat "52.3425761924" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+499> a :Bridge ;
+	geo:long "4.8759335157" ;
+	geo:lat "52.4172967581" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+500> a :Bridge ;
+	geo:long "4.825619722" ;
+	geo:lat "52.325188351" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+501> a :Bridge ;
+	geo:long "4.8564875003" ;
+	geo:lat "52.3304074241" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+502> a :Bridge ;
+	geo:long "4.8544275638" ;
+	geo:lat "52.3339084391" .
+
+<http://www.jimlemmers.com/scenicroute#Jacob+Heinenbrug+%28503%29> a :Bridge ;
+	geo:long "4.8567181703" ;
+	geo:lat "52.3278077085" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+504> a :Bridge ;
+	geo:long "4.8429369804" ;
+	geo:lat "52.3278224614" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+505> a :Bridge ;
+	geo:long "4.8537945625" ;
+	geo:lat "52.3307647502" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+506> a :Bridge ;
+	geo:long "4.8452865955" ;
+	geo:lat "52.3305959222" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+507> a :Bridge ;
+	geo:long "4.8432266589" ;
+	geo:lat "52.3298288121" .
+
+<http://www.jimlemmers.com/scenicroute#Drogebrug+%28508%29> a :Bridge ;
+	geo:long "4.8433607694" ;
+	geo:lat "52.3256176655" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+509> a :Bridge ;
+	geo:long "4.851798999" ;
+	geo:lat "52.3290764413" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+510> a :Bridge ;
+	geo:long "4.8532205697" ;
+	geo:lat "52.3291010287" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+511> a :Bridge ;
+	geo:long "4.8543846484" ;
+	geo:lat "52.3280978483" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+512> a :Bridge ;
+	geo:long "4.8211467143" ;
+	geo:lat "52.3224684691" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+514> a :Bridge ;
+	geo:long "4.8204010602" ;
+	geo:lat "52.3224586326" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+515> a :Bridge ;
+	geo:long "4.8213666555" ;
+	geo:lat "52.3224258444" .
+
+<http://www.jimlemmers.com/scenicroute#Ballenbrug+%28516%29> a :Bridge ;
+	geo:long "4.8536765453" ;
+	geo:lat "52.3319678358" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+517> a :Bridge ;
+	geo:long "4.8216885206" ;
+	geo:lat "52.3217471224" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+518> a :Bridge ;
+	geo:long "4.8222732421" ;
+	geo:lat "52.3215143216" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+519> a :Bridge ;
+	geo:long "4.8240113136" ;
+	geo:lat "52.3212159413" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+520> a :Bridge ;
+	geo:long "4.8249447223" ;
+	geo:lat "52.3203142306" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+521> a :Bridge ;
+	geo:long "4.8276215669" ;
+	geo:lat "52.320460145" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+522> a :Bridge ;
+	geo:long "4.8255991813" ;
+	geo:lat "52.3201420837" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+523> a :Bridge ;
+	geo:long "4.8227560397" ;
+	geo:lat "52.3199092745" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+525> a :Bridge ;
+	geo:long "4.8305880901" ;
+	geo:lat "52.3231947222" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+526> a :Bridge ;
+	geo:long "4.8306417343" ;
+	geo:lat "52.3236340749" .
+
+<http://www.jimlemmers.com/scenicroute#Duizendmeterbrug+%28527%29> a :Bridge ;
+	geo:long "4.8364084836" ;
+	geo:lat "52.3245717834" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+528> a :Bridge ;
+	geo:long "4.8201811191" ;
+	geo:lat "52.3177401552" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+529> a :Bridge ;
+	geo:long "4.8372077819" ;
+	geo:lat "52.3247881748" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+530> a :Bridge ;
+	geo:long "4.8368537303" ;
+	geo:lat "52.3250144011" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+531> a :Bridge ;
+	geo:long "4.842599022" ;
+	geo:lat "52.325250462" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+532> a :Bridge ;
+	geo:long "4.8430657264" ;
+	geo:lat "52.3264602547" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+533> a :Bridge ;
+	geo:long "4.8243117209" ;
+	geo:lat "52.3148429116" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+534> a :Bridge ;
+	geo:long "4.8254597064" ;
+	geo:lat "52.3146756625" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+535> a :Bridge ;
+	geo:long "4.8280185338" ;
+	geo:lat "52.3145936774" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+536> a :Bridge ;
+	geo:long "4.8217368003" ;
+	geo:lat "52.3088281071" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+537> a :Bridge ;
+	geo:long "4.8313230153" ;
+	geo:lat "52.3062533636" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+538> a :Bridge ;
+	geo:long "4.8190116759" ;
+	geo:lat "52.3155217395" .
+
+<http://www.jimlemmers.com/scenicroute#Bruinebrug+%28539%29> a :Bridge ;
+	geo:long "4.8264950391" ;
+	geo:lat "52.3088986235" .
+
+<http://www.jimlemmers.com/scenicroute#Blauwebrug+%28540%29> a :Bridge ;
+	geo:long "4.8271816846" ;
+	geo:lat "52.3100531077" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+541> a :Bridge ;
+	geo:long "4.831639516" ;
+	geo:lat "52.3075686335" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+542> a :Bridge ;
+	geo:long "4.8360329744" ;
+	geo:lat "52.3069864428" .
+
+<http://www.jimlemmers.com/scenicroute#Vierwindenbrug+%28543%29> a :Bridge ;
+	geo:long "4.8382216569" ;
+	geo:lat "52.3115388058" .
+
+<http://www.jimlemmers.com/scenicroute#Bibbertjesbrug+%28544%29> a :Bridge ;
+	geo:long "4.8377495881" ;
+	geo:lat "52.3132835356" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+545> a :Bridge ;
+	geo:long "4.8341125127" ;
+	geo:lat "52.3112469176" .
+
+<http://www.jimlemmers.com/scenicroute#Klimopbrug+%28546%29> a :Bridge ;
+	geo:long "4.8216831561" ;
+	geo:lat "52.3077195098" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+547> a :Bridge ;
+	geo:long "4.829381096" ;
+	geo:lat "52.3182926923" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+548> a :Bridge ;
+	geo:long "4.8444068309" ;
+	geo:lat "52.3250176797" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+549> a :Bridge ;
+	geo:long "4.8496264097" ;
+	geo:lat "52.3262373144" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+550> a :Bridge ;
+	geo:long "4.8497229692" ;
+	geo:lat "52.325138989" .
+
+<http://www.jimlemmers.com/scenicroute#Karnemelkgatsbrug+%28551%29> a :Bridge ;
+	geo:long "4.8429369804" ;
+	geo:lat "52.3236766985" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+552> a :Bridge ;
+	geo:long "4.8485535261" ;
+	geo:lat "52.3326988501" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+van+Broerse+%28553%29> a :Bridge ;
+	geo:long "4.8297029611" ;
+	geo:lat "52.3186861863" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+554> a :Bridge ;
+	geo:long "4.8148435232" ;
+	geo:lat "52.304839651" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+555> a :Bridge ;
+	geo:long "4.8173004266" ;
+	geo:lat "52.2998584962" .
+
+<http://www.jimlemmers.com/scenicroute#Hoedbrug+%28556%29> a :Bridge ;
+	geo:long "4.8219138261" ;
+	geo:lat "52.3001898252" .
+
+<http://www.jimlemmers.com/scenicroute#Stenenbrug+%28557%29> a :Bridge ;
+	geo:long "4.825813758" ;
+	geo:lat "52.3029223746" .
+
+<http://www.jimlemmers.com/scenicroute#Eerste+Volendammerbrug+%28558%29> a :Bridge ;
+	geo:long "4.8150098201" ;
+	geo:lat "52.3039671283" .
+
+<http://www.jimlemmers.com/scenicroute#Tweede+Volendammerbrug+%28559%29> a :Bridge ;
+	geo:long "4.8140764114" ;
+	geo:lat "52.3037670361" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+560> a :Bridge ;
+	geo:long "4.8170429345" ;
+	geo:lat "52.3033701292" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+561> a :Bridge ;
+	geo:long "4.8205619928" ;
+	geo:lat "52.300862317" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+562> a :Bridge ;
+	geo:long "4.8245102044" ;
+	geo:lat "52.3014724714" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+563> a :Bridge ;
+	geo:long "4.8251914855" ;
+	geo:lat "52.2999109841" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+564> a :Bridge ;
+	geo:long "4.8263072845" ;
+	geo:lat "52.3021285421" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+565> a :Bridge ;
+	geo:long "4.8295259353" ;
+	geo:lat "52.3049905366" .
+
+<http://www.jimlemmers.com/scenicroute#Boogbrug+%28566%29> a :Bridge ;
+	geo:long "4.8439830419" ;
+	geo:lat "52.3212454516" .
+
+<http://www.jimlemmers.com/scenicroute#Manegebrug+%28569%29> a :Bridge ;
+	geo:long "4.8406839248" ;
+	geo:lat "52.3189255601" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+571> a :Bridge ;
+	geo:long "4.828495967" ;
+	geo:lat "52.2969371171" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+572> a :Bridge ;
+	geo:long "4.8221981402" ;
+	geo:lat "52.2969896085" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+575> a :Bridge ;
+	geo:long "4.8233461257" ;
+	geo:lat "52.2938793865" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+577> a :Bridge ;
+	geo:long "4.8260068771" ;
+	geo:lat "52.2960775618" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+578> a :Bridge ;
+	geo:long "4.8484676954" ;
+	geo:lat "52.332469385" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+580> a :Bridge ;
+	geo:long "4.8285174247" ;
+	geo:lat "52.3016135274" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+581> a :Bridge ;
+	geo:long "4.8310011503" ;
+	geo:lat "52.3032438399" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+582> a :Bridge ;
+	geo:long "4.8332649347" ;
+	geo:lat "52.3049364147" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+583> a :Bridge ;
+	geo:long "4.8339569446" ;
+	geo:lat "52.3025713843" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+584> a :Bridge ;
+	geo:long "4.8363709327" ;
+	geo:lat "52.3062697638" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+586> a :Bridge ;
+	geo:long "4.8364567634" ;
+	geo:lat "52.3160234752" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+587> a :Bridge ;
+	geo:long "4.8328465101" ;
+	geo:lat "52.3171744943" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+589> a :Bridge ;
+	geo:long "4.8536014434" ;
+	geo:lat "52.3326988501" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+590> a :Bridge ;
+	geo:long "4.8566591617" ;
+	geo:lat "52.3216717082" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+591> a :Bridge ;
+	geo:long "4.8549425479" ;
+	geo:lat "52.3336134205" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+592> a :Bridge ;
+	geo:long "4.8549425479" ;
+	geo:lat "52.3336134205" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+593> a :Bridge ;
+	geo:long "4.8549425479" ;
+	geo:lat "52.3336134205" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+600> a :Bridge ;
+	geo:long "4.837851512" ;
+	geo:lat "52.3821895674" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+601> a :Bridge ;
+	geo:long "4.8364782211" ;
+	geo:lat "52.3790836948" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+602> a :Bridge ;
+	geo:long "4.8316502448" ;
+	geo:lat "52.3783108766" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+603> a :Bridge ;
+	geo:long "4.827187049" ;
+	geo:lat "52.3844128255" .
+
+<http://www.jimlemmers.com/scenicroute#Bananenbrug+%28604%29> a :Bridge ;
+	geo:long "4.833436596" ;
+	geo:lat "52.3734411554" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+605> a :Bridge ;
+	geo:long "4.8322617885" ;
+	geo:lat "52.3736474826" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+606> a :Bridge ;
+	geo:long "4.8321169492" ;
+	geo:lat "52.3704312879" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+607> a :Bridge ;
+	geo:long "4.8303198692" ;
+	geo:lat "52.3698024322" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+608> a :Bridge ;
+	geo:long "4.810568082" ;
+	geo:lat "52.3794111561" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+609> a :Bridge ;
+	geo:long "4.8311567184" ;
+	geo:lat "52.3772105696" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+610> a :Bridge ;
+	geo:long "4.80759083" ;
+	geo:lat "52.3680337276" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+611> a :Bridge ;
+	geo:long "4.8257654783" ;
+	geo:lat "52.3780456265" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+612> a :Bridge ;
+	geo:long "4.8231690999" ;
+	geo:lat "52.3750655471" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+613> a :Bridge ;
+	geo:long "4.8178046819" ;
+	geo:lat "52.3786776395" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+614> a :Bridge ;
+	geo:long "4.8201382038" ;
+	geo:lat "52.3783337993" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+615> a :Bridge ;
+	geo:long "4.8239952203" ;
+	geo:lat "52.3777247045" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+616> a :Bridge ;
+	geo:long "4.8238074657" ;
+	geo:lat "52.3764147948" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+617> a :Bridge ;
+	geo:long "4.8228311416" ;
+	geo:lat "52.3739242217" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+618> a :Bridge ;
+	geo:long "4.8132288333" ;
+	geo:lat "52.3794144307" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+619> a :Bridge ;
+	geo:long "4.8088407394" ;
+	geo:lat "52.3803640547" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+620> a :Bridge ;
+	geo:long "4.8089909431" ;
+	geo:lat "52.3779064514" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+621> a :Bridge ;
+	geo:long "4.808669078" ;
+	geo:lat "52.3767275392" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+622> a :Bridge ;
+	geo:long "4.8081326362" ;
+	geo:lat "52.3745710309" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+623> a :Bridge ;
+	geo:long "4.8021352168" ;
+	geo:lat "52.3792965449" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+624> a :Bridge ;
+	geo:long "4.7941261407" ;
+	geo:lat "52.379253975" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+626> a :Bridge ;
+	geo:long "4.8101174709" ;
+	geo:lat "52.3805408789" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+627> a :Bridge ;
+	geo:long "4.8121130344" ;
+	geo:lat "52.3833077591" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+628> a :Bridge ;
+	geo:long "4.8283779498" ;
+	geo:lat "52.3788086255" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+629> a :Bridge ;
+	geo:long "4.8348903533" ;
+	geo:lat "52.3777869243" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+630> a :Bridge ;
+	geo:long "4.8120218393" ;
+	geo:lat "52.3720001127" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+631> a :Bridge ;
+	geo:long "4.8172682401" ;
+	geo:lat "52.3718461804" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+632> a :Bridge ;
+	geo:long "4.8325031873" ;
+	geo:lat "52.3707653638" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+633> a :Bridge ;
+	geo:long "4.8339569446" ;
+	geo:lat "52.37045749" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+634> a :Bridge ;
+	geo:long "4.8105519887" ;
+	geo:lat "52.3684431562" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+635> a :Bridge ;
+	geo:long "4.8064374801" ;
+	geo:lat "52.380298564" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+637> a :Bridge ;
+	geo:long "4.7979080554" ;
+	geo:lat "52.3801643079" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+638> a :Bridge ;
+	geo:long "4.7943621751" ;
+	geo:lat "52.3816378285" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+639> a :Bridge ;
+	geo:long "4.7595792886" ;
+	geo:lat "52.3811122785" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+643> a :Bridge ;
+	geo:long "4.8059117671" ;
+	geo:lat "52.3726289371" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+651> a :Bridge ;
+	geo:long "4.8121398565" ;
+	geo:lat "52.3807635455" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+652> a :Bridge ;
+	geo:long "4.7939652082" ;
+	geo:lat "52.3669757464" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+653> a :Bridge ;
+	geo:long "4.8374438163" ;
+	geo:lat "52.3699530963" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+655> a :Bridge ;
+	geo:long "4.8395198461" ;
+	geo:lat "52.345902559" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+656> a :Bridge ;
+	geo:long "4.8343968269" ;
+	geo:lat "52.3640718999" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+657> a :Bridge ;
+	geo:long "4.8348045226" ;
+	geo:lat "52.3700579059" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+658> a :Bridge ;
+	geo:long "4.8450720188" ;
+	geo:lat "52.3696091883" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+659> a :Bridge ;
+	geo:long "4.8477542278" ;
+	geo:lat "52.369596087" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+660> a :Bridge ;
+	geo:long "4.8477810499" ;
+	geo:lat "52.3681057873" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+661> a :Bridge ;
+	geo:long "4.8477113124" ;
+	geo:lat "52.3672869199" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+662> a :Bridge ;
+	geo:long "4.8420894023" ;
+	geo:lat "52.3459320527" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+663> a :Bridge ;
+	geo:long "4.8480492708" ;
+	geo:lat "52.3661273778" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+664> a :Bridge ;
+	geo:long "4.847539651" ;
+	geo:lat "52.3652757173" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+665> a :Bridge ;
+	geo:long "4.8395466682" ;
+	geo:lat "52.3456240058" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+666> a :Bridge ;
+	geo:long "4.8344397422" ;
+	geo:lat "52.3628139985" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+667> a :Bridge ;
+	geo:long "4.8470675823" ;
+	geo:lat "52.3634970041" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+668> a :Bridge ;
+	geo:long "4.8345684882" ;
+	geo:lat "52.3592759589" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+669> a :Bridge ;
+	geo:long "4.8465794202" ;
+	geo:lat "52.3614954567" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+670> a :Bridge ;
+	geo:long "4.84211086" ;
+	geo:lat "52.3456141745" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+671> a :Bridge ;
+	geo:long "4.8466652509" ;
+	geo:lat "52.360548703" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+672> a :Bridge ;
+	geo:long "4.844304907" ;
+	geo:lat "52.358419252" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+673> a :Bridge ;
+	geo:long "4.8474001762" ;
+	geo:lat "52.3642242214" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+674> a :Bridge ;
+	geo:long "4.8457372066" ;
+	geo:lat "52.3601129929" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+675> a :Bridge ;
+	geo:long "4.8175310966" ;
+	geo:lat "52.3595396836" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+676> a :Bridge ;
+	geo:long "4.8174828168" ;
+	geo:lat "52.3587861801" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+677> a :Bridge ;
+	geo:long "4.8090124008" ;
+	geo:lat "52.3672214099" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+678> a :Bridge ;
+	geo:long "4.813185918" ;
+	geo:lat "52.3685839988" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+679> a :Bridge ;
+	geo:long "4.8090553161" ;
+	geo:lat "52.3642094807" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+681> a :Bridge ;
+	geo:long "4.806115615" ;
+	geo:lat "52.3695600583" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+682> a :Bridge ;
+	geo:long "4.849476206" ;
+	geo:lat "52.3631186498" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+683> a :Bridge ;
+	geo:long "4.8495083925" ;
+	geo:lat "52.3618443418" .
+
+<http://www.jimlemmers.com/scenicroute#Duizendste+Brug+%28684%29> a :Bridge ;
+	geo:long "4.8489075776" ;
+	geo:lat "52.3597084011" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+685> a :Bridge ;
+	geo:long "4.8346757766" ;
+	geo:lat "52.356347034" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+687> a :Bridge ;
+	geo:long "4.8347562429" ;
+	geo:lat "52.3515535311" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+688> a :Bridge ;
+	geo:long "4.84413861" ;
+	geo:lat "52.3580244733" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+689> a :Bridge ;
+	geo:long "4.8406249162" ;
+	geo:lat "52.3580408543" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+690> a :Bridge ;
+	geo:long "4.8349064466" ;
+	geo:lat "52.3469741528" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+691> a :Bridge ;
+	geo:long "4.8360061523" ;
+	geo:lat "52.3560849283" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+692> a :Bridge ;
+	geo:long "4.8405980941" ;
+	geo:lat "52.356111139" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+695> a :Bridge ;
+	geo:long "4.8477542278" ;
+	geo:lat "52.3555000995" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+698> a :Bridge ;
+	geo:long "4.8030364391" ;
+	geo:lat "52.3845470687" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+699> a :Bridge ;
+	geo:long "4.8114424821" ;
+	geo:lat "52.3716136433" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+700> a :Bridge ;
+	geo:long "4.807553279" ;
+	geo:lat "52.3724307929" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+701> a :Bridge ;
+	geo:long "4.8273748037" ;
+	geo:lat "52.3518156637" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+702> a :Bridge ;
+	geo:long "4.8333293077" ;
+	geo:lat "52.3576804724" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+703> a :Bridge ;
+	geo:long "4.8346543189" ;
+	geo:lat "52.3581162065" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+704> a :Bridge ;
+	geo:long "4.8370092985" ;
+	geo:lat "52.3457206804" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+705> a :Bridge ;
+	geo:long "4.827288973" ;
+	geo:lat "52.3578180731" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+706> a :Bridge ;
+	geo:long "4.8331415531" ;
+	geo:lat "52.3627943435" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+707> a :Bridge ;
+	geo:long "4.8332595703" ;
+	geo:lat "52.3592628545" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+708> a :Bridge ;
+	geo:long "4.8333829519" ;
+	geo:lat "52.3562716788" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+709> a :Bridge ;
+	geo:long "4.8322081443" ;
+	geo:lat "52.3518648133" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+710> a :Bridge ;
+	geo:long "4.8335063335" ;
+	geo:lat "52.3515142111" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+711> a :Bridge ;
+	geo:long "4.820873129" ;
+	geo:lat "52.3517239175" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+712> a :Bridge ;
+	geo:long "4.8211842653" ;
+	geo:lat "52.3513208872" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+713> a :Bridge ;
+	geo:long "4.8274981853" ;
+	geo:lat "52.3470937634" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+714> a :Bridge ;
+	geo:long "4.8326802131" ;
+	geo:lat "52.3471593033" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+715> a :Bridge ;
+	geo:long "4.8182445642" ;
+	geo:lat "52.3557540177" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+716> a :Bridge ;
+	geo:long "4.8200684663" ;
+	geo:lat "52.3524611584" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+717> a :Bridge ;
+	geo:long "4.8213934776" ;
+	geo:lat "52.3577263393" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+718> a :Bridge ;
+	geo:long "4.8213827487" ;
+	geo:lat "52.3583488146" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+719> a :Bridge ;
+	geo:long "4.8185717937" ;
+	geo:lat "52.3576968535" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+720> a :Bridge ;
+	geo:long "4.8188722011" ;
+	geo:lat "52.3582734628" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+721> a :Bridge ;
+	geo:long "4.8191940662" ;
+	geo:lat "52.3539781977" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+722> a :Bridge ;
+	geo:long "4.8069175955" ;
+	geo:lat "52.3403000269" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+725> a :Bridge ;
+	geo:long "4.8124617216" ;
+	geo:lat "52.3703870717" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+726> a :Bridge ;
+	geo:long "4.8123222467" ;
+	geo:lat "52.3698499242" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+729> a :Bridge ;
+	geo:long "4.8345336195" ;
+	geo:lat "52.3576984916" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+730> a :Bridge ;
+	geo:long "4.7973206517" ;
+	geo:lat "52.3404049068" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+731> a :Bridge ;
+	geo:long "4.7990265366" ;
+	geo:lat "52.3403655768" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+732> a :Bridge ;
+	geo:long "4.7982916113" ;
+	geo:lat "52.3379794957" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+736> a :Bridge ;
+	geo:long "4.7986671206" ;
+	geo:lat "52.3378811654" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+737> a :Bridge ;
+	geo:long "4.7987475869" ;
+	geo:lat "52.3390938903" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+738> a :Bridge ;
+	geo:long "4.7999599453" ;
+	geo:lat "52.3401427066" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+740> a :Bridge ;
+	geo:long "4.8075425502" ;
+	geo:lat "52.3668725673" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+742> a :Bridge ;
+	geo:long "4.9101611849" ;
+	geo:lat "52.3357162049" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+744> a :Bridge ;
+	geo:long "4.9116954085" ;
+	geo:lat "52.334693507" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+749> a :Bridge ;
+	geo:long "4.9085625883" ;
+	geo:lat "52.3330119041" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+751> a :Bridge ;
+	geo:long "4.8075425502" ;
+	geo:lat "52.3668725673" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+752> a :Bridge ;
+	geo:long "4.7952902194" ;
+	geo:lat "52.3644535217" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+753> a :Bridge ;
+	geo:long "4.8068666335" ;
+	geo:lat "52.3609696669" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+754> a :Bridge ;
+	geo:long "4.8022371408" ;
+	geo:lat "52.3525021159" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+755> a :Bridge ;
+	geo:long "4.7992330667" ;
+	geo:lat "52.359388984" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+756> a :Bridge ;
+	geo:long "4.799275982" ;
+	geo:lat "52.3580261114" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+757> a :Bridge ;
+	geo:long "4.7969156381" ;
+	geo:lat "52.3614610594" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+758> a :Bridge ;
+	geo:long "4.8150795575" ;
+	geo:lat "52.3573987173" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+759> a :Bridge ;
+	geo:long "4.7904890653" ;
+	geo:lat "52.356284784" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+760> a :Bridge ;
+	geo:long "4.7887027141" ;
+	geo:lat "52.3559080061" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+761> a :Bridge ;
+	geo:long "4.7974252578" ;
+	geo:lat "52.3481096207" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+762> a :Bridge ;
+	geo:long "4.7958695766" ;
+	geo:lat "52.3632414924" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+763> a :Bridge ;
+	geo:long "4.7975110885" ;
+	geo:lat "52.3603717987" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+764> a :Bridge ;
+	geo:long "4.8034548637" ;
+	geo:lat "52.3602948123" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+765> a :Bridge ;
+	geo:long "4.7992330667" ;
+	geo:lat "52.359388984" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+766> a :Bridge ;
+	geo:long "4.7952419397" ;
+	geo:lat "52.3603341245" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+767> a :Bridge ;
+	geo:long "4.7892928001" ;
+	geo:lat "52.3595904628" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+768> a :Bridge ;
+	geo:long "4.7937452671" ;
+	geo:lat "52.3503608085" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+769> a :Bridge ;
+	geo:long "4.7959446785" ;
+	geo:lat "52.347408354" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+770> a :Bridge ;
+	geo:long "4.7920983907" ;
+	geo:lat "52.3534375741" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+771> a :Bridge ;
+	geo:long "4.8108684894" ;
+	geo:lat "52.3514028042" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+772> a :Bridge ;
+	geo:long "4.8031115409" ;
+	geo:lat "52.3498594622" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+773> a :Bridge ;
+	geo:long "4.7935682413" ;
+	geo:lat "52.3441869716" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+775> a :Bridge ;
+	geo:long "4.7796690341" ;
+	geo:lat "52.3597935787" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+776> a :Bridge ;
+	geo:long "4.7761043784" ;
+	geo:lat "52.3724226051" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+777> a :Bridge ;
+	geo:long "4.9044319865" ;
+	geo:lat "52.3320776527" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+778> a :Bridge ;
+	geo:long "4.9059715744" ;
+	geo:lat "52.3327332698" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+780> a :Bridge ;
+	geo:long "4.9083801981" ;
+	geo:lat "52.3339559697" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+781> a :Bridge ;
+	geo:long "4.9119099852" ;
+	geo:lat "52.3320678183" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+782> a :Bridge ;
+	geo:long "4.8378273722" ;
+	geo:lat "52.336797879" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+783> a :Bridge ;
+	geo:long "4.7540485736" ;
+	geo:lat "52.3886462017" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+784> a :Bridge ;
+	geo:long "4.8473586019" ;
+	geo:lat "52.38904971" .
+
+<http://www.jimlemmers.com/scenicroute#Piet+Peelenbrug+%28786%29> a :Bridge ;
+	geo:long "4.8008370277" ;
+	geo:lat "52.3551855665" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+787> a :Bridge ;
+	geo:long "4.8365640518" ;
+	geo:lat "52.3519532826" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+788> a :Bridge ;
+	geo:long "4.7769787785" ;
+	geo:lat "52.3530296447" .
+
+<http://www.jimlemmers.com/scenicroute#Moeder+Alacoquebrug+%28789%29> a :Bridge ;
+	geo:long "4.7802510735" ;
+	geo:lat "52.3535866558" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+790> a :Bridge ;
+	geo:long "4.7788402316" ;
+	geo:lat "52.3559718948" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+791> a :Bridge ;
+	geo:long "4.7805568453" ;
+	geo:lat "52.355306793" .
+
+<http://www.jimlemmers.com/scenicroute#Titus+Brandsmabrug+%28792%29> a :Bridge ;
+	geo:long "4.7817477461" ;
+	geo:lat "52.3511324775" .
+
+<http://www.jimlemmers.com/scenicroute#Truus+Wijsmullerbrug+%28793%29> a :Bridge ;
+	geo:long "4.7834214446" ;
+	geo:lat "52.3504509192" .
+
+<http://www.jimlemmers.com/scenicroute#Louis+J.+Welterbrug+%28794%29> a :Bridge ;
+	geo:long "4.7861787554" ;
+	geo:lat "52.3530230915" .
+
+<http://www.jimlemmers.com/scenicroute#W.A.+Meelhuysenbrug+%28795%29> a :Bridge ;
+	geo:long "4.7836145636" ;
+	geo:lat "52.3539863889" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+797> a :Bridge ;
+	geo:long "4.8043748614" ;
+	geo:lat "52.3491172626" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+801> a :Bridge ;
+	geo:long "4.8623400804" ;
+	geo:lat "52.3260569942" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+802> a :Bridge ;
+	geo:long "4.8624473687" ;
+	geo:lat "52.3235848939" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+803> a :Bridge ;
+	geo:long "4.862334716" ;
+	geo:lat "52.327827379" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+804> a :Bridge ;
+	geo:long "4.8688471195" ;
+	geo:lat "52.333088938" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+805> a :Bridge ;
+	geo:long "4.8688632127" ;
+	geo:lat "52.3291387295" .
+
+<http://www.jimlemmers.com/scenicroute#Lex+van+Deldenbrug+%28808%29> a :Bridge ;
+	geo:long "4.8733290907" ;
+	geo:lat "52.3353097509" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+811> a :Bridge ;
+	geo:long "4.869072425" ;
+	geo:lat "52.3227750379" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+812> a :Bridge ;
+	geo:long "4.865311968" ;
+	geo:lat "52.3229356987" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+813> a :Bridge ;
+	geo:long "4.8732781287" ;
+	geo:lat "52.3229012714" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+814> a :Bridge ;
+	geo:long "4.8852997895" ;
+	geo:lat "52.3230930802" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+815> a :Bridge ;
+	geo:long "4.8623239871" ;
+	geo:lat "52.33032219" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+816> a :Bridge ;
+	geo:long "4.8860990878" ;
+	geo:lat "52.3331446645" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+817> a :Bridge ;
+	geo:long "4.8864155885" ;
+	geo:lat "52.32939116" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+818> a :Bridge ;
+	geo:long "4.8780524608" ;
+	geo:lat "52.3229537321" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+820> a :Bridge ;
+	geo:long "4.8756867524" ;
+	geo:lat "52.3331053282" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+821> a :Bridge ;
+	geo:long "4.8911845561" ;
+	geo:lat "52.324988172" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+822> a :Bridge ;
+	geo:long "4.8787927505" ;
+	geo:lat "52.3290108746" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+823> a :Bridge ;
+	geo:long "4.8781436559" ;
+	geo:lat "52.3286994314" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+824> a :Bridge ;
+	geo:long "4.8760354396" ;
+	geo:lat "52.3288928543" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+825> a :Bridge ;
+	geo:long "4.8752736923" ;
+	geo:lat "52.3283650374" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+826> a :Bridge ;
+	geo:long "4.8746567842" ;
+	geo:lat "52.3288797409" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+827> a :Bridge ;
+	geo:long "4.8726934072" ;
+	geo:lat "52.3283158616" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+828> a :Bridge ;
+	geo:long "4.8698449012" ;
+	geo:lat "52.3288633491" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+829> a :Bridge ;
+	geo:long "4.8698449012" ;
+	geo:lat "52.3288633491" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+830> a :Bridge ;
+	geo:long "4.8712718364" ;
+	geo:lat "52.3283322536" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+831> a :Bridge ;
+	geo:long "4.8755633708" ;
+	geo:lat "52.3291583995" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+832> a :Bridge ;
+	geo:long "4.8732191201" ;
+	geo:lat "52.3291387295" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+833> a :Bridge ;
+	geo:long "4.8795169469" ;
+	geo:lat "52.3331217183" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+834> a :Bridge ;
+	geo:long "4.862270343" ;
+	geo:lat "52.3288305657" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+835> a :Bridge ;
+	geo:long "4.8641264316" ;
+	geo:lat "52.3290961113" .
+
+<http://www.jimlemmers.com/scenicroute#Rode+Brug+%28836%29> a :Bridge ;
+	geo:long "4.8911148187" ;
+	geo:lat "52.3287830295" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+837> a :Bridge ;
+	geo:long "4.8889851447" ;
+	geo:lat "52.3359866259" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+838> a :Bridge ;
+	geo:long "4.8931264755" ;
+	geo:lat "52.3331446645" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+839> a :Bridge ;
+	geo:long "4.8958301421" ;
+	geo:lat "52.3321382976" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+840> a :Bridge ;
+	geo:long "4.891028988" ;
+	geo:lat "52.3322202502" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+841> a :Bridge ;
+	geo:long "4.8971605178" ;
+	geo:lat "52.3327086843" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+844> a :Bridge ;
+	geo:long "4.895776498" ;
+	geo:lat "52.3306467346" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+845> a :Bridge ;
+	geo:long "4.8959750951" ;
+	geo:lat "52.3288813602" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+846> a :Bridge ;
+	geo:long "4.9307713927" ;
+	geo:lat "52.329243616" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+849> a :Bridge ;
+	geo:long "4.8629341897" ;
+	geo:lat "52.3226545418" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+850> a :Bridge ;
+	geo:long "4.86422165" ;
+	geo:lat "52.3226676571" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+851> a :Bridge ;
+	geo:long "4.8669521388" ;
+	geo:lat "52.3221004198" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+854> a :Bridge ;
+	geo:long "4.9172396482" ;
+	geo:lat "52.3317957145" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+856> a :Bridge ;
+	geo:long "4.8916740593" ;
+	geo:lat "52.3389849103" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+857> a :Bridge ;
+	geo:long "4.8684717239" ;
+	geo:lat "52.3405343477" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+858> a :Bridge ;
+	geo:long "4.8684770883" ;
+	geo:lat "52.3406818342" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+859> a :Bridge ;
+	geo:long "4.8688204111" ;
+	geo:lat "52.3405507351" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+860> a :Bridge ;
+	geo:long "4.8717654766" ;
+	geo:lat "52.3407473836" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+863> a :Bridge ;
+	geo:long "4.8732245983" ;
+	geo:lat "52.3408391526" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+864> a :Bridge ;
+	geo:long "4.8764915289" ;
+	geo:lat "52.3410259674" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+865> a :Bridge ;
+	geo:long "4.8882074178" ;
+	geo:lat "52.3348836058" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+866> a :Bridge ;
+	geo:long "4.8769314111" ;
+	geo:lat "52.3406523369" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+867> a :Bridge ;
+	geo:long "4.891157734" ;
+	geo:lat "52.3376779488" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+868> a :Bridge ;
+	geo:long "4.8918443795" ;
+	geo:lat "52.3378156117" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+869> a :Bridge ;
+	geo:long "4.8924344655" ;
+	geo:lat "52.3372879014" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+870> a :Bridge ;
+	geo:long "4.8986089107" ;
+	geo:lat "52.3337248722" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+871> a :Bridge ;
+	geo:long "4.9481439468" ;
+	geo:lat "52.2935742581" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+872> a :Bridge ;
+	geo:long "4.9515825387" ;
+	geo:lat "52.2947816359" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+873> a :Bridge ;
+	geo:long "4.951008546" ;
+	geo:lat "52.2954279632" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+874> a :Bridge ;
+	geo:long "4.9447107192" ;
+	geo:lat "52.3115830809" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+875> a :Bridge ;
+	geo:long "4.957091796" ;
+	geo:lat "52.2991941906" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+876> a :Bridge ;
+	geo:long "4.9549943086" ;
+	geo:lat "52.301198559" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+889> a :Bridge ;
+	geo:long "4.8883172747" ;
+	geo:lat "52.4094224913" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+890> a :Bridge ;
+	geo:long "4.8880758759" ;
+	geo:lat "52.4098086298" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+891> a :Bridge ;
+	geo:long "4.8861339566" ;
+	geo:lat "52.410417282" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+892> a :Bridge ;
+	geo:long "4.8852595564" ;
+	geo:lat "52.4111306378" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+893> a :Bridge ;
+	geo:long "4.8911550518" ;
+	geo:lat "52.4163790113" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+895> a :Bridge ;
+	geo:long "4.8918470618" ;
+	geo:lat "52.4191763617" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+896> a :Bridge ;
+	geo:long "4.8884352919" ;
+	geo:lat "52.4213617704" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+897> a :Bridge ;
+	geo:long "4.885318565" ;
+	geo:lat "52.4212472682" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+898> a :Bridge ;
+	geo:long "4.8839667317" ;
+	geo:lat "52.4203901275" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+899> a :Bridge ;
+	geo:long "4.8851576325" ;
+	geo:lat "52.419330129" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+901> a :Bridge ;
+	geo:long "4.9118885275" ;
+	geo:lat "52.4022423169" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+904> a :Bridge ;
+	geo:long "4.9111267802" ;
+	geo:lat "52.4080971596" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+905> a :Bridge ;
+	geo:long "4.9088522669" ;
+	geo:lat "52.4062678093" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+906> a :Bridge ;
+	geo:long "4.9062076088" ;
+	geo:lat "52.4048736559" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+907> a :Bridge ;
+	geo:long "4.9124276515" ;
+	geo:lat "52.4030687182" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+908> a :Bridge ;
+	geo:long "4.911330628" ;
+	geo:lat "52.4024125077" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+909> a :Bridge ;
+	geo:long "4.9107029911" ;
+	geo:lat "52.4005436452" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+912> a :Bridge ;
+	geo:long "4.9227058765" ;
+	geo:lat "52.3986567011" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+913> a :Bridge ;
+	geo:long "4.9068835255" ;
+	geo:lat "52.4027005215" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+915> a :Bridge ;
+	geo:long "4.9186262366" ;
+	geo:lat "52.408260783" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+916> a :Bridge ;
+	geo:long "4.9197473999" ;
+	geo:lat "52.4077404586" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+917> a :Bridge ;
+	geo:long "4.9251493689" ;
+	geo:lat "52.4077240961" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+918> a :Bridge ;
+	geo:long "4.9206378933" ;
+	geo:lat "52.4101751311" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+919> a :Bridge ;
+	geo:long "4.9170705553" ;
+	geo:lat "52.4118799763" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+923> a :Bridge ;
+	geo:long "4.918400931" ;
+	geo:lat "52.4136960057" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+924> a :Bridge ;
+	geo:long "4.9154022213" ;
+	geo:lat "52.4095861098" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+930> a :Bridge ;
+	geo:long "4.9444252365" ;
+	geo:lat "52.4029350519" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+931> a :Bridge ;
+	geo:long "4.9244868633" ;
+	geo:lat "52.3950887979" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+932> a :Bridge ;
+	geo:long "4.9265188091" ;
+	geo:lat "52.3973839389" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+933> a :Bridge ;
+	geo:long "4.92881478" ;
+	geo:lat "52.3992267502" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+934> a :Bridge ;
+	geo:long "4.9282407873" ;
+	geo:lat "52.3966605408" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+935> a :Bridge ;
+	geo:long "4.92875694" ;
+	geo:lat "52.3970822767" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+936> a :Bridge ;
+	geo:long "4.9330699321" ;
+	geo:lat "52.4025254224" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+939> a :Bridge ;
+	geo:long "4.9298673745" ;
+	geo:lat "52.396362147" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+940> a :Bridge ;
+	geo:long "4.9339014169" ;
+	geo:lat "52.4011966106" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+941> a :Bridge ;
+	geo:long "4.929051983" ;
+	geo:lat "52.4038607399" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+942> a :Bridge ;
+	geo:long "4.9346888178" ;
+	geo:lat "52.4017862644" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+943> a :Bridge ;
+	geo:long "4.9284768217" ;
+	geo:lat "52.394280772" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+944> a :Bridge ;
+	geo:long "4.9382305022" ;
+	geo:lat "52.4000772355" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+945> a :Bridge ;
+	geo:long "4.9397432681" ;
+	geo:lat "52.4015042701" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+946> a :Bridge ;
+	geo:long "4.9408429738" ;
+	geo:lat "52.4026039716" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+947> a :Bridge ;
+	geo:long "4.9417388316" ;
+	geo:lat "52.4030261712" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+948> a :Bridge ;
+	geo:long "4.9448501941" ;
+	geo:lat "52.4017628333" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+949> a :Bridge ;
+	geo:long "4.9471944448" ;
+	geo:lat "52.4008071236" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+950> a :Bridge ;
+	geo:long "4.9468242999" ;
+	geo:lat "52.3981264439" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+951> a :Bridge ;
+	geo:long "4.9490934488" ;
+	geo:lat "52.4002768922" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+952> a :Bridge ;
+	geo:long "4.9479615565" ;
+	geo:lat "52.3992295028" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+953> a :Bridge ;
+	geo:long "4.9473285552" ;
+	geo:lat "52.3986272426" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+954> a :Bridge ;
+	geo:long "4.9437987682" ;
+	geo:lat "52.3996844656" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+956> a :Bridge ;
+	geo:long "4.9386328336" ;
+	geo:lat "52.4004503637" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+957> a :Bridge ;
+	geo:long "4.9317100521" ;
+	geo:lat "52.3978465833" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+958> a :Bridge ;
+	geo:long "4.9294746035" ;
+	geo:lat "52.3989059822" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+959> a :Bridge ;
+	geo:long "4.9359548204" ;
+	geo:lat "52.4011447633" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+960> a :Bridge ;
+	geo:long "4.9399068829" ;
+	geo:lat "52.3994373461" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+961> a :Bridge ;
+	geo:long "4.9299198502" ;
+	geo:lat "52.3960025983" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+962> a :Bridge ;
+	geo:long "4.9362939473" ;
+	geo:lat "52.3936484617" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+963> a :Bridge ;
+	geo:long "4.9333435174" ;
+	geo:lat "52.3949807743" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+964> a :Bridge ;
+	geo:long "4.9338316795" ;
+	geo:lat "52.3945781387" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+965> a :Bridge ;
+	geo:long "4.9386757489" ;
+	geo:lat "52.3948269221" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+966> a :Bridge ;
+	geo:long "4.9439972516" ;
+	geo:lat "52.3973343193" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+967> a :Bridge ;
+	geo:long "4.9221077439" ;
+	geo:lat "52.4059143661" .
+
+<http://www.jimlemmers.com/scenicroute#IJdoornlaanbrug+%28970%29> a :Bridge ;
+	geo:long "4.9251440045" ;
+	geo:lat "52.4048049289" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+971> a :Bridge ;
+	geo:long "4.9176606413" ;
+	geo:lat "52.4080349826" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+972> a :Bridge ;
+	geo:long "4.9155953404" ;
+	geo:lat "52.4094617598" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+973> a :Bridge ;
+	geo:long "4.9180683371" ;
+	geo:lat "52.4083491394" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+974> a :Bridge ;
+	geo:long "4.9215713021" ;
+	geo:lat "52.406788151" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+975> a :Bridge ;
+	geo:long "4.9221077439" ;
+	geo:lat "52.4059143661" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+978> a :Bridge ;
+	geo:long "4.9704223748" ;
+	geo:lat "52.3920378483" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+980> a :Bridge ;
+	geo:long "4.9520814296" ;
+	geo:lat "52.3993015116" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+981> a :Bridge ;
+	geo:long "4.9507993337" ;
+	geo:lat "52.3976158197" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+984> a :Bridge ;
+	geo:long "4.9444103118" ;
+	geo:lat "52.3937597621" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+985> a :Bridge ;
+	geo:long "4.9453061696" ;
+	geo:lat "52.3948792974" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+986> a :Bridge ;
+	geo:long "4.949570882" ;
+	geo:lat "52.3961984795" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+987> a :Bridge ;
+	geo:long "4.9565110978" ;
+	geo:lat "52.3882787031" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+988> a :Bridge ;
+	geo:long "4.9427580711" ;
+	geo:lat "52.3939234386" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+989> a :Bridge ;
+	geo:long "4.9626748141" ;
+	geo:lat "52.3899647516" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+990> a :Bridge ;
+	geo:long "4.9536357697" ;
+	geo:lat "52.3874896758" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+991> a :Bridge ;
+	geo:long "4.9536357697" ;
+	geo:lat "52.3880528005" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+992> a :Bridge ;
+	geo:long "4.9535123881" ;
+	geo:lat "52.3888090787" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+993> a :Bridge ;
+	geo:long "4.9536411341" ;
+	geo:lat "52.3893296264" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+994> a :Bridge ;
+	geo:long "4.9735873815" ;
+	geo:lat "52.3881649335" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+Overhoeks+%28995%29> a :Bridge ;
+	geo:long "4.9023009714" ;
+	geo:lat "52.3831694192" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+996> a :Bridge ;
+	geo:long "4.9558298167" ;
+	geo:lat "52.3991763143" .
+
+<http://www.jimlemmers.com/scenicroute#Na+Druk+Gelukbrug+%28999%29> a :Bridge ;
+	geo:long "4.8534794029" ;
+	geo:lat "52.3417429229" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1001> a :Bridge ;
+	geo:long "4.9595245596" ;
+	geo:lat "52.3081852553" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1003> a :Bridge ;
+	geo:long "4.9536800262" ;
+	geo:lat "52.308421406" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1004> a :Bridge ;
+	geo:long "4.9539375182" ;
+	geo:lat "52.3074439961" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1005> a :Bridge ;
+	geo:long "4.952253091" ;
+	geo:lat "52.3099760337" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1006> a :Bridge ;
+	geo:long "4.9507939693" ;
+	geo:lat "52.3115535642" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1007> a :Bridge ;
+	geo:long "4.9499785777" ;
+	geo:lat "52.3116650715" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1008> a :Bridge ;
+	geo:long "4.9494850513" ;
+	geo:lat "52.3129736215" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1009> a :Bridge ;
+	geo:long "4.9480259296" ;
+	geo:lat "52.3138033337" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1010> a :Bridge ;
+	geo:long "4.9509334441" ;
+	geo:lat "52.3148625879" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1011> a :Bridge ;
+	geo:long "4.9511051055" ;
+	geo:lat "52.3164760162" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1012> a :Bridge ;
+	geo:long "4.9496030685" ;
+	geo:lat "52.3181287354" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1013> a :Bridge ;
+	geo:long "4.9553859111" ;
+	geo:lat "52.3163710795" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1014> a :Bridge ;
+	geo:long "4.9599563953" ;
+	geo:lat "52.317925428" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1018> a :Bridge ;
+	geo:long "4.9708059307" ;
+	geo:lat "52.3251471855" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1032> a :Bridge ;
+	geo:long "4.9719968315" ;
+	geo:lat "52.3136557576" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1033> a :Bridge ;
+	geo:long "4.9699637171" ;
+	geo:lat "52.3129408262" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1034> a :Bridge ;
+	geo:long "4.965817022" ;
+	geo:lat "52.3115306068" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1035> a :Bridge ;
+	geo:long "4.9638268229" ;
+	geo:lat "52.310858277" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1036> a :Bridge ;
+	geo:long "4.961595225" ;
+	geo:lat "52.3100777058" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1039> a :Bridge ;
+	geo:long "4.95742439" ;
+	geo:lat "52.3137049497" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1041> a :Bridge ;
+	geo:long "4.9601817008" ;
+	geo:lat "52.3096218195" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1044> a :Bridge ;
+	geo:long "4.9652323004" ;
+	geo:lat "52.3147691253" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1045> a :Bridge ;
+	geo:long "4.9635371443" ;
+	geo:lat "52.3166416188" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1046> a :Bridge ;
+	geo:long "4.9617668863" ;
+	geo:lat "52.3185664989" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1048> a :Bridge ;
+	geo:long "4.9593046185" ;
+	geo:lat "52.3212487305" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1049> a :Bridge ;
+	geo:long "4.958027887" ;
+	geo:lat "52.3226258522" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1050> a :Bridge ;
+	geo:long "4.9569737788" ;
+	geo:lat "52.3237750603" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1051> a :Bridge ;
+	geo:long "4.9554529663" ;
+	geo:lat "52.3256979908" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1060> a :Bridge ;
+	geo:long "4.9744859215" ;
+	geo:lat "52.3144985746" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1062> a :Bridge ;
+	geo:long "4.9676194664" ;
+	geo:lat "52.3121274958" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1063> a :Bridge ;
+	geo:long "4.9525213119" ;
+	geo:lat "52.3125308834" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1064> a :Bridge ;
+	geo:long "4.954806554" ;
+	geo:lat "52.3133081318" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1065> a :Bridge ;
+	geo:long "4.956474888" ;
+	geo:lat "52.3083131704" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1066> a :Bridge ;
+	geo:long "4.9574994918" ;
+	geo:lat "52.3086509958" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1067> a :Bridge ;
+	geo:long "4.9582612392" ;
+	geo:lat "52.3173909219" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1076> a :Bridge ;
+	geo:long "4.9486321088" ;
+	geo:lat "52.319184607" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1077> a :Bridge ;
+	geo:long "4.961262631" ;
+	geo:lat "52.3062550037" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1083> a :Bridge ;
+	geo:long "4.9694540974" ;
+	geo:lat "52.3102367729" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1084> a :Bridge ;
+	geo:long "4.9714174744" ;
+	geo:lat "52.3079966618" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1132> a :Bridge ;
+	geo:long "4.9832218763" ;
+	geo:lat "52.322122552" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1134> a :Bridge ;
+	geo:long "4.9829858419" ;
+	geo:lat "52.3215028455" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1135> a :Bridge ;
+	geo:long "4.9823260184" ;
+	geo:lat "52.3212766012" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1150> a :Bridge ;
+	geo:long "4.9691188213" ;
+	geo:lat "52.3185615802" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1162> a :Bridge ;
+	geo:long "4.9596157547" ;
+	geo:lat "52.3122062059" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1163> a :Bridge ;
+	geo:long "4.9589291092" ;
+	geo:lat "52.3054694311" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1164> a :Bridge ;
+	geo:long "4.9609300371" ;
+	geo:lat "52.3108943535" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1165> a :Bridge ;
+	geo:long "4.9625286337" ;
+	geo:lat "52.3092216853" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1166> a :Bridge ;
+	geo:long "4.9639448401" ;
+	geo:lat "52.3074308764" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1167> a :Bridge ;
+	geo:long "4.9640145775" ;
+	geo:lat "52.3064796847" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1201> a :Bridge ;
+	geo:long "4.9539831158" ;
+	geo:lat "52.3273044672" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1216> a :Bridge ;
+	geo:long "4.9496862169" ;
+	geo:lat "52.3320415934" .
+
+<http://www.jimlemmers.com/scenicroute#Duivendrechtsebrug+%281267%29> a :Bridge ;
+	geo:long "4.9436458822" ;
+	geo:lat "52.3369453779" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1268> a :Bridge ;
+	geo:long "4.946478295" ;
+	geo:lat "52.3343984935" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1269> a :Bridge ;
+	geo:long "4.9426320072" ;
+	geo:lat "52.336742157" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1270> a :Bridge ;
+	geo:long "4.9383780237" ;
+	geo:lat "52.3391610808" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1350> a :Bridge ;
+	geo:long "4.981435525" ;
+	geo:lat "52.2946077492" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1450> a :Bridge ;
+	geo:long "4.9799656745" ;
+	geo:lat "52.291097062" .
+
+<http://www.jimlemmers.com/scenicroute#Wilhelminabrug+%281490%29> a :Bridge ;
+	geo:long "5.0145970162" ;
+	geo:lat "52.2990408247" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1513> a :Bridge ;
+	geo:long "4.8478293296" ;
+	geo:lat "52.3239127666" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1550> a :Bridge ;
+	geo:long "5.0143301364" ;
+	geo:lat "52.3103400842" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1552> a :Bridge ;
+	geo:long "4.8558974143" ;
+	geo:lat "52.3308303143" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1553> a :Bridge ;
+	geo:long "4.8511284467" ;
+	geo:lat "52.3299484691" .
+
+<http://www.jimlemmers.com/scenicroute#Rozenoordbrug+%281638%29> a :Bridge ;
+	geo:long "4.8989039537" ;
+	geo:lat "52.3326562353" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1750> a :Bridge ;
+	geo:long "4.992958295" ;
+	geo:lat "52.392512527" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1800> a :Bridge ;
+	geo:long "4.8422503348" ;
+	geo:lat "52.3693882738" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1801> a :Bridge ;
+	geo:long "4.8809224244" ;
+	geo:lat "52.3331282744" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1802> a :Bridge ;
+	geo:long "4.8809224244" ;
+	geo:lat "52.3293583769" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1850> a :Bridge ;
+	geo:long "4.8143553611" ;
+	geo:lat "52.3420239585" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1886> a :Bridge ;
+	geo:long "4.7935199615" ;
+	geo:lat "52.350770401" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1893> a :Bridge ;
+	geo:long "4.8341661569" ;
+	geo:lat "52.3518779199" .
+
+<http://www.jimlemmers.com/scenicroute#Melkwegbrug+%281900%29> a :Bridge ;
+	geo:long "4.8814990994" ;
+	geo:lat "52.3648433295" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1901> a :Bridge ;
+	geo:long "4.8902940627" ;
+	geo:lat "52.3828747292" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1902> a :Bridge ;
+	geo:long "4.8782455798" ;
+	geo:lat "52.3839257811" .
+
+<http://www.jimlemmers.com/scenicroute#Ezelsbrug+%281904%29> a :Bridge ;
+	geo:long "4.9224752065" ;
+	geo:lat "52.3702011998" .
+
+<http://www.jimlemmers.com/scenicroute#Nijlpaardenbrug+%281907%29> a :Bridge ;
+	geo:long "4.9138224002" ;
+	geo:lat "52.3686224848" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1908> a :Bridge ;
+	geo:long "4.8819255706" ;
+	geo:lat "52.3896815655" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1909> a :Bridge ;
+	geo:long "4.8812442895" ;
+	geo:lat "52.3891577481" .
+
+<http://www.jimlemmers.com/scenicroute#Robi%C3%AF%C2%BF%C2%BDnnabrug+%281910%29> a :Bridge ;
+	geo:long "4.8817968246" ;
+	geo:lat "52.3887550593" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1911> a :Bridge ;
+	geo:long "4.8380446311" ;
+	geo:lat "52.3894188391" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1913> a :Bridge ;
+	geo:long "4.8043507215" ;
+	geo:lat "52.3854867598" .
+
+<http://www.jimlemmers.com/scenicroute#Witte+Katbrug+%281914%29> a :Bridge ;
+	geo:long "4.9215739843" ;
+	geo:lat "52.3727263714" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1915> a :Bridge ;
+	geo:long "4.9461483833" ;
+	geo:lat "52.3673475166" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1916> a :Bridge ;
+	geo:long "4.9461537477" ;
+	geo:lat "52.3666662084" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1917> a :Bridge ;
+	geo:long "4.8089802143" ;
+	geo:lat "52.3854343734" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1919> a :Bridge ;
+	geo:long "4.8497739312" ;
+	geo:lat "52.4004127237" .
+
+<http://www.jimlemmers.com/scenicroute#Hein+Donnerbrug+%281922%29> a :Bridge ;
+	geo:long "4.8821830627" ;
+	geo:lat "52.3620425335" .
+
+<http://www.jimlemmers.com/scenicroute#Ketelhuisbrug+%281923%29> a :Bridge ;
+	geo:long "4.8686915513" ;
+	geo:lat "52.3642406001" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1925> a :Bridge ;
+	geo:long "4.9198949214" ;
+	geo:lat "52.360117907" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1929> a :Bridge ;
+	geo:long "4.8665263184" ;
+	geo:lat "52.3886389729" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1930> a :Bridge ;
+	geo:long "4.8660059699" ;
+	geo:lat "52.3878597739" .
+
+<http://www.jimlemmers.com/scenicroute#Katterug+%281935%29> a :Bridge ;
+	geo:long "4.8677205917" ;
+	geo:lat "52.3718445428" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1936> a :Bridge ;
+	geo:long "4.8346650478" ;
+	geo:lat "52.3851495211" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1937> a :Bridge ;
+	geo:long "4.8469763872" ;
+	geo:lat "52.3953212114" .
+
+<http://www.jimlemmers.com/scenicroute#Mr.+J.J.+van+der+Veldebrug+%281939%29> a :Bridge ;
+	geo:long "4.9107646819" ;
+	geo:lat "52.3746872918" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1940> a :Bridge ;
+	geo:long "4.938509452" ;
+	geo:lat "52.3699318069" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1944> a :Bridge ;
+	geo:long "4.9312245723" ;
+	geo:lat "52.3493990706" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1945> a :Bridge ;
+	geo:long "4.836156356" ;
+	geo:lat "52.3890292482" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1946> a :Bridge ;
+	geo:long "4.8648284801" ;
+	geo:lat "52.3927753724" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1948> a :Bridge ;
+	geo:long "4.806246353" ;
+	geo:lat "52.3944727064" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1950> a :Bridge ;
+	geo:long "4.8016738769" ;
+	geo:lat "52.3858796561" .
+
+<http://www.jimlemmers.com/scenicroute#Olifantsbrug+%281957%29> a :Bridge ;
+	geo:long "4.9238002177" ;
+	geo:lat "52.3646877344" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1958> a :Bridge ;
+	geo:long "4.8187434551" ;
+	geo:lat "52.3847369731" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1961> a :Bridge ;
+	geo:long "4.8402601358" ;
+	geo:lat "52.3850283764" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1963> a :Bridge ;
+	geo:long "4.8343002673" ;
+	geo:lat "52.3849465217" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1964> a :Bridge ;
+	geo:long "4.8350298282" ;
+	geo:lat "52.3849596185" .
+
+<http://www.jimlemmers.com/scenicroute#Panamabrug+%281965%29> a :Bridge ;
+	geo:long "4.9338424083" ;
+	geo:lat "52.3665417374" .
+
+<http://www.jimlemmers.com/scenicroute#Panamabrug+%281966%29> a :Bridge ;
+	geo:long "4.9338102218" ;
+	geo:lat "52.3672197721" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+1973> a :Bridge ;
+	geo:long "4.8694372054" ;
+	geo:lat "52.3855293238" .
+
+<http://www.jimlemmers.com/scenicroute#Borneosteiger+%281981%29> a :Bridge ;
+	geo:long "4.9367231008" ;
+	geo:lat "52.3695551453" .
+
+<http://www.jimlemmers.com/scenicroute#Jaap+Hannisbrug+%281982%29> a :Bridge ;
+	geo:long "4.9364548799" ;
+	geo:lat "52.3698630254" .
+
+<http://www.jimlemmers.com/scenicroute#Serang+%281983%29> a :Bridge ;
+	geo:long "4.9488896009" ;
+	geo:lat "52.37300721" .
+
+<http://www.jimlemmers.com/scenicroute#Conscience+%281984%29> a :Bridge ;
+	geo:long "4.9329465505" ;
+	geo:lat "52.3780636373" .
+
+<http://www.jimlemmers.com/scenicroute#Idee+%281985%29> a :Bridge ;
+	geo:long "4.9325978633" ;
+	geo:lat "52.3773464721" .
+
+<http://www.jimlemmers.com/scenicroute#Majang+%281986%29> a :Bridge ;
+	geo:long "4.9301570531" ;
+	geo:lat "52.3788921289" .
+
+<http://www.jimlemmers.com/scenicroute#Kunst+%281987%29> a :Bridge ;
+	geo:long "4.9300122138" ;
+	geo:lat "52.3785974103" .
+
+<http://www.jimlemmers.com/scenicroute#Light+%281988%29> a :Bridge ;
+	geo:long "4.9298244592" ;
+	geo:lat "52.3781880758" .
+
+<http://www.jimlemmers.com/scenicroute#Image+%281989%29> a :Bridge ;
+	geo:long "4.9296581622" ;
+	geo:lat "52.3778573307" .
+
+<http://www.jimlemmers.com/scenicroute#Lamong+%281990%29> a :Bridge ;
+	geo:long "4.9276035901" ;
+	geo:lat "52.3793243791" .
+
+<http://www.jimlemmers.com/scenicroute#Society+%281991%29> a :Bridge ;
+	geo:long "4.9274587508" ;
+	geo:lat "52.3789379738" .
+
+<http://www.jimlemmers.com/scenicroute#Word+%281992%29> a :Bridge ;
+	geo:long "4.9271368858" ;
+	geo:lat "52.3783387113" .
+
+<http://www.jimlemmers.com/scenicroute#Brantas+%281993%29> a :Bridge ;
+	geo:long "4.9254685518" ;
+	geo:lat "52.3796583878" .
+
+<http://www.jimlemmers.com/scenicroute#Enseignement+%281994%29> a :Bridge ;
+	geo:long "4.9253076192" ;
+	geo:lat "52.3793374775" .
+
+<http://www.jimlemmers.com/scenicroute#Wetenschap+%281995%29> a :Bridge ;
+	geo:long "4.9250125762" ;
+	geo:lat "52.3786792768" .
+
+<http://www.jimlemmers.com/scenicroute#Lage+Brug+%281997%29> a :Bridge ;
+	geo:long "4.9428331729" ;
+	geo:lat "52.3723325392" .
+
+<http://www.jimlemmers.com/scenicroute#Hoge+Brug+%281998%29> a :Bridge ;
+	geo:long "4.9488896009" ;
+	geo:lat "52.37300721" .
+
+<http://www.jimlemmers.com/scenicroute#Korte+Brug+%281999%29> a :Bridge ;
+	geo:long "4.9494099494" ;
+	geo:lat "52.3719689988" .
+
+<http://www.jimlemmers.com/scenicroute#Jan+Schaeferbrug+%282000%29> a :Bridge ;
+	geo:long "4.9225395795" ;
+	geo:lat "52.3780308903" .
+
+<http://www.jimlemmers.com/scenicroute#Enne%C3%AF%C2%BF%C2%BDs+Heermabrug+%282001%29> a :Bridge ;
+	geo:long "4.9767041083" ;
+	geo:lat "52.3651496046" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2002> a :Bridge ;
+	geo:long "4.9863010522" ;
+	geo:lat "52.3600179879" .
+
+<http://www.jimlemmers.com/scenicroute#Benno+Premselabrug+%282005%29> a :Bridge ;
+	geo:long "5.0157785293" ;
+	geo:lat "52.3468807581" .
+
+<http://www.jimlemmers.com/scenicroute#Uyllanderbrug+%282007%29> a :Bridge ;
+	geo:long "5.0089710828" ;
+	geo:lat "52.3366700461" .
+
+<http://www.jimlemmers.com/scenicroute#Nesciobrug+%282013%29> a :Bridge ;
+	geo:long "4.9704223748" ;
+	geo:lat "52.3568679643" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2050> a :Bridge ;
+	geo:long "5.0110149261" ;
+	geo:lat "52.3459697391" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2151> a :Bridge ;
+	geo:long "4.7978329536" ;
+	geo:lat "52.3439903384" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2163> a :Bridge ;
+	geo:long "4.8706267651" ;
+	geo:lat "52.322418467" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2164> a :Bridge ;
+	geo:long "4.8775415" ;
+	geo:lat "52.3227397908" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2165> a :Bridge ;
+	geo:long "4.881173211" ;
+	geo:lat "52.3228119243" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2166> a :Bridge ;
+	geo:long "4.8845259722" ;
+	geo:lat "52.3228676638" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2200> a :Bridge ;
+	geo:long "4.7747230407" ;
+	geo:lat "52.3979889687" .
+
+<http://www.jimlemmers.com/scenicroute#Han+Lammersbrug+%282202%29> a :Bridge ;
+	geo:long "4.8913293954" ;
+	geo:lat "52.3830253488" .
+
+<http://www.jimlemmers.com/scenicroute#Buiksloterdraaibrug+%282205%29> a :Bridge ;
+	geo:long "4.9215096112" ;
+	geo:lat "52.3990944859" .
+
+<http://www.jimlemmers.com/scenicroute#Ruud+Krolbrug+%282232%29> a :Bridge ;
+	geo:long "4.9514752504" ;
+	geo:lat "52.3459386069" .
+
+<http://www.jimlemmers.com/scenicroute#Sjaak+Swartbrug+%282233%29> a :Bridge ;
+	geo:long "4.9505901214" ;
+	geo:lat "52.3454667045" .
+
+<http://www.jimlemmers.com/scenicroute#Piet+Keizerbrug+%282234%29> a :Bridge ;
+	geo:long "4.9510997411" ;
+	geo:lat "52.3451094972" .
+
+<http://www.jimlemmers.com/scenicroute#Gerrie+M%C3%AF%C2%BF%C2%BDhrenbrug+%282235%29> a :Bridge ;
+	geo:long "4.9519795057" ;
+	geo:lat "52.3445294389" .
+
+<http://www.jimlemmers.com/scenicroute#Barry+Hulshoffbrug+%282236%29> a :Bridge ;
+	geo:long "4.9512874957" ;
+	geo:lat "52.343130058" .
+
+<http://www.jimlemmers.com/scenicroute#Johan+Neeskensbrug+%282237%29> a :Bridge ;
+	geo:long "4.9481707689" ;
+	geo:lat "52.3440018087" .
+
+<http://www.jimlemmers.com/scenicroute#Johan+Cruijffbrug+%282238%29> a :Bridge ;
+	geo:long "4.9487179395" ;
+	geo:lat "52.3436839166" .
+
+<http://www.jimlemmers.com/scenicroute#Wim+Suurbierbrug+%282239%29> a :Bridge ;
+	geo:long "4.9496245261" ;
+	geo:lat "52.3431136715" .
+
+<http://www.jimlemmers.com/scenicroute#Arie+Haanbrug+%282240%29> a :Bridge ;
+	geo:long "4.9478757259" ;
+	geo:lat "52.3431824946" .
+
+<http://www.jimlemmers.com/scenicroute#Jan+Wilsbrug+%282247%29> a :Bridge ;
+	geo:long "4.8515535768" ;
+	geo:lat "52.3445056793" .
+
+<http://www.jimlemmers.com/scenicroute#Eduard+Roosnekbrug+%282252%29> a :Bridge ;
+	geo:long "4.7866186377" ;
+	geo:lat "52.3510407299" .
+
+<http://www.jimlemmers.com/scenicroute#Jan+Swammerdambrug+%282291%29> a :Bridge ;
+	geo:long "4.8717599984" ;
+	geo:lat "52.3650726266" .
+
+<http://www.jimlemmers.com/scenicroute#Horst+Blankenburgbrug+%282293%29> a :Bridge ;
+	geo:long "4.9473446485" ;
+	geo:lat "52.3435315242" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2294> a :Bridge ;
+	geo:long "4.9300283071" ;
+	geo:lat "52.3497267519" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2295> a :Bridge ;
+	geo:long "4.9281561252" ;
+	geo:lat "52.3486421173" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2296> a :Bridge ;
+	geo:long "4.9286067363" ;
+	geo:lat "52.3518238553" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2297> a :Bridge ;
+	geo:long "4.9309348937" ;
+	geo:lat "52.3528887525" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2300> a :Bridge ;
+	geo:long "4.9175184842" ;
+	geo:lat "52.401000231" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2307> a :Bridge ;
+	geo:long "4.9340891715" ;
+	geo:lat "52.3509031081" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2308> a :Bridge ;
+	geo:long "4.9331611272" ;
+	geo:lat "52.3504443657" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2311> a :Bridge ;
+	geo:long "4.9317180988" ;
+	geo:lat "52.3507622092" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2312> a :Bridge ;
+	geo:long "4.9333113309" ;
+	geo:lat "52.3515551695" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2314> a :Bridge ;
+	geo:long "4.9308705207" ;
+	geo:lat "52.3514535927" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+2315> a :Bridge ;
+	geo:long "4.9316912767" ;
+	geo:lat "52.3520630498" .
+
+<http://www.jimlemmers.com/scenicroute#Dick+van+Dijkbrug+%28P%29> a :Bridge ;
+	geo:long "4.9518453952" ;
+	geo:lat "52.3479588821" .
+
+<http://www.jimlemmers.com/scenicroute#Johnny+Repbrug+%28P%29> a :Bridge ;
+	geo:long "4.950547206" ;
+	geo:lat "52.3471887962" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+9P> a :Bridge ;
+	geo:long "4.7920822975" ;
+	geo:lat "52.340719545" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+12P> a :Bridge ;
+	geo:long "4.9598061916" ;
+	geo:lat "52.3584241663" .
+
+<http://www.jimlemmers.com/scenicroute#Ipenslotersluis+%2813P%29> a :Bridge ;
+	geo:long "4.9691724654" ;
+	geo:lat "52.3606076709" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+26P> a :Bridge ;
+	geo:long "4.7953116771" ;
+	geo:lat "52.3414799113" .
+
+<http://www.jimlemmers.com/scenicroute#Amsterdamse+brug+%2854P%29> a :Bridge ;
+	geo:long "4.9614262458" ;
+	geo:lat "52.367039619" .
+
+<http://www.jimlemmers.com/scenicroute#Schellingerwouderbrug+%2855P%29> a :Bridge ;
+	geo:long "4.9670320626" ;
+	geo:lat "52.3785114504" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+120P> a :Bridge ;
+	geo:long "4.8445355769" ;
+	geo:lat "52.3861546814" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+121P> a :Bridge ;
+	geo:long "4.8445570346" ;
+	geo:lat "52.3850512957" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+122P> a :Bridge ;
+	geo:long "4.8447823402" ;
+	geo:lat "52.3817573452" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+123P> a :Bridge ;
+	geo:long "4.8445087549" ;
+	geo:lat "52.3795077567" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+124P> a :Bridge ;
+	geo:long "4.8440420505" ;
+	geo:lat "52.3778900779" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+no.+172P> a :Bridge ;
+	geo:long "4.8451042053" ;
+	geo:lat "52.3851135051" .
+
+<http://www.jimlemmers.com/scenicroute#Brug+Muiden> a :Bridge ;
+	geo:long "5.0147753831" ;
+	geo:lat "52.3324415214" .
+
+<http://www.jimlemmers.com/scenicroute#Muiderfietsbrug> a :Bridge ;
+	geo:long "5.0143408652" ;
+	geo:lat "52.3327758845" .
+
+<http://www.jimlemmers.com/scenicroute#Muiderspoorbrug> a :Bridge ;
+	geo:long "5.0175166007" ;
+	geo:lat "52.3247258804" .
+
+<http://www.jimlemmers.com/scenicroute#Weesperbrug> a :Bridge ;
+	geo:long "5.0213467952" ;
+	geo:lat "52.3028420079" .
+
+<http://www.jimlemmers.com/scenicroute#Veeneikbrug> a :Bridge ;
+	geo:long "4.9886573728" ;
+	geo:lat "52.3280068724" .
+
+<http://www.jimlemmers.com/scenicroute#Zeeburgerbrug> a :Bridge ;
+	geo:long "4.9674451228" ;
+	geo:lat "52.3588009227" .
+
+<http://www.jimlemmers.com/scenicroute#Zeeburgertunnel> a :Bridge ;
+	geo:long "4.9740916368" ;
+	geo:lat "52.3740789655" .
+
+<http://www.jimlemmers.com/scenicroute#Verdwenen+brug> a :Bridge ;
+	geo:long "4.8735999938" ;
+	geo:lat "52.3381990992" ;
+	geo:long "4.8833417769" ;
+	geo:lat "52.3585552123" .
