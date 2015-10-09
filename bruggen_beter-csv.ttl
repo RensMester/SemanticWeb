@@ -1,0 +1,5185 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix scr: <http://www.jimlemmers.com/scenicroute#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+
+<http://www.bruggenvanamsterdam.nl/muntplein.htm> a scr:Bridge ;
+	geo:long "4.893583" ;
+	geo:lat "52.367168" ;
+	rdf:label "Muntsluis (1)" .
+
+<http://www.bruggenvanamsterdam.nl/singel_hoek_leidsestraat.htm> a scr:Bridge ;
+	geo:long "4.8896288749" ;
+	geo:lat "52.3674130265" ;
+	rdf:label "Heiligewegsluis (2)" .
+
+<http://www.bruggenvanamsterdam.nl/singel_bij_beulingsloot.htm.htm> a scr:Bridge ;
+	geo:long "4.8877835151" ;
+	geo:lat "52.3684087644" ;
+	rdf:label "Krijtbergbrug (3)" .
+
+<http://www.bruggenvanamsterdam.nl/singel_hoek_wijde_heisteeg.htm> a scr:Bridge ;
+	geo:long "4.8878264304" ;
+	geo:lat "52.3687756095" ;
+	rdf:label "Heibrug (4)" .
+
+<http://www.bruggenvanamsterdam.nl/singel_hoek_oude_spiegelstraat.htm> a scr:Bridge ;
+	geo:long "4.8880624648" ;
+	geo:lat "52.3702036562" ;
+	rdf:label "Raambrug (5)" .
+
+<http://www.bruggenvanamsterdam.nl/singel_hoek_gasthuismolensteeg.htm> a scr:Bridge ;
+	geo:long "4.8884701606" ;
+	geo:lat "52.3722080843" ;
+	rdf:label "Gasthuisbrug (6)" .
+
+<http://www.bruggenvanamsterdam.nl/hugo_de_grootkade_hoek_frederik_.htm> a scr:Bridge ;
+	geo:long "4.8713683959" ;
+	geo:lat "52.3725748979" ;
+	rdf:label "Brug no. 7" .
+
+<http://www.bruggenvanamsterdam.nl/singel_hoek_raadhuisstraat.htm> a scr:Bridge ;
+	geo:long "4.8888778564" ;
+	geo:lat "52.3732430148" ;
+	rdf:label "Huiszittenbrug (8)" .
+
+<http://www.bruggenvanamsterdam.nl/torensluis.htm> a scr:Bridge ;
+	geo:long "4.8894196626" ;
+	geo:lat "52.3745562936" ;
+	rdf:label "Torensluis (9)" .
+
+<http://www.bruggenvanamsterdam.nl/singel_hoek_lijnbaanssteeg.htm> a scr:Bridge ;
+	geo:long "4.8913025733" ;
+	geo:lat "52.3762821642" ;
+	rdf:label "Lijnbaansbrug (10)" .
+
+<http://www.bruggenvanamsterdam.nl/singel_hoek_blauwburgwal.htm> a scr:Bridge ;
+	geo:long "4.8910879966" ;
+	geo:lat "52.3764262566" ;
+	rdf:label "Brug no. 11" .
+
+<http://www.bruggenvanamsterdam.nl/singel_hoek_korsjespoortsteeg.htm> a scr:Bridge ;
+	geo:long "4.8920965072" ;
+	geo:lat "52.3770419189" ;
+	rdf:label "Korsjesbrug (12)" .
+
+<http://www.bruggenvanamsterdam.nl/stationsplein.htm> a scr:Bridge ;
+	geo:long "4.8976755019" ;
+	geo:lat "52.3787185726" ;
+	rdf:label "Melkmarktsbrug (13)" .
+
+<http://www.bruggenvanamsterdam.nl/haarlemmersluis.htm> a scr:Bridge ;
+	geo:long "4.8944568511" ;
+	geo:lat "52.3790460366" ;
+	rdf:label "Haarlemmersluis (14)" .
+
+<http://www.bruggenvanamsterdam.nl/brouwersgrcaht_hoek_singel.htm> a scr:Bridge ;
+	geo:long "4.8941135284" ;
+	geo:lat "52.3788495585" ;
+	rdf:label "Brug no. 15" .
+
+<http://www.bruggenvanamsterdam.nl/melkmeisjesbrug.htm> a scr:Bridge ;
+	geo:long "4.8922681686" ;
+	geo:lat "52.3792294154" ;
+	rdf:label "Melkmeisjesbrug (16)" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_brouwersgracht.htm> a scr:Bridge ;
+	geo:long "4.8917531844" ;
+	geo:lat "52.3792687108" ;
+	rdf:label "West-Indische brug (17)" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_blauwburgwal.htm> a scr:Bridge ;
+	geo:long "4.8898005363" ;
+	geo:lat "52.376858531" ;
+	rdf:label "Brug no. 18" .
+
+<http://www.bruggenvanamsterdam.nl/blauwburgwal_hoek_herengracht.htm> a scr:Bridge ;
+	geo:long "4.890143859" ;
+	geo:lat "52.3769109277" ;
+	rdf:label "Brug no. 19" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_oude_leliestraa.htm> a scr:Bridge ;
+	geo:long "4.8880195495" ;
+	geo:lat "52.3748412143" ;
+	rdf:label "Brug no. 20" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_leliegracht.htm> a scr:Bridge ;
+	geo:long "4.8876762267" ;
+	geo:lat "52.3748412143" ;
+	rdf:label "Brug no. 21" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_raadhuisstraat.htm> a scr:Bridge ;
+	geo:long "4.8871934291" ;
+	geo:lat "52.3734100425" ;
+	rdf:label "Warmoesbrug (22)" .
+
+<http://www.bruggenvanamsterdam.nl/bilderdijkkade_hoek_kinkerstraat.htm> a scr:Bridge ;
+	geo:long "4.8708104964" ;
+	geo:lat "52.36679723" ;
+	rdf:label "Brug no. 23" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_gasthuismolenst.htm> a scr:Bridge ;
+	geo:long "4.8870539542" ;
+	geo:lat "52.3722604864" ;
+	rdf:label "Brug no. 24" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_oude_spiegelstr.htm> a scr:Bridge ;
+	geo:long "4.8868822928" ;
+	geo:lat "52.3702691618" ;
+	rdf:label "Brug no. 25" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_wijde_heisteeg.htm> a scr:Bridge ;
+	geo:long "4.8867320892" ;
+	geo:lat "52.3687870734" ;
+	rdf:label "Vingboomsbrug (26)" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht.htm> a scr:Bridge ;
+	geo:long "4.8869788524" ;
+	geo:lat "52.3681238022" ;
+	rdf:label "Beulingsluis (27)" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_leidsegracht.htm> a scr:Bridge ;
+	geo:long "4.8865389701" ;
+	geo:lat "52.367530944" ;
+	rdf:label "Vierheemskinderensluis (28)" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_leidsestraat.htm> a scr:Bridge ;
+	geo:long "4.8883038636" ;
+	geo:lat "52.3667808523" ;
+	rdf:label "Koningssluis (29)" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_vijzelstraat.htm> a scr:Bridge ;
+	geo:long "4.8928099748" ;
+	geo:lat "52.3651758099" ;
+	rdf:label "Brug no. 30" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_reguliersgracht.htm> a scr:Bridge ;
+	geo:long "4.8958998796" ;
+	geo:lat "52.3646254962" ;
+	rdf:label "Brug no. 31" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_thorbeckeplein.htm> a scr:Bridge ;
+	geo:long "4.8960554477" ;
+	geo:lat "52.3648023834" ;
+	rdf:label "Kaassluis (32)" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_utrechtsestraat.htm> a scr:Bridge ;
+	geo:long "4.8978525277" ;
+	geo:lat "52.3651496046" ;
+	rdf:label "Brug no. 34" .
+
+<http://www.bruggenvanamsterdam.nl/herengracht_hoek_amstel.htm> a scr:Bridge ;
+	geo:long "4.9005025502" ;
+	geo:lat "52.3656343994" ;
+	rdf:label "Hendrick Jacobsz Staetsbrug (35)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_amstel.htm> a scr:Bridge ;
+	geo:long "4.9011355516" ;
+	geo:lat "52.3643437853" ;
+	rdf:label "Lucas Jansz Sinckbrug (36)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_utrechtsestra.htm> a scr:Bridge ;
+	geo:long "4.8983621474" ;
+	geo:lat "52.3638425976" ;
+	rdf:label "Peylsluis (37)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_reguliersgrac.htm> a scr:Bridge ;
+	geo:long "4.8961681005" ;
+	geo:lat "52.3634003684" ;
+	rdf:label "Oetgenssluis (38)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_reguliersgrac1.htm> a scr:Bridge ;
+	geo:long "4.8959910747" ;
+	geo:lat "52.3635707091" ;
+	rdf:label "Brug no. 39" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_reguliersgrac2.htm> a scr:Bridge ;
+	geo:long "4.8960018035" ;
+	geo:lat "52.3632038207" ;
+	rdf:label "Brug no. 40" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_vijzelstraat.htm> a scr:Bridge ;
+	geo:long "4.8923647281" ;
+	geo:lat "52.3638655279" ;
+	rdf:label "Brug no. 41" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_nieuwe_spiege.htm> a scr:Bridge ;
+	geo:long "4.8894679424" ;
+	geo:lat "52.3642782709" ;
+	rdf:label "Wielrijdersbrug (42)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_leidsestraat.htm> a scr:Bridge ;
+	geo:long "4.886447775" ;
+	geo:lat "52.3659668738" ;
+	rdf:label "Brug no. 43" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_leidsegracht.htm> a scr:Bridge ;
+	geo:long "4.8845652955" ;
+	geo:lat "52.3667904894" ;
+	rdf:label "Hemonybrug (44)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_leidsegracht1.htm> a scr:Bridge ;
+	geo:long "4.8851124662" ;
+	geo:lat "52.3670033988" ;
+	rdf:label "Steenhouwerijbrug (45)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_leidsegracht2.htm> a scr:Bridge ;
+	geo:long "4.8847530502" ;
+	geo:lat "52.3670001233" ;
+	rdf:label "Quellijnbrug (46)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_runstraat.htm> a scr:Bridge ;
+	geo:long "4.8845648643" ;
+	geo:lat "52.3688673203" ;
+	rdf:label "Brug no. 47" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_wolvenstraat.htm> a scr:Bridge ;
+	geo:long "4.8846833127" ;
+	geo:lat "52.3703639554" ;
+	rdf:label "Felix Meritisbrug (48)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_reestraat.htm> a scr:Bridge ;
+	geo:long "4.8848603385" ;
+	geo:lat "52.3723683761" ;
+	rdf:label "Kees Fensbrug (49)" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_herengracht_hoek_anne_fra.htm> a scr:Bridge ;
+	geo:long "4.909890713" ;
+	geo:lat "52.3691733781" ;
+	rdf:label "Latjesbrug (50)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_leliegracht.htm> a scr:Bridge ;
+	geo:long "4.8860297816" ;
+	geo:lat "52.3754747211" ;
+	rdf:label "Brug no. 51" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_leliegracht1.htm> a scr:Bridge ;
+	geo:long "4.8857079166" ;
+	geo:lat "52.3754910956" ;
+	rdf:label "Brug no. 52" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_leliegracht2.htm> a scr:Bridge ;
+	geo:long "4.8862229007" ;
+	geo:lat "52.3753142511" ;
+	rdf:label "Brug no. 53" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_prinsenstraat.htm> a scr:Bridge ;
+	geo:long "4.8879287856" ;
+	geo:lat "52.3775214816" ;
+	rdf:label "Noordschebrug (54)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_brouwersgrach.htm> a scr:Bridge ;
+	geo:long "4.8897634166" ;
+	geo:lat "52.3795845202" ;
+	rdf:label "Pastoorsbrug (55)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_brouwersgrach1.htm> a scr:Bridge ;
+	geo:long "4.89019257" ;
+	geo:lat "52.3796303644" ;
+	rdf:label "Brug no. 56" .
+
+<http://www.bruggenvanamsterdam.nl/korte_prinsengracht_hoek_brouwer.htm> a scr:Bridge ;
+	geo:long "4.8886368888" ;
+	geo:lat "52.3804228067" ;
+	rdf:label "Papiermolensluis (57)" .
+
+<http://www.bruggenvanamsterdam.nl/singel_hoek_prins_hendrikkade.htm> a scr:Bridge ;
+	geo:long "4.8949990886" ;
+	geo:lat "52.3795124792" ;
+	rdf:label "Haringpakkersbrug (58)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_brouwersgrach.htm> a scr:Bridge ;
+	geo:long "4.8882935661" ;
+	geo:lat "52.3803638652" ;
+	rdf:label "Lekkeresluis (59)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_prinsenstraat.htm> a scr:Bridge ;
+	geo:long "4.8862229007" ;
+	geo:lat "52.3781043816" ;
+	rdf:label "Prinsensluis (60)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_leliegracht.htm> a scr:Bridge ;
+	geo:long "4.8843346256" ;
+	geo:lat "52.3760740224" ;
+	rdf:label "Leliesluis (61)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_leliegracht1.htm> a scr:Bridge ;
+	geo:long "4.8845277446" ;
+	geo:lat "52.3759102797" ;
+	rdf:label "Grote Brouwerssluis (62)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_westermarkt.htm> a scr:Bridge ;
+	geo:long "4.8830900806" ;
+	geo:lat "52.3740042698" ;
+	rdf:label "Nieuwe-Wercksbrug (63)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_reestraat.htm> a scr:Bridge ;
+	geo:long "4.8829184192" ;
+	geo:lat "52.3724256908" ;
+	rdf:label "Reesluis (64)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_berenstraat.htm> a scr:Bridge ;
+	geo:long "4.8827413934" ;
+	geo:lat "52.370432736" ;
+	rdf:label "Berensluis (65)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_looiersplein.htm> a scr:Bridge ;
+	geo:long "4.882569732" ;
+	geo:lat "52.3689260877" ;
+	rdf:label "Brug no. 66" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_leidsegracht.htm> a scr:Bridge ;
+	geo:long "4.8827092069" ;
+	geo:lat "52.3662795028" ;
+	rdf:label "Kleine Brouwerssluis (67)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_leidsestraat.htm> a scr:Bridge ;
+	geo:long "4.8845219489" ;
+	geo:lat "52.3650284051" ;
+	rdf:label "Aalmoezeniersbrug (68)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_nieuwe_spiege1.htm> a scr:Bridge ;
+	geo:long "4.888051736" ;
+	geo:lat "52.3626927926" ;
+	rdf:label "Antiquairbrug (69)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_vijzelstraat.htm> a scr:Bridge ;
+	geo:long "4.8917102691" ;
+	geo:lat "52.3622145173" ;
+	rdf:label "Walenweeshuissluis (70)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_reguliersgrac.htm> a scr:Bridge ;
+	geo:long "4.8963022109" ;
+	geo:lat "52.3616248557" ;
+	rdf:label "Duyfjesbrug (71)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_reguliersgrac1.htm> a scr:Bridge ;
+	geo:long "4.896098363" ;
+	geo:lat "52.3614545075" ;
+	rdf:label "Brug no. 72" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_reguliersgrac2.htm> a scr:Bridge ;
+	geo:long "4.8960876342" ;
+	geo:lat "52.3617755477" ;
+	rdf:label "Brug no. 73" .
+
+<http://www.bruggenvanamsterdam.nl/reguliersgracht_hoek_kerkstraat.htm> a scr:Bridge ;
+	geo:long "4.89603399" ;
+	geo:lat "52.3624110694" ;
+	rdf:label "Kerksluis (74)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_utrechtsestra.htm> a scr:Bridge ;
+	geo:long "4.8990166064" ;
+	geo:lat "52.3620900338" ;
+	rdf:label "Brug no. 75" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_amstel.htm> a scr:Bridge ;
+	geo:long "4.9019992229" ;
+	geo:lat "52.3626600342" ;
+	rdf:label "Frans Hendriksz Oetgensbrug (76)" .
+
+<http://www.bruggenvanamsterdam.nl/achtergracht_hoek_amstel.htm> a scr:Bridge ;
+	geo:long "4.902642953" ;
+	geo:lat "52.3614872668" ;
+	rdf:label "Henrick de Keijserbrug (77)" .
+
+<http://www.bruggenvanamsterdam.nl/funenkade.htm> a scr:Bridge ;
+	geo:long "4.9269330379" ;
+	geo:lat "52.3667513725" ;
+	rdf:label "Gooyersbrug (78)" .
+
+<http://www.bruggenvanamsterdam.nl/eerste_jacob_van_campenstraat.htm> a scr:Bridge ;
+	geo:long "4.8866248008" ;
+	geo:lat "52.3575887384" ;
+	rdf:label "Brandweerbrug (79)" .
+
+<http://www.bruggenvanamsterdam.nl/hoogte_kadijk_hoek_entrepotdoksl.htm> a scr:Bridge ;
+	geo:long "4.9192726489" ;
+	geo:lat "52.3679567546" ;
+	rdf:label "Entrepotdoksluis (80)" .
+
+<http://www.bruggenvanamsterdam.nl/reguliersgracht_hoek_lijnbaansgr.htm> a scr:Bridge ;
+	geo:long "4.8961627361" ;
+	geo:lat "52.3598066829" ;
+	rdf:label "Brug no. 81" .
+
+<http://www.bruggenvanamsterdam.nl/weteringschans_hoek_museumstraat.htm> a scr:Bridge ;
+	geo:long "4.8862492915" ;
+	geo:lat "52.3607763843" ;
+	rdf:label "Museumbrug (82)" .
+
+<http://www.bruggenvanamsterdam.nl/ferdinand_bolstraat_hoek_stadhou.htm> a scr:Bridge ;
+	geo:long "4.8908895131" ;
+	geo:lat "52.3583635573" ;
+	rdf:label "Freddy Heinekenbrug (84)" .
+
+<http://www.bruggenvanamsterdam.nl/mr_visserplein3.htm> a scr:Bridge ;
+	geo:long "4.9035978194" ;
+	geo:lat "52.3679698564" ;
+	rdf:label "Brug no. 85" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_vijzelstraat.htm> a scr:Bridge ;
+	geo:long "4.8909807082" ;
+	geo:lat "52.3600032457" ;
+	rdf:label "Bakkerijbrug (86)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht.htm> a scr:Bridge ;
+	geo:long "4.8877405998" ;
+	geo:lat "52.3626371033" ;
+	rdf:label "Spiegelbrug (87)" .
+
+<http://www.bruggenvanamsterdam.nl/spiegelgracht_hoek_zieseniskade.htm> a scr:Bridge ;
+	geo:long "4.8869037505" ;
+	geo:lat "52.3617722718" ;
+	rdf:label "Brug no. 88" .
+
+<http://www.bruggenvanamsterdam.nl/lijnbaansgracht_hoek_weteringstr.htm> a scr:Bridge ;
+	geo:long "4.8884594318" ;
+	geo:lat "52.3608189721" ;
+	rdf:label "Brug no. 89" .
+
+<http://www.bruggenvanamsterdam.nl/weteringschans.htm> a scr:Bridge ;
+	geo:long "4.8881751176" ;
+	geo:lat "52.360525771" ;
+	rdf:label "Weteringpoort (90)" .
+
+<http://www.bruggenvanamsterdam.nl/oostenburgergracht_23.htm> a scr:Bridge ;
+	geo:long "4.9173414584" ;
+	geo:lat "52.3702675242" ;
+	rdf:label "Paerlduiker (91)" .
+
+<http://www.bruggenvanamsterdam.nl/waddendijk.htm> a scr:Bridge ;
+	geo:long "4.9335151788" ;
+	geo:lat "52.3930788612" ;
+	rdf:label "Blauwezandbrug (92)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_leidsegracht2.htm> a scr:Bridge ;
+	geo:long "4.8825532075" ;
+	geo:lat "52.366070055" ;
+	rdf:label "Pieter Goemansbrug (93)" .
+
+<http://www.bruggenvanamsterdam.nl/leidsegracht_hoek_lijnbaansgrach.htm> a scr:Bridge ;
+	geo:long "4.8809224244" ;
+	geo:lat "52.3654804449" ;
+	rdf:label "Brug no. 94" .
+
+<http://www.bruggenvanamsterdam.nl/haarlemmer_houttuinen.htm> a scr:Bridge ;
+	geo:long "4.8900204774" ;
+	geo:lat "52.382219037" ;
+	rdf:label "Brug no. 95" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_passeerdersgr.htm> a scr:Bridge ;
+	geo:long "4.8821991559" ;
+	geo:lat "52.3673769961" ;
+	rdf:label "Brug no. 96" .
+
+<http://www.bruggenvanamsterdam.nl/zieseniskade_hoek_weteringschans.htm> a scr:Bridge ;
+	geo:long "4.8869413015" ;
+	geo:lat "52.3617689959" ;
+	rdf:label "Brug no. 97" .
+
+<http://www.bruggenvanamsterdam.nl/raamplein_hoek_passeerdersgracht.htm> a scr:Bridge ;
+	geo:long "4.8800158378" ;
+	geo:lat "52.3667317192" ;
+	rdf:label "Brug no. 98" .
+
+<http://www.bruggenvanamsterdam.nl/raamplein_hoek_passeerdersgracht1.htm> a scr:Bridge ;
+	geo:long "4.8794472095" ;
+	geo:lat "52.36714116" ;
+	rdf:label "Brug no. 99" .
+
+<http://www.bruggenvanamsterdam.nl/looiersgracht_hoek_lijnbaansgrac.htm> a scr:Bridge ;
+	geo:long "4.8792272683" ;
+	geo:lat "52.3678093591" ;
+	rdf:label "Brug no. 100" .
+
+<http://www.bruggenvanamsterdam.nl/ceintuurbaan_hoek_weesperzijde.htm> a scr:Bridge ;
+	geo:long "4.905786502" ;
+	geo:lat "52.3562028761" ;
+	rdf:label "Nieuwe Amstelbrug (101)" .
+
+<http://www.bruggenvanamsterdam.nl/looiersgracht_hoek_1e_looiersdwa.htm> a scr:Bridge ;
+	geo:long "4.8813676711" ;
+	geo:lat "52.3685266792" ;
+	rdf:label "Brug no. 102" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_looiersgracht.htm> a scr:Bridge ;
+	geo:long "4.8823118087" ;
+	geo:lat "52.3688018126" ;
+	rdf:label "Looierssluis (103)" .
+
+<http://www.bruggenvanamsterdam.nl/o_z_achterburgwal_hoek_st.htm> a scr:Bridge ;
+	geo:long "4.8945265886" ;
+	geo:lat "52.3701430635" ;
+	rdf:label "Makelaarsbruggetje (105)" .
+
+<http://www.bruggenvanamsterdam.nl/keizersgracht_hoek_raadhuisstraa.htm> a scr:Bridge ;
+	geo:long "4.8849940177" ;
+	geo:lat "52.3740093717" ;
+	rdf:label "Niek Engelschmanbrug (106)" .
+
+<http://www.bruggenvanamsterdam.nl/elandsgracht_hoek_marnixstraat.htm> a scr:Bridge ;
+	geo:long "4.8782724019" ;
+	geo:lat "52.3688394796" ;
+	rdf:label "Baanbrug (107)" .
+
+<http://www.bruggenvanamsterdam.nl/da_costakade_hoek_de_clercqstraa.htm> a scr:Bridge ;
+	geo:long "4.8721462365" ;
+	geo:lat "52.371340165" ;
+	rdf:label "Brug no. 108" .
+
+<http://www.bruggenvanamsterdam.nl/durgerdammergouw.htm> a scr:Bridge ;
+	geo:long "4.9978452798" ;
+	geo:lat "52.3799989431" ;
+	rdf:label "Brug no. 109" .
+
+<http://www.bruggenvanamsterdam.nl/lijnbaansgracht_hoek_lauriergrac.htm> a scr:Bridge ;
+	geo:long "4.8773550864" ;
+	geo:lat "52.3704853297" ;
+	rdf:label "Brug no. 110" .
+
+<http://www.bruggenvanamsterdam.nl/lauriergracht_hoek_hazenstraat.htm> a scr:Bridge ;
+	geo:long "4.879608142" ;
+	geo:lat "52.37110435" ;
+	rdf:label "Brug no. 111" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_lauriergracht.htm> a scr:Bridge ;
+	geo:long "4.8825800296" ;
+	geo:lat "52.3718674689" ;
+	rdf:label "Caetsbaanbrug (112)" .
+
+<http://www.bruggenvanamsterdam.nl/middenweg2.htm> a scr:Bridge ;
+	geo:long "4.9333864328" ;
+	geo:lat "52.3636165699" ;
+	rdf:label "Brug no. 113" .
+
+<http://www.bruggenvanamsterdam.nl/oostenburgergracht.htm> a scr:Bridge ;
+	geo:long "4.9205976602" ;
+	geo:lat "52.3692112342" ;
+	rdf:label "Oesjesduiker (114)" .
+
+<http://www.bruggenvanamsterdam.nl/valentijnkade.htm> a scr:Bridge ;
+	geo:long "4.9380642053" ;
+	geo:lat "52.3578442827" ;
+	rdf:label "Brug no. 115" .
+
+<http://www.bruggenvanamsterdam.nl/ruysdaelkade_hoek_ceintuurbaan.htm> a scr:Bridge ;
+	geo:long "4.8864531394" ;
+	geo:lat "52.3522580088" ;
+	rdf:label "Ceintuurbrug (116)" .
+
+<http://www.bruggenvanamsterdam.nl/rozengracht_hoek_lijnbaansgracht.htm> a scr:Bridge ;
+	geo:long "4.8763304826" ;
+	geo:lat "52.3723341768" ;
+	rdf:label "Jordaanbrug (117)" .
+
+<http://www.bruggenvanamsterdam.nl/bloemgracht_hoek_lijnbaansgracht.htm> a scr:Bridge ;
+	geo:long "4.8768669244" ;
+	geo:lat "52.3739602467" ;
+	rdf:label "Brug no. 118" .
+
+<http://www.bruggenvanamsterdam.nl/lijnbaansgracht_hoek_bloemgracht.htm> a scr:Bridge ;
+	geo:long "4.8770707723" ;
+	geo:lat "52.3738685465" ;
+	rdf:label "Brug no. 119" .
+
+<http://www.bruggenvanamsterdam.nl/bloemgracht_hoek_3e_leliedwarsst.htm> a scr:Bridge ;
+	geo:long "4.8792379972" ;
+	geo:lat "52.3743565205" ;
+	rdf:label "Atlasbrug (120)" .
+
+<http://www.bruggenvanamsterdam.nl/bloemgracht_hoek_2e_leliedwarsst.htm> a scr:Bridge ;
+	geo:long "4.88114773" ;
+	geo:lat "52.3748215646" ;
+	rdf:label "Rosa Overbeekbrug (121)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_leidsegracht1.htm> a scr:Bridge ;
+	geo:long "4.8830360051" ;
+	geo:lat "52.3662485743" ;
+	rdf:label "Beudekerbrug (122)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_bloemgracht.htm> a scr:Bridge ;
+	geo:long "4.8832559463" ;
+	geo:lat "52.3751916314" ;
+	rdf:label "Kees de Jongenbrug (123)" .
+
+<http://www.bruggenvanamsterdam.nl/prinsengracht_hoek_egelantiersgr.htm> a scr:Bridge ;
+	geo:long "4.8845219489" ;
+	geo:lat "52.376563799" ;
+	rdf:label "Pansemertbrug (124)" .
+
+<http://www.bruggenvanamsterdam.nl/egelantiersgracht_hoek_1e_lelied.htm> a scr:Bridge ;
+	geo:long "4.8824083682" ;
+	geo:lat "52.3761904688" ;
+	rdf:label "Hilletjesbrug (125)" .
+
+<http://www.bruggenvanamsterdam.nl/egelantiersgracht_hoek_2e_lelied.htm> a scr:Bridge ;
+	geo:long "4.8805469152" ;
+	geo:lat "52.375804036" ;
+	rdf:label "Brug no. 126" .
+
+<http://www.bruggenvanamsterdam.nl/lijnbaansgracht_hoek_egelantiers.htm> a scr:Bridge ;
+	geo:long "4.8777359601" ;
+	geo:lat "52.3752669544" ;
+	rdf:label "Brug no. 127" .
+
+<http://www.bruggenvanamsterdam.nl/lijnbaansgracht_hoek_westerstraa.htm> a scr:Bridge ;
+	geo:long "4.8791897174" ;
+	geo:lat "52.3777099682" ;
+	rdf:label "Anjeliersbrug (128)" .
+
+<http://www.bruggenvanamsterdam.nl/groene_bruggetje.htm> a scr:Bridge ;
+	geo:long "4.8573297139" ;
+	geo:lat "52.3684808235" ;
+	rdf:label "Van Kinsbergenbrug (129)" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_tuinstraat_hoek_lijnbaans.htm> a scr:Bridge ;
+	geo:long "4.8782294866" ;
+	geo:lat "52.3762690649" ;
+	rdf:label "Trapjesbrug (130)" .
+
+<http://www.bruggenvanamsterdam.nl/korte_s'Gravesandestraa.htm> a scr:Bridge ;
+	geo:long "4.915077674" ;
+	geo:lat "52.3618312381" ;
+	rdf:label "Oude Koekjesbrug (131)" .
+
+<http://www.bruggenvanamsterdam.nl/de_wittenkade_hoek_jac.htm> a scr:Bridge ;
+	geo:long "4.8737877485" ;
+	geo:lat "52.3810173186" ;
+	rdf:label "Brug no. 132" .
+
+<http://www.bruggenvanamsterdam.nl/bilderdijkkade_hoek_de_clercqstr.htm> a scr:Bridge ;
+	geo:long "4.8682355758" ;
+	geo:lat "52.3704722287" ;
+	rdf:label "Brug no. 135" .
+
+<http://www.bruggenvanamsterdam.nl/oranje_nassaulaan.htm> a scr:Bridge ;
+	geo:long "4.8586332675" ;
+	geo:lat "52.3539749212" ;
+	rdf:label "Willemsparkbrug (136)" .
+
+<http://www.bruggenvanamsterdam.nl/ruysdaelstraat_hoek_hobbemakade.htm> a scr:Bridge ;
+	geo:long "4.8867320892" ;
+	geo:lat "52.3546564252" ;
+	rdf:label "Diamantbrug (137)" .
+
+<http://www.bruggenvanamsterdam.nl/da_costakade_hoek_potgieterstraa.htm> a scr:Bridge ;
+	geo:long "4.8723554488" ;
+	geo:lat "52.3693717264" ;
+	rdf:label "Brug no. 138" .
+
+<http://www.bruggenvanamsterdam.nl/de_wittenkade_hoek_2e_nassaustra.htm> a scr:Bridge ;
+	geo:long "4.8770439502" ;
+	geo:lat "52.3832046182" ;
+	rdf:label "Staatsliedenbrug (139)" .
+
+<http://www.bruggenvanamsterdam.nl/in.htm> a scr:Bridge ;
+	geo:long "4.8637938377" ;
+	geo:lat "52.3630580473" ;
+	rdf:label "Brug no. 140" .
+
+<http://www.bruggenvanamsterdam.nl/verbinding_klein_dantzig_met_par.htm> a scr:Bridge ;
+	geo:long "4.9278181668" ;
+	geo:lat "52.350994856" ;
+	rdf:label "Brug no. 141" .
+
+<http://www.bruggenvanamsterdam.nl/lijnbaansgracht_hoek_willemsstra.htm> a scr:Bridge ;
+	geo:long "4.8811530944" ;
+	geo:lat "52.3807881043" ;
+	rdf:label "Ouwe Fransenbrug (142)" .
+
+<http://www.bruggenvanamsterdam.nl/ruysdaelkade_hoek_eerste_jan_ste.htm> a scr:Bridge ;
+	geo:long "4.8867320892" ;
+	geo:lat "52.3534834455" ;
+	rdf:label "Korrelbrug (143)" .
+
+<http://www.bruggenvanamsterdam.nl/klein_dantzig_volkstuincomplex.htm> a scr:Bridge ;
+	geo:long "4.9276411411" ;
+	geo:lat "52.3500020024" ;
+	rdf:label "Brug no. 144" .
+
+<http://www.bruggenvanamsterdam.nl/pieter_langendijkstraat_hoek_jac.htm> a scr:Bridge ;
+	geo:long "4.8601782199" ;
+	geo:lat "52.3621915861" ;
+	rdf:label "Brug no. 145" .
+
+<http://www.bruggenvanamsterdam.nl/brouwersgracht_hoek_willemsstraa.htm> a scr:Bridge ;
+	geo:long "4.8863243934" ;
+	geo:lat "52.3816853078" ;
+	rdf:label "Oranjebrug (146)" .
+
+<http://www.bruggenvanamsterdam.nl/de_ruyterkade.htm> a scr:Bridge ;
+	geo:long "4.8969352123" ;
+	geo:lat "52.381420078" ;
+	rdf:label "Westertoegang (147)" .
+
+<http://www.bruggenvanamsterdam.nl/brouwersgracht_hoek_palmgracht.htm> a scr:Bridge ;
+	geo:long "4.8848652717" ;
+	geo:lat "52.3825562982" ;
+	rdf:label "Dommersbrug (148)" .
+
+<http://www.bruggenvanamsterdam.nl/marnixstraat_hoek_brouwersgracht.htm> a scr:Bridge ;
+	geo:long "4.8826336738" ;
+	geo:lat "52.3838856714" ;
+	rdf:label "Bullebak (149)" .
+
+<http://www.bruggenvanamsterdam.nl/nassaukade_hoek_jacob_catskade.htm> a scr:Bridge ;
+	geo:long "4.8797047015" ;
+	geo:lat "52.3814724692" ;
+	rdf:label "Rotterdammerbrug (150)" .
+
+<http://www.bruggenvanamsterdam.nl/korte_marnixkade_hoek_haarlemmer.htm> a scr:Bridge ;
+	geo:long "4.8822581645" ;
+	geo:lat "52.3849105056" ;
+	rdf:label "Willemsbrug (151)" .
+
+<http://www.bruggenvanamsterdam.nl/ingang_westerpark.htm> a scr:Bridge ;
+	geo:long "4.8815286037" ;
+	geo:lat "52.3856701119" ;
+	rdf:label "Mirakelbrug (152)" .
+
+<http://www.bruggenvanamsterdam.nl/jacob_catskade_hoek_nassaukade.htm> a scr:Bridge ;
+	geo:long "4.8790395137" ;
+	geo:lat "52.3818850477" ;
+	rdf:label "Kattenslootbrug (155)" .
+
+<http://www.bruggenvanamsterdam.nl/marnixstraat_hoek_groenmarkt.htm> a scr:Bridge ;
+	geo:long "4.8768937465" ;
+	geo:lat "52.3703313921" ;
+	rdf:label "Groenmarktbrug (156)" .
+
+<http://www.bruggenvanamsterdam.nl/mr_visserplein2.htm> a scr:Bridge ;
+	geo:long "4.9047028896" ;
+	geo:lat "52.3678748682" ;
+	rdf:label "Tunfun (158)" .
+
+<http://www.bruggenvanamsterdam.nl/oosterpark.htm> a scr:Bridge ;
+	geo:long "4.9230491992" ;
+	geo:lat "52.3613464016" ;
+	rdf:label "Brug no. 159" .
+
+<http://www.bruggenvanamsterdam.nl/marnixstraat_hoek_bloemgracht.htm> a scr:Bridge ;
+	geo:long "4.8762607452" ;
+	geo:lat "52.3737211707" ;
+	rdf:label "Bullebakssluis (160)" .
+
+<http://www.bruggenvanamsterdam.nl/nassaukade_hoek_marnixplein.htm> a scr:Bridge ;
+	geo:long "4.8780953761" ;
+	geo:lat "52.3784991704" ;
+	rdf:label "Zaagpoort (161)" .
+
+<http://www.bruggenvanamsterdam.nl/hoofdweg_hoek_erasmusgracht.htm> a scr:Bridge ;
+	geo:long "4.8474162694" ;
+	geo:lat "52.3754880101" ;
+	rdf:label "Saï¿½dja en Adindabrug (162)" .
+
+<http://www.bruggenvanamsterdam.nl/ertshaven_hoek_verbindingsdam.htm> a scr:Bridge ;
+	geo:long "4.938804495" ;
+	geo:lat "52.3752030936" ;
+	rdf:label "Blauwehoofdbrug (163)" .
+
+<http://www.bruggenvanamsterdam.nl/bilderdijkkade_hoek_kwakersstraa.htm> a scr:Bridge ;
+	geo:long "4.8695874091" ;
+	geo:lat "52.3685921873" ;
+	rdf:label "Smederij Meisterbrug (164)" .
+
+<http://www.bruggenvanamsterdam.nl/nassaukade_hoek_2e_hugo_de_groot.htm> a scr:Bridge ;
+	geo:long "4.875423896" ;
+	geo:lat "52.3740814217" ;
+	rdf:label "Raampoort (165)" .
+
+<http://www.bruggenvanamsterdam.nl/nassaukade_hoek_hugo_de_grootkad.htm> a scr:Bridge ;
+	geo:long "4.8749035474" ;
+	geo:lat "52.3732757654" ;
+	rdf:label "Nassaubrug (166)" .
+
+<http://www.bruggenvanamsterdam.nl/rozengracht_hoek_nassaukade.htm> a scr:Bridge ;
+	geo:long "4.8745334026" ;
+	geo:lat "52.3718903951" ;
+	rdf:label "Rijckerbrug (167)" .
+
+<http://www.bruggenvanamsterdam.nl/kruislaan2.htm> a scr:Bridge ;
+	geo:long "4.933697569" ;
+	geo:lat "52.3438494174" ;
+	rdf:label "Brug no. 168" .
+
+<http://www.bruggenvanamsterdam.nl/oude_kinkerbrug.htm> a scr:Bridge ;
+	geo:long "4.876797187" ;
+	geo:lat "52.3684939251" ;
+	rdf:label "Oude Kinkerbrug (169)" .
+
+<http://www.bruggenvanamsterdam.nl/koekjesbrug.htm> a scr:Bridge ;
+	geo:long "4.8782402154" ;
+	geo:lat "52.3662371098" ;
+	rdf:label "Koekjesbrug (170)" .
+
+<http://www.bruggenvanamsterdam.nl/van_der_palmkade_hoek_van_hallst.htm> a scr:Bridge ;
+	geo:long "4.8729294416" ;
+	geo:lat "52.3790198396" ;
+	rdf:label "Van Hallbrug (171)" .
+
+<http://www.bruggenvanamsterdam.nl/sarphatipark_1.htm> a scr:Bridge ;
+	geo:long "4.8978417989" ;
+	geo:lat "52.3551380587" ;
+	rdf:label "Liefdesbruggetje (172)" .
+
+<http://www.bruggenvanamsterdam.nl/wiegbrug.htm> a scr:Bridge ;
+	geo:long "4.8648774501" ;
+	geo:lat "52.3702331338" ;
+	rdf:label "Wiegbrug (173)" .
+
+<http://www.bruggenvanamsterdam.nl/leidseplein_hoek_leidsegracht.htm> a scr:Bridge ;
+	geo:long "4.881212103" ;
+	geo:lat "52.3632496819" ;
+	rdf:label "Leidsebrug (174)" .
+
+<http://www.bruggenvanamsterdam.nl/leidsegracht_hoek_marnixstraat.htm> a scr:Bridge ;
+	geo:long "4.8801606771" ;
+	geo:lat "52.3652282203" ;
+	rdf:label "Marnixbrug (175)" .
+
+<http://www.bruggenvanamsterdam.nl/stadhouderskade_hoek_hobbemakade.htm> a scr:Bridge ;
+	geo:long "4.8870271322" ;
+	geo:lat "52.3599999697" ;
+	rdf:label "Stadshoudersbrug (176)" .
+
+<http://www.bruggenvanamsterdam.nl/distelweg.htm> a scr:Bridge ;
+	geo:long "4.906902301" ;
+	geo:lat "52.3918348806" ;
+	rdf:label "Wasknijper (177)" .
+
+<http://www.bruggenvanamsterdam.nl/nassaukade_hoek_j.htm> a scr:Bridge ;
+	geo:long "4.8770815011" ;
+	geo:lat "52.366654744" ;
+	rdf:label "Osdorperbrug (178)" .
+
+<http://www.bruggenvanamsterdam.nl/hennetjesbrug.htm> a scr:Bridge ;
+	geo:long "4.8667335388" ;
+	geo:lat "52.3637541521" ;
+	rdf:label "Hennetjesbrug (179)" .
+
+<http://www.bruggenvanamsterdam.nl/da_costakade_hoek_j.htm> a scr:Bridge ;
+	geo:long "4.8743027326" ;
+	geo:lat "52.3665482886" ;
+	rdf:label "Brug no. 180" .
+
+<http://www.bruggenvanamsterdam.nl/bilderdijkstraat_hoek_jac.htm> a scr:Bridge ;
+	geo:long "4.8733639594" ;
+	geo:lat "52.3655394062" ;
+	rdf:label "Pesthuysbrug (181)" .
+
+<http://www.bruggenvanamsterdam.nl/haarlemmerweg1.htm> a scr:Bridge ;
+	geo:long "4.8646414157" ;
+	geo:lat "52.3854589296" ;
+	rdf:label "Het Sluisje (182)" .
+
+<http://www.bruggenvanamsterdam.nl/da_costakade_hoek_kinkerstraat.htm> a scr:Bridge ;
+	geo:long "4.8735570785" ;
+	geo:lat "52.3676324838" ;
+	rdf:label "Brug no. 183" .
+
+<http://www.bruggenvanamsterdam.nl/bilderdijkkade_hoek_jac.htm> a scr:Bridge ;
+	geo:long "4.871561515" ;
+	geo:lat "52.3657949046" ;
+	rdf:label "Brug no. 184" .
+
+<http://www.bruggenvanamsterdam.nl/sarphatipark_3.htm> a scr:Bridge ;
+	geo:long "4.895545828" ;
+	geo:lat "52.3539192209" ;
+	rdf:label "Brug no. 185" .
+
+<http://www.bruggenvanamsterdam.nl/baarsjesweg_hoek_postjesweg.htm> a scr:Bridge ;
+	geo:long "4.8578500625" ;
+	geo:lat "52.3643208553" ;
+	rdf:label "Brug no. 186" .
+
+<http://www.bruggenvanamsterdam.nl/spinozastraat.htm> a scr:Bridge ;
+	geo:long "4.9119019386" ;
+	geo:lat "52.361267779" ;
+	rdf:label "Spinozabrug (187)" .
+
+<http://www.bruggenvanamsterdam.nl/middenweg1.htm> a scr:Bridge ;
+	geo:long "4.9282526847" ;
+	geo:lat "52.3553182604" ;
+	rdf:label "Oetewalerbrug (189)" .
+
+<http://www.bruggenvanamsterdam.nl/molukkenstraat_hoek_valentijnkad.htm> a scr:Bridge ;
+	geo:long "4.9409127113" ;
+	geo:lat "52.3584110617" ;
+	rdf:label "Hartmanbrug (190)" .
+
+<http://www.bruggenvanamsterdam.nl/sarphatipark_2.htm> a scr:Bridge ;
+	geo:long "4.897047865" ;
+	geo:lat "52.3546007257" ;
+	rdf:label "Brug no. 191" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_kerkstraat.htm> a scr:Bridge ;
+	geo:long "4.9064034101" ;
+	geo:lat "52.364347061" ;
+	rdf:label "Brug no. 192" .
+
+<http://www.bruggenvanamsterdam.nl/haarlemmervaart.htm> a scr:Bridge ;
+	geo:long "4.8748659965" ;
+	geo:lat "52.3856291851" ;
+	rdf:label "Westergasbrug (193)" .
+
+<http://www.bruggenvanamsterdam.nl/nobelweg4.htm> a scr:Bridge ;
+	geo:long "4.9218100187" ;
+	geo:lat "52.3521711784" ;
+	rdf:label "Brug no. 194" .
+
+<http://www.bruggenvanamsterdam.nl/sportpark_nieuwe_diep_over_de_ri.htm> a scr:Bridge ;
+	geo:long "4.9529021856" ;
+	geo:lat "52.3578999781" ;
+	rdf:label "Brug no. 195" .
+
+<http://www.bruggenvanamsterdam.nl/javastraat.htm> a scr:Bridge ;
+	geo:long "4.9478596326" ;
+	geo:lat "52.3626305516" ;
+	rdf:label "Brug no. 196" .
+
+<http://www.bruggenvanamsterdam.nl/piet_heinkade4.htm> a scr:Bridge ;
+	geo:long "4.9132215854" ;
+	geo:lat "52.3777050562" ;
+	rdf:label "Zouthavenbrug (197)" .
+
+<http://www.bruggenvanamsterdam.nl/kleine_gartmanplantsoen_hoek_lei.htm> a scr:Bridge ;
+	geo:long "4.8840552446" ;
+	geo:lat "52.3629974447" ;
+	rdf:label "Brug no. 198" .
+
+<http://www.bruggenvanamsterdam.nl/overtoom_hoek_sloterkade.htm> a scr:Bridge ;
+	geo:long "4.8548030731" ;
+	geo:lat "52.3578639399" ;
+	rdf:label "Overtoomsesluis (199)" .
+
+<http://www.bruggenvanamsterdam.nl/vondelbrug.htm> a scr:Bridge ;
+	geo:long "4.8768830177" ;
+	geo:lat "52.360507753" ;
+	rdf:label "Vondelbrug (200)" .
+
+<http://www.bruggenvanamsterdam.nl/o_z_voorburgwal_hoek_grimburgwal.htm> a scr:Bridge ;
+	geo:long "4.8942690965" ;
+	geo:lat "52.3693438859" ;
+	rdf:label "Sleutelbrug (201)" .
+
+<http://www.bruggenvanamsterdam.nl/oude_turfmarkt_hoek_lange_brugst.htm> a scr:Bridge ;
+	geo:long "4.8926597711" ;
+	geo:lat "52.3691408139" ;
+	rdf:label "Grimnessesluis (202)" .
+
+<http://www.bruggenvanamsterdam.nl/o_z_achterburgwal_hoek_enge_lomb.htm> a scr:Bridge ;
+	geo:long "4.8947089788" ;
+	geo:lat "52.3707555381" ;
+	rdf:label "Lommertbrug (203)" .
+
+<http://www.bruggenvanamsterdam.nl/o_z_voorburgwal_hoek_damstraat.htm> a scr:Bridge ;
+	geo:long "4.8957657691" ;
+	geo:lat "52.3718379925" ;
+	rdf:label "Varkenssluis (204)" .
+
+<http://www.bruggenvanamsterdam.nl/o_z_voorburgwal_hoek_st.htm> a scr:Bridge ;
+	geo:long "4.8968279239" ;
+	geo:lat "52.3726895265" ;
+	rdf:label "St. Jansbrug (205)" .
+
+<http://www.bruggenvanamsterdam.nl/o_z_voorburgwal_hoek_oudekenniss.htm> a scr:Bridge ;
+	geo:long "4.8984157916" ;
+	geo:lat "52.3739209466" ;
+	rdf:label "Oudekerksbrug (206)" .
+
+<http://www.bruggenvanamsterdam.nl/o_z_voorburgwal_hoek_lange_nieze.htm> a scr:Bridge ;
+	geo:long "4.899370658" ;
+	geo:lat "52.374739691" ;
+	rdf:label "Liesdelsluis (207)" .
+
+<http://www.bruggenvanamsterdam.nl/zeedijk_hoek_o.htm> a scr:Bridge ;
+	geo:long "4.9000197526" ;
+	geo:lat "52.3753652015" ;
+	rdf:label "Armbrug (208)" .
+
+<http://www.bruggenvanamsterdam.nl/vredenburgersteeg.htm> a scr:Bridge ;
+	geo:long "4.9007063981" ;
+	geo:lat "52.3751556074" ;
+	rdf:label "Vredenburgerbrug (209)" .
+
+<http://www.bruggenvanamsterdam.nl/o_z_achterburgwal_hoek_korte_sto.htm> a scr:Bridge ;
+	geo:long "4.9001699563" ;
+	geo:lat "52.3745071692" ;
+	rdf:label "Stormsteegbrug (210)" .
+
+<http://www.bruggenvanamsterdam.nl/molensteeg.htm> a scr:Bridge ;
+	geo:long "4.8992794629" ;
+	geo:lat "52.3736982455" ;
+	rdf:label "Majoor Bosshardtbrug (211)" .
+
+<http://www.bruggenvanamsterdam.nl/flevopark1.htm> a scr:Bridge ;
+	geo:long "4.9487608548" ;
+	geo:lat "52.3622898624" ;
+	rdf:label "Brug no. 212" .
+
+<http://www.bruggenvanamsterdam.nl/dijksgracht.htm> a scr:Bridge ;
+	geo:long "4.9209892627" ;
+	geo:lat "52.375447074" ;
+	rdf:label "Brug no. 213" .
+
+<http://www.bruggenvanamsterdam.nl/o_z_achterburgwal_hoek_stoofstee.htm> a scr:Bridge ;
+	geo:long "4.8977720615" ;
+	geo:lat "52.3723816661" ;
+	rdf:label "Stoofbrug (214)" .
+
+<http://www.bruggenvanamsterdam.nl/o_z_achterburgwal_hoek_damstraat.htm> a scr:Bridge ;
+	geo:long "4.8969030257" ;
+	geo:lat "52.3715039247" ;
+	rdf:label "Paulusbroedersluis (215)" .
+
+<http://www.bruggenvanamsterdam.nl/o_z_achterburgwal_hoek_rusland.htm> a scr:Bridge ;
+	geo:long "4.8957443115" ;
+	geo:lat "52.3702658866" ;
+	rdf:label "Ruslandbrug (216)" .
+
+<http://www.bruggenvanamsterdam.nl/middenweg_153.htm> a scr:Bridge ;
+	geo:long "4.9345558759" ;
+	geo:lat "52.3510866037" ;
+	rdf:label "Frankendaelbrug (217)" .
+
+<http://www.bruggenvanamsterdam.nl/o_z_achterburgwal_hoek_grimburgw.htm> a scr:Bridge ;
+	geo:long "4.8948645469" ;
+	geo:lat "52.3693127701" ;
+	rdf:label "Gasthuisbrug (218)" .
+
+<http://www.bruggenvanamsterdam.nl/oude_turfmarkt_hoek_nieuwe_doele.htm> a scr:Bridge ;
+	geo:long "4.8937970277" ;
+	geo:lat "52.367537495" ;
+	rdf:label "Doelensluis (220)" .
+
+<http://www.bruggenvanamsterdam.nl/kloveniersburgwal_hoek.htm> a scr:Bridge ;
+	geo:long "4.8958623286" ;
+	geo:lat "52.3673409657" ;
+	rdf:label "Halvemaansbrug (221)" .
+
+<http://www.bruggenvanamsterdam.nl/kloveniersburgwal_hoek_staalstra.htm> a scr:Bridge ;
+	geo:long "4.8962592956" ;
+	geo:lat "52.3683792856" ;
+	rdf:label "Aluminiumbrug (222)" .
+
+<http://www.bruggenvanamsterdam.nl/kloveniersburgwal_hoek_raamgrach1.htm> a scr:Bridge ;
+	geo:long "4.8976647731" ;
+	geo:lat "52.3698925032" ;
+	rdf:label "Oost-Indische brug (223)" .
+
+<http://www.bruggenvanamsterdam.nl/kloveniersburgwal_hoek_oude_hoog.htm> a scr:Bridge ;
+	geo:long "4.8987322923" ;
+	geo:lat "52.3709929925" ;
+	rdf:label "Bushuissluis (224)" .
+
+<http://www.bruggenvanamsterdam.nl/kloveniersburgwal_hoek_raamgrach.htm> a scr:Bridge ;
+	geo:long "4.8980563756" ;
+	geo:lat "52.369921981" ;
+	rdf:label "Zandbrug (225)" .
+
+<http://www.bruggenvanamsterdam.nl/groenburgwal_hoek_raamgracht.htm> a scr:Bridge ;
+	geo:long "4.8989736911" ;
+	geo:lat "52.3696566805" ;
+	rdf:label "Raemsluis (226)" .
+
+<http://www.bruggenvanamsterdam.nl/groenburgwal_hoek_staalstraat.htm> a scr:Bridge ;
+	geo:long "4.8976325866" ;
+	geo:lat "52.368235167" ;
+	rdf:label "Staalmeestersbrug (227)" .
+
+<http://www.bruggenvanamsterdam.nl/oosterdokstraat.htm> a scr:Bridge ;
+	geo:long "4.9034047004" ;
+	geo:lat "52.3770386441" ;
+	rdf:label "Brug no. 228" .
+
+<http://www.bruggenvanamsterdam.nl/staalstraat_hoek_zwanenburgwal.htm> a scr:Bridge ;
+	geo:long "4.8990380641" ;
+	geo:lat "52.3680975987" ;
+	rdf:label "B. Bijvoetbrug (229)" .
+
+<http://www.bruggenvanamsterdam.nl/raamgracht_hoek_zwanenburgwal.htm> a scr:Bridge ;
+	geo:long "4.9001002189" ;
+	geo:lat "52.3694470593" ;
+	rdf:label "Moddermolenbrug (230)" .
+
+<http://www.bruggenvanamsterdam.nl/postjeskade_hoek_hoofdweg.htm> a scr:Bridge ;
+	geo:long "4.853107917" ;
+	geo:lat "52.363796737" ;
+	rdf:label "Postjesbrug (231)" .
+
+<http://www.bruggenvanamsterdam.nl/hortusplantsoen.htm> a scr:Bridge ;
+	geo:long "4.9073636409" ;
+	geo:lat "52.3663681327" ;
+	rdf:label "Brug no. 232" .
+
+<http://www.bruggenvanamsterdam.nl/in> geo:long "4.906312215" ;
+	geo:lat "52.3666432795" ;
+	rdf:label "Victoria Regiabruggetje (233)" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_keizersgracht.htm> a scr:Bridge ;
+	geo:long "4.9081575748" ;
+	geo:lat "52.3658964484" ;
+	rdf:label "Piet Meerburgbrug (234)" .
+
+<http://www.bruggenvanamsterdam.nl/wethouder_frankeweg.htm> a scr:Bridge ;
+	geo:long "4.9368357536" ;
+	geo:lat "52.3523169878" ;
+	rdf:label "Brug no. 235" .
+
+<http://www.bruggenvanamsterdam.nl/amstelstraat_hoek_amstel.htm> a scr:Bridge ;
+	geo:long "4.9009048816" ;
+	geo:lat "52.3663550304" ;
+	rdf:label "Blauwbrug (236)" .
+
+<http://www.bruggenvanamsterdam.nl/amstel_hoek_nieuwe_herengracht.htm> a scr:Bridge ;
+	geo:long "4.9019133922" ;
+	geo:lat "52.3659226532" ;
+	rdf:label "Walter Sï¿½skindbrug (237)" .
+
+<http://www.bruggenvanamsterdam.nl/weesperstraat_hoek_nieuwe_hereng.htm> a scr:Bridge ;
+	geo:long "4.9048101779" ;
+	geo:lat "52.3664598485" ;
+	rdf:label "M.S. Vaz Diasbrug (238)" .
+
+<http://www.bruggenvanamsterdam.nl/muiderstraat_hoek_nieuwe_herengr.htm> a scr:Bridge ;
+	geo:long "4.9070846912" ;
+	geo:lat "52.3673638941" ;
+	rdf:label "Hortusbrug (239)" .
+
+<http://www.bruggenvanamsterdam.nl/weesperstraat_hoek_nieuwe_keizer.htm> a scr:Bridge ;
+	geo:long "4.9055504676" ;
+	geo:lat "52.3651823612" ;
+	rdf:label "L.H. Sarlouisbrug (240)" .
+
+<http://www.bruggenvanamsterdam.nl/amstel_hoek_nieuwe_keizersgracht.htm> a scr:Bridge ;
+	geo:long "4.90257858" ;
+	geo:lat "52.3646189448" ;
+	rdf:label "Dirk van Nimwegenbrug (241)" .
+
+<http://www.bruggenvanamsterdam.nl/amstel_hoek_lange_kerkstraat.htm> a scr:Bridge ;
+	geo:long "4.9023747321" ;
+	geo:lat "52.3635903637" ;
+	rdf:label "Magere Brug (242)" .
+
+<http://www.bruggenvanamsterdam.nl/kruislaan_over_eerste_molenweter.htm> a scr:Bridge ;
+	geo:long "4.9469315883" ;
+	geo:lat "52.3517599606" ;
+	rdf:label "Brug no. 243" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_hemweg3.htm> a scr:Bridge ;
+	geo:long "4.8425131914" ;
+	geo:lat "52.4042011084" ;
+	rdf:label "Brug no. 244" .
+
+<http://www.bruggenvanamsterdam.nl/park_de_meer10.htm> a scr:Bridge ;
+	geo:long "4.9458050605" ;
+	geo:lat "52.3442836492" ;
+	rdf:label "Rinus Michelsbrug (245)" .
+
+<http://www.bruggenvanamsterdam.nl/amstel_hoek_sarphatistraat.htm> a scr:Bridge ;
+	geo:long "4.9040484306" ;
+	geo:lat "52.3603832647" ;
+	rdf:label "Hoge Sluis (246)" .
+
+<http://www.bruggenvanamsterdam.nl/stadhouderskade_hoek_hemonystraa.htm> a scr:Bridge ;
+	geo:long "4.9016451713" ;
+	geo:lat "52.3585748692" ;
+	rdf:label "Oudshoornbrug (247)" .
+
+<http://www.bruggenvanamsterdam.nl/stadhouderskade_hoek_nic.htm> a scr:Bridge ;
+	geo:long "4.8992204543" ;
+	geo:lat "52.358089997" ;
+	rdf:label "Paleis voor Volksvlijtbrug (248)" .
+
+<http://www.bruggenvanamsterdam.nl/rechtboomssloot_hoek_lastageweg.htm> a scr:Bridge ;
+	geo:long "4.9019563075" ;
+	geo:lat "52.3730088475" ;
+	rdf:label "Brug no. 249" .
+
+<http://www.bruggenvanamsterdam.nl/amstel_hoek_nieuwe_prinsengracht.htm> a scr:Bridge ;
+	geo:long "4.9034207937" ;
+	geo:lat "52.3629302904" ;
+	rdf:label "Jan Vinckbrug (250)" .
+
+<http://www.bruggenvanamsterdam.nl/weesperstraat_hoek_nieuwe_prinse.htm> a scr:Bridge ;
+	geo:long "4.9066126224" ;
+	geo:lat "52.3634970041" ;
+	rdf:label "Dr. Dï¿½nnerbrug (251)" .
+
+<http://www.bruggenvanamsterdam.nl/korte_amstelstraat_hoek_nieuwe_a.htm> a scr:Bridge ;
+	geo:long "4.9052286025" ;
+	geo:lat "52.3620228781" ;
+	rdf:label "Brug no. 252" .
+
+<http://www.bruggenvanamsterdam.nl/onbekende_gracht_hoek_nieuwe_pri.htm> a scr:Bridge ;
+	geo:long "4.9044883128" ;
+	geo:lat "52.3629663244" ;
+	rdf:label "Brug no. 253" .
+
+<http://www.bruggenvanamsterdam.nl/fizeaustraat1.htm> a scr:Bridge ;
+	geo:long "4.929282653" ;
+	geo:lat "52.3433283336" ;
+	rdf:label "Brug no. 254" .
+
+<http://www.bruggenvanamsterdam.nl/prof_tulpplein.htm> a scr:Bridge ;
+	geo:long "4.9057006713" ;
+	geo:lat "52.3594332111" ;
+	rdf:label "Tulpbrug (255)" .
+
+<http://www.bruggenvanamsterdam.nl/schalkburgerstraat.htm> a scr:Bridge ;
+	geo:long "4.9216437217" ;
+	geo:lat "52.3523022431" ;
+	rdf:label "Zuid-Afrikabrug (256)" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_achtergracht_hoek_weesper.htm> a scr:Bridge ;
+	geo:long "4.9072670814" ;
+	geo:lat "52.3623996039" ;
+	rdf:label "Dr. Meijer de Hondbrug (257)" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_prinsengracht_hoek_roeter.htm> a scr:Bridge ;
+	geo:long "4.9108773347" ;
+	geo:lat "52.3643159417" ;
+	rdf:label "Ben Polakbrug (258)" .
+
+<http://www.bruggenvanamsterdam.nl/plantage_kerklaan_hoek_plantage_.htm> a scr:Bridge ;
+	geo:long "4.9106681224" ;
+	geo:lat "52.3652265825" ;
+	rdf:label "Lau Mazirelbrug (259)" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_achtergracht_hoek_roeters.htm> a scr:Bridge ;
+	geo:long "4.9106466647" ;
+	geo:lat "52.3630547715" ;
+	rdf:label "Halverstadbrug (260)" .
+
+<http://www.bruggenvanamsterdam.nl/veelaan.htm> a scr:Bridge ;
+	geo:long "4.9394374963" ;
+	geo:lat "52.366574493" ;
+	rdf:label "Veebrug (261)" .
+
+<http://www.bruggenvanamsterdam.nl/veelaan2.htm> a scr:Bridge ;
+	geo:long "4.9394160386" ;
+	geo:lat "52.3673213127" ;
+	rdf:label "Slachthuisbrug (262)" .
+
+<http://www.bruggenvanamsterdam.nl/weesperstraat_hoek_rhijnspoorple.htm> a scr:Bridge ;
+	geo:long "4.9083346006" ;
+	geo:lat "52.360578187" ;
+	rdf:label "Weesperpoort (263)" .
+
+<http://www.bruggenvanamsterdam.nl/plantage_middenlaan.htm> a scr:Bridge ;
+	geo:long "4.9186181899" ;
+	geo:lat "52.363916302" ;
+	rdf:label "Artisbrug (264)" .
+
+<http://www.bruggenvanamsterdam.nl/alexanderplein.htm> a scr:Bridge ;
+	geo:long "4.9199700233" ;
+	geo:lat "52.3632447682" ;
+	rdf:label "Muiderpoortbrug (265)" .
+
+<http://www.bruggenvanamsterdam.nl/kinkerbrug.htm> a scr:Bridge ;
+	geo:long "4.8599797365" ;
+	geo:lat "52.364605842" ;
+	rdf:label "Kinkerbrug (266)" .
+
+<http://www.bruggenvanamsterdam.nl/fizeaustraat.htm> a scr:Bridge ;
+	geo:long "4.9309831735" ;
+	geo:lat "52.3422763155" ;
+	rdf:label "Brug no. 267" .
+
+<http://www.bruggenvanamsterdam.nl/wittenburgerkade.htm> a scr:Bridge ;
+	geo:long "4.9194979545" ;
+	geo:lat "52.371710261" ;
+	rdf:label "Kippebrug (270)" .
+
+<http://www.bruggenvanamsterdam.nl/rutherfordstraat_over_molenweter.htm> a scr:Bridge ;
+	geo:long "4.9453973647" ;
+	geo:lat "52.3527069026" ;
+	rdf:label "Brug no. 271" .
+
+<http://www.bruggenvanamsterdam.nl/kattenburgerstraat1.htm> a scr:Bridge ;
+	geo:long "4.9211716529" ;
+	geo:lat "52.3751556074" ;
+	rdf:label "Mariniersbrug (272)" .
+
+<http://www.bruggenvanamsterdam.nl/von_guerickestraat.htm> a scr:Bridge ;
+	geo:long "4.9286872026" ;
+	geo:lat "52.3409653545" ;
+	rdf:label "Brug no. 273" .
+
+<http://www.bruggenvanamsterdam.nl/oostenburgergracht_hoek_nieuwe_v.htm> a scr:Bridge ;
+	geo:long "4.9144554015" ;
+	geo:lat "52.3708914604" ;
+	rdf:label "Kattenburgerbrug (274)" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_hemweg4.htm> a scr:Bridge ;
+	geo:long "4.8422288772" ;
+	geo:lat "52.4044498377" ;
+	rdf:label "Brug no. 275" .
+
+<http://www.bruggenvanamsterdam.nl/overhaalsgang.htm> a scr:Bridge ;
+	geo:long "4.9189025041" ;
+	geo:lat "52.3692767413" ;
+	rdf:label "Pelikaanbrug (277)" .
+
+<http://www.bruggenvanamsterdam.nl/schippersgracht_hoek_kadijksplei.htm> a scr:Bridge ;
+	geo:long "4.9116659042" ;
+	geo:lat "52.3703019146" ;
+	rdf:label "Scharrebiersluis (278)" .
+
+<http://www.bruggenvanamsterdam.nl/oude_schans1.htm> a scr:Bridge ;
+	geo:long "4.9078035232" ;
+	geo:lat "52.3727124522" ;
+	rdf:label "Kikkerbilsluis (279)" .
+
+<http://www.bruggenvanamsterdam.nl/oude_schans.htm> a scr:Bridge ;
+	geo:long "4.9058937904" ;
+	geo:lat "52.3722801372" ;
+	rdf:label "Montelbaansbrug (280)" .
+
+<http://www.bruggenvanamsterdam.nl/rapenburgwal_hoek_peperstraat.htm> a scr:Bridge ;
+	geo:long "4.9073743697" ;
+	geo:lat "52.3715203006" ;
+	rdf:label "Peperbrug (281)" .
+
+<http://www.bruggenvanamsterdam.nl/buiten_bantammerstraat.htm> a scr:Bridge ;
+	geo:long "4.9034476157" ;
+	geo:lat "52.3736491202" ;
+	rdf:label "Waalseilandbrug (283)" .
+
+<http://www.bruggenvanamsterdam.nl/stationssplein.htm> a scr:Bridge ;
+	geo:long "4.902219164" ;
+	geo:lat "52.377169635" ;
+	rdf:label "Kamperbrug (285)" .
+
+<http://www.bruggenvanamsterdam.nl/oudeschans_hoek_korte_koningsstr.htm> a scr:Bridge ;
+	geo:long "4.9040323373" ;
+	geo:lat "52.3710486713" ;
+	rdf:label "Keizersbrug (286)" .
+
+<http://www.bruggenvanamsterdam.nl/sint_antoniestraat_hoek_jodenbre.htm> a scr:Bridge ;
+	geo:long "4.9010604497" ;
+	geo:lat "52.3696042753" ;
+	rdf:label "Sint Anthoniesluis (287)" .
+
+<http://www.bruggenvanamsterdam.nl/oude_schans_hoek_rechtboomssloot.htm> a scr:Bridge ;
+	geo:long "4.904477584" ;
+	geo:lat "52.3716021802" ;
+	rdf:label "Lastagebrug (288)" .
+
+<http://www.bruggenvanamsterdam.nl/snoekjesgracht_hoek_snoekjesstee.htm> a scr:Bridge ;
+	geo:long "4.9012750264" ;
+	geo:lat "52.3705311834" ;
+	rdf:label "Snoekjesbrug (289)" .
+
+<http://www.bruggenvanamsterdam.nl/kromboomssloot_hoek_korte_dijkst.htm> a scr:Bridge ;
+	geo:long "4.9016237136" ;
+	geo:lat "52.3709798916" ;
+	rdf:label "Brug no. 290" .
+
+<http://www.bruggenvanamsterdam.nl/houtkopersburgwal_hoek_nieuwe_ui.htm> a scr:Bridge ;
+	geo:long "4.9029648181" ;
+	geo:lat "52.3695747973" ;
+	rdf:label "Steenvoetsluis (291)" .
+
+<http://www.bruggenvanamsterdam.nl/kromboomssloot_hoek_korte_koning.htm> a scr:Bridge ;
+	geo:long "4.902514207" ;
+	geo:lat "52.3720083006" ;
+	rdf:label "Schottenburchsbrug (292)" .
+
+<http://www.bruggenvanamsterdam.nl/kromboomssloot_hoek_korte_keizer.htm> a scr:Bridge ;
+	geo:long "4.9022728082" ;
+	geo:lat "52.371526851" ;
+	rdf:label "Armeenschebrug (293)" .
+
+<http://www.bruggenvanamsterdam.nl/prins_hendrikkade_hoek_stationsp.htm> a scr:Bridge ;
+	geo:long "4.9048852798" ;
+	geo:lat "52.3759579546" ;
+	rdf:label "Brug no. 294" .
+
+<http://www.bruggenvanamsterdam.nl/rechtboomsloot.htm> a scr:Bridge ;
+	geo:long "4.9027556058" ;
+	geo:lat "52.3724668192" ;
+	rdf:label "Boomsbrug (295)" .
+
+<http://www.bruggenvanamsterdam.nl/rechtboomssloot_hoek_kromboomssl.htm> a scr:Bridge ;
+	geo:long "4.9029540893" ;
+	geo:lat "52.3724733694" ;
+	rdf:label "Boomsluis (296)" .
+
+<http://www.bruggenvanamsterdam.nl/rechtboomsloot_hoek_geldersekade.htm> a scr:Bridge ;
+	geo:long "4.9012642976" ;
+	geo:lat "52.3733871171" ;
+	rdf:label "Gelderschebrug (297)" .
+
+<http://www.bruggenvanamsterdam.nl/geldersekade_hoek_binnen_bantamm.htm> a scr:Bridge ;
+	geo:long "4.9012535688" ;
+	geo:lat "52.3741698465" ;
+	rdf:label "Bantammerbrug (298)" .
+
+<http://www.bruggenvanamsterdam.nl/prins_hendrikkade1.htm> a scr:Bridge ;
+	geo:long "4.9026054021" ;
+	geo:lat "52.3764426307" ;
+	rdf:label "Hoofdbrug (299)" .
+
+<http://www.bruggenvanamsterdam.nl/prins_hendrikkade.htm> a scr:Bridge ;
+	geo:long "4.9034905311" ;
+	geo:lat "52.3753128031" ;
+	rdf:label "Kraansluis (300)" .
+
+<http://www.bruggenvanamsterdam.nl/prins_hendrikkade_brug_301.htm> a scr:Bridge ;
+	geo:long "4.9023425456" ;
+	geo:lat "52.3766325699" ;
+	rdf:label "Kolkswaterkering (301)" .
+
+<http://www.bruggenvanamsterdam.nl/zeedijk_hoek_o_z_kolk.htm> a scr:Bridge ;
+	geo:long "4.9006098386" ;
+	geo:lat "52.3758171355" ;
+	rdf:label "Kolksluis (302)" .
+
+<http://www.bruggenvanamsterdam.nl/damrak.htm> a scr:Bridge ;
+	geo:long "4.8987591144" ;
+	geo:lat "52.3768519815" ;
+	rdf:label "Nieuwe Brug (303)" .
+
+<http://www.bruggenvanamsterdam.nl/linnaeushof_naast_cygnus_lyceum.htm> a scr:Bridge ;
+	geo:long "4.9353551742" ;
+	geo:lat "52.3515502545" ;
+	rdf:label "Brug no. 304" .
+
+<http://www.bruggenvanamsterdam.nl/delflandlaan.htm> a scr:Bridge ;
+	geo:long "4.840801942" ;
+	geo:lat "52.3520466667" ;
+	rdf:label "Brug no. 305" .
+
+<http://www.bruggenvanamsterdam.nl/damrak1.htm> a scr:Bridge ;
+	geo:long "4.899048793" ;
+	geo:lat "52.3777820122" ;
+	rdf:label "Stationsbrug (306)" .
+
+<http://www.bruggenvanamsterdam.nl/jaagpad.htm> a scr:Bridge ;
+	geo:long "4.8465525981" ;
+	geo:lat "52.342384468" ;
+	rdf:label "Riekerhavenbrug (307)" .
+
+<http://www.bruggenvanamsterdam.nl/kadoelenweg.htm> a scr:Bridge ;
+	geo:long "4.906017172" ;
+	geo:lat "52.4172934863" ;
+	rdf:label "Meerbrug (308)" .
+
+<http://www.bruggenvanamsterdam.nl/korte_ouderkerkerdijk.htm> a scr:Bridge ;
+	geo:long "4.9125671264" ;
+	geo:lat "52.3385137531" ;
+	rdf:label "Brug no. 311" .
+
+<http://www.bruggenvanamsterdam.nl/eudornastraat.htm> a scr:Bridge ;
+	geo:long "4.9036246415" ;
+	geo:lat "52.4178120621" ;
+	rdf:label "Brug no. 312" .
+
+<http://www.bruggenvanamsterdam.nl/korte_prinsengracht_hoek_haarlem.htm> a scr:Bridge ;
+	geo:long "4.8893713828" ;
+	geo:lat "52.3814495481" ;
+	rdf:label "Eenhoornsluis (313)" .
+
+<http://www.bruggenvanamsterdam.nl/westerdoksdijk.htm> a scr:Bridge ;
+	geo:long "4.8932981368" ;
+	geo:lat "52.3831391317" ;
+	rdf:label "Westerdok-sluis (314)" .
+
+<http://www.bruggenvanamsterdam.nl/bickersgracht.htm> a scr:Bridge ;
+	geo:long "4.8883843299" ;
+	geo:lat "52.3855620652" ;
+	rdf:label "Galgenbrug (315)" .
+
+<http://www.bruggenvanamsterdam.nl/realengracht_hoek_grote_bickerss.htm> a scr:Bridge ;
+	geo:long "4.8899078246" ;
+	geo:lat "52.3871336267" ;
+	rdf:label "Zandhoeksbrug (316)" .
+
+<http://www.bruggenvanamsterdam.nl/zoutkeetsgracht_hoek_bokkinghang.htm> a scr:Bridge ;
+	geo:long "4.8901224014" ;
+	geo:lat "52.3884006574" ;
+	rdf:label "Petemayenbrug (317)" .
+
+<http://www.bruggenvanamsterdam.nl/planciusstraat_hoek_korte_zoutke.htm> a scr:Bridge ;
+	geo:long "4.885728943" ;
+	geo:lat "52.3881485637" ;
+	rdf:label "Zoutkeetsbrug (318)" .
+
+<http://www.bruggenvanamsterdam.nl/realengracht_hoek_vierwindendwar.htm> a scr:Bridge ;
+	geo:long "4.8872148868" ;
+	geo:lat "52.3869208144" ;
+	rdf:label "Drieharingenbrug (320)" .
+
+<http://www.bruggenvanamsterdam.nl/prinseneiland_hoek_galgenstraat.htm> a scr:Bridge ;
+	geo:long "4.8859006044" ;
+	geo:lat "52.3856799343" ;
+	rdf:label "Sloterdijkerbrug (321)" .
+
+<http://www.bruggenvanamsterdam.nl/leeuwendalersweg.htm> a scr:Bridge ;
+	geo:long "4.8373418924" ;
+	geo:lat "52.3762412288" ;
+	rdf:label "Camera Obscurabrug (322)" .
+
+<http://www.bruggenvanamsterdam.nl/pandorinastraat.htm> a scr:Bridge ;
+	geo:long "4.9017095443" ;
+	geo:lat "52.4181719534" ;
+	rdf:label "Brug no. 323" .
+
+<http://www.bruggenvanamsterdam.nl/tweede_hugo_de_grootstraat.htm> a scr:Bridge ;
+	geo:long "4.8698395368" ;
+	geo:lat "52.3754045003" ;
+	rdf:label "Beltbrug (324)" .
+
+<http://www.bruggenvanamsterdam.nl/mauritskade.htm> a scr:Bridge ;
+	geo:long "4.905786502" ;
+	geo:lat "52.3590908592" ;
+	rdf:label "Brug no. 325" .
+
+<http://www.bruggenvanamsterdam.nl/oud_entrepotdok.htm> a scr:Bridge ;
+	geo:long "4.9187254783" ;
+	geo:lat "52.3674113888" ;
+	rdf:label "Brug no. 327" .
+
+<http://www.bruggenvanamsterdam.nl/zeeburgerpad.htm> a scr:Bridge ;
+	geo:long "4.9322974559" ;
+	geo:lat "52.366530273" ;
+	rdf:label "Brug no. 328" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_hemweg5.htm> a scr:Bridge ;
+	geo:long "4.8359095928" ;
+	geo:lat "52.4071383146" ;
+	rdf:label "Brug no. 330" .
+
+<http://www.bruggenvanamsterdam.nl/westhavenweg2.htm> a scr:Bridge ;
+	geo:long "4.8347401496" ;
+	geo:lat "52.4061598131" ;
+	rdf:label "Brug no. 331" .
+
+<http://www.bruggenvanamsterdam.nl/cruquiuskade.htm> a scr:Bridge ;
+	geo:long "4.9325603124" ;
+	geo:lat "52.3672476139" ;
+	rdf:label "Brug no. 332" .
+
+<http://www.bruggenvanamsterdam.nl/teslastraat.htm> a scr:Bridge ;
+	geo:long "4.9420446035" ;
+	geo:lat "52.3477344116" ;
+	rdf:label "Brug no. 333" .
+
+<http://www.bruggenvanamsterdam.nl/park_de_meer11.htm> a scr:Bridge ;
+	geo:long "4.9501395103" ;
+	geo:lat "52.3469299132" ;
+	rdf:label "Heinz Stuybrug (334)" .
+
+<http://www.bruggenvanamsterdam.nl/Galil.htm> a scr:Bridge ;
+	geo:long "4.9391102668" ;
+	geo:lat "52.3536145062" ;
+	rdf:label "Brug no. 335" .
+
+<http://www.bruggenvanamsterdam.nl/archimedesweg.htm> a scr:Bridge ;
+	geo:long "4.9410199996" ;
+	geo:lat "52.3548857751" ;
+	rdf:label "Brug no. 336" .
+
+<http://www.bruggenvanamsterdam.nl/galileiplantsoen.htm> a scr:Bridge ;
+	geo:long "4.9410199996" ;
+	geo:lat "52.3548857751" ;
+	rdf:label "Brug no. 337" .
+
+<http://www.bruggenvanamsterdam.nl/joh_v_d_waalstraat.htm> a scr:Bridge ;
+	geo:long "4.9438524123" ;
+	geo:lat "52.3532606413" ;
+	rdf:label "Brug no. 338" .
+
+<http://www.bruggenvanamsterdam.nl/kerkepad_in_durgerdam.htm> a scr:Bridge ;
+	geo:long "4.9882858869" ;
+	geo:lat "52.3779424733" ;
+	rdf:label "Brug no. 339" .
+
+<http://www.bruggenvanamsterdam.nl/schollenbrugstraat.htm> a scr:Bridge ;
+	geo:long "4.9131357547" ;
+	geo:lat "52.3485454491" ;
+	rdf:label "Schollenbrug (340)" .
+
+<http://www.bruggenvanamsterdam.nl/zaaiersweg.htm> a scr:Bridge ;
+	geo:long "4.9452739831" ;
+	geo:lat "52.3445097758" ;
+	rdf:label "Brug no. 341" .
+
+<http://www.bruggenvanamsterdam.nl/flevopark2.htm> a scr:Bridge ;
+	geo:long "4.9504721042" ;
+	geo:lat "52.3620703785" ;
+	rdf:label "Brug no. 342" .
+
+<http://www.bruggenvanamsterdam.nl/dorpsweg_te_ransdorp.htm> a scr:Bridge ;
+	geo:long "4.9941491958" ;
+	geo:lat "52.3932589081" ;
+	rdf:label "Brug no. 343" .
+
+<http://www.bruggenvanamsterdam.nl/ransdorp.htm> a scr:Bridge ;
+	geo:long "4.9942403909" ;
+	geo:lat "52.3938841563" ;
+	rdf:label "Brug no. 344" .
+
+<http://www.bruggenvanamsterdam.nl/houtmankade1.htm> a scr:Bridge ;
+	geo:long "4.8840981599" ;
+	geo:lat "52.3884595881" ;
+	rdf:label "IJszeebrug (345)" .
+
+<http://www.bruggenvanamsterdam.nl/tasmanstraat.htm> a scr:Bridge ;
+	geo:long "4.8855358239" ;
+	geo:lat "52.3904500925" ;
+	rdf:label "Westerkeersluis (346)" .
+
+<http://www.bruggenvanamsterdam.nl/haarlemmerweg_hoek_de_wittenkade.htm> a scr:Bridge ;
+	geo:long "4.8801606771" ;
+	geo:lat "52.3851339687" ;
+	rdf:label "Een Honderd Roebrug (347)" .
+
+<http://www.bruggenvanamsterdam.nl/zeilstraat_hoek_schinkelkade.htm> a scr:Bridge ;
+	geo:long "4.852351534" ;
+	geo:lat "52.350967004" ;
+	rdf:label "Zeilstraatbrug (348)" .
+
+<http://www.bruggenvanamsterdam.nl/houtmankade2.htm> a scr:Bridge ;
+	geo:long "4.8845273134" ;
+	geo:lat "52.3893762789" ;
+	rdf:label "Noordpoolbrug (349)" .
+
+<http://www.bruggenvanamsterdam.nl/stadhouderskade_hoek_weesperzijd.htm> a scr:Bridge ;
+	geo:long "4.9048852798" ;
+	geo:lat "52.3589205013" ;
+	rdf:label "Torontobrug (350)" .
+
+<http://www.bruggenvanamsterdam.nl/zunderdorpergouw2.htm> a scr:Bridge ;
+	geo:long "4.9636256572" ;
+	geo:lat "52.4065263446" ;
+	rdf:label "Postje van Gerrit Vreling (351)" .
+
+<http://www.bruggenvanamsterdam.nl/cruquiusweg.htm> a scr:Bridge ;
+	geo:long "4.9341267225" ;
+	geo:lat "52.3684922874" ;
+	rdf:label "Jaap Hannisbrug (352)" .
+
+<http://www.bruggenvanamsterdam.nl/hoogte_kadijk_hoek_nieuwe_vaart.htm> a scr:Bridge ;
+	geo:long "4.9252968904" ;
+	geo:lat "52.3672312364" ;
+	rdf:label "Dageraadsbrug (353)" .
+
+<http://www.bruggenvanamsterdam.nl/zeeburgerstraat_hoek_funenkade.htm> a scr:Bridge ;
+	geo:long "4.9263805028" ;
+	geo:lat "52.3661797871" ;
+	rdf:label "Oosterbeerbrug (354)" .
+
+<http://www.bruggenvanamsterdam.nl/linnaeuskade_ringdijk.htm> a scr:Bridge ;
+	geo:long "4.9331772205" ;
+	geo:lat "52.356781143" ;
+	rdf:label "Evert van der Wallbrug (355)" .
+
+<http://www.bruggenvanamsterdam.nl/klaprozenweg.htm> a scr:Bridge ;
+	geo:long "4.9000680324" ;
+	geo:lat "52.401548455" ;
+	rdf:label "Langebrug (356)" .
+
+<http://www.bruggenvanamsterdam.nl/kraaienplein.htm> a scr:Bridge ;
+	geo:long "4.9139082309" ;
+	geo:lat "52.3867358305" ;
+	rdf:label "Gerben Wagenaarbrug (357)" .
+
+<http://www.bruggenvanamsterdam.nl/machineslootbrug.htm> a scr:Bridge ;
+	geo:long "4.8580753681" ;
+	geo:lat "52.3647679888" ;
+	rdf:label "Machineslootbrug (358)" .
+
+<http://www.bruggenvanamsterdam.nl/admiralengracht_JEverts.htm> a scr:Bridge ;
+	geo:long "4.856508958" ;
+	geo:lat "52.3711223637" ;
+	rdf:label "Molenslootbrug (359)" .
+
+<http://www.bruggenvanamsterdam.nl/schinkelhavenstraat_hoek_schinke.htm> a scr:Bridge ;
+	geo:long "4.8534834262" ;
+	geo:lat "52.3547956735" ;
+	rdf:label "Theophile de Bockbrug (360)" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_hemweg.htm> a scr:Bridge ;
+	geo:long "4.8518097278" ;
+	geo:lat "52.3997401082" ;
+	rdf:label "Brug no. 361" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwendammerkade.htm> a scr:Bridge ;
+	geo:long "4.9330484744" ;
+	geo:lat "52.3906808935" ;
+	rdf:label "Brug no. 362" .
+
+<http://www.bruggenvanamsterdam.nl/zuideinde.htm> a scr:Bridge ;
+	geo:long "4.8965704318" ;
+	geo:lat "52.4163544724" ;
+	rdf:label "Brug no. 363" .
+
+<http://www.bruggenvanamsterdam.nl/kerkepad.htm> a scr:Bridge ;
+	geo:long "4.9156892177" ;
+	geo:lat "52.4013275298" ;
+	rdf:label "Buiksloter Kerkepadbrug (364)" .
+
+<http://www.bruggenvanamsterdam.nl/schoolpad.htm> a scr:Bridge ;
+	geo:long "4.9235695478" ;
+	geo:lat "52.3972263012" ;
+	rdf:label "Passagebrug (366)" .
+
+<http://www.bruggenvanamsterdam.nl/buiksloterdijk6.htm> a scr:Bridge ;
+	geo:long "4.9235695478" ;
+	geo:lat "52.3953212114" ;
+	rdf:label "Brug no. 367" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwendammerdijk.htm> a scr:Bridge ;
+	geo:long "4.9383914348" ;
+	geo:lat "52.3911555869" ;
+	rdf:label "Brug no. 368" .
+
+<http://www.bruggenvanamsterdam.nl/grasweg.htm> a scr:Bridge ;
+	geo:long "4.9060225364" ;
+	geo:lat "52.3888737383" ;
+	rdf:label "Brug no. 371" .
+
+<http://www.bruggenvanamsterdam.nl/adriaan_loosjesstraat.htm> a scr:Bridge ;
+	geo:long "4.8985069867" ;
+	geo:lat "52.4196703782" ;
+	rdf:label "Molenpadsbrug (372)" .
+
+<http://www.bruggenvanamsterdam.nl/zunderdorpergouw1.htm> a scr:Bridge ;
+	geo:long "4.9594467755" ;
+	geo:lat "52.4028592556" ;
+	rdf:label "Brug no. 373" .
+
+<http://www.bruggenvanamsterdam.nl/zunderdorp.htm> a scr:Bridge ;
+	geo:long "4.9659860011" ;
+	geo:lat "52.4059634556" ;
+	rdf:label "Los Postje (374)" .
+
+<http://www.bruggenvanamsterdam.nl/middenlaan_te_zunderdorp.htm> a scr:Bridge ;
+	geo:long "4.9648702022" ;
+	geo:lat "52.4079793505" ;
+	rdf:label "Bakkersbrug (375)" .
+
+<http://www.bruggenvanamsterdam.nl/wijkergouw_schellingwoude.htm> a scr:Bridge ;
+	geo:long "4.9637544032" ;
+	geo:lat "52.3834829344" ;
+	rdf:label "Brug no. 376" .
+
+<http://www.bruggenvanamsterdam.nl/liergouw3.htm> a scr:Bridge ;
+	geo:long "4.9665760871" ;
+	geo:lat "52.3817638941" ;
+	rdf:label "Brug no. 378" .
+
+<http://www.bruggenvanamsterdam.nl/liergouw2.htm> a scr:Bridge ;
+	geo:long "4.9871647235" ;
+	geo:lat "52.3886936735" ;
+	rdf:label "Wipbrug (379)" .
+
+<http://www.bruggenvanamsterdam.nl/liergouw.htm> a scr:Bridge ;
+	geo:long "4.9952864524" ;
+	geo:lat "52.3906579772" ;
+	rdf:label "Gerrit Werfbrug (380)" .
+
+<http://www.bruggenvanamsterdam.nl/vierwindstrekenbrug.htm> a scr:Bridge ;
+	geo:long "4.8556506511" ;
+	geo:lat "52.3743450581" ;
+	rdf:label "Vier Windstrekenbrug (381)" .
+
+<http://www.bruggenvanamsterdam.nl/jan_van_galenstraat.htm> a scr:Bridge ;
+	geo:long "4.8644214746" ;
+	geo:lat "52.375429062" ;
+	rdf:label "Jan van Galenbrug (382)" .
+
+<http://www.bruggenvanamsterdam.nl/willem_de_zwijgerlaan.htm> a scr:Bridge ;
+	geo:long "4.8626619455" ;
+	geo:lat "52.3775904406" ;
+	rdf:label "Anna van Saksenbrug (383)" .
+
+<http://www.bruggenvanamsterdam.nl/westlandgracht_hoek_heemstedestr.htm> a scr:Bridge ;
+	geo:long "4.9156892177" ;
+	geo:lat "52.4013275298" ;
+	rdf:label "Brug no. 385" .
+
+<http://www.bruggenvanamsterdam.nl/westlandgracht_hoek_surinameplei.htm> a scr:Bridge ;
+	geo:long "4.8488163825" ;
+	geo:lat "52.3580768923" ;
+	rdf:label "Brug no. 386" .
+
+<http://www.bruggenvanamsterdam.nl/fietsbrug.htm> a scr:Bridge ;
+	geo:long "4.8958945152" ;
+	geo:lat "52.379625642" ;
+	rdf:label "Wagon Litsbrug(387)" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_hemweg6.htm> a scr:Bridge ;
+	geo:long "4.8520189401" ;
+	geo:lat "52.3998317547" ;
+	rdf:label "Brug no. 388" .
+
+<http://www.bruggenvanamsterdam.nl/kattenburgerstraat.htm> a scr:Bridge ;
+	geo:long "4.9231940385" ;
+	geo:lat "52.3737359083" ;
+	rdf:label "Zebrabrug (389)" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_hemweg7.htm> a scr:Bridge ;
+	geo:long "4.8361188051" ;
+	geo:lat "52.407231582" ;
+	rdf:label "Brug no. 390" .
+
+<http://www.bruggenvanamsterdam.nl/westhavenweg1.htm> a scr:Bridge ;
+	geo:long "4.834718692" ;
+	geo:lat "52.4062318106" ;
+	rdf:label "Brug no. 391" .
+
+<http://www.bruggenvanamsterdam.nl/westlandgracht_hoek_rietwijkerst.htm> a scr:Bridge ;
+	geo:long "4.8455870029" ;
+	geo:lat "52.3495563579" ;
+	rdf:label "Brug no. 392" .
+
+<http://www.bruggenvanamsterdam.nl/wil_de_graaffbrug.htm> a scr:Bridge ;
+	geo:long "4.8539447662" ;
+	geo:lat "52.3765441501" ;
+	rdf:label "Wil de Graaffbrug (393)" .
+
+<http://www.bruggenvanamsterdam.nl/erasmuspark.htm> a scr:Bridge ;
+	geo:long "4.8533224937" ;
+	geo:lat "52.375902282" ;
+	rdf:label "Lof der Zotheidbrug (394)" .
+
+<http://www.bruggenvanamsterdam.nl/hondiusstraat.htm> a scr:Bridge ;
+	geo:long "4.8496961471" ;
+	geo:lat "52.3741076217" ;
+	rdf:label "Geert Geertsenbrug (395)" .
+
+<http://www.bruggenvanamsterdam.nl/vespuccistraat.htm> a scr:Bridge ;
+	geo:long "4.8522925254" ;
+	geo:lat "52.37362947" ;
+	rdf:label "Desideriusbrug (396)" .
+
+<http://www.bruggenvanamsterdam.nl/haarlemmerweg3.htm> a scr:Bridge ;
+	geo:long "4.8474055406" ;
+	geo:lat "52.3851609807" ;
+	rdf:label "Zoutmanbrug (397)" .
+
+<http://www.bruggenvanamsterdam.nl/torenven.htm> a scr:Bridge ;
+	geo:long "4.9670588847" ;
+	geo:lat "52.4073641196" ;
+	rdf:label "Brug no. 398" .
+
+<http://www.bruggenvanamsterdam.nl/kometensingel.htm> a scr:Bridge ;
+	geo:long "4.8904871818" ;
+	geo:lat "52.4085929365" ;
+	rdf:label "Brug no. 399" .
+
+<http://www.bruggenvanamsterdam.nl/amsteldijk_hoek_amstelkade.htm> a scr:Bridge ;
+	geo:long "4.909777629" ;
+	geo:lat "52.3498660158" ;
+	rdf:label "P.L. Kramerbrug (400)" .
+
+<http://www.bruggenvanamsterdam.nl/van_woustraat.htm> a scr:Bridge ;
+	geo:long "4.9041449901" ;
+	geo:lat "52.3491156242" ;
+	rdf:label "Ernst Cahn en Alfred Kohnbrug (401)" .
+
+<http://www.bruggenvanamsterdam.nl/amstelkade_70.htm> a scr:Bridge ;
+	geo:long "4.8997998115" ;
+	geo:lat "52.3484405886" ;
+	rdf:label "Han van Zomerenbrug (402)" .
+
+<http://www.bruggenvanamsterdam.nl/amstelkade_hoek_2e_v.htm> a scr:Bridge ;
+	geo:long "4.8952400562" ;
+	geo:lat "52.3480145899" ;
+	rdf:label "Maasbrug (403)" .
+
+<http://www.bruggenvanamsterdam.nl/amstelkade_hoek_ferdinand_bolstr.htm> a scr:Bridge ;
+	geo:long "4.8912650224" ;
+	geo:lat "52.3482243128" ;
+	rdf:label "Brug no. 404" .
+
+<http://www.bruggenvanamsterdam.nl/stadionweg_over_noorder_amstelka.htm> a scr:Bridge ;
+	geo:long "4.8847687122" ;
+	geo:lat "52.3495579963" ;
+	rdf:label "Mozartbrug (405)" .
+
+<http://www.bruggenvanamsterdam.nl/ruysdaelkade_hoek_van_hillegaert.htm> a scr:Bridge ;
+	geo:long "4.8864316818" ;
+	geo:lat "52.3497939263" ;
+	rdf:label "Boerenweteringbrug (406)" .
+
+<http://www.bruggenvanamsterdam.nl/jmcoenenstraat.htm> a scr:Bridge ;
+	geo:long "4.8790395137" ;
+	geo:lat "52.3511832663" ;
+	rdf:label "Timo Smeehuyzenbrug (407)" .
+
+<http://www.bruggenvanamsterdam.nl/reinier_vinkeleskade_hoek_breitn.htm> a scr:Bridge ;
+	geo:long "4.8733103153" ;
+	geo:lat "52.3521466038" ;
+	rdf:label "Schildersbrug (408)" .
+
+<http://www.bruggenvanamsterdam.nl/jan_van_goyenkade_hoek_w.htm> a scr:Bridge ;
+	geo:long "4.8705583688" ;
+	geo:lat "52.3521072843" ;
+	rdf:label "Muziekbrug (409)" .
+
+<http://www.bruggenvanamsterdam.nl/jan_van_goyenkade_hoek_olympiapl.htm> a scr:Bridge ;
+	geo:long "4.8652958747" ;
+	geo:lat "52.3507048664" ;
+	rdf:label "Lyceumbrug (410)" .
+
+<http://www.bruggenvanamsterdam.nl/bernard_kochstraat.htm> a scr:Bridge ;
+	geo:long "4.8601299402" ;
+	geo:lat "52.3487617233" ;
+	rdf:label "Godenbrug (411)" .
+
+<http://www.bruggenvanamsterdam.nl/stadionkade_hoek_amstelveenseweg.htm> a scr:Bridge ;
+	geo:long "4.8574638244" ;
+	geo:lat "52.3422959796" ;
+	rdf:label "Stadionbrug (413)" .
+
+<http://www.bruggenvanamsterdam.nl/voetgangersbrug_bij_achillesstra.htm> a scr:Bridge ;
+	geo:long "4.8653817054" ;
+	geo:lat "52.3433578291" ;
+	rdf:label "Brug no. 414" .
+
+<http://www.bruggenvanamsterdam.nl/stadionkade_hoek_achillesstraat.htm> a scr:Bridge ;
+	geo:long "4.8679566261" ;
+	geo:lat "52.3439772295" ;
+	rdf:label "Parnassusbrug (415)" .
+
+<http://www.bruggenvanamsterdam.nl/stadionkade_hoek_minervalaan.htm> a scr:Bridge ;
+	geo:long "4.8727524158" ;
+	geo:lat "52.3444327618" ;
+	rdf:label "Brug no. 416" .
+
+<http://www.bruggenvanamsterdam.nl/stadionkade_hoek_beethovenstraat.htm> a scr:Bridge ;
+	geo:long "4.8766040679" ;
+	geo:lat "52.3445851511" ;
+	rdf:label "Beethovenbrug (417)" .
+
+<http://www.bruggenvanamsterdam.nl/bernhard_zweerskade_hoek_diepenb.htm> a scr:Bridge ;
+	geo:long "4.8814105865" ;
+	geo:lat "52.3460926295" ;
+	rdf:label "Brug no. 418" .
+
+<http://www.bruggenvanamsterdam.nl/churchilllaan.htm> a scr:Bridge ;
+	geo:long "4.8845594999" ;
+	geo:lat "52.3476508493" ;
+	rdf:label "Hildo Kropbrug (419)" .
+
+<http://www.bruggenvanamsterdam.nl/apollolaan.htm> a scr:Bridge ;
+	geo:long "4.8861098167" ;
+	geo:lat "52.3473886921" ;
+	rdf:label "Kindertjesbrug (420)" .
+
+<http://www.bruggenvanamsterdam.nl/stadionkade_hoek_jasonstraat.htm> a scr:Bridge ;
+	geo:long "4.8604678985" ;
+	geo:lat "52.3425319484" ;
+	rdf:label "Brug no. 421" .
+
+<http://www.bruggenvanamsterdam.nl/wielingenstraat.htm> a scr:Bridge ;
+	geo:long "4.8857021209" ;
+	geo:lat "52.3444933899" ;
+	rdf:label "Prinsessebrug (422)" .
+
+<http://www.bruggenvanamsterdam.nl/amsteldijk_hoek_vrijheidslaan.htm> a scr:Bridge ;
+	geo:long "4.912856805" ;
+	geo:lat "52.3473477299" ;
+	rdf:label "Berlagebrug (423)" .
+
+<http://www.bruggenvanamsterdam.nl/amsteldijk.htm> a scr:Bridge ;
+	geo:long "4.9060332652" ;
+	geo:lat "52.3360734881" ;
+	rdf:label "Zorgvliedbrug (424)" .
+
+<http://www.bruggenvanamsterdam.nl/rhijnspoorplein.htm> a scr:Bridge ;
+	geo:long "4.9085652705" ;
+	geo:lat "52.360124459" ;
+	rdf:label "Brug no. 425" .
+
+<http://www.bruggenvanamsterdam.nl/oosterringdijk.htm> a scr:Bridge ;
+	geo:long "4.955654132" ;
+	geo:lat "52.3438887442" ;
+	rdf:label "Velibor Vasovicbrug (426)" .
+
+<http://www.bruggenvanamsterdam.nl/wibautstraat.htm> a scr:Bridge ;
+	geo:long "4.9164938804" ;
+	geo:lat "52.3500233015" ;
+	rdf:label "Boerenoorlogbrug (427)" .
+
+<http://www.bruggenvanamsterdam.nl/spaklerweg.htm> a scr:Bridge ;
+	geo:long "4.9188595887" ;
+	geo:lat "52.3424729563" ;
+	rdf:label "Omvalbrug (429)" .
+
+<http://www.bruggenvanamsterdam.nl/beatrixpark1.htm> a scr:Bridge ;
+	geo:long "4.883599269" ;
+	geo:lat "52.3441492836" ;
+	rdf:label "Brug no. 430" .
+
+<http://www.bruggenvanamsterdam.nl/ingang_beatrixpark.htm> a scr:Bridge ;
+	geo:long "4.8783689615" ;
+	geo:lat "52.3443000353" ;
+	rdf:label "Brug no. 431" .
+
+<http://www.bruggenvanamsterdam.nl/purmerweg.htm> a scr:Bridge ;
+	geo:long "4.9365997192" ;
+	geo:lat "52.3937073855" ;
+	rdf:label "Nollewoudsbrug (432)" .
+
+<http://www.bruggenvanamsterdam.nl/beatrixpark3.htm> a scr:Bridge ;
+	geo:long "4.8829179879" ;
+	geo:lat "52.343795343" ;
+	rdf:label "Brug no. 433" .
+
+<http://www.bruggenvanamsterdam.nl/torricellistraat.htm> a scr:Bridge ;
+	geo:long "4.9229097244" ;
+	geo:lat "52.3435216925" ;
+	rdf:label "Barometerbrug (434)" .
+
+<http://www.bruggenvanamsterdam.nl/von_guerickestraat1.htm> a scr:Bridge ;
+	geo:long "4.9242293712" ;
+	geo:lat "52.3442394069" ;
+	rdf:label "Thermometerbrug (435)" .
+
+<http://www.bruggenvanamsterdam.nl/fizeaustraat_hoek_fahrenheitsing.htm> a scr:Bridge ;
+	geo:long "4.9260908242" ;
+	geo:lat "52.3453536438" ;
+	rdf:label "Brug no. 436" .
+
+<http://www.bruggenvanamsterdam.nl/johan_van_hasseltweg.htm> a scr:Bridge ;
+	geo:long "4.9130177375" ;
+	geo:lat "52.3920083853" ;
+	rdf:label "Brug no. 437" .
+
+<http://www.bruggenvanamsterdam.nl/van_der_pekstraat.htm> a scr:Bridge ;
+	geo:long "4.9123149987" ;
+	geo:lat "52.3917661333" ;
+	rdf:label "Brug no. 438" .
+
+<http://www.bruggenvanamsterdam.nl/presedent_kennedylaan_hoek_rijns.htm> a scr:Bridge ;
+	geo:long "4.9093752977" ;
+	geo:lat "52.3388218495" ;
+	rdf:label "Utrechtsebrug (439)" .
+
+<http://www.bruggenvanamsterdam.nl/plejadenweg.htm> a scr:Bridge ;
+	geo:long "4.8825907584" ;
+	geo:lat "52.4123658942" ;
+	rdf:label "Brug no. 440" .
+
+<http://www.bruggenvanamsterdam.nl/hugo_de_vrieslaan2.htm> a scr:Bridge ;
+	geo:long "4.9263161298" ;
+	geo:lat "52.3460385578" ;
+	rdf:label "Brug no. 441" .
+
+<http://www.bruggenvanamsterdam.nl/hugo_de_vrieslaan4.htm> a scr:Bridge ;
+	geo:long "4.9286764737" ;
+	geo:lat "52.3465366704" ;
+	rdf:label "Brug no. 442" .
+
+<http://www.bruggenvanamsterdam.nl/kruislaan3.htm> a scr:Bridge ;
+	geo:long "4.9330162879" ;
+	geo:lat "52.3439510117" ;
+	rdf:label "Brug no. 443" .
+
+<http://www.bruggenvanamsterdam.nl/toegang_stadsdeelkantoor.htm> a scr:Bridge ;
+	geo:long "4.9341052648" ;
+	geo:lat "52.3687706964" ;
+	rdf:label "Brug no. 445" .
+
+<http://www.bruggenvanamsterdam.nl/nobelweg.htm> a scr:Bridge ;
+	geo:long "4.9287783977" ;
+	geo:lat "52.347860574" ;
+	rdf:label "Brug no. 448" .
+
+<http://www.bruggenvanamsterdam.nl/willem_landrestraat.htm> a scr:Bridge ;
+	geo:long "4.8782563087" ;
+	geo:lat "52.342523755" ;
+	rdf:label "Brug no. 449" .
+
+<http://www.bruggenvanamsterdam.nl/vondelpark3.htm> a scr:Bridge ;
+	geo:long "4.8720443126" ;
+	geo:lat "52.359703487" ;
+	rdf:label "Brug no. 450" .
+
+<http://www.bruggenvanamsterdam.nl/vondelpark2.htm> a scr:Bridge ;
+	geo:long "4.8715829726" ;
+	geo:lat "52.3589286916" ;
+	rdf:label "Brug no. 451" .
+
+<http://www.bruggenvanamsterdam.nl/vondelpark1.htm> a scr:Bridge ;
+	geo:long "4.8721194145" ;
+	geo:lat "52.3585650408" ;
+	rdf:label "Brug no. 452" .
+
+<http://www.bruggenvanamsterdam.nl/vondelpark4.htm> a scr:Bridge ;
+	geo:long "4.8629087087" ;
+	geo:lat "52.3568810694" ;
+	rdf:label "Hulstbrug (453)" .
+
+<http://www.bruggenvanamsterdam.nl/emmalaan.htm> a scr:Bridge ;
+	geo:long "4.8617768165" ;
+	geo:lat "52.3556590033" ;
+	rdf:label "Willemsbrug (454)" .
+
+<http://www.bruggenvanamsterdam.nl/vondelpark5.htm> a scr:Bridge ;
+	geo:long "4.8594325658" ;
+	geo:lat "52.3565894803" ;
+	rdf:label "Brandbrug (455)" .
+
+<http://www.bruggenvanamsterdam.nl/kamerlingh_onneslaan.htm> a scr:Bridge ;
+	geo:long "4.9238002177" ;
+	geo:lat "52.3486830783" ;
+	rdf:label "Brug no. 456" .
+
+<http://www.bruggenvanamsterdam.nl/hugo_de_vrieslaan3.htm> a scr:Bridge ;
+	geo:long "4.9274694797" ;
+	geo:lat "52.3465759948" ;
+	rdf:label "Brug no. 457" .
+
+<http://www.bruggenvanamsterdam.nl/kruislaan.htm> a scr:Bridge ;
+	geo:long "4.9326354142" ;
+	geo:lat "52.3431153101" ;
+	rdf:label "Brug no. 458" .
+
+<http://www.bruggenvanamsterdam.nl/kramatweg_bij_flevohuis.htm> a scr:Bridge ;
+	geo:long "4.9472534534" ;
+	geo:lat "52.3647565239" ;
+	rdf:label "Brug no. 459" .
+
+<http://www.bruggenvanamsterdam.nl/james_wattstraat.htm> a scr:Bridge ;
+	geo:long "4.9468672153" ;
+	geo:lat "52.3628467568" ;
+	rdf:label "Brug no. 460" .
+
+<http://www.bruggenvanamsterdam.nl/zeeburgerdijk.htm> a scr:Bridge ;
+	geo:long "4.9481010314" ;
+	geo:lat "52.3656966362" ;
+	rdf:label "Brug no. 461" .
+
+<http://www.bruggenvanamsterdam.nl/flevoweg2.htm> a scr:Bridge ;
+	geo:long "4.9478113528" ;
+	geo:lat "52.3647597995" ;
+	rdf:label "Brug no. 462" .
+
+<http://www.bruggenvanamsterdam.nl/haarlemmerweg.htm> a scr:Bridge ;
+	geo:long "4.8654675361" ;
+	geo:lat "52.3854507442" ;
+	rdf:label "Van Slingelandtbrug (463)" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_herengracht.htm> a scr:Bridge ;
+	geo:long "4.9045067179" ;
+	geo:lat "52.3662417094" ;
+	rdf:label "Brug no. 464" .
+
+<http://www.bruggenvanamsterdam.nl/weesperplein.htm> a scr:Bridge ;
+	geo:long "4.9084311601" ;
+	geo:lat "52.360830438" ;
+	rdf:label "Brug no. 465" .
+
+<http://www.bruggenvanamsterdam.nl/jan_van_galenstraat1.htm> a scr:Bridge ;
+	geo:long "4.8431086418" ;
+	geo:lat "52.3721867959" ;
+	rdf:label "Brug no. 466" .
+
+<http://www.bruggenvanamsterdam.nl/monnickendammerweg.htm> a scr:Bridge ;
+	geo:long "4.9501096356" ;
+	geo:lat "52.386190383" ;
+	rdf:label "Witte Boogbrug (469)" .
+
+<http://www.bruggenvanamsterdam.nl/zuiderzeeweg2.htm> a scr:Bridge ;
+	geo:long "4.9544846889" ;
+	geo:lat "52.3870190355" ;
+	rdf:label "Brug no. 470" .
+
+<http://www.bruggenvanamsterdam.nl/zuiderzeeweg.htm> a scr:Bridge ;
+	geo:long "4.9693763133" ;
+	geo:lat "52.3871892851" ;
+	rdf:label "Brug no. 471" .
+
+<http://www.bruggenvanamsterdam.nl/flevoweg1.htm> a scr:Bridge ;
+	geo:long "4.9468672153" ;
+	geo:lat "52.3628467568" ;
+	rdf:label "Brug no. 472" .
+
+<http://www.bruggenvanamsterdam.nl/melkweg.htm> a scr:Bridge ;
+	geo:long "4.8803162452" ;
+	geo:lat "52.4184844021" ;
+	rdf:label "Brug no. 473" .
+
+<http://www.bruggenvanamsterdam.nl/dierenriem_tuindorp_oostzaan.htm> a scr:Bridge ;
+	geo:long "4.8824351903" ;
+	geo:lat "52.4166947446" ;
+	rdf:label "Brug no. 474" .
+
+<http://www.bruggenvanamsterdam.nl/meteorenweg2.htm> a scr:Bridge ;
+	geo:long "4.8816466209" ;
+	geo:lat "52.4160141976" ;
+	rdf:label "Brug no. 475" .
+
+<http://www.bruggenvanamsterdam.nl/vegastraat_tuindorp_oostzaan.htm> a scr:Bridge ;
+	geo:long "4.8798173543" ;
+	geo:lat "52.4145418245" ;
+	rdf:label "Brug no. 476" .
+
+<http://www.bruggenvanamsterdam.nl/fahrenheitstraat.htm> a scr:Bridge ;
+	geo:long "4.9278288957" ;
+	geo:lat "52.3455797649" ;
+	rdf:label "Brug no. 478" .
+
+<http://www.bruggenvanamsterdam.nl/zwaardemakerstraat.htm> a scr:Bridge ;
+	geo:long "4.930296528" ;
+	geo:lat "52.3439051304" ;
+	rdf:label "Brug no. 479" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg.htm> a scr:Bridge ;
+	geo:long "4.9309241649" ;
+	geo:lat "52.3441345361" ;
+	rdf:label "Brug no. 480" .
+
+<http://www.bruggenvanamsterdam.nl/amstelpark6.htm> a scr:Bridge ;
+	geo:long "4.8917317268" ;
+	geo:lat "52.3329545383" ;
+	rdf:label "Brug no. 482" .
+
+<http://www.bruggenvanamsterdam.nl/sportpark_kadoelen.htm> a scr:Bridge ;
+	geo:long "4.9121379729" ;
+	geo:lat "52.4135340385" ;
+	rdf:label "Brug no. 483" .
+
+<http://www.bruggenvanamsterdam.nl/de_ruyterkade2.htm> a scr:Bridge ;
+	geo:long "4.9109041568" ;
+	geo:lat "52.3774971105" ;
+	rdf:label "Oosterdoksdoorgang (485)" .
+
+<http://www.bruggenvanamsterdam.nl/de_ruyterkade1.htm> a scr:Bridge ;
+	geo:long "4.9046707031" ;
+	geo:lat "52.3783911062" ;
+	rdf:label "Brug no. 486" .
+
+<http://www.bruggenvanamsterdam.nl/prins_hendrikkade_hoek_schippers.htm> a scr:Bridge ;
+	geo:long "4.912819254" ;
+	geo:lat "52.3710617722" ;
+	rdf:label "Kortjewantsbrug (487)" .
+
+<http://www.bruggenvanamsterdam.nl/coentunnelcircuit.htm> a scr:Bridge ;
+	geo:long "4.8753380653" ;
+	geo:lat "52.4176043053" ;
+	rdf:label "Brug no. 488" .
+
+<http://www.bruggenvanamsterdam.nl/bos_en_lommerweg.htm> a scr:Bridge ;
+	geo:long "4.8382162925" ;
+	geo:lat "52.3788233614" ;
+	rdf:label "Brug no. 489" .
+
+<http://www.bruggenvanamsterdam.nl/johan_van_hasseltweg5.htm> a scr:Bridge ;
+	geo:long "4.9188971397" ;
+	geo:lat "52.3895858056" ;
+	rdf:label "Brug no. 490" .
+
+<http://www.bruggenvanamsterdam.nl/johan_van_hasseltweg3.htm> a scr:Bridge ;
+	geo:long "4.9182426807" ;
+	geo:lat "52.3897429499" ;
+	rdf:label "Meeuwenpleinbrug (491)" .
+
+<http://www.bruggenvanamsterdam.nl/meteorenweg.htm> a scr:Bridge ;
+	geo:long "4.8805469152" ;
+	geo:lat "52.4151471394" ;
+	rdf:label "Brug no. 492" .
+
+<http://www.bruggenvanamsterdam.nl/johan_van_hasseltweg4.htm> a scr:Bridge ;
+	geo:long "4.9191814538" ;
+	geo:lat "52.389467947" ;
+	rdf:label "Brug no. 493" .
+
+<http://www.bruggenvanamsterdam.nl/johan_van_hasseltweg2.htm> a scr:Bridge ;
+	geo:long "4.9160110828" ;
+	geo:lat "52.3906170551" ;
+	rdf:label "Brug no. 494" .
+
+<http://www.bruggenvanamsterdam.nl/kloveniersburgwal_hoek_nieuwmark.htm> a scr:Bridge ;
+	geo:long "4.9003094312" ;
+	geo:lat "52.3726453126" ;
+	rdf:label "Bijleveldschesluis (495)" .
+
+<http://www.bruggenvanamsterdam.nl/beatrixpark2.htm> a scr:Bridge ;
+	geo:long "4.8818987485" ;
+	geo:lat "52.3420649257" ;
+	rdf:label "Brug no. 496" .
+
+<http://www.bruggenvanamsterdam.nl/beatrixpark.htm> a scr:Bridge ;
+	geo:long "4.8854929086" ;
+	geo:lat "52.3425761924" ;
+	rdf:label "Brug no. 497" .
+
+<http://www.bruggenvanamsterdam.nl/meteorenweg3.htm> a scr:Bridge ;
+	geo:long "4.8759335157" ;
+	geo:lat "52.4172967581" ;
+	rdf:label "Brug no. 499" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan16.htm> a scr:Bridge ;
+	geo:long "4.825619722" ;
+	geo:lat "52.325188351" ;
+	rdf:label "Brug no. 500" .
+
+<http://www.bruggenvanamsterdam.nl/koenenkade.htm> a scr:Bridge ;
+	geo:long "4.8564875003" ;
+	geo:lat "52.3304074241" ;
+	rdf:label "Brug no. 501" .
+
+<http://www.bruggenvanamsterdam.nl/jachthavenweg3.htm> a scr:Bridge ;
+	geo:long "4.8544275638" ;
+	geo:lat "52.3339084391" ;
+	rdf:label "Brug no. 502" .
+
+<http://www.bruggenvanamsterdam.nl/van_nijenrodeweg1.htm> a scr:Bridge ;
+	geo:long "4.8567181703" ;
+	geo:lat "52.3278077085" ;
+	rdf:label "Jacob Heinenbrug (503)" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan4.htm> a scr:Bridge ;
+	geo:long "4.8429369804" ;
+	geo:lat "52.3278224614" ;
+	rdf:label "Brug no. 504" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan3.htm> a scr:Bridge ;
+	geo:long "4.8537945625" ;
+	geo:lat "52.3307647502" ;
+	rdf:label "Brug no. 505" .
+
+<http://www.bruggenvanamsterdam.nl/koenensluis1.htm> a scr:Bridge ;
+	geo:long "4.8452865955" ;
+	geo:lat "52.3305959222" ;
+	rdf:label "Brug no. 506" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaansluis.htm> a scr:Bridge ;
+	geo:long "4.8432266589" ;
+	geo:lat "52.3298288121" ;
+	rdf:label "Brug no. 507" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan5.htm> a scr:Bridge ;
+	geo:long "4.8433607694" ;
+	geo:lat "52.3256176655" ;
+	rdf:label "Drogebrug (508)" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan2.htm> a scr:Bridge ;
+	geo:long "4.851798999" ;
+	geo:lat "52.3290764413" ;
+	rdf:label "Brug no. 509" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan1.htm> a scr:Bridge ;
+	geo:long "4.8532205697" ;
+	geo:lat "52.3291010287" ;
+	rdf:label "Brug no. 510" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan.htm> a scr:Bridge ;
+	geo:long "4.8543846484" ;
+	geo:lat "52.3280978483" ;
+	rdf:label "Brug no. 511" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan10.htm> a scr:Bridge ;
+	geo:long "4.8211467143" ;
+	geo:lat "52.3224684691" ;
+	rdf:label "Brug no. 512" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan11.htm> a scr:Bridge ;
+	geo:long "4.8204010602" ;
+	geo:lat "52.3224586326" ;
+	rdf:label "Brug no. 514" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan12.htm> a scr:Bridge ;
+	geo:long "4.8213666555" ;
+	geo:lat "52.3224258444" ;
+	rdf:label "Brug no. 515" .
+
+<http://www.bruggenvanamsterdam.nl/boeierspad.htm> a scr:Bridge ;
+	geo:long "4.8536765453" ;
+	geo:lat "52.3319678358" ;
+	rdf:label "Ballenbrug (516)" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_meerlaan1.htm> a scr:Bridge ;
+	geo:long "4.8216885206" ;
+	geo:lat "52.3217471224" ;
+	rdf:label "Brug no. 517" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_meerlaan.htm> a scr:Bridge ;
+	geo:long "4.8222732421" ;
+	geo:lat "52.3215143216" ;
+	rdf:label "Brug no. 518" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos_18.htm> a scr:Bridge ;
+	geo:long "4.8240113136" ;
+	geo:lat "52.3212159413" ;
+	rdf:label "Brug no. 519" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos9.htm> a scr:Bridge ;
+	geo:long "4.8249447223" ;
+	geo:lat "52.3203142306" ;
+	rdf:label "Brug no. 520" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos7.htm> a scr:Bridge ;
+	geo:long "4.8276215669" ;
+	geo:lat "52.320460145" ;
+	rdf:label "Brug no. 521" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos8.htm> a scr:Bridge ;
+	geo:long "4.8255991813" ;
+	geo:lat "52.3201420837" ;
+	rdf:label "Brug no. 522" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos19.htm> a scr:Bridge ;
+	geo:long "4.8227560397" ;
+	geo:lat "52.3199092745" ;
+	rdf:label "Brug no. 523" .
+
+<http://www.bruggenvanamsterdam.nl/duizendmeterweg.htm> a scr:Bridge ;
+	geo:long "4.8305880901" ;
+	geo:lat "52.3231947222" ;
+	rdf:label "Brug no. 525" .
+
+<http://www.bruggenvanamsterdam.nl/duizendmeterweg1.htm> a scr:Bridge ;
+	geo:long "4.8306417343" ;
+	geo:lat "52.3236340749" ;
+	rdf:label "Brug no. 526" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan8.htm> a scr:Bridge ;
+	geo:long "4.8364084836" ;
+	geo:lat "52.3245717834" ;
+	rdf:label "Duizendmeterbrug (527)" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos2.htm> a scr:Bridge ;
+	geo:long "4.8201811191" ;
+	geo:lat "52.3177401552" ;
+	rdf:label "Brug no. 528" .
+
+<http://www.bruggenvanamsterdam.nl/duizendmeterweg2.htm> a scr:Bridge ;
+	geo:long "4.8372077819" ;
+	geo:lat "52.3247881748" ;
+	rdf:label "Brug no. 529" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan13.htm> a scr:Bridge ;
+	geo:long "4.8368537303" ;
+	geo:lat "52.3250144011" ;
+	rdf:label "Brug no. 530" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan14.htm> a scr:Bridge ;
+	geo:long "4.842599022" ;
+	geo:lat "52.325250462" ;
+	rdf:label "Brug no. 531" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan9.htm> a scr:Bridge ;
+	geo:long "4.8430657264" ;
+	geo:lat "52.3264602547" ;
+	rdf:label "Brug no. 532" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos12.htm> a scr:Bridge ;
+	geo:long "4.8243117209" ;
+	geo:lat "52.3148429116" ;
+	rdf:label "Brug no. 533" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos11.htm> a scr:Bridge ;
+	geo:long "4.8254597064" ;
+	geo:lat "52.3146756625" ;
+	rdf:label "Brug no. 534" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos10.htm> a scr:Bridge ;
+	geo:long "4.8280185338" ;
+	geo:lat "52.3145936774" ;
+	rdf:label "Brug no. 535" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_a.htm> a scr:Bridge ;
+	geo:long "4.8217368003" ;
+	geo:lat "52.3088281071" ;
+	rdf:label "Brug no. 536" .
+
+<http://www.bruggenvanamsterdam.nl/burgmeester_a.htm> a scr:Bridge ;
+	geo:long "4.8313230153" ;
+	geo:lat "52.3062533636" ;
+	rdf:label "Brug no. 537" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos13.htm> a scr:Bridge ;
+	geo:long "4.8190116759" ;
+	geo:lat "52.3155217395" ;
+	rdf:label "Brug no. 538" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_a> geo:long "4.8264950391" ;
+	geo:lat "52.3088986235" ;
+	rdf:label "Bruinebrug (539)" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos20.htm> a scr:Bridge ;
+	geo:long "4.8271816846" ;
+	geo:lat "52.3100531077" ;
+	rdf:label "Blauwebrug (540)" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_a> geo:long "4.831639516" ;
+	geo:lat "52.3075686335" ;
+	rdf:label "Brug no. 541" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos16.htm> a scr:Bridge ;
+	geo:long "4.8360329744" ;
+	geo:lat "52.3069864428" ;
+	rdf:label "Brug no. 542" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos21.htm> a scr:Bridge ;
+	geo:long "4.8382216569" ;
+	geo:lat "52.3115388058" ;
+	rdf:label "Vierwindenbrug (543)" .
+
+<http://www.bruggenvanamsterdam.nl/amssterdamse_bos3.htm> a scr:Bridge ;
+	geo:long "4.8377495881" ;
+	geo:lat "52.3132835356" ;
+	rdf:label "Bibbertjesbrug (544)" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos14.htm> a scr:Bridge ;
+	geo:long "4.8341125127" ;
+	geo:lat "52.3112469176" ;
+	rdf:label "Brug no. 545" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos40.htm> a scr:Bridge ;
+	geo:long "4.8216831561" ;
+	geo:lat "52.3077195098" ;
+	rdf:label "Klimopbrug (546)" .
+
+<http://www.bruggenvanamsterdam.nl/zuidelijk.htm> a scr:Bridge ;
+	geo:long "4.829381096" ;
+	geo:lat "52.3182926923" ;
+	rdf:label "Brug no. 547" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan6.htm> a scr:Bridge ;
+	geo:long "4.8444068309" ;
+	geo:lat "52.3250176797" ;
+	rdf:label "Brug no. 548" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan7.htm> a scr:Bridge ;
+	geo:long "4.8496264097" ;
+	geo:lat "52.3262373144" ;
+	rdf:label "Brug no. 549" .
+
+<http://www.bruggenvanamsterdam.nl/bosbaan15.htm> a scr:Bridge ;
+	geo:long "4.8497229692" ;
+	geo:lat "52.325138989" ;
+	rdf:label "Brug no. 550" .
+
+<http://www.bruggenvanamsterdam.nl/handoverhaal.htm> a scr:Bridge ;
+	geo:long "4.8429369804" ;
+	geo:lat "52.3236766985" ;
+	rdf:label "Karnemelkgatsbrug (551)" .
+
+<http://www.bruggenvanamsterdam.nl/boeierspad2.htm> a scr:Bridge ;
+	geo:long "4.8485535261" ;
+	geo:lat "52.3326988501" ;
+	rdf:label "Brug no. 552" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos1.htm> a scr:Bridge ;
+	geo:long "4.8297029611" ;
+	geo:lat "52.3186861863" ;
+	rdf:label "Brug van Broerse (553)" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos42.htm> a scr:Bridge ;
+	geo:long "4.8148435232" ;
+	geo:lat "52.304839651" ;
+	rdf:label "Brug no. 554" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos41.htm> a scr:Bridge ;
+	geo:long "4.8173004266" ;
+	geo:lat "52.2998584962" ;
+	rdf:label "Brug no. 555" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos46.htm> a scr:Bridge ;
+	geo:long "4.8219138261" ;
+	geo:lat "52.3001898252" ;
+	rdf:label "Hoedbrug (556)" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_a> geo:long "4.825813758" ;
+	geo:lat "52.3029223746" ;
+	rdf:label "Stenenbrug (557)" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos44.htm> a scr:Bridge ;
+	geo:long "4.8150098201" ;
+	geo:lat "52.3039671283" ;
+	rdf:label "Eerste Volendammerbrug (558)" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos43.htm> a scr:Bridge ;
+	geo:long "4.8140764114" ;
+	geo:lat "52.3037670361" ;
+	rdf:label "Tweede Volendammerbrug (559)" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos30.htm> a scr:Bridge ;
+	geo:long "4.8170429345" ;
+	geo:lat "52.3033701292" ;
+	rdf:label "Brug no. 560" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos31.htm> a scr:Bridge ;
+	geo:long "4.8205619928" ;
+	geo:lat "52.300862317" ;
+	rdf:label "Brug no. 561" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos33.htm> a scr:Bridge ;
+	geo:long "4.8245102044" ;
+	geo:lat "52.3014724714" ;
+	rdf:label "Brug no. 562" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos34.htm> a scr:Bridge ;
+	geo:long "4.8251914855" ;
+	geo:lat "52.2999109841" ;
+	rdf:label "Brug no. 563" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos45.htm> a scr:Bridge ;
+	geo:long "4.8263072845" ;
+	geo:lat "52.3021285421" ;
+	rdf:label "Brug no. 564" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos17.htm> a scr:Bridge ;
+	geo:long "4.8295259353" ;
+	geo:lat "52.3049905366" ;
+	rdf:label "Brug no. 565" .
+
+<http://www.bruggenvanamsterdam.nl/springbaan.htm> a scr:Bridge ;
+	geo:long "4.8439830419" ;
+	geo:lat "52.3212454516" ;
+	rdf:label "Boogbrug (566)" .
+
+<http://www.bruggenvanamsterdam.nl/springbaan1.htm> a scr:Bridge ;
+	geo:long "4.8406839248" ;
+	geo:lat "52.3189255601" ;
+	rdf:label "Manegebrug (569)" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos35.htm> a scr:Bridge ;
+	geo:long "4.828495967" ;
+	geo:lat "52.2969371171" ;
+	rdf:label "Brug no. 571" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos37.htm> a scr:Bridge ;
+	geo:long "4.8221981402" ;
+	geo:lat "52.2969896085" ;
+	rdf:label "Brug no. 572" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos38.htm> a scr:Bridge ;
+	geo:long "4.8233461257" ;
+	geo:lat "52.2938793865" ;
+	rdf:label "Brug no. 575" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos36.htm> a scr:Bridge ;
+	geo:long "4.8260068771" ;
+	geo:lat "52.2960775618" ;
+	rdf:label "Brug no. 577" .
+
+<http://www.bruggenvanamsterdam.nl/boeierspad1.htm> a scr:Bridge ;
+	geo:long "4.8484676954" ;
+	geo:lat "52.332469385" ;
+	rdf:label "Brug no. 578" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos32.htm> a scr:Bridge ;
+	geo:long "4.8285174247" ;
+	geo:lat "52.3016135274" ;
+	rdf:label "Brug no. 580" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos28.htm> a scr:Bridge ;
+	geo:long "4.8310011503" ;
+	geo:lat "52.3032438399" ;
+	rdf:label "Brug no. 581" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos27.htm> a scr:Bridge ;
+	geo:long "4.8332649347" ;
+	geo:lat "52.3049364147" ;
+	rdf:label "Brug no. 582" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos29.htm> a scr:Bridge ;
+	geo:long "4.8339569446" ;
+	geo:lat "52.3025713843" ;
+	rdf:label "Brug no. 583" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos15.htm> a scr:Bridge ;
+	geo:long "4.8363709327" ;
+	geo:lat "52.3062697638" ;
+	rdf:label "Brug no. 584" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos52.htm> a scr:Bridge ;
+	geo:long "4.8364567634" ;
+	geo:lat "52.3160234752" ;
+	rdf:label "Brug no. 586" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos53.htm> a scr:Bridge ;
+	geo:long "4.8328465101" ;
+	geo:lat "52.3171744943" ;
+	rdf:label "Brug no. 587" .
+
+<http://www.bruggenvanamsterdam.nl/tjotterspad.htm> a scr:Bridge ;
+	geo:long "4.8536014434" ;
+	geo:lat "52.3326988501" ;
+	rdf:label "Brug no. 589" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_kalfjeslaan.htm> a scr:Bridge ;
+	geo:long "4.8566591617" ;
+	geo:lat "52.3216717082" ;
+	rdf:label "Brug no. 590" .
+
+<http://www.bruggenvanamsterdam.nl/koenensluis2.htm> a scr:Bridge ;
+	geo:long "4.8549425479" ;
+	geo:lat "52.3336134205" ;
+	rdf:label "Brug no. 591" .
+
+<http://www.bruggenvanamsterdam.nl/koenensluis.htm> a scr:Bridge ;
+	geo:long "4.8549425479" ;
+	geo:lat "52.3336134205" ;
+	rdf:label "Brug no. 592" .
+
+<http://www.bruggenvanamsterdam.nl/jachthavenweg1.htm> a scr:Bridge ;
+	geo:long "4.8549425479" ;
+	geo:lat "52.3336134205" ;
+	rdf:label "Brug no. 593" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_vening_meineszlaan.htm> a scr:Bridge ;
+	geo:long "4.837851512" ;
+	geo:lat "52.3821895674" ;
+	rdf:label "Brug no. 600" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_de_vlugtlaan.htm> a scr:Bridge ;
+	geo:long "4.8364782211" ;
+	geo:lat "52.3790836948" ;
+	rdf:label "Brug no. 601" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_fockstraat1.htm> a scr:Bridge ;
+	geo:long "4.8316502448" ;
+	geo:lat "52.3783108766" ;
+	rdf:label "Brug no. 602" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_eliasstraat1.htm> a scr:Bridge ;
+	geo:long "4.827187049" ;
+	geo:lat "52.3844128255" ;
+	rdf:label "Brug no. 603" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_roellstraat1.htm> a scr:Bridge ;
+	geo:long "4.833436596" ;
+	geo:lat "52.3734411554" ;
+	rdf:label "Bananenbrug (604)" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_roellstraat.htm> a scr:Bridge ;
+	geo:long "4.8322617885" ;
+	geo:lat "52.3736474826" ;
+	rdf:label "Brug no. 605" .
+
+<http://www.bruggenvanamsterdam.nl/jan_evertsenstraat2.htm> a scr:Bridge ;
+	geo:long "4.8321169492" ;
+	geo:lat "52.3704312879" ;
+	rdf:label "Brug no. 606" .
+
+<http://www.bruggenvanamsterdam.nl/oostoever.htm> a scr:Bridge ;
+	geo:long "4.8303198692" ;
+	geo:lat "52.3698024322" ;
+	rdf:label "Brug no. 607" .
+
+<http://www.bruggenvanamsterdam.nl/jacob_van_maerlantstraat.htm> a scr:Bridge ;
+	geo:long "4.810568082" ;
+	geo:lat "52.3794111561" ;
+	rdf:label "Brug no. 608" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_fockstraat.htm> a scr:Bridge ;
+	geo:long "4.8311567184" ;
+	geo:lat "52.3772105696" ;
+	rdf:label "Brug no. 609" .
+
+<http://www.bruggenvanamsterdam.nl/sloterpark6.htm> a scr:Bridge ;
+	geo:long "4.80759083" ;
+	geo:lat "52.3680337276" ;
+	rdf:label "Brug no. 610" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_eliasstraat.htm> a scr:Bridge ;
+	geo:long "4.8257654783" ;
+	geo:lat "52.3780456265" ;
+	rdf:label "Brug no. 611" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_roellstraat2.htm> a scr:Bridge ;
+	geo:long "4.8231690999" ;
+	geo:lat "52.3750655471" ;
+	rdf:label "Brug no. 612" .
+
+<http://www.bruggenvanamsterdam.nl/carry_van_bruggenstraat.htm> a scr:Bridge ;
+	geo:long "4.8178046819" ;
+	geo:lat "52.3786776395" ;
+	rdf:label "Brug no. 613" .
+
+<http://www.bruggenvanamsterdam.nl/slotermeerlaan.htm> a scr:Bridge ;
+	geo:long "4.8201382038" ;
+	geo:lat "52.3783337993" ;
+	rdf:label "Brug no. 614" .
+
+<http://www.bruggenvanamsterdam.nl/frans_bastiaansestraat.htm> a scr:Bridge ;
+	geo:long "4.8239952203" ;
+	geo:lat "52.3777247045" ;
+	rdf:label "Brug no. 615" .
+
+<http://www.bruggenvanamsterdam.nl/henriette_roland_holststraat.htm> a scr:Bridge ;
+	geo:long "4.8238074657" ;
+	geo:lat "52.3764147948" ;
+	rdf:label "Brug no. 616" .
+
+<http://www.bruggenvanamsterdam.nl/noordzijde.htm> a scr:Bridge ;
+	geo:long "4.8228311416" ;
+	geo:lat "52.3739242217" ;
+	rdf:label "Brug no. 617" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_van_leeuwenlaan.htm> a scr:Bridge ;
+	geo:long "4.8132288333" ;
+	geo:lat "52.3794144307" ;
+	rdf:label "Brug no. 618" .
+
+<http://www.bruggenvanamsterdam.nl/eendrachtspark.htm> a scr:Bridge ;
+	geo:long "4.8088407394" ;
+	geo:lat "52.3803640547" ;
+	rdf:label "Brug no. 619" .
+
+<http://www.bruggenvanamsterdam.nl/lodewijk_van_deysselstraat.htm> a scr:Bridge ;
+	geo:long "4.8089909431" ;
+	geo:lat "52.3779064514" ;
+	rdf:label "Brug no. 620" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_roellstraat3.htm> a scr:Bridge ;
+	geo:long "4.808669078" ;
+	geo:lat "52.3767275392" ;
+	rdf:label "Brug no. 621" .
+
+<http://www.bruggenvanamsterdam.nl/savornin_lohmanstraat.htm> a scr:Bridge ;
+	geo:long "4.8081326362" ;
+	geo:lat "52.3745710309" ;
+	rdf:label "Brug no. 622" .
+
+<http://www.bruggenvanamsterdam.nl/kruisherenpad.htm> a scr:Bridge ;
+	geo:long "4.8021352168" ;
+	geo:lat "52.3792965449" ;
+	rdf:label "Brug no. 623" .
+
+<http://www.bruggenvanamsterdam.nl/sam_van_houtenstraat.htm> a scr:Bridge ;
+	geo:long "4.7941261407" ;
+	geo:lat "52.379253975" ;
+	rdf:label "Brug no. 624" .
+
+<http://www.bruggenvanamsterdam.nl/eendrachtspark1.htm> a scr:Bridge ;
+	geo:long "4.8101174709" ;
+	geo:lat "52.3805408789" ;
+	rdf:label "Brug no. 626" .
+
+<http://www.bruggenvanamsterdam.nl/anthony_moddermanstraat.htm> a scr:Bridge ;
+	geo:long "4.8121130344" ;
+	geo:lat "52.3833077591" ;
+	rdf:label "Brug no. 627" .
+
+<http://www.bruggenvanamsterdam.nl/freek_oxstraat.htm> a scr:Bridge ;
+	geo:long "4.8283779498" ;
+	geo:lat "52.3788086255" ;
+	rdf:label "Brug no. 628" .
+
+<http://www.bruggenvanamsterdam.nl/dirk_bonsstraat1.htm> a scr:Bridge ;
+	geo:long "4.8348903533" ;
+	geo:lat "52.3777869243" ;
+	rdf:label "Brug no. 629" .
+
+<http://www.bruggenvanamsterdam.nl/thomas_van_aquinostraat1.htm> a scr:Bridge ;
+	geo:long "4.8120218393" ;
+	geo:lat "52.3720001127" ;
+	rdf:label "Brug no. 630" .
+
+<http://www.bruggenvanamsterdam.nl/president_allendelaan1.htm> a scr:Bridge ;
+	geo:long "4.8172682401" ;
+	geo:lat "52.3718461804" ;
+	rdf:label "Brug no. 631" .
+
+<http://www.bruggenvanamsterdam.nl/burgemeester_cramergracht1.htm> a scr:Bridge ;
+	geo:long "4.8325031873" ;
+	geo:lat "52.3707653638" ;
+	rdf:label "Brug no. 632" .
+
+<http://www.bruggenvanamsterdam.nl/jan_evertsenstraat3.htm> a scr:Bridge ;
+	geo:long "4.8339569446" ;
+	geo:lat "52.37045749" ;
+	rdf:label "Brug no. 633" .
+
+<http://www.bruggenvanamsterdam.nl/sloterpark3.htm> a scr:Bridge ;
+	geo:long "4.8105519887" ;
+	geo:lat "52.3684431562" ;
+	rdf:label "Brug no. 634" .
+
+<http://www.bruggenvanamsterdam.nl/dr_h_colijnstraat.htm> a scr:Bridge ;
+	geo:long "4.8064374801" ;
+	geo:lat "52.380298564" ;
+	rdf:label "Brug no. 635" .
+
+<http://www.bruggenvanamsterdam.nl/aalbersestraat.htm> a scr:Bridge ;
+	geo:long "4.7979080554" ;
+	geo:lat "52.3801643079" ;
+	rdf:label "Brug no. 637" .
+
+<http://www.bruggenvanamsterdam.nl/cornelis_outshoornstraat.htm> a scr:Bridge ;
+	geo:long "4.7943621751" ;
+	geo:lat "52.3816378285" ;
+	rdf:label "Brug no. 638" .
+
+<http://www.bruggenvanamsterdam.nl/osdorperweg.htm> a scr:Bridge ;
+	geo:long "4.7595792886" ;
+	geo:lat "52.3811122785" ;
+	rdf:label "Brug no. 639" .
+
+<http://www.bruggenvanamsterdam.nl/geleyn_bouwensstraat.htm> a scr:Bridge ;
+	geo:long "4.8059117671" ;
+	geo:lat "52.3726289371" ;
+	rdf:label "Brug no. 643" .
+
+<http://www.bruggenvanamsterdam.nl/bernard_loderstraat.htm> a scr:Bridge ;
+	geo:long "4.8121398565" ;
+	geo:lat "52.3807635455" ;
+	rdf:label "Brug no. 651" .
+
+<http://www.bruggenvanamsterdam.nl/herman_bonpad.htm> a scr:Bridge ;
+	geo:long "4.7939652082" ;
+	geo:lat "52.3669757464" ;
+	rdf:label "Brug no. 652" .
+
+<http://www.bruggenvanamsterdam.nl/jan_tooropstraat.htm> a scr:Bridge ;
+	geo:long "4.8374438163" ;
+	geo:lat "52.3699530963" ;
+	rdf:label "Brug no. 653" .
+
+<http://www.bruggenvanamsterdam.nl/afrit.htm> a scr:Bridge ;
+	geo:long "4.8395198461" ;
+	geo:lat "52.345902559" ;
+	rdf:label "Brug no. 655" .
+
+<http://www.bruggenvanamsterdam.nl/postjesweg1.htm> a scr:Bridge ;
+	geo:long "4.8343968269" ;
+	geo:lat "52.3640718999" ;
+	rdf:label "Brug no. 656" .
+
+<http://www.bruggenvanamsterdam.nl/jan_evertsenstraat1.htm> a scr:Bridge ;
+	geo:long "4.8348045226" ;
+	geo:lat "52.3700579059" ;
+	rdf:label "Brug no. 657" .
+
+<http://www.bruggenvanamsterdam.nl/admiraal_helfrichstraat.htm> a scr:Bridge ;
+	geo:long "4.8450720188" ;
+	geo:lat "52.3696091883" ;
+	rdf:label "Brug no. 658" .
+
+<http://www.bruggenvanamsterdam.nl/jan_evertsenstraat4.htm> a scr:Bridge ;
+	geo:long "4.8477542278" ;
+	geo:lat "52.369596087" ;
+	rdf:label "Brug no. 659" .
+
+<http://www.bruggenvanamsterdam.nl/rembrandtpark1.htm> a scr:Bridge ;
+	geo:long "4.8477810499" ;
+	geo:lat "52.3681057873" ;
+	rdf:label "Brug no. 660" .
+
+<http://www.bruggenvanamsterdam.nl/rembrandtpark.htm> a scr:Bridge ;
+	geo:long "4.8477113124" ;
+	geo:lat "52.3672869199" ;
+	rdf:label "Brug no. 661" .
+
+<http://www.bruggenvanamsterdam.nl/einsteinweg1.htm> a scr:Bridge ;
+	geo:long "4.8420894023" ;
+	geo:lat "52.3459320527" ;
+	rdf:label "Brug no. 662" .
+
+<http://www.bruggenvanamsterdam.nl/rembrandtpark2.htm> a scr:Bridge ;
+	geo:long "4.8480492708" ;
+	geo:lat "52.3661273778" ;
+	rdf:label "Brug no. 663" .
+
+<http://www.bruggenvanamsterdam.nl/rembrandtpark3.htm> a scr:Bridge ;
+	geo:long "4.847539651" ;
+	geo:lat "52.3652757173" ;
+	rdf:label "Brug no. 664" .
+
+<http://www.bruggenvanamsterdam.nl/oprit.htm> a scr:Bridge ;
+	geo:long "4.8395466682" ;
+	geo:lat "52.3456240058" ;
+	rdf:label "Brug no. 665" .
+
+<http://www.bruggenvanamsterdam.nl/marius_bauerstraat.htm> a scr:Bridge ;
+	geo:long "4.8344397422" ;
+	geo:lat "52.3628139985" ;
+	rdf:label "Brug no. 666" .
+
+<http://www.bruggenvanamsterdam.nl/rembrandtpark4.htm> a scr:Bridge ;
+	geo:long "4.8470675823" ;
+	geo:lat "52.3634970041" ;
+	rdf:label "Brug no. 667" .
+
+<http://www.bruggenvanamsterdam.nl/johan_jongkindstraat.htm> a scr:Bridge ;
+	geo:long "4.8345684882" ;
+	geo:lat "52.3592759589" ;
+	rdf:label "Brug no. 668" .
+
+<http://www.bruggenvanamsterdam.nl/rembrandtpark5.htm> a scr:Bridge ;
+	geo:long "4.8465794202" ;
+	geo:lat "52.3614954567" ;
+	rdf:label "Brug no. 669" .
+
+<http://www.bruggenvanamsterdam.nl/einsteinweg2.htm> a scr:Bridge ;
+	geo:long "4.84211086" ;
+	geo:lat "52.3456141745" ;
+	rdf:label "Brug no. 670" .
+
+<http://www.bruggenvanamsterdam.nl/rembrandtpark7.htm> a scr:Bridge ;
+	geo:long "4.8466652509" ;
+	geo:lat "52.360548703" ;
+	rdf:label "Brug no. 671" .
+
+<http://www.bruggenvanamsterdam.nl/cornelis_lelylaan9.htm> a scr:Bridge ;
+	geo:long "4.844304907" ;
+	geo:lat "52.358419252" ;
+	rdf:label "Brug no. 672" .
+
+<http://www.bruggenvanamsterdam.nl/postjesweg.htm> a scr:Bridge ;
+	geo:long "4.8474001762" ;
+	geo:lat "52.3642242214" ;
+	rdf:label "Brug no. 673" .
+
+<http://www.bruggenvanamsterdam.nl/rembrandtpark8.htm> a scr:Bridge ;
+	geo:long "4.8457372066" ;
+	geo:lat "52.3601129929" ;
+	rdf:label "Brug no. 674" .
+
+<http://www.bruggenvanamsterdam.nl/colenbranderhof.htm> a scr:Bridge ;
+	geo:long "4.8175310966" ;
+	geo:lat "52.3595396836" ;
+	rdf:label "Brug no. 675" .
+
+<http://www.bruggenvanamsterdam.nl/sloterplas.htm> a scr:Bridge ;
+	geo:long "4.8174828168" ;
+	geo:lat "52.3587861801" ;
+	rdf:label "Brug no. 676" .
+
+<http://www.bruggenvanamsterdam.nl/sloterpark5.htm> a scr:Bridge ;
+	geo:long "4.8090124008" ;
+	geo:lat "52.3672214099" ;
+	rdf:label "Brug no. 677" .
+
+<http://www.bruggenvanamsterdam.nl/sloterpark4.htm> a scr:Bridge ;
+	geo:long "4.813185918" ;
+	geo:lat "52.3685839988" ;
+	rdf:label "Brug no. 678" .
+
+<http://www.bruggenvanamsterdam.nl/oeverpad.htm> a scr:Bridge ;
+	geo:long "4.8090553161" ;
+	geo:lat "52.3642094807" ;
+	rdf:label "Brug no. 679" .
+
+<http://www.bruggenvanamsterdam.nl/dokter_meurerstraat.htm> a scr:Bridge ;
+	geo:long "4.806115615" ;
+	geo:lat "52.3695600583" ;
+	rdf:label "Brug no. 681" .
+
+<http://www.bruggenvanamsterdam.nl/postjeskade_ingang_beatrixpark.htm> a scr:Bridge ;
+	geo:long "4.849476206" ;
+	geo:lat "52.3631186498" ;
+	rdf:label "Brug no. 682" .
+
+<http://www.bruggenvanamsterdam.nl/postjeskade_hoek_corantijnstraat.htm> a scr:Bridge ;
+	geo:long "4.8495083925" ;
+	geo:lat "52.3618443418" ;
+	rdf:label "Brug no. 683" .
+
+<http://www.bruggenvanamsterdam.nl/postjeskade_hoek_antillenstraat.htm> a scr:Bridge ;
+	geo:long "4.8489075776" ;
+	geo:lat "52.3597084011" ;
+	rdf:label "Duizendste Brug (684)" .
+
+<http://www.bruggenvanamsterdam.nl/pieter_calandlaan1.htm> a scr:Bridge ;
+	geo:long "4.8346757766" ;
+	geo:lat "52.356347034" ;
+	rdf:label "Brug no. 685" .
+
+<http://www.bruggenvanamsterdam.nl/heemstedestraat.htm> a scr:Bridge ;
+	geo:long "4.8347562429" ;
+	geo:lat "52.3515535311" ;
+	rdf:label "Brug no. 687" .
+
+<http://www.bruggenvanamsterdam.nl/cornelis_lelylaan12.htm> a scr:Bridge ;
+	geo:long "4.84413861" ;
+	geo:lat "52.3580244733" ;
+	rdf:label "Brug no. 688" .
+
+<http://www.bruggenvanamsterdam.nl/cornelis_lelylaan2.htm> a scr:Bridge ;
+	geo:long "4.8406249162" ;
+	geo:lat "52.3580408543" ;
+	rdf:label "Brug no. 689" .
+
+<http://www.bruggenvanamsterdam.nl/vlaardingenlaan.htm> a scr:Bridge ;
+	geo:long "4.8349064466" ;
+	geo:lat "52.3469741528" ;
+	rdf:label "Brug no. 690" .
+
+<http://www.bruggenvanamsterdam.nl/koningin_wilhelminaplein.htm> a scr:Bridge ;
+	geo:long "4.8360061523" ;
+	geo:lat "52.3560849283" ;
+	rdf:label "Brug no. 691" .
+
+<http://www.bruggenvanamsterdam.nl/delflandlaan1.htm> a scr:Bridge ;
+	geo:long "4.8405980941" ;
+	geo:lat "52.356111139" ;
+	rdf:label "Brug no. 692" .
+
+<http://www.bruggenvanamsterdam.nl/westlandgracht_hoek_woestduinstr.htm> a scr:Bridge ;
+	geo:long "4.8477542278" ;
+	geo:lat "52.3555000995" ;
+	rdf:label "Brug no. 695" .
+
+<http://www.bruggenvanamsterdam.nl/australiehavenweg.htm> a scr:Bridge ;
+	geo:long "4.8030364391" ;
+	geo:lat "52.3845470687" ;
+	rdf:label "Brug no. 698" .
+
+<http://www.bruggenvanamsterdam.nl/thomas_van_aquinostraat.htm> a scr:Bridge ;
+	geo:long "4.8114424821" ;
+	geo:lat "52.3716136433" ;
+	rdf:label "Brug no. 699" .
+
+<http://www.bruggenvanamsterdam.nl/sloterpark2.htm> a scr:Bridge ;
+	geo:long "4.807553279" ;
+	geo:lat "52.3724307929" ;
+	rdf:label "Brug no. 700" .
+
+<http://www.bruggenvanamsterdam.nl/johan_huizingalaan.htm> a scr:Bridge ;
+	geo:long "4.8273748037" ;
+	geo:lat "52.3518156637" ;
+	rdf:label "Brug no. 701" .
+
+<http://www.bruggenvanamsterdam.nl/cornelis_lelylaan7.htm> a scr:Bridge ;
+	geo:long "4.8333293077" ;
+	geo:lat "52.3576804724" ;
+	rdf:label "Brug no. 702" .
+
+<http://www.bruggenvanamsterdam.nl/cornelis_lelylaan6.htm> a scr:Bridge ;
+	geo:long "4.8346543189" ;
+	geo:lat "52.3581162065" ;
+	rdf:label "Brug no. 703" .
+
+<http://www.bruggenvanamsterdam.nl/henk_sneevlietweg.htm> a scr:Bridge ;
+	geo:long "4.8370092985" ;
+	geo:lat "52.3457206804" ;
+	rdf:label "Brug no. 704" .
+
+<http://www.bruggenvanamsterdam.nl/cornelis_lelylaan13.htm> a scr:Bridge ;
+	geo:long "4.827288973" ;
+	geo:lat "52.3578180731" ;
+	rdf:label "Brug no. 705" .
+
+<http://www.bruggenvanamsterdam.nl/hemsterhuisstraat.htm> a scr:Bridge ;
+	geo:long "4.8331415531" ;
+	geo:lat "52.3627943435" ;
+	rdf:label "Brug no. 706" .
+
+<http://www.bruggenvanamsterdam.nl/comeniusstraat.htm> a scr:Bridge ;
+	geo:long "4.8332595703" ;
+	geo:lat "52.3592628545" ;
+	rdf:label "Brug no. 707" .
+
+<http://www.bruggenvanamsterdam.nl/pieter_calandlaan3.htm> a scr:Bridge ;
+	geo:long "4.8333829519" ;
+	geo:lat "52.3562716788" ;
+	rdf:label "Brug no. 708" .
+
+<http://www.bruggenvanamsterdam.nl/jacques_veltmanstraat.htm> a scr:Bridge ;
+	geo:long "4.8322081443" ;
+	geo:lat "52.3518648133" ;
+	rdf:label "Brug no. 709" .
+
+<http://www.bruggenvanamsterdam.nl/plesmanlaan1.htm> a scr:Bridge ;
+	geo:long "4.8335063335" ;
+	geo:lat "52.3515142111" ;
+	rdf:label "Brug no. 710" .
+
+<http://www.bruggenvanamsterdam.nl/christoffel_plantijnpad.htm> a scr:Bridge ;
+	geo:long "4.820873129" ;
+	geo:lat "52.3517239175" ;
+	rdf:label "Brug no. 711" .
+
+<http://www.bruggenvanamsterdam.nl/plesmanlaan4.htm> a scr:Bridge ;
+	geo:long "4.8211842653" ;
+	geo:lat "52.3513208872" ;
+	rdf:label "Brug no. 712" .
+
+<http://www.bruggenvanamsterdam.nl/johan_huizingalaan1.htm> a scr:Bridge ;
+	geo:long "4.8274981853" ;
+	geo:lat "52.3470937634" ;
+	rdf:label "Brug no. 713" .
+
+<http://www.bruggenvanamsterdam.nl/ottho_heldringstraat.htm> a scr:Bridge ;
+	geo:long "4.8326802131" ;
+	geo:lat "52.3471593033" ;
+	rdf:label "Brug no. 714" .
+
+<http://www.bruggenvanamsterdam.nl/pieter_calandlaan4.htm> a scr:Bridge ;
+	geo:long "4.8182445642" ;
+	geo:lat "52.3557540177" ;
+	rdf:label "Brug no. 715" .
+
+<http://www.bruggenvanamsterdam.nl/johan_braakensiekhof.htm> a scr:Bridge ;
+	geo:long "4.8200684663" ;
+	geo:lat "52.3524611584" ;
+	rdf:label "Brug no. 716" .
+
+<http://www.bruggenvanamsterdam.nl/cornelis_lelylaan10.htm> a scr:Bridge ;
+	geo:long "4.8213934776" ;
+	geo:lat "52.3577263393" ;
+	rdf:label "Brug no. 717" .
+
+<http://www.bruggenvanamsterdam.nl/hemsterhuisstraat1.htm> a scr:Bridge ;
+	geo:long "4.8213827487" ;
+	geo:lat "52.3583488146" ;
+	rdf:label "Brug no. 718" .
+
+<http://www.bruggenvanamsterdam.nl/cornelis_lelylaan11.htm> a scr:Bridge ;
+	geo:long "4.8185717937" ;
+	geo:lat "52.3576968535" ;
+	rdf:label "Brug no. 719" .
+
+<http://www.bruggenvanamsterdam.nl/christoffel_plantijnpad2.htm> a scr:Bridge ;
+	geo:long "4.8188722011" ;
+	geo:lat "52.3582734628" ;
+	rdf:label "Brug no. 720" .
+
+<http://www.bruggenvanamsterdam.nl/dirk_wittehof.htm> a scr:Bridge ;
+	geo:long "4.8191940662" ;
+	geo:lat "52.3539781977" ;
+	rdf:label "Brug no. 721" .
+
+<http://www.bruggenvanamsterdam.nl/sportpark_sloten.htm> a scr:Bridge ;
+	geo:long "4.8069175955" ;
+	geo:lat "52.3403000269" ;
+	rdf:label "Brug no. 722" .
+
+<http://www.bruggenvanamsterdam.nl/sloterpark8.htm> a scr:Bridge ;
+	geo:long "4.8124617216" ;
+	geo:lat "52.3703870717" ;
+	rdf:label "Brug no. 725" .
+
+<http://www.bruggenvanamsterdam.nl/sloterpark7.htm> a scr:Bridge ;
+	geo:long "4.8123222467" ;
+	geo:lat "52.3698499242" ;
+	rdf:label "Brug no. 726" .
+
+<http://www.bruggenvanamsterdam.nl/cornelis_lelylaan4.htm> a scr:Bridge ;
+	geo:long "4.8345336195" ;
+	geo:lat "52.3576984916" ;
+	rdf:label "Brug no. 729" .
+
+<http://www.bruggenvanamsterdam.nl/tuinpark_vat3.htm> a scr:Bridge ;
+	geo:long "4.7973206517" ;
+	geo:lat "52.3404049068" ;
+	rdf:label "Brug no. 730" .
+
+<http://www.bruggenvanamsterdam.nl/tuinpark_vat2_te_sloten.htm> a scr:Bridge ;
+	geo:long "4.7990265366" ;
+	geo:lat "52.3403655768" ;
+	rdf:label "Brug no. 731" .
+
+<http://www.bruggenvanamsterdam.nl/tuinpark_vat_te_sloten.htm> a scr:Bridge ;
+	geo:long "4.7982916113" ;
+	geo:lat "52.3379794957" ;
+	rdf:label "Brug no. 732" .
+
+<http://www.bruggenvanamsterdam.nl/tuinpark_vat6_te_sloten.htm> a scr:Bridge ;
+	geo:long "4.7986671206" ;
+	geo:lat "52.3378811654" ;
+	rdf:label "Brug no. 736" .
+
+<http://www.bruggenvanamsterdam.nl/tuinpark_vat5_te_sloten.htm> a scr:Bridge ;
+	geo:long "4.7987475869" ;
+	geo:lat "52.3390938903" ;
+	rdf:label "Brug no. 737" .
+
+<http://www.bruggenvanamsterdam.nl/tuinpark_vat4_te_sloten.htm> a scr:Bridge ;
+	geo:long "4.7999599453" ;
+	geo:lat "52.3401427066" ;
+	rdf:label "Brug no. 738" .
+
+<http://www.bruggenvanamsterdam.nl/amstelglorie6.htm> a scr:Bridge ;
+	geo:long "4.8075425502" ;
+	geo:lat "52.3668725673" ;
+	rdf:label "Brug no. 740" .
+
+<http://www.bruggenvanamsterdam.nl/amstelglorie8.htm> a scr:Bridge ;
+	geo:long "4.9101611849" ;
+	geo:lat "52.3357162049" ;
+	rdf:label "Brug no. 742" .
+
+<http://www.bruggenvanamsterdam.nl/amstelglorie10.htm> a scr:Bridge ;
+	geo:long "4.9116954085" ;
+	geo:lat "52.334693507" ;
+	rdf:label "Brug no. 744" .
+
+<http://www.bruggenvanamsterdam.nl/amstelglorie1.htm> a scr:Bridge ;
+	geo:long "4.9085625883" ;
+	geo:lat "52.3330119041" ;
+	rdf:label "Brug no. 749" .
+
+<http://www.bruggenvanamsterdam.nl/president_allendelaan2.htm> a scr:Bridge ;
+	geo:long "4.8075425502" ;
+	geo:lat "52.3668725673" ;
+	rdf:label "Brug no. 751" .
+
+<http://www.bruggenvanamsterdam.nl/ookmeerweg.htm> a scr:Bridge ;
+	geo:long "4.7952902194" ;
+	geo:lat "52.3644535217" ;
+	rdf:label "Brug no. 752" .
+
+<http://www.bruggenvanamsterdam.nl/meer_en_vaart.htm> a scr:Bridge ;
+	geo:long "4.8068666335" ;
+	geo:lat "52.3609696669" ;
+	rdf:label "Brug no. 753" .
+
+<http://www.bruggenvanamsterdam.nl/pieter_calandlaan.htm> a scr:Bridge ;
+	geo:long "4.8022371408" ;
+	geo:lat "52.3525021159" ;
+	rdf:label "Brug no. 754" .
+
+<http://www.bruggenvanamsterdam.nl/osdorpergracht.htm> a scr:Bridge ;
+	geo:long "4.7992330667" ;
+	geo:lat "52.359388984" ;
+	rdf:label "Brug no. 755" .
+
+<http://www.bruggenvanamsterdam.nl/tussen_meer.htm> a scr:Bridge ;
+	geo:long "4.799275982" ;
+	geo:lat "52.3580261114" ;
+	rdf:label "Brug no. 756" .
+
+<http://www.bruggenvanamsterdam.nl/wevelswalepad.htm> a scr:Bridge ;
+	geo:long "4.7969156381" ;
+	geo:lat "52.3614610594" ;
+	rdf:label "Brug no. 757" .
+
+<http://www.bruggenvanamsterdam.nl/cornelis_lelylaan8.htm> a scr:Bridge ;
+	geo:long "4.8150795575" ;
+	geo:lat "52.3573987173" ;
+	rdf:label "Brug no. 758" .
+
+<http://www.bruggenvanamsterdam.nl/tussen_meer2.htm> a scr:Bridge ;
+	geo:long "4.7904890653" ;
+	geo:lat "52.356284784" ;
+	rdf:label "Brug no. 759" .
+
+<http://www.bruggenvanamsterdam.nl/tussen_meer1.htm> a scr:Bridge ;
+	geo:long "4.7887027141" ;
+	geo:lat "52.3559080061" ;
+	rdf:label "Brug no. 760" .
+
+<http://www.bruggenvanamsterdam.nl/baden_powellweg.htm> a scr:Bridge ;
+	geo:long "4.7974252578" ;
+	geo:lat "52.3481096207" ;
+	rdf:label "Brug no. 761" .
+
+<http://www.bruggenvanamsterdam.nl/grasrijk.htm> a scr:Bridge ;
+	geo:long "4.7958695766" ;
+	geo:lat "52.3632414924" ;
+	rdf:label "Brug no. 762" .
+
+<http://www.bruggenvanamsterdam.nl/vreedenhaven.htm> a scr:Bridge ;
+	geo:long "4.7975110885" ;
+	geo:lat "52.3603717987" ;
+	rdf:label "Brug no. 763" .
+
+<http://www.bruggenvanamsterdam.nl/groenpad.htm> a scr:Bridge ;
+	geo:long "4.8034548637" ;
+	geo:lat "52.3602948123" ;
+	rdf:label "Brug no. 764" .
+
+<http://www.bruggenvanamsterdam.nl/van_suchtelen_v.htm> a scr:Bridge ;
+	geo:long "4.7992330667" ;
+	geo:lat "52.359388984" ;
+	rdf:label "Brug no. 765" .
+
+<http://www.bruggenvanamsterdam.nl/reimerswaalstraat.htm> a scr:Bridge ;
+	geo:long "4.7952419397" ;
+	geo:lat "52.3603341245" ;
+	rdf:label "Brug no. 766" .
+
+<http://www.bruggenvanamsterdam.nl/baden_powellweg1.htm> a scr:Bridge ;
+	geo:long "4.7892928001" ;
+	geo:lat "52.3595904628" ;
+	rdf:label "Brug no. 767" .
+
+<http://www.bruggenvanamsterdam.nl/zuiderakerweg.htm> a scr:Bridge ;
+	geo:long "4.7937452671" ;
+	geo:lat "52.3503608085" ;
+	rdf:label "Brug no. 768" .
+
+<http://www.bruggenvanamsterdam.nl/akersluisweg.htm> a scr:Bridge ;
+	geo:long "4.7959446785" ;
+	geo:lat "52.347408354" ;
+	rdf:label "Brug no. 769" .
+
+<http://www.bruggenvanamsterdam.nl/hoogeboomspad.htm> a scr:Bridge ;
+	geo:long "4.7920983907" ;
+	geo:lat "52.3534375741" ;
+	rdf:label "Brug no. 770" .
+
+<http://www.bruggenvanamsterdam.nl/louis_davidsstraat.htm> a scr:Bridge ;
+	geo:long "4.8108684894" ;
+	geo:lat "52.3514028042" ;
+	rdf:label "Brug no. 771" .
+
+<http://www.bruggenvanamsterdam.nl/jan_van_zutphenplantsoen.htm> a scr:Bridge ;
+	geo:long "4.8031115409" ;
+	geo:lat "52.3498594622" ;
+	rdf:label "Brug no. 772" .
+
+<http://www.bruggenvanamsterdam.nl/akersluis.htm> a scr:Bridge ;
+	geo:long "4.7935682413" ;
+	geo:lat "52.3441869716" ;
+	rdf:label "Brug no. 773" .
+
+<http://www.bruggenvanamsterdam.nl/westgaarde.htm> a scr:Bridge ;
+	geo:long "4.7796690341" ;
+	geo:lat "52.3597935787" ;
+	rdf:label "Brug no. 775" .
+
+<http://www.bruggenvanamsterdam.nl/joris_v_d_berghweg.htm> a scr:Bridge ;
+	geo:long "4.7761043784" ;
+	geo:lat "52.3724226051" ;
+	rdf:label "Brug no. 776" .
+
+<http://www.bruggenvanamsterdam.nl/amstelglorie4.htm> a scr:Bridge ;
+	geo:long "4.9044319865" ;
+	geo:lat "52.3320776527" ;
+	rdf:label "Brug no. 777" .
+
+<http://www.bruggenvanamsterdam.nl/amstelglorie5.htm> a scr:Bridge ;
+	geo:long "4.9059715744" ;
+	geo:lat "52.3327332698" ;
+	rdf:label "Brug no. 778" .
+
+<http://www.bruggenvanamsterdam.nl/amstelglorie14.htm> a scr:Bridge ;
+	geo:long "4.9083801981" ;
+	geo:lat "52.3339559697" ;
+	rdf:label "Brug no. 780" .
+
+<http://www.bruggenvanamsterdam.nl/amstelglorie13.htm> a scr:Bridge ;
+	geo:long "4.9119099852" ;
+	geo:lat "52.3320678183" ;
+	rdf:label "Brug no. 781" .
+
+<http://www.bruggenvanamsterdam.nl/riekerweg3.htm> a scr:Bridge ;
+	geo:long "4.8378273722" ;
+	geo:lat "52.336797879" ;
+	rdf:label "Brug no. 782" .
+
+<http://www.bruggenvanamsterdam.nl/kanaalweg.htm> a scr:Bridge ;
+	geo:long "4.7540485736" ;
+	geo:lat "52.3886462017" ;
+	rdf:label "Brug no. 783" .
+
+<http://www.bruggenvanamsterdam.nl/kabelweg.htm> a scr:Bridge ;
+	geo:long "4.8473586019" ;
+	geo:lat "52.38904971" ;
+	rdf:label "Brug no. 784" .
+
+<http://www.bruggenvanamsterdam.nl/verlengde_hoekenespad.htm> a scr:Bridge ;
+	geo:long "4.8008370277" ;
+	geo:lat "52.3551855665" ;
+	rdf:label "Piet Peelenbrug (786)" .
+
+<http://www.bruggenvanamsterdam.nl/maassluisstraat.htm> a scr:Bridge ;
+	geo:long "4.8365640518" ;
+	geo:lat "52.3519532826" ;
+	rdf:label "Brug no. 787" .
+
+<http://www.bruggenvanamsterdam.nl/romerostraat.htm> a scr:Bridge ;
+	geo:long "4.7769787785" ;
+	geo:lat "52.3530296447" ;
+	rdf:label "Brug no. 788" .
+
+<http://www.bruggenvanamsterdam.nl/m_ghandilaan.htm> a scr:Bridge ;
+	geo:long "4.7802510735" ;
+	geo:lat "52.3535866558" ;
+	rdf:label "Moeder Alacoquebrug (789)" .
+
+<http://www.bruggenvanamsterdam.nl/bonhoeffersingel_hoek_terpstraat.htm> a scr:Bridge ;
+	geo:long "4.7788402316" ;
+	geo:lat "52.3559718948" ;
+	rdf:label "Brug no. 790" .
+
+<http://www.bruggenvanamsterdam.nl/bonhoefferstraat_hoek_letelierst.htm> a scr:Bridge ;
+	geo:long "4.7805568453" ;
+	geo:lat "52.355306793" ;
+	rdf:label "Brug no. 791" .
+
+<http://www.bruggenvanamsterdam.nl/g_v_lierstraat.htm> a scr:Bridge ;
+	geo:long "4.7817477461" ;
+	geo:lat "52.3511324775" ;
+	rdf:label "Titus Brandsmabrug (792)" .
+
+<http://www.bruggenvanamsterdam.nl/jacob_paffstraat.htm> a scr:Bridge ;
+	geo:long "4.7834214446" ;
+	geo:lat "52.3504509192" ;
+	rdf:label "Truus Wijsmullerbrug (793)" .
+
+<http://www.bruggenvanamsterdam.nl/jacob_paffstraat1.htm> a scr:Bridge ;
+	geo:long "4.7861787554" ;
+	geo:lat "52.3530230915" ;
+	rdf:label "Louis J. Welterbrug (794)" .
+
+<http://www.bruggenvanamsterdam.nl/willy_la_croixstraat.htm> a scr:Bridge ;
+	geo:long "4.7836145636" ;
+	geo:lat "52.3539863889" ;
+	rdf:label "W.A. Meelhuysenbrug (795)" .
+
+<http://www.bruggenvanamsterdam.nl/laan_van_vlaanderen.htm> a scr:Bridge ;
+	geo:long "4.8043748614" ;
+	geo:lat "52.3491172626" ;
+	rdf:label "Brug no. 797" .
+
+<http://www.bruggenvanamsterdam.nl/goudestein2.htm> a scr:Bridge ;
+	geo:long "4.8623400804" ;
+	geo:lat "52.3260569942" ;
+	rdf:label "Brug no. 801" .
+
+<http://www.bruggenvanamsterdam.nl/de_cuserstraat.htm> a scr:Bridge ;
+	geo:long "4.8624473687" ;
+	geo:lat "52.3235848939" ;
+	rdf:label "Brug no. 802" .
+
+<http://www.bruggenvanamsterdam.nl/van_nijenrodeweg2.htm> a scr:Bridge ;
+	geo:long "4.862334716" ;
+	geo:lat "52.327827379" ;
+	rdf:label "Brug no. 803" .
+
+<http://www.bruggenvanamsterdam.nl/buitenveldertselaan2.htm> a scr:Bridge ;
+	geo:long "4.8688471195" ;
+	geo:lat "52.333088938" ;
+	rdf:label "Brug no. 804" .
+
+<http://www.bruggenvanamsterdam.nl/gijsbrecht_van_aemstelpark10.htm> a scr:Bridge ;
+	geo:long "4.8688632127" ;
+	geo:lat "52.3291387295" ;
+	rdf:label "Brug no. 805" .
+
+<http://www.bruggenvanamsterdam.nl/in> geo:long "4.8733290907" ;
+	geo:lat "52.3353097509" ;
+	rdf:label "Lex van Deldenbrug (808)" .
+
+<http://www.bruggenvanamsterdam.nl/buitenveldertselaan1.htm> a scr:Bridge ;
+	geo:long "4.869072425" ;
+	geo:lat "52.3227750379" ;
+	rdf:label "Brug no. 811" .
+
+<http://www.bruggenvanamsterdam.nl/de_cuserstraat1.htm> a scr:Bridge ;
+	geo:long "4.865311968" ;
+	geo:lat "52.3229356987" ;
+	rdf:label "Brug no. 812" .
+
+<http://www.bruggenvanamsterdam.nl/bongart.htm> a scr:Bridge ;
+	geo:long "4.8732781287" ;
+	geo:lat "52.3229012714" ;
+	rdf:label "Brug no. 813" .
+
+<http://www.bruggenvanamsterdam.nl/nederhoven.htm> a scr:Bridge ;
+	geo:long "4.8852997895" ;
+	geo:lat "52.3230930802" ;
+	rdf:label "Brug no. 814" .
+
+<http://www.bruggenvanamsterdam.nl/hunneschans.htm> a scr:Bridge ;
+	geo:long "4.8623239871" ;
+	geo:lat "52.33032219" ;
+	rdf:label "Brug no. 815" .
+
+<http://www.bruggenvanamsterdam.nl/dikninge.htm> a scr:Bridge ;
+	geo:long "4.8860990878" ;
+	geo:lat "52.3331446645" ;
+	rdf:label "Brug no. 816" .
+
+<http://www.bruggenvanamsterdam.nl/rhijnestein.htm> a scr:Bridge ;
+	geo:long "4.8864155885" ;
+	geo:lat "52.32939116" ;
+	rdf:label "Brug no. 817" .
+
+<http://www.bruggenvanamsterdam.nl/reimersbeek.htm> a scr:Bridge ;
+	geo:long "4.8780524608" ;
+	geo:lat "52.3229537321" ;
+	rdf:label "Brug no. 818" .
+
+<http://www.bruggenvanamsterdam.nl/willem_van_weldammelaan.htm> a scr:Bridge ;
+	geo:long "4.8756867524" ;
+	geo:lat "52.3331053282" ;
+	rdf:label "Brug no. 820" .
+
+<http://www.bruggenvanamsterdam.nl/de_borcht.htm> a scr:Bridge ;
+	geo:long "4.8911845561" ;
+	geo:lat "52.324988172" ;
+	rdf:label "Brug no. 821" .
+
+<http://www.bruggenvanamsterdam.nl/gijsbrecht_van_aemstelpark.htm> a scr:Bridge ;
+	geo:long "4.8787927505" ;
+	geo:lat "52.3290108746" ;
+	rdf:label "Brug no. 822" .
+
+<http://www.bruggenvanamsterdam.nl/gijsbrecht_van_aemstelpark1.htm> a scr:Bridge ;
+	geo:long "4.8781436559" ;
+	geo:lat "52.3286994314" ;
+	rdf:label "Brug no. 823" .
+
+<http://www.bruggenvanamsterdam.nl/gijsbrecht_van_aemstelpark2.htm> a scr:Bridge ;
+	geo:long "4.8760354396" ;
+	geo:lat "52.3288928543" ;
+	rdf:label "Brug no. 824" .
+
+<http://www.bruggenvanamsterdam.nl/gijsbrecht_van_aemstelpark4.htm> a scr:Bridge ;
+	geo:long "4.8752736923" ;
+	geo:lat "52.3283650374" ;
+	rdf:label "Brug no. 825" .
+
+<http://www.bruggenvanamsterdam.nl/gijsbrecht_van_aemstelpark6.htm> a scr:Bridge ;
+	geo:long "4.8746567842" ;
+	geo:lat "52.3288797409" ;
+	rdf:label "Brug no. 826" .
+
+<http://www.bruggenvanamsterdam.nl/gijsbrecht_van_aemstelpark7.htm> a scr:Bridge ;
+	geo:long "4.8726934072" ;
+	geo:lat "52.3283158616" ;
+	rdf:label "Brug no. 827" .
+
+<http://www.bruggenvanamsterdam.nl/gijsbrecht_van_aemstelpark9.htm> a scr:Bridge ;
+	geo:long "4.8698449012" ;
+	geo:lat "52.3288633491" ;
+	rdf:label "Brug no. 828" .
+
+<http://www.bruggenvanamsterdam.nl/gijsbrecht_van_aemstelpark11.htm> a scr:Bridge ;
+	geo:long "4.8698449012" ;
+	geo:lat "52.3288633491" ;
+	rdf:label "Brug no. 829" .
+
+<http://www.bruggenvanamsterdam.nl/gijsbrecht_van_aemstelpark8.htm> a scr:Bridge ;
+	geo:long "4.8712718364" ;
+	geo:lat "52.3283322536" ;
+	rdf:label "Brug no. 830" .
+
+<http://www.bruggenvanamsterdam.nl/gijsbrecht_van_aemstelpark3.htm> a scr:Bridge ;
+	geo:long "4.8755633708" ;
+	geo:lat "52.3291583995" ;
+	rdf:label "Brug no. 831" .
+
+<http://www.bruggenvanamsterdam.nl/gijsbrecht_van_aemstelpark5.htm> a scr:Bridge ;
+	geo:long "4.8732191201" ;
+	geo:lat "52.3291387295" ;
+	rdf:label "Brug no. 832" .
+
+<http://www.bruggenvanamsterdam.nl/van_leijenberghlaan.htm> a scr:Bridge ;
+	geo:long "4.8795169469" ;
+	geo:lat "52.3331217183" ;
+	rdf:label "Brug no. 833" .
+
+<http://www.bruggenvanamsterdam.nl/van_der_boechorststraat.htm> a scr:Bridge ;
+	geo:long "4.862270343" ;
+	geo:lat "52.3288305657" ;
+	rdf:label "Brug no. 834" .
+
+<http://www.bruggenvanamsterdam.nl/cannenburg.htm> a scr:Bridge ;
+	geo:long "4.8641264316" ;
+	geo:lat "52.3290961113" ;
+	rdf:label "Brug no. 835" .
+
+<http://www.bruggenvanamsterdam.nl/van_nijenrodeweg.htm> a scr:Bridge ;
+	geo:long "4.8911148187" ;
+	geo:lat "52.3287830295" ;
+	rdf:label "Rode Brug (836)" .
+
+<http://www.bruggenvanamsterdam.nl/drentestraat.htm> a scr:Bridge ;
+	geo:long "4.8889851447" ;
+	geo:lat "52.3359866259" ;
+	rdf:label "Brug no. 837" .
+
+<http://www.bruggenvanamsterdam.nl/amstelpark1.htm> a scr:Bridge ;
+	geo:long "4.8931264755" ;
+	geo:lat "52.3331446645" ;
+	rdf:label "Brug no. 838" .
+
+<http://www.bruggenvanamsterdam.nl/amstelpark5.htm> a scr:Bridge ;
+	geo:long "4.8958301421" ;
+	geo:lat "52.3321382976" ;
+	rdf:label "Brug no. 839" .
+
+<http://www.bruggenvanamsterdam.nl/europaboulevard.htm> a scr:Bridge ;
+	geo:long "4.891028988" ;
+	geo:lat "52.3322202502" ;
+	rdf:label "Brug no. 840" .
+
+<http://www.bruggenvanamsterdam.nl/amsteldijk2.htm> a scr:Bridge ;
+	geo:long "4.8971605178" ;
+	geo:lat "52.3327086843" ;
+	rdf:label "Brug no. 841" .
+
+<http://www.bruggenvanamsterdam.nl/amstelpark7.htm> a scr:Bridge ;
+	geo:long "4.895776498" ;
+	geo:lat "52.3306467346" ;
+	rdf:label "Brug no. 844" .
+
+<http://www.bruggenvanamsterdam.nl/amstelpark8.htm> a scr:Bridge ;
+	geo:long "4.8959750951" ;
+	geo:lat "52.3288813602" ;
+	rdf:label "Brug no. 845" .
+
+<http://www.bruggenvanamsterdam.nl/v_d_madeweg.htm> a scr:Bridge ;
+	geo:long "4.9307713927" ;
+	geo:lat "52.329243616" ;
+	rdf:label "Brug no. 846" .
+
+<http://www.bruggenvanamsterdam.nl/in> geo:long "4.8629341897" ;
+	geo:lat "52.3226545418" ;
+	rdf:label "Brug no. 849" ;
+	geo:long "4.86422165" ;
+	geo:lat "52.3226676571" ;
+	rdf:label "Brug no. 850" ;
+	geo:long "4.8669521388" ;
+	geo:lat "52.3221004198" ;
+	rdf:label "Brug no. 851" .
+
+<http://www.bruggenvanamsterdam.nl/de_heusweg.htm> a scr:Bridge ;
+	geo:long "4.9172396482" ;
+	geo:lat "52.3317957145" ;
+	rdf:label "Brug no. 854" .
+
+<http://www.bruggenvanamsterdam.nl/president_kennedylaan.htm> a scr:Bridge ;
+	geo:long "4.8916740593" ;
+	geo:lat "52.3389849103" ;
+	rdf:label "Brug no. 856" .
+
+<http://www.bruggenvanamsterdam.nl/parnassusweg1.htm> a scr:Bridge ;
+	geo:long "4.8684717239" ;
+	geo:lat "52.3405343477" ;
+	rdf:label "Brug no. 857" .
+
+<http://www.bruggenvanamsterdam.nl/parnassusweg.htm> a scr:Bridge ;
+	geo:long "4.8684770883" ;
+	geo:lat "52.3406818342" ;
+	rdf:label "Brug no. 858" .
+
+<http://www.bruggenvanamsterdam.nl/strawinskylaan1.htm> a scr:Bridge ;
+	geo:long "4.8688204111" ;
+	geo:lat "52.3405507351" ;
+	rdf:label "Brug no. 859" .
+
+<http://www.bruggenvanamsterdam.nl/strawinskylaan.htm> a scr:Bridge ;
+	geo:long "4.8717654766" ;
+	geo:lat "52.3407473836" ;
+	rdf:label "Brug no. 860" .
+
+<http://www.bruggenvanamsterdam.nl/strawinskylaan2.htm> a scr:Bridge ;
+	geo:long "4.8732245983" ;
+	geo:lat "52.3408391526" ;
+	rdf:label "Brug no. 863" .
+
+<http://www.bruggenvanamsterdam.nl/strawinskylaan3.htm> a scr:Bridge ;
+	geo:long "4.8764915289" ;
+	geo:lat "52.3410259674" ;
+	rdf:label "Brug no. 864" .
+
+<http://www.bruggenvanamsterdam.nl/de_boelelaan.htm> a scr:Bridge ;
+	geo:long "4.8882074178" ;
+	geo:lat "52.3348836058" ;
+	rdf:label "Brug no. 865" .
+
+<http://www.bruggenvanamsterdam.nl/beethovenstraat.htm> a scr:Bridge ;
+	geo:long "4.8769314111" ;
+	geo:lat "52.3406523369" ;
+	rdf:label "Brug no. 866" .
+
+<http://www.bruggenvanamsterdam.nl/ringweg_zuid_europaboulevard.htm> a scr:Bridge ;
+	geo:long "4.891157734" ;
+	geo:lat "52.3376779488" ;
+	rdf:label "Brug no. 867" .
+
+<http://www.bruggenvanamsterdam.nl/europaboulevard2.htm> a scr:Bridge ;
+	geo:long "4.8918443795" ;
+	geo:lat "52.3378156117" ;
+	rdf:label "Brug no. 868" .
+
+<http://www.bruggenvanamsterdam.nl/europaboulevard1.htm> a scr:Bridge ;
+	geo:long "4.8924344655" ;
+	geo:lat "52.3372879014" ;
+	rdf:label "Brug no. 869" .
+
+<http://www.bruggenvanamsterdam.nl/amsteldijk1.htm> a scr:Bridge ;
+	geo:long "4.8986089107" ;
+	geo:lat "52.3337248722" ;
+	rdf:label "Brug no. 870" .
+
+<http://www.bruggenvanamsterdam.nl/meibergdreef.htm> a scr:Bridge ;
+	geo:long "4.9481439468" ;
+	geo:lat "52.2935742581" ;
+	rdf:label "Brug no. 871" .
+
+<http://www.bruggenvanamsterdam.nl/muntbergdreef.htm> a scr:Bridge ;
+	geo:long "4.9515825387" ;
+	geo:lat "52.2947816359" ;
+	rdf:label "Brug no. 872" .
+
+<http://www.bruggenvanamsterdam.nl/muntbergdreef2.htm> a scr:Bridge ;
+	geo:long "4.951008546" ;
+	geo:lat "52.2954279632" ;
+	rdf:label "Brug no. 873" .
+
+<http://www.bruggenvanamsterdam.nl/arena_boulevard.htm> a scr:Bridge ;
+	geo:long "4.9447107192" ;
+	geo:lat "52.3115830809" ;
+	rdf:label "Brug no. 874" .
+
+<http://www.bruggenvanamsterdam.nl/pietersbergweg.htm> a scr:Bridge ;
+	geo:long "4.957091796" ;
+	geo:lat "52.2991941906" ;
+	rdf:label "Brug no. 875" .
+
+<http://www.bruggenvanamsterdam.nl/paalbergweg.htm> a scr:Bridge ;
+	geo:long "4.9549943086" ;
+	geo:lat "52.301198559" ;
+	rdf:label "Brug no. 876" .
+
+<http://www.bruggenvanamsterdam.nl/algolstraat1.htm> a scr:Bridge ;
+	geo:long "4.8883172747" ;
+	geo:lat "52.4094224913" ;
+	rdf:label "Brug no. 889" .
+
+<http://www.bruggenvanamsterdam.nl/algolstraat.htm> a scr:Bridge ;
+	geo:long "4.8880758759" ;
+	geo:lat "52.4098086298" ;
+	rdf:label "Brug no. 890" .
+
+<http://www.bruggenvanamsterdam.nl/antarusstraat.htm> a scr:Bridge ;
+	geo:long "4.8861339566" ;
+	geo:lat "52.410417282" ;
+	rdf:label "Brug no. 891" .
+
+<http://www.bruggenvanamsterdam.nl/pegasusstraat.htm> a scr:Bridge ;
+	geo:long "4.8852595564" ;
+	geo:lat "52.4111306378" ;
+	rdf:label "Brug no. 892" .
+
+<http://www.bruggenvanamsterdam.nl/standaardmolen.htm> a scr:Bridge ;
+	geo:long "4.8911550518" ;
+	geo:lat "52.4163790113" ;
+	rdf:label "Brug no. 893" .
+
+<http://www.bruggenvanamsterdam.nl/rosmolen.htm> a scr:Bridge ;
+	geo:long "4.8918470618" ;
+	geo:lat "52.4191763617" ;
+	rdf:label "Brug no. 895" .
+
+<http://www.bruggenvanamsterdam.nl/grondzeiler.htm> a scr:Bridge ;
+	geo:long "4.8884352919" ;
+	geo:lat "52.4213617704" ;
+	rdf:label "Brug no. 896" .
+
+<http://www.bruggenvanamsterdam.nl/bovenkruier1.htm> a scr:Bridge ;
+	geo:long "4.885318565" ;
+	geo:lat "52.4212472682" ;
+	rdf:label "Brug no. 897" .
+
+<http://www.bruggenvanamsterdam.nl/bovenkruier.htm> a scr:Bridge ;
+	geo:long "4.8839667317" ;
+	geo:lat "52.4203901275" ;
+	rdf:label "Brug no. 898" .
+
+<http://www.bruggenvanamsterdam.nl/bergmolen.htm> a scr:Bridge ;
+	geo:long "4.8851576325" ;
+	geo:lat "52.419330129" ;
+	rdf:label "Brug no. 899" .
+
+<http://www.bruggenvanamsterdam.nl/kamperfoelieweg2.htm> a scr:Bridge ;
+	geo:long "4.9118885275" ;
+	geo:lat "52.4022423169" ;
+	rdf:label "Brug no. 901" .
+
+<http://www.bruggenvanamsterdam.nl/aakstraat.htm> a scr:Bridge ;
+	geo:long "4.9111267802" ;
+	geo:lat "52.4080971596" ;
+	rdf:label "Brug no. 904" .
+
+<http://www.bruggenvanamsterdam.nl/vishoekerpad.htm> a scr:Bridge ;
+	geo:long "4.9088522669" ;
+	geo:lat "52.4062678093" ;
+	rdf:label "Brug no. 905" .
+
+<http://www.bruggenvanamsterdam.nl/barkpad.htm> a scr:Bridge ;
+	geo:long "4.9062076088" ;
+	geo:lat "52.4048736559" ;
+	rdf:label "Brug no. 906" .
+
+<http://www.bruggenvanamsterdam.nl/schepenlaan.htm> a scr:Bridge ;
+	geo:long "4.9124276515" ;
+	geo:lat "52.4030687182" ;
+	rdf:label "Brug no. 907" .
+
+<http://www.bruggenvanamsterdam.nl/kamperfoelieweg3.htm> a scr:Bridge ;
+	geo:long "4.911330628" ;
+	geo:lat "52.4024125077" ;
+	rdf:label "Brug no. 908" .
+
+<http://www.bruggenvanamsterdam.nl/kamperfoelieweg1.htm> a scr:Bridge ;
+	geo:long "4.9107029911" ;
+	geo:lat "52.4005436452" ;
+	rdf:label "Brug no. 909" .
+
+<http://www.bruggenvanamsterdam.nl/buikslotermeerdijk.htm> a scr:Bridge ;
+	geo:long "4.9227058765" ;
+	geo:lat "52.3986567011" ;
+	rdf:label "Brug no. 912" .
+
+<http://www.bruggenvanamsterdam.nl/wildepark1.htm> a scr:Bridge ;
+	geo:long "4.9068835255" ;
+	geo:lat "52.4027005215" ;
+	rdf:label "Brug no. 913" .
+
+<http://www.bruggenvanamsterdam.nl/binnenvaart2.htm> a scr:Bridge ;
+	geo:long "4.9186262366" ;
+	geo:lat "52.408260783" ;
+	rdf:label "Brug no. 915" .
+
+<http://www.bruggenvanamsterdam.nl/bramzeil.htm> a scr:Bridge ;
+	geo:long "4.9197473999" ;
+	geo:lat "52.4077404586" ;
+	rdf:label "Brug no. 916" .
+
+<http://www.bruggenvanamsterdam.nl/noordhollandsche_kanaaldijk1.htm> a scr:Bridge ;
+	geo:long "4.9251493689" ;
+	geo:lat "52.4077240961" ;
+	rdf:label "Brug no. 917" .
+
+<http://www.bruggenvanamsterdam.nl/overslag.htm> a scr:Bridge ;
+	geo:long "4.9206378933" ;
+	geo:lat "52.4101751311" ;
+	rdf:label "Brug no. 918" .
+
+<http://www.bruggenvanamsterdam.nl/voordek.htm> a scr:Bridge ;
+	geo:long "4.9170705553" ;
+	geo:lat "52.4118799763" ;
+	rdf:label "Brug no. 919" .
+
+<http://www.bruggenvanamsterdam.nl/tussendek.htm> a scr:Bridge ;
+	geo:long "4.918400931" ;
+	geo:lat "52.4136960057" ;
+	rdf:label "Brug no. 923" .
+
+<http://www.bruggenvanamsterdam.nl/westerlengte1.htm> a scr:Bridge ;
+	geo:long "4.9154022213" ;
+	geo:lat "52.4095861098" ;
+	rdf:label "Brug no. 924" .
+
+<http://www.bruggenvanamsterdam.nl/in> geo:long "4.9444252365" ;
+	geo:lat "52.4029350519" ;
+	rdf:label "Brug no. 930" ;
+	geo:long "4.9244868633" ;
+	geo:lat "52.3950887979" ;
+	rdf:label "Brug no. 931" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_leeuwarderweg1.htm> a scr:Bridge ;
+	geo:long "4.9265188091" ;
+	geo:lat "52.3973839389" ;
+	rdf:label "Brug no. 932" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_leeuwarderweg3.htm> a scr:Bridge ;
+	geo:long "4.92881478" ;
+	geo:lat "52.3992267502" ;
+	rdf:label "Brug no. 933" .
+
+<http://www.bruggenvanamsterdam.nl/purmerweg2.htm> a scr:Bridge ;
+	geo:long "4.9282407873" ;
+	geo:lat "52.3966605408" ;
+	rdf:label "Brug no. 934" .
+
+<http://www.bruggenvanamsterdam.nl/loenermark.htm> a scr:Bridge ;
+	geo:long "4.92875694" ;
+	geo:lat "52.3970822767" ;
+	rdf:label "Brug no. 935" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_leeuwarderweg4.htm> a scr:Bridge ;
+	geo:long "4.9330699321" ;
+	geo:lat "52.4025254224" ;
+	rdf:label "Brug no. 936" .
+
+<http://www.bruggenvanamsterdam.nl/waddenweg1.htm> a scr:Bridge ;
+	geo:long "4.9298673745" ;
+	geo:lat "52.396362147" ;
+	rdf:label "Brug no. 939" .
+
+<http://www.bruggenvanamsterdam.nl/loenermark2.htm> a scr:Bridge ;
+	geo:long "4.9339014169" ;
+	geo:lat "52.4011966106" ;
+	rdf:label "Brug no. 940" .
+
+<http://www.bruggenvanamsterdam.nl/g_l_scheurleerweg.htm> a scr:Bridge ;
+	geo:long "4.929051983" ;
+	geo:lat "52.4038607399" ;
+	rdf:label "Brug no. 941" .
+
+<http://www.bruggenvanamsterdam.nl/loenermark1.htm> a scr:Bridge ;
+	geo:long "4.9346888178" ;
+	geo:lat "52.4017862644" ;
+	rdf:label "Brug no. 942" .
+
+<http://www.bruggenvanamsterdam.nl/waddenweg3.htm> a scr:Bridge ;
+	geo:long "4.9284768217" ;
+	geo:lat "52.394280772" ;
+	rdf:label "Brug no. 943" .
+
+<http://www.bruggenvanamsterdam.nl/ijdoornlaan7.htm> a scr:Bridge ;
+	geo:long "4.9382305022" ;
+	geo:lat "52.4000772355" ;
+	rdf:label "Brug no. 944" .
+
+<http://www.bruggenvanamsterdam.nl/lohuis.htm> a scr:Bridge ;
+	geo:long "4.9397432681" ;
+	geo:lat "52.4015042701" ;
+	rdf:label "Brug no. 945" .
+
+<http://www.bruggenvanamsterdam.nl/kampina.htm> a scr:Bridge ;
+	geo:long "4.9408429738" ;
+	geo:lat "52.4026039716" ;
+	rdf:label "Brug no. 946" .
+
+<http://www.bruggenvanamsterdam.nl/de_wieden.htm> a scr:Bridge ;
+	geo:long "4.9417388316" ;
+	geo:lat "52.4030261712" ;
+	rdf:label "Brug no. 947" .
+
+<http://www.bruggenvanamsterdam.nl/in> geo:long "4.9448501941" ;
+	geo:lat "52.4017628333" ;
+	rdf:label "Brug no. 948" .
+
+<http://www.bruggenvanamsterdam.nl/th_weeversweg1.htm> a scr:Bridge ;
+	geo:long "4.9471944448" ;
+	geo:lat "52.4008071236" ;
+	rdf:label "Brug no. 949" .
+
+<http://www.bruggenvanamsterdam.nl/ijdoornlaan1.htm> a scr:Bridge ;
+	geo:long "4.9468242999" ;
+	geo:lat "52.3981264439" ;
+	rdf:label "Brug no. 950" .
+
+<http://www.bruggenvanamsterdam.nl/j_h_van_heekweg.htm> a scr:Bridge ;
+	geo:long "4.9490934488" ;
+	geo:lat "52.4002768922" ;
+	rdf:label "Brug no. 951" .
+
+<http://www.bruggenvanamsterdam.nl/spelderholt.htm> a scr:Bridge ;
+	geo:long "4.9479615565" ;
+	geo:lat "52.3992295028" ;
+	rdf:label "Brug no. 952" .
+
+<http://www.bruggenvanamsterdam.nl/ijdoornlaan10.htm> a scr:Bridge ;
+	geo:long "4.9473285552" ;
+	geo:lat "52.3986272426" ;
+	rdf:label "Brug no. 953" .
+
+<http://www.bruggenvanamsterdam.nl/ijdoornlaan12.htm> a scr:Bridge ;
+	geo:long "4.9437987682" ;
+	geo:lat "52.3996844656" ;
+	rdf:label "Brug no. 954" .
+
+<http://www.bruggenvanamsterdam.nl/dijkwater.htm> a scr:Bridge ;
+	geo:long "4.9386328336" ;
+	geo:lat "52.4004503637" ;
+	rdf:label "Brug no. 956" .
+
+<http://www.bruggenvanamsterdam.nl/waddenweg2.htm> a scr:Bridge ;
+	geo:long "4.9317100521" ;
+	geo:lat "52.3978465833" ;
+	rdf:label "Brug no. 957" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_leeuwarderweg2.htm> a scr:Bridge ;
+	geo:long "4.9294746035" ;
+	geo:lat "52.3989059822" ;
+	rdf:label "Brug no. 958" .
+
+<http://www.bruggenvanamsterdam.nl/waddenweg.htm> a scr:Bridge ;
+	geo:long "4.9359548204" ;
+	geo:lat "52.4011447633" ;
+	rdf:label "Brug no. 959" .
+
+<http://www.bruggenvanamsterdam.nl/ijdoornlaan11.htm> a scr:Bridge ;
+	geo:long "4.9399068829" ;
+	geo:lat "52.3994373461" ;
+	rdf:label "Brug no. 960" .
+
+<http://www.bruggenvanamsterdam.nl/purmerweg4.htm> a scr:Bridge ;
+	geo:long "4.9299198502" ;
+	geo:lat "52.3960025983" ;
+	rdf:label "Brug no. 961" .
+
+<http://www.bruggenvanamsterdam.nl/purmerweg3.htm> a scr:Bridge ;
+	geo:long "4.9362939473" ;
+	geo:lat "52.3936484617" ;
+	rdf:label "Brug no. 962" .
+
+<http://www.bruggenvanamsterdam.nl/het_breed.htm> a scr:Bridge ;
+	geo:long "4.9333435174" ;
+	geo:lat "52.3949807743" ;
+	rdf:label "Brug no. 963" .
+
+<http://www.bruggenvanamsterdam.nl/purmerweg5.htm> a scr:Bridge ;
+	geo:long "4.9338316795" ;
+	geo:lat "52.3945781387" ;
+	rdf:label "Brug no. 964" .
+
+<http://www.bruggenvanamsterdam.nl/purmerweg6.htm> a scr:Bridge ;
+	geo:long "4.9386757489" ;
+	geo:lat "52.3948269221" ;
+	rdf:label "Brug no. 965" .
+
+<http://www.bruggenvanamsterdam.nl/th_weeversweg.htm> a scr:Bridge ;
+	geo:long "4.9439972516" ;
+	geo:lat "52.3973343193" ;
+	rdf:label "Brug no. 966" .
+
+<http://www.bruggenvanamsterdam.nl/ijdoornlaan13.htm> a scr:Bridge ;
+	geo:long "4.9221077439" ;
+	geo:lat "52.4059143661" ;
+	rdf:label "Brug no. 967" .
+
+<http://www.bruggenvanamsterdam.nl/ijdoornlaan8.htm> a scr:Bridge ;
+	geo:long "4.9251440045" ;
+	geo:lat "52.4048049289" ;
+	rdf:label "IJdoornlaanbrug (970)" .
+
+<http://www.bruggenvanamsterdam.nl/ijdoornlaan.htm> a scr:Bridge ;
+	geo:long "4.9176606413" ;
+	geo:lat "52.4080349826" ;
+	rdf:label "Brug no. 971" .
+
+<http://www.bruggenvanamsterdam.nl/westerlengte2.htm> a scr:Bridge ;
+	geo:long "4.9155953404" ;
+	geo:lat "52.4094617598" ;
+	rdf:label "Brug no. 972" .
+
+<http://www.bruggenvanamsterdam.nl/binnenvaart1.htm> a scr:Bridge ;
+	geo:long "4.9180683371" ;
+	geo:lat "52.4083491394" ;
+	rdf:label "Brug no. 973" .
+
+<http://www.bruggenvanamsterdam.nl/oosterlengte1.htm> a scr:Bridge ;
+	geo:long "4.9215713021" ;
+	geo:lat "52.406788151" ;
+	rdf:label "Brug no. 974" .
+
+<http://www.bruggenvanamsterdam.nl/oosterlengte.htm> a scr:Bridge ;
+	geo:long "4.9221077439" ;
+	geo:lat "52.4059143661" ;
+	rdf:label "Brug no. 975" .
+
+<http://www.bruggenvanamsterdam.nl/sportpark_de_weren.htm> a scr:Bridge ;
+	geo:long "4.9704223748" ;
+	geo:lat "52.3920378483" ;
+	rdf:label "Brug no. 978" .
+
+<http://www.bruggenvanamsterdam.nl/van_heekpad.htm> a scr:Bridge ;
+	geo:long "4.9520814296" ;
+	geo:lat "52.3993015116" ;
+	rdf:label "Brug no. 980" .
+
+<http://www.bruggenvanamsterdam.nl/ijdoornlaan6.htm> a scr:Bridge ;
+	geo:long "4.9507993337" ;
+	geo:lat "52.3976158197" ;
+	rdf:label "Brug no. 981" .
+
+<http://www.bruggenvanamsterdam.nl/koedijkpad.htm> a scr:Bridge ;
+	geo:long "4.9444103118" ;
+	geo:lat "52.3937597621" ;
+	rdf:label "Brug no. 984" .
+
+<http://www.bruggenvanamsterdam.nl/werengouw_west.htm> a scr:Bridge ;
+	geo:long "4.9453061696" ;
+	geo:lat "52.3948792974" ;
+	rdf:label "Brug no. 985" .
+
+<http://www.bruggenvanamsterdam.nl/duinluststraat.htm> a scr:Bridge ;
+	geo:long "4.949570882" ;
+	geo:lat "52.3961984795" ;
+	rdf:label "Brug no. 986" .
+
+<http://www.bruggenvanamsterdam.nl/werengouw_oost.htm> a scr:Bridge ;
+	geo:long "4.9565110978" ;
+	geo:lat "52.3882787031" ;
+	rdf:label "Brug no. 987" .
+
+<http://www.bruggenvanamsterdam.nl/enkhuizerstraat.htm> a scr:Bridge ;
+	geo:long "4.9427580711" ;
+	geo:lat "52.3939234386" ;
+	rdf:label "Brug no. 988" .
+
+<http://www.bruggenvanamsterdam.nl/markengouw_oost.htm> a scr:Bridge ;
+	geo:long "4.9626748141" ;
+	geo:lat "52.3899647516" ;
+	rdf:label "Brug no. 989" .
+
+<http://www.bruggenvanamsterdam.nl/schellingwouderbreek3.htm> a scr:Bridge ;
+	geo:long "4.9536357697" ;
+	geo:lat "52.3874896758" ;
+	rdf:label "Brug no. 990" .
+
+<http://www.bruggenvanamsterdam.nl/schellingwouderbreek2.htm> a scr:Bridge ;
+	geo:long "4.9536357697" ;
+	geo:lat "52.3880528005" ;
+	rdf:label "Brug no. 991" .
+
+<http://www.bruggenvanamsterdam.nl/schellingwouderbreek1.htm> a scr:Bridge ;
+	geo:long "4.9535123881" ;
+	geo:lat "52.3888090787" ;
+	rdf:label "Brug no. 992" .
+
+<http://www.bruggenvanamsterdam.nl/schellingwouderbreek.htm> a scr:Bridge ;
+	geo:long "4.9536411341" ;
+	geo:lat "52.3893296264" ;
+	rdf:label "Brug no. 993" .
+
+<http://www.bruggenvanamsterdam.nl/volkstuincomplex_liergouw.htm> a scr:Bridge ;
+	geo:long "4.9735873815" ;
+	geo:lat "52.3881649335" ;
+	rdf:label "Brug no. 994" .
+
+<http://www.bruggenvanamsterdam.nl/badhuisweg.htm> a scr:Bridge ;
+	geo:long "4.9023009714" ;
+	geo:lat "52.3831694192" ;
+	rdf:label "Brug Overhoeks (995)" .
+
+<http://www.bruggenvanamsterdam.nl/grootslagstraat.htm> a scr:Bridge ;
+	geo:long "4.9558298167" ;
+	geo:lat "52.3991763143" ;
+	rdf:label "Brug no. 996" .
+
+<http://www.bruggenvanamsterdam.nl/stadionkade.htm> a scr:Bridge ;
+	geo:long "4.8534794029" ;
+	geo:lat "52.3417429229" ;
+	rdf:label "Na Druk Gelukbrug (999)" .
+
+<http://www.bruggenvanamsterdam.nl/huntumdreef.htm> a scr:Bridge ;
+	geo:long "4.9595245596" ;
+	geo:lat "52.3081852553" ;
+	rdf:label "Brug no. 1001" .
+
+<http://www.bruggenvanamsterdam.nl/foppingadreef1.htm> a scr:Bridge ;
+	geo:long "4.9536800262" ;
+	geo:lat "52.308421406" ;
+	rdf:label "Brug no. 1003" .
+
+<http://www.bruggenvanamsterdam.nl/karspeldreef7.htm> a scr:Bridge ;
+	geo:long "4.9539375182" ;
+	geo:lat "52.3074439961" ;
+	rdf:label "Brug no. 1004" .
+
+<http://www.bruggenvanamsterdam.nl/foppingadreef2.htm> a scr:Bridge ;
+	geo:long "4.952253091" ;
+	geo:lat "52.3099760337" ;
+	rdf:label "Brug no. 1005" .
+
+<http://www.bruggenvanamsterdam.nl/foppingadreef.htm> a scr:Bridge ;
+	geo:long "4.9507939693" ;
+	geo:lat "52.3115535642" ;
+	rdf:label "Brug no. 1006" .
+
+<http://www.bruggenvanamsterdam.nl/hoogoorddreef.htm> a scr:Bridge ;
+	geo:long "4.9499785777" ;
+	geo:lat "52.3116650715" ;
+	rdf:label "Brug no. 1007" .
+
+<http://www.bruggenvanamsterdam.nl/poppingadreef.htm> a scr:Bridge ;
+	geo:long "4.9494850513" ;
+	geo:lat "52.3129736215" ;
+	rdf:label "Brug no. 1008" .
+
+<http://www.bruggenvanamsterdam.nl/bijlmerdreef3.htm> a scr:Bridge ;
+	geo:long "4.9480259296" ;
+	geo:lat "52.3138033337" ;
+	rdf:label "Brug no. 1009" .
+
+<http://www.bruggenvanamsterdam.nl/bijlmerdreef1.htm> a scr:Bridge ;
+	geo:long "4.9509334441" ;
+	geo:lat "52.3148625879" ;
+	rdf:label "Brug no. 1010" .
+
+<http://www.bruggenvanamsterdam.nl/dolingadreef5.htm> a scr:Bridge ;
+	geo:long "4.9511051055" ;
+	geo:lat "52.3164760162" ;
+	rdf:label "Brug no. 1011" .
+
+<http://www.bruggenvanamsterdam.nl/dolingadreef.htm> a scr:Bridge ;
+	geo:long "4.9496030685" ;
+	geo:lat "52.3181287354" ;
+	rdf:label "Brug no. 1012" .
+
+<http://www.bruggenvanamsterdam.nl/bijlmerdreef.htm> a scr:Bridge ;
+	geo:long "4.9553859111" ;
+	geo:lat "52.3163710795" ;
+	rdf:label "Brug no. 1013" .
+
+<http://www.bruggenvanamsterdam.nl/florijn1.htm> a scr:Bridge ;
+	geo:long "4.9599563953" ;
+	geo:lat "52.317925428" ;
+	rdf:label "Brug no. 1014" .
+
+<http://www.bruggenvanamsterdam.nl/elsrijkdreef.htm> a scr:Bridge ;
+	geo:long "4.9708059307" ;
+	geo:lat "52.3251471855" ;
+	rdf:label "Brug no. 1018" .
+
+<http://www.bruggenvanamsterdam.nl/karspeldreef1.htm> a scr:Bridge ;
+	geo:long "4.9719968315" ;
+	geo:lat "52.3136557576" ;
+	rdf:label "Brug no. 1032" .
+
+<http://www.bruggenvanamsterdam.nl/karspeldreef.htm> a scr:Bridge ;
+	geo:long "4.9699637171" ;
+	geo:lat "52.3129408262" ;
+	rdf:label "Brug no. 1033" .
+
+<http://www.bruggenvanamsterdam.nl/karspeldreef2.htm> a scr:Bridge ;
+	geo:long "4.965817022" ;
+	geo:lat "52.3115306068" ;
+	rdf:label "Brug no. 1034" .
+
+<http://www.bruggenvanamsterdam.nl/karspeldreef3.htm> a scr:Bridge ;
+	geo:long "4.9638268229" ;
+	geo:lat "52.310858277" ;
+	rdf:label "Brug no. 1035" .
+
+<http://www.bruggenvanamsterdam.nl/karspeldreef8.htm> a scr:Bridge ;
+	geo:long "4.961595225" ;
+	geo:lat "52.3100777058" ;
+	rdf:label "Brug no. 1036" .
+
+<http://www.bruggenvanamsterdam.nl/flierbosdreef.htm> a scr:Bridge ;
+	geo:long "4.95742439" ;
+	geo:lat "52.3137049497" ;
+	rdf:label "Brug no. 1039" .
+
+<http://www.bruggenvanamsterdam.nl/karspeldreef9.htm> a scr:Bridge ;
+	geo:long "4.9601817008" ;
+	geo:lat "52.3096218195" ;
+	rdf:label "Brug no. 1041" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg14.htm> a scr:Bridge ;
+	geo:long "4.9652323004" ;
+	geo:lat "52.3147691253" ;
+	rdf:label "Brug no. 1044" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg13.htm> a scr:Bridge ;
+	geo:long "4.9635371443" ;
+	geo:lat "52.3166416188" ;
+	rdf:label "Brug no. 1045" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg12.htm> a scr:Bridge ;
+	geo:long "4.9617668863" ;
+	geo:lat "52.3185664989" ;
+	rdf:label "Brug no. 1046" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg10.htm> a scr:Bridge ;
+	geo:long "4.9593046185" ;
+	geo:lat "52.3212487305" ;
+	rdf:label "Brug no. 1048" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg11.htm> a scr:Bridge ;
+	geo:long "4.958027887" ;
+	geo:lat "52.3226258522" ;
+	rdf:label "Brug no. 1049" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg9.htm> a scr:Bridge ;
+	geo:long "4.9569737788" ;
+	geo:lat "52.3237750603" ;
+	rdf:label "Brug no. 1050" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg8.htm> a scr:Bridge ;
+	geo:long "4.9554529663" ;
+	geo:lat "52.3256979908" ;
+	rdf:label "Brug no. 1051" .
+
+<http://www.bruggenvanamsterdam.nl/in> geo:long "4.9744859215" ;
+	geo:lat "52.3144985746" ;
+	rdf:label "Brug no. 1060" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg15.htm> a scr:Bridge ;
+	geo:long "4.9676194664" ;
+	geo:lat "52.3121274958" ;
+	rdf:label "Brug no. 1062" .
+
+<http://www.bruggenvanamsterdam.nl/hoogoorddreef2.htm> a scr:Bridge ;
+	geo:long "4.9525213119" ;
+	geo:lat "52.3125308834" ;
+	rdf:label "Brug no. 1063" .
+
+<http://www.bruggenvanamsterdam.nl/hoogoorddreef3.htm> a scr:Bridge ;
+	geo:long "4.954806554" ;
+	geo:lat "52.3133081318" ;
+	rdf:label "Brug no. 1064" .
+
+<http://www.bruggenvanamsterdam.nl/karspeldreef4.htm> a scr:Bridge ;
+	geo:long "4.956474888" ;
+	geo:lat "52.3083131704" ;
+	rdf:label "Brug no. 1065" .
+
+<http://www.bruggenvanamsterdam.nl/karspeldreef5.htm> a scr:Bridge ;
+	geo:long "4.9574994918" ;
+	geo:lat "52.3086509958" ;
+	rdf:label "Brug no. 1066" .
+
+<http://www.bruggenvanamsterdam.nl/fleerde3.htm> a scr:Bridge ;
+	geo:long "4.9582612392" ;
+	geo:lat "52.3173909219" ;
+	rdf:label "Brug no. 1067" .
+
+<http://www.bruggenvanamsterdam.nl/dolingadreef1.htm> a scr:Bridge ;
+	geo:long "4.9486321088" ;
+	geo:lat "52.319184607" ;
+	rdf:label "Brug no. 1076" .
+
+<http://www.bruggenvanamsterdam.nl/huntumdreef1.htm> a scr:Bridge ;
+	geo:long "4.961262631" ;
+	geo:lat "52.3062550037" ;
+	rdf:label "Brug no. 1077" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg16.htm> a scr:Bridge ;
+	geo:long "4.9694540974" ;
+	geo:lat "52.3102367729" ;
+	rdf:label "Brug no. 1083" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg18.htm> a scr:Bridge ;
+	geo:long "4.9714174744" ;
+	geo:lat "52.3079966618" ;
+	rdf:label "Brug no. 1084" .
+
+<http://www.bruggenvanamsterdam.nl/geerdinkhof7.htm> a scr:Bridge ;
+	geo:long "4.9832218763" ;
+	geo:lat "52.322122552" ;
+	rdf:label "Brug no. 1132" .
+
+<http://www.bruggenvanamsterdam.nl/geerdinkhof8.htm> a scr:Bridge ;
+	geo:long "4.9829858419" ;
+	geo:lat "52.3215028455" ;
+	rdf:label "Brug no. 1134" .
+
+<http://www.bruggenvanamsterdam.nl/grunder.htm> a scr:Bridge ;
+	geo:long "4.9823260184" ;
+	geo:lat "52.3212766012" ;
+	rdf:label "Brug no. 1135" .
+
+<http://www.bruggenvanamsterdam.nl/kelbergenpad1.htm> a scr:Bridge ;
+	geo:long "4.9691188213" ;
+	geo:lat "52.3185615802" ;
+	rdf:label "Brug no. 1150" .
+
+<http://www.bruggenvanamsterdam.nl/hofgeest.htm> a scr:Bridge ;
+	geo:long "4.9596157547" ;
+	geo:lat "52.3122062059" ;
+	rdf:label "Brug no. 1162" .
+
+<http://www.bruggenvanamsterdam.nl/abcouderpad.htm> a scr:Bridge ;
+	geo:long "4.9589291092" ;
+	geo:lat "52.3054694311" ;
+	rdf:label "Brug no. 1163" .
+
+<http://www.bruggenvanamsterdam.nl/bijlmerpark1.htm> a scr:Bridge ;
+	geo:long "4.9609300371" ;
+	geo:lat "52.3108943535" ;
+	rdf:label "Brug no. 1164" .
+
+<http://www.bruggenvanamsterdam.nl/huntum2.htm> a scr:Bridge ;
+	geo:long "4.9625286337" ;
+	geo:lat "52.3092216853" ;
+	rdf:label "Brug no. 1165" .
+
+<http://www.bruggenvanamsterdam.nl/huntum3.htm> a scr:Bridge ;
+	geo:long "4.9639448401" ;
+	geo:lat "52.3074308764" ;
+	rdf:label "Brug no. 1166" .
+
+<http://www.bruggenvanamsterdam.nl/huntum1.htm> a scr:Bridge ;
+	geo:long "4.9640145775" ;
+	geo:lat "52.3064796847" ;
+	rdf:label "Brug no. 1167" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg7.htm> a scr:Bridge ;
+	geo:long "4.9539831158" ;
+	geo:lat "52.3273044672" ;
+	rdf:label "Brug no. 1201" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg6.htm> a scr:Bridge ;
+	geo:long "4.9496862169" ;
+	geo:lat "52.3320415934" ;
+	rdf:label "Brug no. 1216" .
+
+<http://www.bruggenvanamsterdam.nl/rozenbruglaan3.htm> a scr:Bridge ;
+	geo:long "4.9436458822" ;
+	geo:lat "52.3369453779" ;
+	rdf:label "Duivendrechtsebrug (1267)" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg5.htm> a scr:Bridge ;
+	geo:long "4.946478295" ;
+	geo:lat "52.3343984935" ;
+	rdf:label "Brug no. 1268" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg1.htm> a scr:Bridge ;
+	geo:long "4.9426320072" ;
+	geo:lat "52.336742157" ;
+	rdf:label "Brug no. 1269" .
+
+<http://www.bruggenvanamsterdam.nl/gooiseweg4.htm> a scr:Bridge ;
+	geo:long "4.9383780237" ;
+	geo:lat "52.3391610808" ;
+	rdf:label "Brug no. 1270" .
+
+<http://www.bruggenvanamsterdam.nl/snellewaardgracht.htm> a scr:Bridge ;
+	geo:long "4.981435525" ;
+	geo:lat "52.2946077492" ;
+	rdf:label "Brug no. 1350" .
+
+<http://www.bruggenvanamsterdam.nl/spankenkade.htm> a scr:Bridge ;
+	geo:long "4.9799656745" ;
+	geo:lat "52.291097062" ;
+	rdf:label "Brug no. 1450" .
+
+<http://www.bruggenvanamsterdam.nl/gein.htm> a scr:Bridge ;
+	geo:long "5.0145970162" ;
+	geo:lat "52.2990408247" ;
+	rdf:label "Wilhelminabrug (1490)" .
+
+<http://www.bruggenvanamsterdam.nl/amsterdamse_bos51.htm> a scr:Bridge ;
+	geo:long "4.8478293296" ;
+	geo:lat "52.3239127666" ;
+	rdf:label "Brug no. 1513" .
+
+<http://www.bruggenvanamsterdam.nl/stammerlandweg.htm> a scr:Bridge ;
+	geo:long "5.0143301364" ;
+	geo:lat "52.3103400842" ;
+	rdf:label "Brug no. 1550" .
+
+<http://www.bruggenvanamsterdam.nl/oostelijke_toegang_tennispark_am.htm> a scr:Bridge ;
+	geo:long "4.8558974143" ;
+	geo:lat "52.3308303143" ;
+	rdf:label "Brug no. 1552" .
+
+<http://www.bruggenvanamsterdam.nl/westelijke_toegang_tennispark_am.htm> a scr:Bridge ;
+	geo:long "4.8511284467" ;
+	geo:lat "52.3299484691" ;
+	rdf:label "Brug no. 1553" .
+
+<http://www.bruggenvanamsterdam.nl/jan_vroegop_singel.htm> a scr:Bridge ;
+	geo:long "4.8989039537" ;
+	geo:lat "52.3326562353" ;
+	rdf:label "Rozenoordbrug (1638)" .
+
+<http://www.bruggenvanamsterdam.nl/ransdorp3.htm> a scr:Bridge ;
+	geo:long "4.992958295" ;
+	geo:lat "52.392512527" ;
+	rdf:label "Brug no. 1750" .
+
+<http://www.bruggenvanamsterdam.nl/jan_evertsenstraat7.htm> a scr:Bridge ;
+	geo:long "4.8422503348" ;
+	geo:lat "52.3693882738" ;
+	rdf:label "Brug no. 1800" .
+
+<http://www.bruggenvanamsterdam.nl/rotterdamsepad1.htm> a scr:Bridge ;
+	geo:long "4.8809224244" ;
+	geo:lat "52.3331282744" ;
+	rdf:label "Brug no. 1801" .
+
+<http://www.bruggenvanamsterdam.nl/rotterdamsepad2.htm> a scr:Bridge ;
+	geo:long "4.8809224244" ;
+	geo:lat "52.3293583769" ;
+	rdf:label "Brug no. 1802" .
+
+<http://www.bruggenvanamsterdam.nl/sloterweg2.htm> a scr:Bridge ;
+	geo:long "4.8143553611" ;
+	geo:lat "52.3420239585" ;
+	rdf:label "Brug no. 1850" .
+
+<http://www.bruggenvanamsterdam.nl/pieter_calandlaan5.htm> a scr:Bridge ;
+	geo:long "4.7935199615" ;
+	geo:lat "52.350770401" ;
+	rdf:label "Brug no. 1886" .
+
+<http://www.bruggenvanamsterdam.nl/plesmanlaan3.htm> a scr:Bridge ;
+	geo:long "4.8341661569" ;
+	geo:lat "52.3518779199" ;
+	rdf:label "Brug no. 1893" .
+
+<http://www.bruggenvanamsterdam.nl/lijnbaansgracht_bij_melkweg.htm> a scr:Bridge ;
+	geo:long "4.8814990994" ;
+	geo:lat "52.3648433295" ;
+	rdf:label "Melkwegbrug (1900)" .
+
+<http://www.bruggenvanamsterdam.nl/hollandse_tuin.htm> a scr:Bridge ;
+	geo:long "4.8902940627" ;
+	geo:lat "52.3828747292" ;
+	rdf:label "Brug no. 1901" .
+
+<http://www.bruggenvanamsterdam.nl/de_wittenkade_hoek_1e_nassaustra.htm> a scr:Bridge ;
+	geo:long "4.8782455798" ;
+	geo:lat "52.3839257811" ;
+	rdf:label "Brug no. 1902" .
+
+<http://www.bruggenvanamsterdam.nl/poolstraat_hoek_waaigat.htm> a scr:Bridge ;
+	geo:long "4.9224752065" ;
+	geo:lat "52.3702011998" ;
+	rdf:label "Ezelsbrug (1904)" .
+
+<http://www.bruggenvanamsterdam.nl/entrepotdok_hoek_plantage_kerkla.htm> a scr:Bridge ;
+	geo:long "4.9138224002" ;
+	geo:lat "52.3686224848" ;
+	rdf:label "Nijlpaardenbrug (1907)" .
+
+<http://www.bruggenvanamsterdam.nl/le_mairegracht.htm> a scr:Bridge ;
+	geo:long "4.8819255706" ;
+	geo:lat "52.3896815655" ;
+	rdf:label "Brug no. 1908" .
+
+<http://www.bruggenvanamsterdam.nl/suikerplein.htm> a scr:Bridge ;
+	geo:long "4.8812442895" ;
+	geo:lat "52.3891577481" ;
+	rdf:label "Brug no. 1909" .
+
+<http://www.bruggenvanamsterdam.nl/martin_vlaarkade.htm> a scr:Bridge ;
+	geo:long "4.8817968246" ;
+	geo:lat "52.3887550593" ;
+	rdf:label "Robiï¿½nnabrug (1910)" .
+
+<http://www.bruggenvanamsterdam.nl/radarweg4.htm> a scr:Bridge ;
+	geo:long "4.8380446311" ;
+	geo:lat "52.3894188391" ;
+	rdf:label "Brug no. 1911" .
+
+<http://www.bruggenvanamsterdam.nl/brettenpad.htm> a scr:Bridge ;
+	geo:long "4.8043507215" ;
+	geo:lat "52.3854867598" ;
+	rdf:label "Brug no. 1913" .
+
+<http://www.bruggenvanamsterdam.nl/kattenburgervaart.htm> a scr:Bridge ;
+	geo:long "4.9215739843" ;
+	geo:lat "52.3727263714" ;
+	rdf:label "Witte Katbrug (1914)" .
+
+<http://www.bruggenvanamsterdam.nl/th_k_van_lohuizenstraat.htm> a scr:Bridge ;
+	geo:long "4.9461483833" ;
+	geo:lat "52.3673475166" ;
+	rdf:label "Brug no. 1915" ;
+	geo:long "4.9461537477" ;
+	geo:lat "52.3666662084" ;
+	rdf:label "Brug no. 1916" .
+
+<http://www.bruggenvanamsterdam.nl/senneweg.htm> a scr:Bridge ;
+	geo:long "4.8089802143" ;
+	geo:lat "52.3854343734" ;
+	rdf:label "Brug no. 1917" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_hemweg1.htm> a scr:Bridge ;
+	geo:long "4.8497739312" ;
+	geo:lat "52.4004127237" ;
+	rdf:label "Brug no. 1919" .
+
+<http://www.bruggenvanamsterdam.nl/max_euweplein.htm> a scr:Bridge ;
+	geo:long "4.8821830627" ;
+	geo:lat "52.3620425335" ;
+	rdf:label "Hein Donnerbrug (1922)" .
+
+<http://www.bruggenvanamsterdam.nl/voetgangersbrug.htm> a scr:Bridge ;
+	geo:long "4.8686915513" ;
+	geo:lat "52.3642406001" ;
+	rdf:label "Ketelhuisbrug (1923)" .
+
+<http://www.bruggenvanamsterdam.nl/oosterpark1.htm> a scr:Bridge ;
+	geo:long "4.9198949214" ;
+	geo:lat "52.360117907" ;
+	rdf:label "Brug no. 1925" .
+
+<http://www.bruggenvanamsterdam.nl/waternatuurtuin7.htm> a scr:Bridge ;
+	geo:long "4.8665263184" ;
+	geo:lat "52.3886389729" ;
+	rdf:label "Brug no. 1929" .
+
+<http://www.bruggenvanamsterdam.nl/westerpark.htm> a scr:Bridge ;
+	geo:long "4.8660059699" ;
+	geo:lat "52.3878597739" ;
+	rdf:label "Brug no. 1930" .
+
+<http://www.bruggenvanamsterdam.nl/bilderdijkkade_hoek_hugo_de_groo.htm> a scr:Bridge ;
+	geo:long "4.8677205917" ;
+	geo:lat "52.3718445428" ;
+	rdf:label "Katterug (1935)" .
+
+<http://www.bruggenvanamsterdam.nl/radarweg.htm> a scr:Bridge ;
+	geo:long "4.8346650478" ;
+	geo:lat "52.3851495211" ;
+	rdf:label "Brug no. 1936" .
+
+<http://www.bruggenvanamsterdam.nl/kabelweg1.htm> a scr:Bridge ;
+	geo:long "4.8469763872" ;
+	geo:lat "52.3953212114" ;
+	rdf:label "Brug no. 1937" .
+
+<http://www.bruggenvanamsterdam.nl/oosterdok.htm> a scr:Bridge ;
+	geo:long "4.9107646819" ;
+	geo:lat "52.3746872918" ;
+	rdf:label "Mr. J.J. van der Veldebrug (1939)" .
+
+<http://www.bruggenvanamsterdam.nl/c_v_eesterenlaan.htm> a scr:Bridge ;
+	geo:long "4.938509452" ;
+	geo:lat "52.3699318069" ;
+	rdf:label "Brug no. 1940" .
+
+<http://www.bruggenvanamsterdam.nl/hugo_de_vrieslaan.htm> a scr:Bridge ;
+	geo:long "4.9312245723" ;
+	geo:lat "52.3493990706" ;
+	rdf:label "Brug no. 1944" .
+
+<http://www.bruggenvanamsterdam.nl/radarweg3.htm> a scr:Bridge ;
+	geo:long "4.836156356" ;
+	geo:lat "52.3890292482" ;
+	rdf:label "Brug no. 1945" .
+
+<http://www.bruggenvanamsterdam.nl/nieuwe_hemweg8.htm> a scr:Bridge ;
+	geo:long "4.8648284801" ;
+	geo:lat "52.3927753724" ;
+	rdf:label "Brug no. 1946" .
+
+<http://www.bruggenvanamsterdam.nl/noordzeeweg1.htm> a scr:Bridge ;
+	geo:long "4.806246353" ;
+	geo:lat "52.3944727064" ;
+	rdf:label "Brug no. 1948" .
+
+<http://www.bruggenvanamsterdam.nl/australiehavenweg1.htm> a scr:Bridge ;
+	geo:long "4.8016738769" ;
+	geo:lat "52.3858796561" ;
+	rdf:label "Brug no. 1950" .
+
+<http://www.bruggenvanamsterdam.nl/alexanderkade_hoek_wilhelmina_bl.htm> a scr:Bridge ;
+	geo:long "4.9238002177" ;
+	geo:lat "52.3646877344" ;
+	rdf:label "Olifantsbrug (1957)" .
+
+<http://www.bruggenvanamsterdam.nl/seineweg.htm> a scr:Bridge ;
+	geo:long "4.8187434551" ;
+	geo:lat "52.3847369731" ;
+	rdf:label "Brug no. 1958" .
+
+<http://www.bruggenvanamsterdam.nl/kimpoweg.htm> a scr:Bridge ;
+	geo:long "4.8402601358" ;
+	geo:lat "52.3850283764" ;
+	rdf:label "Brug no. 1961" .
+
+<http://www.bruggenvanamsterdam.nl/radarweg2.htm> a scr:Bridge ;
+	geo:long "4.8343002673" ;
+	geo:lat "52.3849465217" ;
+	rdf:label "Brug no. 1963" .
+
+<http://www.bruggenvanamsterdam.nl/radarweg1.htm> a scr:Bridge ;
+	geo:long "4.8350298282" ;
+	geo:lat "52.3849596185" ;
+	rdf:label "Brug no. 1964" .
+
+<http://www.bruggenvanamsterdam.nl/panamalaan.htm> a scr:Bridge ;
+	geo:long "4.9338424083" ;
+	geo:lat "52.3665417374" ;
+	rdf:label "Panamabrug (1965)" .
+
+<http://www.bruggenvanamsterdam.nl/panamalaan1.htm> a scr:Bridge ;
+	geo:long "4.9338102218" ;
+	geo:lat "52.3672197721" ;
+	rdf:label "Panamabrug (1966)" .
+
+<http://www.bruggenvanamsterdam.nl/haarlemmerweg2.htm> a scr:Bridge ;
+	geo:long "4.8694372054" ;
+	geo:lat "52.3855293238" ;
+	rdf:label "Brug no. 1973" .
+
+<http://www.bruggenvanamsterdam.nl/borneosteiger1.htm> a scr:Bridge ;
+	geo:long "4.9367231008" ;
+	geo:lat "52.3695551453" ;
+	rdf:label "Borneosteiger (1981)" .
+
+<http://www.bruggenvanamsterdam.nl/borneokade1.htm> a scr:Bridge ;
+	geo:long "4.9364548799" ;
+	geo:lat "52.3698630254" ;
+	rdf:label "Jaap Hannisbrug (1982)" .
+
+<http://www.bruggenvanamsterdam.nl/seranggracht_hoek_sumatrakade.htm> a scr:Bridge ;
+	geo:long "4.9488896009" ;
+	geo:lat "52.37300721" ;
+	rdf:label "Serang (1983)" .
+
+<http://www.bruggenvanamsterdam.nl/seranggracht_hoek_kratontuin.htm> a scr:Bridge ;
+	geo:long "4.9329465505" ;
+	geo:lat "52.3780636373" ;
+	rdf:label "Conscience (1984)" .
+
+<http://www.bruggenvanamsterdam.nl/seranggracht_hoek_javakade.htm> a scr:Bridge ;
+	geo:long "4.9325978633" ;
+	geo:lat "52.3773464721" ;
+	rdf:label "Idee (1985)" .
+
+<http://www.bruggenvanamsterdam.nl/majanggracht_hoek_surinamekade.htm> a scr:Bridge ;
+	geo:long "4.9301570531" ;
+	geo:lat "52.3788921289" ;
+	rdf:label "Majang (1986)" .
+
+<http://www.bruggenvanamsterdam.nl/majanggracht_hoek_taman_sapi1.htm> a scr:Bridge ;
+	geo:long "4.9300122138" ;
+	geo:lat "52.3785974103" ;
+	rdf:label "Kunst (1987)" .
+
+<http://www.bruggenvanamsterdam.nl/majanggracht_hoek_taman_sapi.htm> a scr:Bridge ;
+	geo:long "4.9298244592" ;
+	geo:lat "52.3781880758" ;
+	rdf:label "Light (1988)" .
+
+<http://www.bruggenvanamsterdam.nl/majanggracht_hoek_javakade.htm> a scr:Bridge ;
+	geo:long "4.9296581622" ;
+	geo:lat "52.3778573307" ;
+	rdf:label "Image (1989)" .
+
+<http://www.bruggenvanamsterdam.nl/lamongracht_hoek_surinamekade.htm> a scr:Bridge ;
+	geo:long "4.9276035901" ;
+	geo:lat "52.3793243791" ;
+	rdf:label "Lamong (1990)" .
+
+<http://www.bruggenvanamsterdam.nl/lamonggracht_hoek_java.htm> a scr:Bridge ;
+	geo:long "4.9274587508" ;
+	geo:lat "52.3789379738" ;
+	rdf:label "Society (1991)" .
+
+<http://www.bruggenvanamsterdam.nl/lamonggracht_hoek_javakade.htm> a scr:Bridge ;
+	geo:long "4.9271368858" ;
+	geo:lat "52.3783387113" ;
+	rdf:label "Word (1992)" .
+
+<http://www.bruggenvanamsterdam.nl/brantasgracht_hoek_sumatrakade.htm> a scr:Bridge ;
+	geo:long "4.9254685518" ;
+	geo:lat "52.3796583878" ;
+	rdf:label "Brantas (1993)" .
+
+<http://www.bruggenvanamsterdam.nl/brantasgracht_hoek_tosarituin.htm> a scr:Bridge ;
+	geo:long "4.9253076192" ;
+	geo:lat "52.3793374775" ;
+	rdf:label "Enseignement (1994)" .
+
+<http://www.bruggenvanamsterdam.nl/brantasgracht_hoek_javakade.htm> a scr:Bridge ;
+	geo:long "4.9250125762" ;
+	geo:lat "52.3786792768" ;
+	rdf:label "Wetenschap (1995)" .
+
+<http://www.bruggenvanamsterdam.nl/kwartiermeesterstraat.htm> a scr:Bridge ;
+	geo:long "4.9428331729" ;
+	geo:lat "52.3723325392" ;
+	rdf:label "Lage Brug (1997)" .
+
+<http://www.bruggenvanamsterdam.nl/panamakade.htm> a scr:Bridge ;
+	geo:long "4.9488896009" ;
+	geo:lat "52.37300721" ;
+	rdf:label "Hoge Brug (1998)" .
+
+<http://www.bruggenvanamsterdam.nl/bootmanstraat.htm> a scr:Bridge ;
+	geo:long "4.9494099494" ;
+	geo:lat "52.3719689988" ;
+	rdf:label "Korte Brug (1999)" .
+
+<http://www.bruggenvanamsterdam.nl/oostelijke_handelskade.htm> a scr:Bridge ;
+	geo:long "4.9225395795" ;
+	geo:lat "52.3780308903" ;
+	rdf:label "Jan Schaeferbrug (2000)" .
+
+<http://www.bruggenvanamsterdam.nl/ijburglaan.htm> a scr:Bridge ;
+	geo:long "4.9767041083" ;
+	geo:lat "52.3651496046" ;
+	rdf:label "Enneï¿½s Heermabrug (2001)" .
+
+<http://www.bruggenvanamsterdam.nl/ijburglaan4.htm> a scr:Bridge ;
+	geo:long "4.9863010522" ;
+	geo:lat "52.3600179879" ;
+	rdf:label "Brug no. 2002" .
+
+<http://www.bruggenvanamsterdam.nl/ijmeer.htm> a scr:Bridge ;
+	geo:long "5.0157785293" ;
+	geo:lat "52.3468807581" ;
+	rdf:label "Benno Premselabrug (2005)" .
+
+<http://www.bruggenvanamsterdam.nl/uyllanderbrug.htm> a scr:Bridge ;
+	geo:long "5.0089710828" ;
+	geo:lat "52.3366700461" ;
+	rdf:label "Uyllanderbrug (2007)" .
+
+<http://www.bruggenvanamsterdam.nl/ijburg.htm> a scr:Bridge ;
+	geo:long "4.9704223748" ;
+	geo:lat "52.3568679643" ;
+	rdf:label "Nesciobrug (2013)" .
+
+<http://www.bruggenvanamsterdam.nl/nico_jessekade.htm> a scr:Bridge ;
+	geo:long "5.0110149261" ;
+	geo:lat "52.3459697391" ;
+	rdf:label "Brug no. 2050" .
+
+<http://www.bruggenvanamsterdam.nl/vrije_geer2.htm> a scr:Bridge ;
+	geo:long "4.7978329536" ;
+	geo:lat "52.3439903384" ;
+	rdf:label "Brug no. 2151" .
+
+<http://www.bruggenvanamsterdam.nl/in> geo:long "4.8706267651" ;
+	geo:lat "52.322418467" ;
+	rdf:label "Brug no. 2163" ;
+	geo:long "4.8775415" ;
+	geo:lat "52.3227397908" ;
+	rdf:label "Brug no. 2164" ;
+	geo:long "4.881173211" ;
+	geo:lat "52.3228119243" ;
+	rdf:label "Brug no. 2165" ;
+	geo:long "4.8845259722" ;
+	geo:lat "52.3228676638" ;
+	rdf:label "Brug no. 2166" .
+
+<http://www.bruggenvanamsterdam.nl/noordzeeweg.htm> a scr:Bridge ;
+	geo:long "4.7747230407" ;
+	geo:lat "52.3979889687" ;
+	rdf:label "Brug no. 2200" .
+
+<http://www.bruggenvanamsterdam.nl/westerdoksplein.htm> a scr:Bridge ;
+	geo:long "4.8913293954" ;
+	geo:lat "52.3830253488" ;
+	rdf:label "Han Lammersbrug (2202)" .
+
+<http://www.bruggenvanamsterdam.nl/buiksloterdijk2.htm> a scr:Bridge ;
+	geo:long "4.9215096112" ;
+	geo:lat "52.3990944859" ;
+	rdf:label "Buiksloterdraaibrug (2205)" .
+
+<http://www.bruggenvanamsterdam.nl/park_de_meer.htm> a scr:Bridge ;
+	geo:long "4.9514752504" ;
+	geo:lat "52.3459386069" ;
+	rdf:label "Ruud Krolbrug (2232)" .
+
+<http://www.bruggenvanamsterdam.nl/park_de_meer1.htm> a scr:Bridge ;
+	geo:long "4.9505901214" ;
+	geo:lat "52.3454667045" ;
+	rdf:label "Sjaak Swartbrug (2233)" .
+
+<http://www.bruggenvanamsterdam.nl/park_de_meer2.htm> a scr:Bridge ;
+	geo:long "4.9510997411" ;
+	geo:lat "52.3451094972" ;
+	rdf:label "Piet Keizerbrug (2234)" .
+
+<http://www.bruggenvanamsterdam.nl/park_de_meer3.htm> a scr:Bridge ;
+	geo:long "4.9519795057" ;
+	geo:lat "52.3445294389" ;
+	rdf:label "Gerrie Mï¿½hrenbrug (2235)" .
+
+<http://www.bruggenvanamsterdam.nl/delle_alpihof.htm> a scr:Bridge ;
+	geo:long "4.9512874957" ;
+	geo:lat "52.343130058" ;
+	rdf:label "Barry Hulshoffbrug (2236)" .
+
+<http://www.bruggenvanamsterdam.nl/park_de_meer4.htm> a scr:Bridge ;
+	geo:long "4.9481707689" ;
+	geo:lat "52.3440018087" ;
+	rdf:label "Johan Neeskensbrug (2237)" .
+
+<http://www.bruggenvanamsterdam.nl/park_de_meer5.htm> a scr:Bridge ;
+	geo:long "4.9487179395" ;
+	geo:lat "52.3436839166" ;
+	rdf:label "Johan Cruijffbrug (2238)" .
+
+<http://www.bruggenvanamsterdam.nl/park_de_meer6.htm> a scr:Bridge ;
+	geo:long "4.9496245261" ;
+	geo:lat "52.3431136715" ;
+	rdf:label "Wim Suurbierbrug (2239)" .
+
+<http://www.bruggenvanamsterdam.nl/park_de_meer7.htm> a scr:Bridge ;
+	geo:long "4.9478757259" ;
+	geo:lat "52.3431824946" ;
+	rdf:label "Arie Haanbrug (2240)" .
+
+<http://www.bruggenvanamsterdam.nl/stadionkade1.htm> a scr:Bridge ;
+	geo:long "4.8515535768" ;
+	geo:lat "52.3445056793" ;
+	rdf:label "Jan Wilsbrug (2247)" .
+
+<http://www.bruggenvanamsterdam.nl/trijn_hullemanlaan.htm> a scr:Bridge ;
+	geo:long "4.7866186377" ;
+	geo:lat "52.3510407299" ;
+	rdf:label "Eduard Roosnekbrug (2252)" .
+
+<http://www.bruggenvanamsterdam.nl/jan_swammerdambrug.htm> a scr:Bridge ;
+	geo:long "4.8717599984" ;
+	geo:lat "52.3650726266" ;
+	rdf:label "Jan Swammerdambrug (2291)" .
+
+<http://www.bruggenvanamsterdam.nl/park_de_meer8.htm> a scr:Bridge ;
+	geo:long "4.9473446485" ;
+	geo:lat "52.3435315242" ;
+	rdf:label "Horst Blankenburgbrug (2293)" .
+
+<http://www.bruggenvanamsterdam.nl/park_frankendael5.htm> a scr:Bridge ;
+	geo:long "4.9300283071" ;
+	geo:lat "52.3497267519" ;
+	rdf:label "Brug no. 2294" .
+
+<http://www.bruggenvanamsterdam.nl/nobelweg3.htm> a scr:Bridge ;
+	geo:long "4.9281561252" ;
+	geo:lat "52.3486421173" ;
+	rdf:label "Brug no. 2295" .
+
+<http://www.bruggenvanamsterdam.nl/kamerlingh_onnesweg.htm> a scr:Bridge ;
+	geo:long "4.9286067363" ;
+	geo:lat "52.3518238553" ;
+	rdf:label "Brug no. 2296" .
+
+<http://www.bruggenvanamsterdam.nl/middenweg.htm> a scr:Bridge ;
+	geo:long "4.9309348937" ;
+	geo:lat "52.3528887525" ;
+	rdf:label "Brug no. 2297" .
+
+<http://www.bruggenvanamsterdam.nl/baron_de_coubertinlaan1.htm> a scr:Bridge ;
+	geo:long "4.9175184842" ;
+	geo:lat "52.401000231" ;
+	rdf:label "Brug no. 2300" .
+
+<http://www.bruggenvanamsterdam.nl/park_frankendael9.htm> a scr:Bridge ;
+	geo:long "4.9340891715" ;
+	geo:lat "52.3509031081" ;
+	rdf:label "Brug no. 2307" .
+
+<http://www.bruggenvanamsterdam.nl/park_frankendael8.htm> a scr:Bridge ;
+	geo:long "4.9331611272" ;
+	geo:lat "52.3504443657" ;
+	rdf:label "Brug no. 2308" .
+
+<http://www.bruggenvanamsterdam.nl/park_frankendael1.htm> a scr:Bridge ;
+	geo:long "4.9317180988" ;
+	geo:lat "52.3507622092" ;
+	rdf:label "Brug no. 2311" .
+
+<http://www.bruggenvanamsterdam.nl/park_frankendael2.htm> a scr:Bridge ;
+	geo:long "4.9333113309" ;
+	geo:lat "52.3515551695" ;
+	rdf:label "Brug no. 2312" .
+
+<http://www.bruggenvanamsterdam.nl/park_frankendael4.htm> a scr:Bridge ;
+	geo:long "4.9308705207" ;
+	geo:lat "52.3514535927" ;
+	rdf:label "Brug no. 2314" .
+
+<http://www.bruggenvanamsterdam.nl/heemtuin_park_frankendael.htm> a scr:Bridge ;
+	geo:long "4.9316912767" ;
+	geo:lat "52.3520630498" ;
+	rdf:label "Brug no. 2315" .
+
+<http://www.bruggenvanamsterdam.nl/middenmeerpad_over_de_tweede_mol.htm> a scr:Bridge ;
+	geo:long "4.9518453952" ;
+	geo:lat "52.3479588821" ;
+	rdf:label "Dick van Dijkbrug (P)" .
+
+<http://www.bruggenvanamsterdam.nl/park_de_meer9.htm> a scr:Bridge ;
+	geo:long "4.950547206" ;
+	geo:lat "52.3471887962" ;
+	rdf:label "Johnny Repbrug (P)" .
+
+<http://www.bruggenvanamsterdam.nl/plesmanlaan.htm> a scr:Bridge ;
+	geo:long "4.7920822975" ;
+	geo:lat "52.340719545" ;
+	rdf:label "Brug no. 9P" .
+
+<http://www.bruggenvanamsterdam.nl/westelijk_merwedekanaal.htm> a scr:Bridge ;
+	geo:long "4.9598061916" ;
+	geo:lat "52.3584241663" ;
+	rdf:label "Brug no. 12P" .
+
+<http://www.bruggenvanamsterdam.nl/diemerzeedijk4.htm> a scr:Bridge ;
+	geo:long "4.9691724654" ;
+	geo:lat "52.3606076709" ;
+	rdf:label "Ipenslotersluis (13P)" .
+
+<http://www.bruggenvanamsterdam.nl/dorpsstraat_te_sloten.htm> a scr:Bridge ;
+	geo:long "4.7953116771" ;
+	geo:lat "52.3414799113" ;
+	rdf:label "Brug no. 26P" .
+
+<http://www.bruggenvanamsterdam.nl/insulindeweg.htm> a scr:Bridge ;
+	geo:long "4.9614262458" ;
+	geo:lat "52.367039619" ;
+	rdf:label "Amsterdamse brug (54P)" .
+
+<http://www.bruggenvanamsterdam.nl/buiten_ij.htm> a scr:Bridge ;
+	geo:long "4.9670320626" ;
+	geo:lat "52.3785114504" ;
+	rdf:label "Schellingerwouderbrug (55P)" .
+
+<http://www.bruggenvanamsterdam.nl/velserweg.htm> a scr:Bridge ;
+	geo:long "4.8445355769" ;
+	geo:lat "52.3861546814" ;
+	rdf:label "Brug no. 120P" .
+
+<http://www.bruggenvanamsterdam.nl/haarlemmerweg5.htm> a scr:Bridge ;
+	geo:long "4.8445570346" ;
+	geo:lat "52.3850512957" ;
+	rdf:label "Brug no. 121P" .
+
+<http://www.bruggenvanamsterdam.nl/wiltzanghlaan.htm> a scr:Bridge ;
+	geo:long "4.8447823402" ;
+	geo:lat "52.3817573452" ;
+	rdf:label "Brug no. 122P" .
+
+<http://www.bruggenvanamsterdam.nl/leeuwendalersweg1.htm> a scr:Bridge ;
+	geo:long "4.8445087549" ;
+	geo:lat "52.3795077567" ;
+	rdf:label "Brug no. 123P" .
+
+<http://www.bruggenvanamsterdam.nl/bos_en_lommerweg1.htm> a scr:Bridge ;
+	geo:long "4.8440420505" ;
+	geo:lat "52.3778900779" ;
+	rdf:label "Brug no. 124P" .
+
+<http://www.bruggenvanamsterdam.nl/velserweg1.htm> a scr:Bridge ;
+	geo:long "4.8451042053" ;
+	geo:lat "52.3851135051" ;
+	rdf:label "Brug no. 172P" .
+
+<http://www.bruggenvanamsterdam.nl/over_amsterdam_rijnkanaal.htm> a scr:Bridge ;
+	geo:long "5.0147753831" ;
+	geo:lat "52.3324415214" ;
+	rdf:label "Brug Muiden" .
+
+<http://www.bruggenvanamsterdam.nl/muiderfietsbrug_over_amsterdam.htm> a scr:Bridge ;
+	geo:long "5.0143408652" ;
+	geo:lat "52.3327758845" ;
+	rdf:label "Muiderfietsbrug" .
+
+<http://www.bruggenvanamsterdam.nl/over_amsterdam_rijnkanaal1.htm> a scr:Bridge ;
+	geo:long "5.0175166007" ;
+	geo:lat "52.3247258804" ;
+	rdf:label "Muiderspoorbrug" .
+
+<http://www.bruggenvanamsterdam.nl/over.htm> a scr:Bridge ;
+	geo:long "5.0213467952" ;
+	geo:lat "52.3028420079" ;
+	rdf:label "Weesperbrug" .
+
+<http://www.bruggenvanamsterdam.nl/ganzenhoefpad.htm> a scr:Bridge ;
+	geo:long "4.9886573728" ;
+	geo:lat "52.3280068724" ;
+	rdf:label "Veeneikbrug" .
+
+<http://www.bruggenvanamsterdam.nl/ringweg_oost.htm> a scr:Bridge ;
+	geo:long "4.9674451228" ;
+	geo:lat "52.3588009227" ;
+	rdf:label "Zeeburgerbrug" .
+
+<http://www.bruggenvanamsterdam.nl/zeeburgertunnel.htm> a scr:Bridge ;
+	geo:long "4.9740916368" ;
+	geo:lat "52.3740789655" ;
+	rdf:label "Zeeburgertunnel" .
+
+<http://www.bruggenvanamsterdam.nl/station_Zuid_WTC.htm> a scr:Bridge ;
+	geo:long "4.8735999938" ;
+	geo:lat "52.3381990992" ;
+	rdf:label "Verdwenen brug" .
+
+<http://www.bruggenvanamsterdam.nl/museumplein.htm> a scr:Bridge ;
+	geo:long "4.8833417769" ;
+	geo:lat "52.3585552123" ;
+	rdf:label "Verdwenen brug" .
