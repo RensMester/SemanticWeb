@@ -18,7 +18,7 @@
 	geo:lat "52.3674130265" ;
 	rdf:label "Heiligewegsluis (2)" .
 
-<http://www.bruggenvanamsterdam.nl/singel_bij_beulingsloot.htm.htm> a scr:Bridge ;
+<http://www.bruggenvanamsterdam.nl/singel_bij_beulingsloot.htm> a scr:Bridge ;
 	geo:long "4.8877835151" ;
 	geo:lat "52.3684087644" ;
 	rdf:label "Krijtbergbrug (3)" .
