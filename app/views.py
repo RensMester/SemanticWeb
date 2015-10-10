@@ -85,7 +85,7 @@ def sparql():
     print(len(on_route))
     print(len(circles))
 
-    return render_template('map.html', route=steps, circles=circles, )
+    return render_template('map.html', route=steps, circles=circles, on_route = on_route)
 
     """
     if endpoint and query :
