@@ -7,3 +7,5 @@ app.config['circle_radius'] = float(0.25 / 111)
 app.config['endpoint'] = 'http://localhost:5820/ScenicRoute/query'
 app.config['reasoning'] = 'true'
 from app import views  # noqa
+from app import helper  # noqa
+from app import route_json

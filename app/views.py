@@ -7,6 +7,7 @@ import math
 import json
 from app import helper
 from app import route_json
+import os
 
 prefixes = 'prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>' +\
            'prefix owl: <http://www.w3.org/2002/07/owl#>' +\
@@ -34,9 +35,9 @@ def sparql():
                'mode': 'walking',
                }
 
-    # shortest_route = requests.get(app.config['maps_base_url'],
-    #                               params=payload).json()
-    shortest_route = route_json.route
+    shortest_route = requests.get(app.config['maps_base_url'],
+                                  params=payload).json()
+    #  shortest_route = route_json.route
 
     sparql = SPARQLWrapper(app.config['endpoint'])
 
@@ -74,18 +75,22 @@ def sparql():
                 print(num_circles)
                 for i in range(0, num_circles + 1):
                     print(i/(num_circles+1))
-                    lat, lon = helper.intermediate_point((start_lat, start_lon), (end_lat, end_lon), i/(num_circles + 1))
+                    lat, lon = helper.intermediate_point((start_lat,
+                                                          start_lon), (end_lat,
+                                                                       end_lon),
+                                                         i/(num_circles + 1))
                     circles.append({'lat': lat, 'lon': lon})
                 print('############################')
+
 
     on_route = [obj for c in circles for obj in objs if
                 in_circle(c['lat'], c['lon'], r, obj['lat']['value'],
                           obj['lon']['value'])]
 
-    print(len(on_route))
-    print(len(circles))
 
-    return render_template('map.html', route=steps, circles=circles, on_route = on_route)
+
+    return render_template('map.html', route=steps, circles=circles, on_route=on_route,)
+                           #scenicroute=scenicroute.json()['routes'][0]['legs'][0]['steps'])
 
     """
     if endpoint and query :
