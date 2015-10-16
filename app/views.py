@@ -1,19 +1,14 @@
 from app import app
-import pprint
-from flask import render_template, request, jsonify
-from SPARQLWrapper import SPARQLWrapper, RDF, JSON
-import requests
-import math
-import json
+import pprint  # noqa
+from flask import render_template, request, jsonify  # noqa
+import math  # noqa
+import json  # noqa
 from app import helper
-from app import route_json
-import os
+from app import route_json  # noqa
+from app import query
+import random
 
-prefixes = 'prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>' +\
-           'prefix owl: <http://www.w3.org/2002/07/owl#>' +\
-           'prefix xsd: <http://www.w3.org/2001/XMLSchema#>' +\
-           'prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>'
-r = 0.1 / 111
+r = 0.2 / 111
 
 
 @app.route('/', )
@@ -22,51 +17,20 @@ def home():
 
 
 @app.route('/route', methods=['GET'])
-def sparql():
+def route():
     args = request.args
     start = args.get('start')
     dest = args.get('dest')
-    waypoints = []
 
-    payload = {'origin': start,
-               'destination': dest,
-               'waypoints': 'optimize:true|' + '|'.join(waypoints),
-               'key': app.config['maps_API_KEY'],
-               'mode': 'walking',
-               }
+    interesting = []
+    upper_bound, lower_bound, steps = query.get_maps_route(start, dest)
+    places = query.get_places_within(upper_bound, lower_bound)
 
-    shortest_route = requests.get(app.config['maps_base_url'],
-                                  params=payload).json()
-    #  shortest_route = route_json.route
-
-    sparql = SPARQLWrapper(app.config['endpoint'])
-
-    query = 'select ?place ?lat ?lon where { ?place a scr:Place .' +\
-        '?place geo:lat ?lat . ?place geo:long ?lon . }'
-
-    sparql.setQuery(prefixes + query)
-    sparql.setReturnFormat(JSON)
-    sparql.addParameter('Accept', 'application/sparql-results+json')
-    sparql.addParameter('reasoning', 'true')
-
-    response = sparql.query().convert()
-    if response['results']['bindings']:
-        objs = response['results']['bindings']
-
-    def in_circle(center_x, center_y, radius, x, y):
-        center_x, center_y, x, y = map(float, (center_x, center_y, x, y))
-        square_dist = (center_x - x) ** 2 + (center_y - y) ** 2
-        return square_dist <= radius ** 2
-
-    circles = []
-
-    if shortest_route:
-        steps = shortest_route['routes'][0]['legs'][0]['steps']
+    if steps:
         for step in steps:
-            start = step['start_location']
-            end = step['end_location']
-            start_lat, start_lon = start['lat'], start['lng']
-            end_lat, end_lon = end['lat'], end['lng']
+            start, end = step['start_location'], step['end_location']
+            start_latlon = start['lat'], start['lng']
+            end_latlon = end['lat'], end['lng']
 
             distance = step['distance']['value']
             if distance > 150:
@@ -74,61 +38,24 @@ def sparql():
                 print('############################')
                 print(num_circles)
                 for i in range(0, num_circles + 1):
-                    print(i/(num_circles+1))
-                    lat, lon = helper.intermediate_point((start_lat,
-                                                          start_lon), (end_lat,
-                                                                       end_lon),
-                                                         i/(num_circles + 1))
-                    circles.append({'lat': lat, 'lon': lon})
+                    lat, lon = helper.step_point(start_latlon, end_latlon,
+                                                 i/(num_circles + 1))
+                    in_circle = [place for place in places if
+                                 helper.in_circle(lat, lon, r, place['lat']['value'],
+                                                  place['lon']['value'])]
+                    if len(in_circle) > 5:
+                        random.shuffle(in_circle)
+
+                    interesting.extend(in_circle[:5])
                 print('############################')
+    route = []
 
+    for i, p in enumerate(interesting):
+        lat, lon = p['lat']['value'], p['lon']['value']
+        if i == len(interesting) - 1:
+            pass
+        else:
+            n_lat, n_lon = interesting[i+1]['lat']['value'], interesting[i+1]['lon']['value']
+            route.extend(helper.route((lat, lon), (n_lat, n_lon)))
 
-    on_route = [obj for c in circles for obj in objs if
-                in_circle(c['lat'], c['lon'], r, obj['lat']['value'],
-                          obj['lon']['value'])]
-
-
-
-    return render_template('map.html', route=steps, circles=circles, on_route=on_route,)
-                           #scenicroute=scenicroute.json()['routes'][0]['legs'][0]['steps'])
-
-    """
-    if endpoint and query :
-        sparql = SPARQLWrapper(endpoint)
-
-        sparql.setQuery(query)
-
-        if return_format == 'RDF':
-            sparql.setReturnFormat(RDF)
-        else :
-            sparql.setReturnFormat(JSON)
-            sparql.addParameter('Accept','application/sparql-results+json')
-
-        sparql.addParameter('reasoning','true')
-
-        app.logger.debug('Query:\n{}'.format(query))
-
-        app.logger.debug('Querying endpoint {}'.format(endpoint))
-
-        try :
-            response = sparql.query().convert()
-
-            app.logger.debug('Results were returned, yay!')
-
-            app.logger.debug(response)
-
-            if return_format == 'RDF':
-                app.logger.debug('Serializing to Turtle format')
-                return response.serialize(format='nt')
-            else :
-                app.logger.debug('Directly returning JSON format')
-                return jsonify(response)
-        except Exception as e:
-            app.logger.error('Something went wrong')
-            app.logger.error(e)
-            return jsonify({'result': 'Error'})
-
-
-    else :
-        return jsonify({'result': 'Error'})
-    """
+    return render_template('map.html', on_route=route,)
