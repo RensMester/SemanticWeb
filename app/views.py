@@ -26,6 +26,7 @@ def route():
     upper_bound, lower_bound, steps = query.get_maps_route(start, dest)
     places = query.get_places_within(upper_bound, lower_bound)
 
+    step_points = []
     if steps:
         for step in steps:
             start, end = step['start_location'], step['end_location']
@@ -38,11 +39,15 @@ def route():
                 print('############################')
                 print(num_circles)
                 for i in range(0, num_circles + 1):
+                    print(i/(num_circles + 1))
                     lat, lon = helper.step_point(start_latlon, end_latlon,
                                                  i/(num_circles + 1))
-                    in_circle = [place for place in places if
-                                 helper.in_circle(lat, lon, r, place['lat']['value'],
-                                                  place['lon']['value'])]
+                    in_circle = {(p['lat']['value'], p['lon']['value']) for p
+                                 in places if helper.in_circle(lat, lon, r,
+                                                               p['lat']['value'],
+                                                               p['lon']['value'])}
+                    step_points.append((lat, lon))
+                    in_circle = list(in_circle)
                     if len(in_circle) > 5:
                         random.shuffle(in_circle)
 
@@ -51,11 +56,11 @@ def route():
     route = []
 
     for i, p in enumerate(interesting):
-        lat, lon = p['lat']['value'], p['lon']['value']
+        lat, lon = p
         if i == len(interesting) - 1:
             pass
         else:
-            n_lat, n_lon = interesting[i+1]['lat']['value'], interesting[i+1]['lon']['value']
+            n_lat, n_lon = interesting[i+1]
             route.extend(helper.route((lat, lon), (n_lat, n_lon)))
 
-    return render_template('map.html', on_route=route,)
+    return render_template('map.html', on_route=route, step_points=step_points)
