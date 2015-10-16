@@ -8,7 +8,7 @@ from app import route_json  # noqa
 from app import query
 import random
 
-r = 0.2 / 111
+r = 0.1 / 111
 
 
 @app.route('/', )
@@ -46,7 +46,7 @@ def route():
                     if len(in_circle) > 5:
                         random.shuffle(in_circle)
 
-                    interesting.extend(in_circle[:5])
+                    interesting.extend(in_circle[:1])
                 print('############################')
     route = []
 
