@@ -11,20 +11,29 @@
     <div id="map" style="width: 100%, height: 400px"></div>
 	<script>
 		var on_route = {{on_route|tojson}};
+        var step_points = {{step_points|tojson}};
 
 	    (function(){
-			var vectorSource = new ol.source.Vector({
-		//create empty vector
-		});
+			var vectorSource = new ol.source.Vector();
+            var stepsource = new ol.source.Vector();
 
 		//MARKERS
 		var i; //speciaal voor jim
 		for (i=0; i<on_route.length; ++i) {
 			var iconFeature = new ol.Feature({
 				geometry: new
-			ol.geom.Point(ol.proj.transform([parseFloat(on_route[i].lon), parseFloat(on_route[i].lat)], 'EPSG:4326',   'EPSG:3857')),
+			ol.geom.Point(ol.proj.transform([on_route[i].lon, on_route[i].lat], 'EPSG:4326',   'EPSG:3857')),
 			});
 			vectorSource.addFeature(iconFeature);
+		};
+
+		var i; //speciaal voor jim
+		for (i=0; i<step_points.length; ++i) {
+			var iconFeature = new ol.Feature({
+				geometry: new
+			ol.geom.Point(ol.proj.transform([step_points[i][1], step_points[i][0]], 'EPSG:4326',   'EPSG:3857')),
+			});
+			stepsource.addFeature(iconFeature);
 		};
 
 		//create the style
@@ -40,15 +49,32 @@
 			}))
 		});
 
+		var stepStyle = new ol.style.Style({
+		  image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
+			anchor: [0.5, 46],
+			anchorXUnits: 'fraction',
+			anchorYUnits: 'pixels',
+			opacity: 0.75,
+			src:'https://cdn0.iconfinder.com/data/icons/gcons-2/9/point1-128.png',
+			offset: [0,20],
+			scale: 0.15,
+			}))
+		});
+
 
 		//add the feature vector to the layer vector, and apply a style to whole layer
 		var vectorLayer = new ol.layer.Vector({
 		  source: vectorSource,
-		  style: iconStyle
+		  style: iconStyle,
+		});
+
+		var stepLayer = new ol.layer.Vector({
+		  source: stepsource,
+		  style: stepStyle,
 		});
 
 		var map = new ol.Map({
-		  layers: [new ol.layer.Tile({ source: new ol.source.OSM() }), vectorLayer],
+		  layers: [new ol.layer.Tile({ source: new ol.source.OSM() }), vectorLayer, stepLayer],
 		  target: document.getElementById('map'),
 		  view: new ol.View({
 			center: [0, 0],
