@@ -40,8 +40,9 @@ def in_circle(center_x, center_y, radius, x, y):
 
 
 def route(point1, point2):
-    command = 'router --dir=data --prefix=am --lat1=%s --lon1=%s --lat2=%s '\
-              '--lon2=%s --output-text --output-stdout --transport=bicycle'
+    command = 'router --dir=data --prefix=am --lat1=%s --lon1=%s --lat2=%s ' + \
+              '--lon2=%s --output-text --output-stdout --transport=foot'
     route = os.popen(command % (*point1, *point2)).readlines()[6:]
     points = [r.split() for r in route]
+    print(points)
     return [{'lat': point[0], 'lon':point[1]} for point in points]
