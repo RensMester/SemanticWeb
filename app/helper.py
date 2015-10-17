@@ -1,23 +1,37 @@
-import math
+from math import *
 import os
 R = 6371000
 
 
 def step_point(point1, point2, fraction):
-    lat1, lon1 = map(math.radians, point1)
-    lat2, lon2 = map(math.radians, point2)
+    lat1, lon1 = map(radians, point1)
+    lat2, lon2 = map(radians, point2)
+    '''
+    lat1, lon1 = point1
+    lat2, lon2 = point2
+    '''
     distance = calculate_distance((lat1, lon1), (lat2, lon2)) / R
-    a = math.cos(lat1) * math.cos(lat2)
-    b = math.sin(fraction * distance) / math.sin(distance)
-    x = a * math.cos(lat1) * math.cos(lon1) + b * math.cos(lat2) * \
-        math.cos(lon2)
-    y = a * math.cos(lat1) * math.sin(lon1) + b * math.cos(lat2) * \
-        math.sin(lon2)
-    z = a * math.sin(lat1) + b * math.sin(lat2)
-    lat_point = math.atan2(z, math.sqrt(x**2 + y**2))
-    lon_point = math.atan2(y, x)
-    lat_point, lon_point = map(math.degrees, (lat_point, lon_point))
-    return round(lat_point, 7), round(lon_point, 7)
+    a = cos(lat1) * cos(lat2)
+    b = sin(fraction * distance) / sin(distance)
+    x = a * cos(lat1) * cos(lon1) + b * cos(lat2) * \
+        cos(lon2)
+    y = a * cos(lat1) * sin(lon1) + b * cos(lat2) * \
+        sin(lon2)
+    z = a * sin(lat1) + b * sin(lat2)
+    lat_point = atan2(z, sqrt(x**2 + y**2))
+    lon_point = atan2(y, x)
+    lat_point, lon_point = map(degrees, (lat_point, lon_point))
+    '''
+    #  better version
+    a = sin((1-fraction) * d) / sin(d)
+    b = sin(fraction*d) / sin(d)
+    x = a * cos(lat1) * cos(lon1) + b * cos(lat2) * cos(lon2)
+    y = a * cos(lat1) * sin(lon1) + b * cos(lat2) * sin(lon2)
+    z = a * sin(lat1)
+    lat_point = atan2(z, sqrt(x**2 + y**2))
+    lon_point = atan2(y, x)
+    '''
+    return lat_point, lon_point
 
 
 def calculate_distance(point1, point2):
@@ -25,11 +39,10 @@ def calculate_distance(point1, point2):
     lat2, lon2 = point2
     delta_lat = lat2 - lat1
     delta_lon = lon2 - lon1
-
-    a = math.sin(delta_lat / 2) * math.sin(delta_lat/2) + \
-        math.cos(lat1) * math.cos(lat2) * math.sin(delta_lon/2) * \
-        math.sin(delta_lon / 2)
-    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
+    a = sin(delta_lat / 2) * sin(delta_lat/2) + \
+        cos(lat1) * cos(lat2) * sin(delta_lon/2) * \
+        sin(delta_lon / 2)
+    c = 2 * atan2(sqrt(a), sqrt(1-a))
     return R * c
 
 
@@ -41,8 +54,13 @@ def in_circle(center_x, center_y, radius, x, y):
 
 def route(point1, point2):
     command = 'router --dir=data --prefix=am --lat1=%s --lon1=%s --lat2=%s ' + \
-              '--lon2=%s --output-text --output-stdout --transport=foot'
-    route = os.popen(command % (*point1, *point2)).readlines()[6:]
+              '--lon2=%s --output-text --output-stdout --transport=bicycle'
+    route = os.popen(command % (point1[0], point[1], point2[0],
+                                point[1])).readlines()[6:]
     points = [r.split() for r in route]
-    print(points)
-    return [{'lat': point[0], 'lon':point[1]} for point in points]
+    if points:
+        return [{'lat': float(point[0]), 'lon':float(point[1])} for point in
+                points]
+    else:
+        print(points)
+        return []
