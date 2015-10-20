@@ -122,7 +122,11 @@ geo:long rdf:type owl:AnnotationProperty ;
 
 ###  http://www.jimlemmers.com/scenicroute#hasPlace
 
-:hasPlace rdf:type owl:ObjectProperty .
+:hasPlace rdf:type owl:ObjectProperty ;
+          
+          rdfs:range :Place ;
+          
+          rdfs:domain :Route .
 
 
 
@@ -152,6 +156,10 @@ geo:long rdf:type owl:AnnotationProperty ;
 
 :isPlaceOf rdf:type owl:ObjectProperty ;
            
+           rdfs:domain :Place ;
+           
+           rdfs:range :Route ;
+           
            owl:inverseOf :hasPlace .
 
 
@@ -159,6 +167,10 @@ geo:long rdf:type owl:AnnotationProperty ;
 ###  http://www.jimlemmers.com/scenicroute#isStartOf
 
 :isStartOf rdf:type owl:ObjectProperty ;
+           
+           rdfs:range :Route ;
+           
+           rdfs:domain :Start ;
            
            owl:inverseOf :hasStart .
 
@@ -309,8 +321,9 @@ geo:location rdf:type owl:ObjectProperty ;
 :Route rdf:type owl:Class ;
        
        owl:equivalentClass [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasPlace ;
-                             owl:someValuesFrom :Place
+                             owl:onProperty :hasStart ;
+                             owl:onClass :Start ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
                            ] ,
                            [ rdf:type owl:Restriction ;
                              owl:onProperty :hasDestination ;
@@ -318,9 +331,8 @@ geo:location rdf:type owl:ObjectProperty ;
                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
                            ] ,
                            [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasStart ;
-                             owl:onClass :Start ;
-                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                             owl:onProperty :hasPlace ;
+                             owl:someValuesFrom :Place
                            ] .
 
 
@@ -662,6 +674,14 @@ geo:lat_long rdfs:label "lat/long" ;
 
 
 [ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :CulturalBuilding
+                :Heritage
+                :House
+                :Museum
+                :PublicBuilding
+              )
+] .
+[ rdf:type owl:AllDisjointClasses ;
   owl:members ( :Bridge
                 :Building
                 :Nature
@@ -679,14 +699,6 @@ geo:lat_long rdfs:label "lat/long" ;
                         :Sexmuseum
                         :VictoriaHotel
                       )
-] .
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :CulturalBuilding
-                :Heritage
-                :House
-                :Museum
-                :PublicBuilding
-              )
 ] .
 
 
