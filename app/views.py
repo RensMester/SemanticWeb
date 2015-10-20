@@ -22,13 +22,16 @@ def route():
     route_start = args.get('start')
     route_dest = args.get('dest')
 
-    interesting = []
     upper_bound, lower_bound, steps = query.get_maps_route(route_start,
                                                            route_dest)
     places = query.get_places_within(upper_bound, lower_bound)
 
     step_points = []
     if steps:
+        start_latlon = steps[0]['start_location']['lat'],steps[0]['start_location']['lng']
+        interesting = [{'lat': {'value': str(start_latlon[0])},
+                        'lon': {'value': str(start_latlon[1])}}]
+
         for step in steps:
             start, end = step['start_location'], step['end_location']
             start_latlon = start['lat'], start['lng']
@@ -55,8 +58,12 @@ def route():
 
                     interesting.extend(in_circle[:1])
                 print('############################')
+        interesting.append({'lat': {'value': str(end_latlon[0])},
+                            'lon': {'value': str(end_latlon[1])}})
+
+    print(interesting)
     route = []
-    uri = query.insert_route(steps[0], steps[-1], interesting)
+    uri = query.insert_route(interesting)
     scenic = query.is_scenic(uri)
 
     for i, p in enumerate(interesting):
@@ -67,5 +74,7 @@ def route():
         else:
             n_lat, n_lon = interesting[i+1]['lat']['value'], interesting[i+1]['lon']['value']
             route.extend(helper.route((lat, lon), (n_lat, n_lon)))
+    # end_latlon = steps[-1]['end_location']['lat'], steps[-1]['end_location']['lng']
+    # route.extend(helper.route((lat, lon), end_latlon))
 
     return render_template('map.html', on_route=route, step_points=step_points)

@@ -52,14 +52,13 @@ def get_maps_route(start, dest):
         upper_bound = bounds['northeast']['lat'], bounds['northeast']['lng']
         lower_bound = bounds['southwest']['lat'], bounds['southwest']['lng']
         steps = shortest_route['routes'][0]['legs'][0]['steps']
-        print(shortest_route)
         return upper_bound, lower_bound, steps
     except Exception as e:
         print(e)
         return False
 
 
-def insert_route(start, destination, waypoints):
+def insert_route(waypoints):
     sparql = SPARQLWrapper(app.config['endpoint'])
     sparql.setReturnFormat(JSON)
     sparql.addParameter('Accept', 'application/sparql-results+json')
@@ -69,8 +68,8 @@ def insert_route(start, destination, waypoints):
     sparql.setQuery(existing_query)
     response = sparql.query().convert()
     number = 0
-    start = start['start_location']
-    destination = destination['end_location']
+    start = waypoints.pop(0)
+    destination = waypoints.pop(-1)
 
     if response['results']['bindings']:
         last = response['results']['bindings'][-1]
@@ -89,8 +88,9 @@ def insert_route(start, destination, waypoints):
             scr:Route%d a scr:Route ;
                 scr:hasStart scr:Start1;
                 scr:hasDestination scr:Destination1.
-            ''' % (start['lat'], start['lng'], destination['lat'],
-                   destination['lng'], number)
+            ''' % (start['lat']['value'], start['lon']['value'],
+                   destination['lat']['value'], destination['lon']['value'],
+                   number)
 
     for uri in waypoints:
         query = query + 'scr:Route0 scr:hasPlace <' + uri['place']['value'] + '/>. \n'
