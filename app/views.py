@@ -23,7 +23,7 @@ def route():
     upper_bound, lower_bound, steps = query.get_maps_route(route_start,
                                                            route_dest)
     places = query.get_places_within(upper_bound, lower_bound)
-
+    places.append(query.get_factforge())
     scenic = False
     if steps:
         while not scenic:

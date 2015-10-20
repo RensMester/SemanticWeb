@@ -64,17 +64,6 @@ geo:lat rdf:type owl:AnnotationProperty ;
 
 geo:location rdf:type owl:AnnotationProperty ;
              
-             rdfs:label "location" ;
-             
-             rdfs:comment """The relation between something and the point,
- or other geometrical thing in space, where it is.  For example, the realtionship between
- a radio tower and a Point with a given lat and long.
- Or a relationship between a park and its outline as a closed arc of points, or a road and
- its location as a arc (a sequence of points).
- Clearly in practice there will be limit to the accuracy of any such statement, but one would expect
- an accuracy appropriate for the size of the object and uses such as mapping .
- """ ;
-             
              rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/based_near> .
 
 
@@ -179,17 +168,6 @@ geo:long rdf:type owl:AnnotationProperty ;
 
 geo:location rdf:type owl:ObjectProperty ;
              
-             rdfs:label "location" ;
-             
-             rdfs:comment """The relation between something and the point,
- or other geometrical thing in space, where it is.  For example, the realtionship between
- a radio tower and a Point with a given lat and long.
- Or a relationship between a park and its outline as a closed arc of points, or a road and
- its location as a arc (a sequence of points).
- Clearly in practice there will be limit to the accuracy of any such statement, but one would expect
- an accuracy appropriate for the size of the object and uses such as mapping .
- """ ;
-             
              rdfs:range geo:SpatialThing .
 
 
@@ -222,12 +200,6 @@ geo:location rdf:type owl:ObjectProperty ;
 #################################################################
 
 
-###  http://www.jimlemmers.com/scenicroute#Address
-
-:Address rdf:type owl:Class .
-
-
-
 ###  http://www.jimlemmers.com/scenicroute#Bridge
 
 :Bridge rdf:type owl:Class ;
@@ -249,18 +221,6 @@ geo:location rdf:type owl:ObjectProperty ;
 :Canal rdf:type owl:Class ;
        
        rdfs:subClassOf :Water .
-
-
-
-###  http://www.jimlemmers.com/scenicroute#City
-
-:City rdf:type owl:Class .
-
-
-
-###  http://www.jimlemmers.com/scenicroute#Country
-
-:Country rdf:type owl:Class .
 
 
 
@@ -293,20 +253,6 @@ geo:location rdf:type owl:ObjectProperty ;
 :House rdf:type owl:Class ;
        
        rdfs:subClassOf :Building .
-
-
-
-###  http://www.jimlemmers.com/scenicroute#InterestingArea
-
-:InterestingArea rdf:type owl:Class .
-
-
-
-###  http://www.jimlemmers.com/scenicroute#InterestingPlace
-
-:InterestingPlace rdf:type owl:Class ;
-                  
-                  rdfs:subClassOf :Place .
 
 
 
@@ -363,18 +309,18 @@ geo:location rdf:type owl:ObjectProperty ;
 :Route rdf:type owl:Class ;
        
        owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasPlace ;
+                             owl:someValuesFrom :Place
+                           ] ,
+                           [ rdf:type owl:Restriction ;
                              owl:onProperty :hasDestination ;
-                             owl:onClass :Place ;
+                             owl:onClass :Destination ;
                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
                            ] ,
                            [ rdf:type owl:Restriction ;
                              owl:onProperty :hasStart ;
-                             owl:onClass :Place ;
+                             owl:onClass :Start ;
                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasPlace ;
-                             owl:someValuesFrom :Place
                            ] .
 
 
@@ -386,19 +332,11 @@ geo:location rdf:type owl:ObjectProperty ;
              owl:equivalentClass [ rdf:type owl:Class ;
                                    owl:unionOf ( [ rdf:type owl:Restriction ;
                                                    owl:onProperty :hasPlace ;
-                                                   owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                        owl:intersectionOf ( :Bridge
-                                                                                             :InterestingPlace
-                                                                                           )
-                                                                      ]
+                                                   owl:someValuesFrom :Bridge
                                                  ]
                                                  [ rdf:type owl:Restriction ;
                                                    owl:onProperty :hasPlace ;
-                                                   owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                        owl:intersectionOf ( :Building
-                                                                                             :InterestingPlace
-                                                                                           )
-                                                                      ]
+                                                   owl:someValuesFrom :Building
                                                  ]
                                                )
                                  ] ;
@@ -455,15 +393,15 @@ geo:Point rdf:type owl:Class ;
           
           rdfs:subClassOf geo:SpatialThing ;
           
-          rdfs:comment """A point, typically described using a coordinate system relative to Earth, such as WGS84.
-  """ ,
-                       """
+          rdfs:comment """
 Uniquely identified by lat/long/alt. i.e.
 
 spaciallyIntersects(P1, P2) :- lat(P1, LAT), long(P1, LONG), alt(P1, ALT),
   lat(P2, LAT), long(P2, LONG), alt(P2, ALT).
 
 sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P2).
+  """ ,
+                       """A point, typically described using a coordinate system relative to Earth, such as WGS84.
   """ .
 
 
@@ -492,7 +430,6 @@ geo:SpatialThing rdf:type owl:Class ;
 ###  http://www.jimlemmers.com/scenicroute#Bijenkorf
 
 :Bijenkorf rdf:type :Building ,
-                    :InterestingPlace ,
                     owl:NamedIndividual .
 
 
@@ -500,12 +437,11 @@ geo:SpatialThing rdf:type owl:Class ;
 ###  http://www.jimlemmers.com/scenicroute#Brug1
 
 :Brug1 rdf:type :Bridge ,
-                :InterestingPlace ,
                 owl:NamedIndividual ;
        
-       geo:lat "2.64206426" ;
+       geo:long "50.64206" ;
        
-       geo:long "50.64206" .
+       geo:lat "2.64206426" .
 
 
 
@@ -535,7 +471,6 @@ geo:SpatialThing rdf:type owl:Class ;
 ###  http://www.jimlemmers.com/scenicroute#NieuweBrug
 
 :NieuweBrug rdf:type :Bridge ,
-                     :InterestingPlace ,
                      owl:NamedIndividual ;
             
             :PostalCode "1012"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> .
@@ -572,7 +507,6 @@ geo:SpatialThing rdf:type owl:Class ;
 ###  http://www.jimlemmers.com/scenicroute#Sexmuseum
 
 :Sexmuseum rdf:type :Building ,
-                    :InterestingPlace ,
                     owl:NamedIndividual .
 
 
@@ -580,7 +514,6 @@ geo:SpatialThing rdf:type owl:Class ;
 ###  http://www.jimlemmers.com/scenicroute#StationsBrug
 
 :StationsBrug rdf:type :Bridge ,
-                       :InterestingPlace ,
                        owl:NamedIndividual ;
               
               :PostalCode "1012"^^<http://www.jimlemmers.com/scenicroute#/www.w3.org/2001/XMLSchema#string> .
@@ -590,7 +523,6 @@ geo:SpatialThing rdf:type owl:Class ;
 ###  http://www.jimlemmers.com/scenicroute#VictoriaHotel
 
 :VictoriaHotel rdf:type :Building ,
-                        :InterestingPlace ,
                         owl:NamedIndividual .
 
 
@@ -604,9 +536,16 @@ geo:SpatialThing rdf:type owl:Class ;
 #################################################################
 
 
-geo:lat_long rdfs:label "lat/long" ;
+geo:location rdfs:label "location" ;
              
-             rdfs:comment "A comma-separated representation of a latitude, longitude coordinate." .
+             rdfs:comment """The relation between something and the point,
+ or other geometrical thing in space, where it is.  For example, the realtionship between
+ a radio tower and a Point with a given lat and long.
+ Or a relationship between a park and its outline as a closed arc of points, or a road and
+ its location as a arc (a sequence of points).
+ Clearly in practice there will be limit to the accuracy of any such statement, but one would expect
+ an accuracy appropriate for the size of the object and uses such as mapping .
+ """ .
 
 
 
@@ -615,6 +554,8 @@ geo: rdfs:label "geo" ;
      <http://purl.org/dc/elements/1.1/description> """A vocabulary for representing latitude, longitude and
  altitude information in the WGS84 geodetic reference datum.
  Version $Id: wgs84_pos.rdf,v 1.22 2009/04/20 15:00:30 timbl Exp $. See http://www.w3.org/2003/01/geo/ for more details.""" ;
+     
+     <http://purl.org/dc/elements/1.1/date> "$Date: 2009/04/20 15:00:30 $" ;
      
      rdfs:comment """
 Recent changes to this namespace:
@@ -701,9 +642,13 @@ basic geo vocab
 
 """ ;
      
-     <http://purl.org/dc/elements/1.1/date> "$Date: 2009/04/20 15:00:30 $" ;
-     
      <http://purl.org/dc/elements/1.1/title> "WGS84 Geo Positioning: an RDF vocabulary" .
+
+
+
+geo:lat_long rdfs:label "lat/long" ;
+             
+             rdfs:comment "A comma-separated representation of a latitude, longitude coordinate." .
 
 
 
@@ -716,10 +661,23 @@ basic geo vocab
 #################################################################
 
 
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Bridge
+                :Building
+                :Nature
+                :Square
+              )
+] .
 [ rdf:type owl:AllDifferent ;
   owl:distinctMembers ( :Brug1
                         :NieuweBrug
                         :StationsBrug
+                      )
+] .
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :Bijenkorf
+                        :Sexmuseum
+                        :VictoriaHotel
                       )
 ] .
 [ rdf:type owl:AllDisjointClasses ;
@@ -730,22 +688,9 @@ basic geo vocab
                 :PublicBuilding
               )
 ] .
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :Bridge
-                :Building
-                :Nature
-                :Square
-              )
-] .
-[ rdf:type owl:AllDifferent ;
-  owl:distinctMembers ( :Bijenkorf
-                        :Sexmuseum
-                        :VictoriaHotel
-                      )
-] .
 
 
 
 
-###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
 

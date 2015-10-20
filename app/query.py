@@ -35,12 +35,38 @@ def get_places_within(upper, lower):
         return []
 
 
-def get_factforge(upper, lower):
-    sparql = SPARQLWrapper('http://factforge.net/sparql')
-    sparql.setReturnFormat(JSON)
-    sparql.addParameter('Accept', 'application/sparql-results+json')
-    sparql.addParameter('reasoning', 'true')
+def get_factforge():
+	sparql = SPARQLWrapper('http://factforge.net/sparql')
+	sparql.setReturnFormat(JSON)
+	sparql.addParameter('Accept', 'application/sparql-results+json')
+	sparql.addParameter('reasoning', 'true')
 
+	prefixes = '''PREFIX geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+		PREFIX omgeo: <http://www.ontotext.com/owlim/geo#>
+		PREFIX dbpedia: <http://dbpedia.org/resource/>
+		PREFIX gn: <http://www.geonames.org/ontology#>
+
+	'''
+	query = '''
+	SELECT distinct ?place ?label ?lat ?lon
+	WHERE {
+		dbpedia:Amsterdam geo-pos:lat ?latBase ;
+				   geo-pos:long ?longBase .
+		?place omgeo:nearby(?latBase ?longBase "5km");
+					gn:featureCode gn:%s ;
+					geo-pos:lat ?lat ;
+			geo-pos:long ?lon ;
+			gn:name ?label . 
+
+	}
+	'''
+
+	FF_objects = ['L.PRK', 'S.CH', 'S.MLWND', 'S.MKT', 'S.MUS', 'S.PAL', 'S.SQR', 'S.MNMT']
+
+	for object in FF_objects:
+		new_query = prefixes + query % (object)
+		sparql.setQuery(new_query)
+		print(sparql.query().convert())
 
 def get_maps_route(start, dest):
     payload = {'origin': start,
