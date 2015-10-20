@@ -3,8 +3,6 @@ import requests  # noqa
 from app import app
 
 
-
-
 def get_places_within(upper, lower):
     sparql = SPARQLWrapper(app.config['endpoint'])
     sparql.setReturnFormat(JSON)
@@ -35,6 +33,13 @@ def get_places_within(upper, lower):
         return response['results']['bindings']
     else:
         return []
+
+
+def get_factforge(upper, lower):
+    sparql = SPARQLWrapper('http://factforge.net/sparql')
+    sparql.setReturnFormat(JSON)
+    sparql.addParameter('Accept', 'application/sparql-results+json')
+    sparql.addParameter('reasoning', 'true')
 
 
 def get_maps_route(start, dest):
@@ -108,6 +113,8 @@ def is_scenic(uri):
     query = 'ask where {%s a scr:ScenicRoute}' % (uri)
     sparql.setQuery(query)
     response = sparql.query().convert()
-    print(type(response))
-    print(response.getElementsByTagName('boolean')[0].nodeValue)
-    return response.getElementsByTagName('boolean')
+    answer = response.getElementsByTagName('boolean')[0].childNodes[0].wholeText
+    if answer == 'true':
+        return True
+    else:
+        return False

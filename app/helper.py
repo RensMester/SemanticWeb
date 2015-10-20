@@ -1,4 +1,5 @@
-from math import *
+from math import *  # noqa
+import random
 import os
 R = 6371000
 
@@ -46,17 +47,18 @@ def calculate_distance(point1, point2):
     return R * c
 
 
-def in_circle(center_x, center_y, radius, x, y):
+def is_in_circle(center_x, center_y, radius, x, y):
     center_x, center_y, x, y = map(float, (center_x, center_y, x, y))
     square_dist = (center_x - x) ** 2 + (center_y - y) ** 2
     return square_dist <= radius ** 2
 
 
-def route(point1, point2):
-    command = 'router --dir=data --prefix=am --lat1=%s --lon1=%s --lat2=%s ' + \
+def router(point1, point2):
+    command = 'router --dir=data --prefix=am --lat1=%s --lon1=%s --lat2=%s ' +\
               '--lon2=%s --output-text --output-stdout --transport=bicycle'
     route = os.popen(command % (point1[0], point1[1], point2[0],
                                 point2[1])).readlines()[6:]
+    print(command % (point1[0], point1[1], point2[0], point2[1]))
     points = [r.split() for r in route]
     if points:
         return [{'lat': float(point[0]), 'lon':float(point[1])} for point in
@@ -64,3 +66,55 @@ def route(point1, point2):
     else:
         print(points)
         return []
+
+
+def get_in_area(steps, places, r):
+    step_points = []
+    interesting = []
+    start_latlon = steps[0]['start_location']['lat'], steps[0]['start_location']['lng']
+    interesting = [{'lat': {'value': str(start_latlon[0])},
+                    'lon': {'value': str(start_latlon[1])}}]
+
+    for step in steps:
+        start, end = step['start_location'], step['end_location']
+        start_latlon = start['lat'], start['lng']
+        end_latlon = end['lat'], end['lng']
+
+        distance = step['distance']['value']
+        if distance > 200:
+            num_circles = int(distance / 200)
+            print('############################')
+            print(num_circles)
+            for i in range(0, num_circles + 1):
+                #    print(i/(num_circles + 1))
+                fraction = i/(num_circles + 1)
+                lat, lon = step_point(start_latlon, end_latlon, fraction)
+                in_circle = [p for p in places if
+                             is_in_circle(lat, lon, r, p['lat']['value'],
+                                          p['lon']['value'])]
+                step_points.append((lat, lon))
+                in_circle = list(in_circle)
+                print(len(in_circle))
+                if len(in_circle) > 5:
+                    random.shuffle(in_circle)
+
+                interesting.extend(in_circle[:1])
+            print('############################')
+    interesting.append({'lat': {'value': str(end_latlon[0])},
+                        'lon': {'value': str(end_latlon[1])}})
+    return interesting, step_points
+
+
+def calculate_scenic_route(interesting, steps):
+    route = []
+    for i, p in enumerate(interesting):
+        lat, lon = p['lat']['value'], p['lon']['value']
+        if i == len(interesting) - 1:
+            print(i, len(interesting)-1)
+            n_lat, n_lon = interesting[-1]['lat']['value'], interesting[i-1]['lon']['value']
+        else:
+            n_lat, n_lon = interesting[i+1]['lat']['value'], interesting[i+1]['lon']['value']
+        route.extend(router((lat, lon), (n_lat, n_lon)))
+    end_latlon = steps[-1]['end_location']['lat'], steps[-1]['end_location']['lng']
+    route.extend(router((lat, lon), end_latlon))
+    return route
