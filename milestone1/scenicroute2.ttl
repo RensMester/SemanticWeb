@@ -123,7 +123,11 @@ geo:long rdf:type owl:AnnotationProperty ;
 
 ###  http://www.jimlemmers.com/scenicroute#hasDestination
 
-:hasDestination rdf:type owl:ObjectProperty .
+:hasDestination rdf:type owl:ObjectProperty ;
+                
+                rdfs:range :Destination ;
+                
+                rdfs:domain :Route .
 
 
 
@@ -137,15 +141,19 @@ geo:long rdf:type owl:AnnotationProperty ;
 
 :hasStart rdf:type owl:ObjectProperty ;
           
-          rdfs:range :Place ;
+          rdfs:domain :Route ;
           
-          rdfs:domain :Route .
+          rdfs:range :Start .
 
 
 
 ###  http://www.jimlemmers.com/scenicroute#isDestinationOf
 
 :isDestinationOf rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:domain :Destination ;
+                 
+                 rdfs:range :Route ;
                  
                  owl:inverseOf :hasDestination .
 
@@ -264,6 +272,14 @@ geo:location rdf:type owl:ObjectProperty ;
 
 
 
+###  http://www.jimlemmers.com/scenicroute#Destination
+
+:Destination rdf:type owl:Class ;
+             
+             rdfs:subClassOf geo:SpatialThing .
+
+
+
 ###  http://www.jimlemmers.com/scenicroute#Heritage
 
 :Heritage rdf:type owl:Class ;
@@ -347,8 +363,9 @@ geo:location rdf:type owl:ObjectProperty ;
 :Route rdf:type owl:Class ;
        
        owl:equivalentClass [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasPlace ;
-                             owl:someValuesFrom :Place
+                             owl:onProperty :hasDestination ;
+                             owl:onClass :Place ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
                            ] ,
                            [ rdf:type owl:Restriction ;
                              owl:onProperty :hasStart ;
@@ -356,9 +373,8 @@ geo:location rdf:type owl:ObjectProperty ;
                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
                            ] ,
                            [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasDestination ;
-                             owl:onClass :Place ;
-                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                             owl:onProperty :hasPlace ;
+                             owl:someValuesFrom :Place
                            ] .
 
 
@@ -404,6 +420,14 @@ geo:location rdf:type owl:ObjectProperty ;
 :Square rdf:type owl:Class ;
         
         rdfs:subClassOf :Place .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#Start
+
+:Start rdf:type owl:Class ;
+       
+       rdfs:subClassOf geo:SpatialThing .
 
 
 
@@ -693,23 +717,10 @@ basic geo vocab
 
 
 [ rdf:type owl:AllDifferent ;
-  owl:distinctMembers ( :Bijenkorf
-                        :Sexmuseum
-                        :VictoriaHotel
-                      )
-] .
-[ rdf:type owl:AllDifferent ;
   owl:distinctMembers ( :Brug1
                         :NieuweBrug
                         :StationsBrug
                       )
-] .
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :Bridge
-                :Building
-                :Nature
-                :Square
-              )
 ] .
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( :CulturalBuilding
@@ -718,6 +729,19 @@ basic geo vocab
                 :Museum
                 :PublicBuilding
               )
+] .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Bridge
+                :Building
+                :Nature
+                :Square
+              )
+] .
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :Bijenkorf
+                        :Sexmuseum
+                        :VictoriaHotel
+                      )
 ] .
 
 
