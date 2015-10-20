@@ -28,8 +28,7 @@ def get_places_within(upper, lower):
                }
             '''
 
-    sparql.setQuery(prefixes + query % (*upper, *lower))  # noqa
-    print(prefixes + query % (*upper, *lower))  # noqa
+    sparql.setQuery(prefixes + query % (upper[0], upper[1], lower[0], lower[1]))  # noqa
 
     response = sparql.query().convert()
     if response['results']['bindings']:
