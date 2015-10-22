@@ -11,19 +11,19 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="container">
-            <div class="row col-xs-12">
-                <form>
-                    <div class="form-control">
-                        <label for="start">From</label>
-                        <input type=text id="start">
-                    </div>
-                    <div class="form-control">
-                        <label for="dest">To</label>
-                        <input type=text id="dest">
-                    </div>
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+                <form class="form-route">
+                    <h2 class="form-signin-heading">Route in Amsterdam</h2>
+                    <label for="inputStart" class="sr-only">Start</label>
+                    <input type="start" id="inputStart" class="form-control" placeholder="Starting location" required autofocus>
+                    <label for="inputDestination" class="sr-only">Destination</label>
+                    <input type="destination" id="inputDestination" class="form-control" placeholder="Destination" required>
+                <button class="btn btn-lg btn-primary" type="submit">Locate my Route</button>
                 </form>
             </div>
+          <div class="col-md-4"></div>
         </div>
     </body>
 </html>
