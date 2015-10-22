@@ -228,18 +228,9 @@ geo:location rdf:type owl:ObjectProperty ;
 
 
 
-###  http://www.jimlemmers.com/scenicroute#Canal
-
-:Canal rdf:type owl:Class ;
-       
-       rdfs:subClassOf :Water .
-
-
-
 ###  http://www.jimlemmers.com/scenicroute#CulturalBuilding
 
 :CulturalBuilding rdf:type owl:Class ;
-                  
                   rdfs:subClassOf :Building .
 
 
