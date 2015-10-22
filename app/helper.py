@@ -98,7 +98,7 @@ def get_in_area(steps, places, r):
                 if len(in_circle) > 5:
                     random.shuffle(in_circle)
 
-                interesting.extend(in_circle[:1])
+                interesting.extend(in_circle[:5])
             print('############################')
     interesting.append({'lat': {'value': str(end_latlon[0])},
                         'lon': {'value': str(end_latlon[1])}})
