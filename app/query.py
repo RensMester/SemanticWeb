@@ -74,11 +74,11 @@ def get_factforge():
     return results
 
 
-def get_maps_route(start, dest):
+def get_maps_route(start, dest, travel='walking'):
     payload = {'origin': start,
                'destination': dest,
                'key': app.config['maps_API_KEY'],
-               'mode': 'walking',
+               'mode': travel,
                }
 
     shortest_route = requests.get(app.config['maps_base_url'],
