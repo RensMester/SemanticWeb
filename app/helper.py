@@ -81,25 +81,21 @@ def get_in_area(steps, places, r):
         end_latlon = end['lat'], end['lng']
 
         distance = step['distance']['value']
-        if distance > 200:
-            num_circles = int(distance / 200)
-            print('############################')
-            print(num_circles)
+        if distance > 2 * r:
+            num_circles = int(distance / 2 * r)
             for i in range(0, num_circles + 1):
-                #    print(i/(num_circles + 1))
                 fraction = i/(num_circles + 1)
                 lat, lon = step_point(start_latlon, end_latlon, fraction)
                 in_circle = [p for p in places if
                              is_in_circle(lat, lon, r, p['lat']['value'],
-                                          p['lon']['value'])]
+                                          p['lon']['value']) and
+                             p not in in_circle]
                 step_points.append((lat, lon))
                 in_circle = list(in_circle)
-                print(len(in_circle))
                 if len(in_circle) > 5:
                     random.shuffle(in_circle)
 
-                interesting.extend(in_circle[:5])
-            print('############################')
+                interesting.extend(in_circle[:2])
     interesting.append({'lat': {'value': str(end_latlon[0])},
                         'lon': {'value': str(end_latlon[1])}})
     return interesting, step_points
@@ -107,6 +103,7 @@ def get_in_area(steps, places, r):
 
 def calculate_scenic_route(interesting, steps):
     route = []
+
     for i, p in enumerate(interesting):
         lat, lon = p['lat']['value'], p['lon']['value']
         if i == len(interesting) - 1:
@@ -117,4 +114,5 @@ def calculate_scenic_route(interesting, steps):
         route.extend(router((lat, lon), (n_lat, n_lon)))
     end_latlon = steps[-1]['end_location']['lat'], steps[-1]['end_location']['lng']
     route.extend(router((lat, lon), end_latlon))
+
     return route
