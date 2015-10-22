@@ -35,43 +35,54 @@ def get_places_within(upper, lower):
         return []
 
 
-def get_factforge():
-    url = 'http://factforge.net/sparql'
-    headers = {'Accept': 'application/sparql-results+json',
-                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-               }
+def get_dbpedia():
+	url = 'http://dbpedia.org/sparql'
+	headers = {'Accept': 'application/sparql-results+json',
+			'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+		   }
 
-    prefixes = '''PREFIX geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-                PREFIX omgeo: <http://www.ontotext.com/owlim/geo#>
-                PREFIX dbpedia: <http://dbpedia.org/resource/>
-                PREFIX gn: <http://www.geonames.org/ontology#>
+	prefixes = '''PREFIX dbc: <http://dbpedia.org/resource/Category:>
+	PREFIX owl: <http://www.w3.org/2002/07/owl#>
+	PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+	'''
+	query = ''' 
+	SELECT ?uri
+	WHERE {
+	?x ?y dbc:%s .
+	?x owl:sameAs ?uri.
+	FILTER(regex(?uri, "wikidata.dbpedia"))
+	}
+	'''
+	DB_objects = ['Parks_in_Amsterdam','Squares_in_Amsterdam',
+				'Museums_in_Amsterdam']
 
-                '''
-    query = ''' SELECT distinct ?place ?label ?lat ?lon
-    WHERE {
-        dbpedia:Amsterdam geo-pos:lat ?latBase ;
-                    geo-pos:long ?longBase .
-        ?place omgeo:nearby(?latBase ?longBase "5km");
-                    gn:featureCode gn:%s ;
-                    geo-pos:lat ?lat ;
-            geo-pos:long ?lon ;
-            gn:name ?label .
+	results = []
+	results2 = []
+	for object in DB_objects:
+		new_query = prefixes + query % (object)
+		response = requests.post(url, headers=headers, data={'query':
+															 new_query}).json()
+		if response['results']['bindings']:
+			results.extend(response['results']['bindings'])
 
-    }
-    '''
+	url = 'http://wikidata.dbpedia.org/sparql'
 
-    FF_objects = ['L.PRK', 'S.CH', 'S.MLWND', 'S.MKT', 'S.MUS', 'S.PAL',
-                  'S.SQR', 'S.MNMT']
+	query = '''
+	SELECT ?lat ?long WHERE {
+	<%s> geo:lat ?lat ;
+	 geo:long ?long .
+	}
+	'''
 
-    results = []
-    for object in FF_objects:
-        new_query = prefixes + query % (object)
-        response = requests.post(url, headers=headers, data={'query':
-                                                             new_query}).json()
-        if response['results']['bindings']:
-            print(response['results']['bindings'])
-            results.extend(response['results']['bindings'])
-    return results
+	for place in results:
+		new_query = prefixes + query % (place['uri']['value'])
+		response = requests.post(url, headers=headers, data={'query':
+															 new_query}).json()
+		if response['results']['bindings']:
+			if response['results']['bindings'][0].get('lat'):
+				response['results']['bindings'][0]['uri'] = place['uri']['value']
+				results2.extend(response['results']['bindings'])
+	return results2
 
 
 def get_maps_route(start, dest):
