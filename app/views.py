@@ -8,7 +8,7 @@ from app import route_json  # noqa
 from app import query
 
 
-@app.route('/', )
+@app.route('/', methods=['GET'])
 def home():
     return render_template('index.html')
 
@@ -23,7 +23,7 @@ def route():
     upper_bound, lower_bound, steps = query.get_maps_route(route_start,
                                                            route_dest)
     places = query.get_places_within(upper_bound, lower_bound)
-    places.extend(query.get_factforge())
+    places.extend(query.get_dbpedia())
     scenic = False
     if steps:
         while not scenic:
@@ -35,6 +35,7 @@ def route():
             print(scenic)
             r = r + 0.03
             scenic = True
+            print('trying again')
 
     if scenic:
         route = helper.calculate_scenic_route(interesting, steps)
