@@ -4,6 +4,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
 @base <http://www.jimlemmers.com/scenicroute#> .
 
 <http://www.jimlemmers.com/scenicroute#> rdf:type owl:Ontology .
@@ -231,7 +232,10 @@ above the local reference ellipsoid).""" ;
 
 <http://www.jimlemmers.com/scenicroute#CulturalBuilding> rdf:type owl:Class ;
                                                          
-                                                         rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Building> .
+                                                         rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Building> ;
+
+							 owl:equivalentClass dbo:Museum ,
+									yago:MuseumsInAmsterdam .
 
 
 
@@ -271,7 +275,10 @@ above the local reference ellipsoid).""" ;
 
 <http://www.jimlemmers.com/scenicroute#Park> rdf:type owl:Class ;
                                              
-                                             rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Place> .
+                                             rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Place> ;
+
+					     owl:equivalentClass dbo:Park,
+						yago:Park108615149 .
 
 
 
@@ -348,7 +355,9 @@ above the local reference ellipsoid).""" ;
 
 <http://www.jimlemmers.com/scenicroute#Square> rdf:type owl:Class ;
                                                
-                                               rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Place> .
+                                               rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Place> ;
+
+					       owl:equivalentClass yago:SquaresInAmsterdam .
 
 
 
