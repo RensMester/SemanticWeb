@@ -2,20 +2,29 @@
 <html>
   <head>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <link rel="stylesheet" href='{{ url_for("static", filename="css/style.css")}}'></link>
 	</head>
 
   <body>
     <div class="container">
         <div class="row">
           <div class="col-md-4"></div>
-          <div class="col-md-4">
-                <div class="" method="post">
+          <div id='input-div' class="col-md-4">
+                <div class="center" method="post">
                     <h2 class="form-signin-heading">Scenic Route in Amsterdam</h2>
-                    <label for="inputStart" class="sr-only">Start</label>
-                    <input type="start" id="inputStart" class="form-control" placeholder="Starting location" required autofocus>
-                    <label for="inputDestination" class="sr-only">Destination</label>
-                    <input type="destination" id="inputDestination" class="form-control" placeholder="Destination" required>
-                    <button class="btn btn-lg btn-primary" onClick='get_route();'>Locate my Route</button>
+                    <div class="inputs">
+                        <div id="start">
+                            <label for="inputStart" class="sr-only">Start</label>
+                            <input type="start" id="inputStart" class="form-control" placeholder="Starting location" required autofocus>
+                        </div>
+                        <div id="destination">
+                            <label for="inputDestination" class="sr-only">Destination</label>
+                            <input type="destination" id="inputDestination" class="form-control" placeholder="Destination" required>
+                        </div>
+                    <button class="btn btn-lg btn-primary" onClick='get_route();'>Show me Scenic!</button>
+                    </div>
+                    <a href="#" id='show-explanation' onClick="$('#explanation').toggle()">What does this page do?</a>
+                    <p id='explanation'> You can use this website to get the most scenic route instead of the shortest route. We have collected the bridges, architectonic heritage, museums, parks and squares in Amsterdam and put them in our database. Using all this information, we will try to give you a scenic route based on the shortest route. The markers indicate the places you need to go to in order to follow the route. Although not completely finished, this is an example of what information super power might look like when the Semantic Web has been fully realized...</p>
                 </div>
             </div>
          </div>
