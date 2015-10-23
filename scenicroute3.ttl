@@ -6,9 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://www.jimlemmers.com/scenicroute#> .
 
-<http://www.jimlemmers.com/scenicroute#> rdf:type owl:Ontology ;
-                                         
-                                         owl:imports <http://www.geonames.org/ontology> .
+<http://www.jimlemmers.com/scenicroute#> rdf:type owl:Ontology .
 
 
 #################################################################
@@ -309,10 +307,6 @@ above the local reference ellipsoid).""" ;
                                                                     owl:onProperty <http://www.jimlemmers.com/scenicroute#hasDestination> ;
                                                                     owl:onClass <http://www.jimlemmers.com/scenicroute#Destination> ;
                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
-                                                                  ] ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://www.jimlemmers.com/scenicroute#hasPlace> ;
-                                                                    owl:someValuesFrom <http://www.jimlemmers.com/scenicroute#Place>
                                                                   ] ,
                                                                   [ rdf:type owl:Restriction ;
                                                                     owl:onProperty <http://www.jimlemmers.com/scenicroute#hasStart> ;
@@ -642,12 +636,6 @@ basic geo vocab
 #################################################################
 
 
-[ rdf:type owl:AllDifferent ;
-  owl:distinctMembers ( <http://www.jimlemmers.com/scenicroute#Bijenkorf>
-                        <http://www.jimlemmers.com/scenicroute#Sexmuseum>
-                        <http://www.jimlemmers.com/scenicroute#VictoriaHotel>
-                      )
-] .
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( <http://www.jimlemmers.com/scenicroute#CulturalBuilding>
                 <http://www.jimlemmers.com/scenicroute#Heritage>
@@ -660,6 +648,12 @@ basic geo vocab
   owl:distinctMembers ( <http://www.jimlemmers.com/scenicroute#Brug1>
                         <http://www.jimlemmers.com/scenicroute#NieuweBrug>
                         <http://www.jimlemmers.com/scenicroute#StationsBrug>
+                      )
+] .
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( <http://www.jimlemmers.com/scenicroute#Bijenkorf>
+                        <http://www.jimlemmers.com/scenicroute#Sexmuseum>
+                        <http://www.jimlemmers.com/scenicroute#VictoriaHotel>
                       )
 ] .
 
