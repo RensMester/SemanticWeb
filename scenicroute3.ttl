@@ -1,12 +1,12 @@
 @prefix : <http://www.jimlemmers.com/scenicroute##> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix wikidata: <http://www.wikidata.org/entity/> .
 @prefix yago: <http://dbpedia.org/class/yago/> .
-@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
 @base <http://www.jimlemmers.com/scenicroute#> .
 
 <http://www.jimlemmers.com/scenicroute#> rdf:type owl:Ontology .
@@ -214,6 +214,46 @@ above the local reference ellipsoid).""" ;
 #################################################################
 
 
+###  http://dbpedia.org/class/yago/MuseumsInAmsterdam
+
+yago:MuseumsInAmsterdam rdf:type owl:Class ;
+                        
+                        owl:equivalentClass <http://www.jimlemmers.com/scenicroute#Museum> .
+
+
+
+###  http://dbpedia.org/class/yago/Park108615149
+
+yago:Park108615149 rdf:type owl:Class ;
+                   
+                   owl:equivalentClass <http://www.jimlemmers.com/scenicroute#Park> .
+
+
+
+###  http://dbpedia.org/class/yago/SquaresInAmsterdam
+
+yago:SquaresInAmsterdam rdf:type owl:Class ;
+                        
+                        owl:equivalentClass <http://www.jimlemmers.com/scenicroute#Square> .
+
+
+
+###  http://dbpedia.org/ontology/Museum
+
+dbo:Museum rdf:type owl:Class ;
+           
+           owl:equivalentClass <http://www.jimlemmers.com/scenicroute#Museum> .
+
+
+
+###  http://dbpedia.org/ontology/Park
+
+dbo:Park rdf:type owl:Class ;
+         
+         owl:equivalentClass <http://www.jimlemmers.com/scenicroute#Park> .
+
+
+
 ###  http://www.jimlemmers.com/scenicroute#Bridge
 
 <http://www.jimlemmers.com/scenicroute#Bridge> rdf:type owl:Class ;
@@ -235,7 +275,6 @@ above the local reference ellipsoid).""" ;
 <http://www.jimlemmers.com/scenicroute#CulturalBuilding> rdf:type owl:Class ;
                                                          
                                                          rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Building> .
-
 
 
 
@@ -267,10 +306,7 @@ above the local reference ellipsoid).""" ;
 
 <http://www.jimlemmers.com/scenicroute#Museum> rdf:type owl:Class ;
                                                
-                                               rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Building> ;
-
-							 owl:equivalentClass dbo:Museum ,
-									yago:MuseumsInAmsterdam.
+                                               rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Building> .
 
 
 
@@ -278,10 +314,7 @@ above the local reference ellipsoid).""" ;
 
 <http://www.jimlemmers.com/scenicroute#Park> rdf:type owl:Class ;
                                              
-                                             rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Place> ;
-
-					     owl:equivalentClass dbo:Park,
-						yago:Park108615149 .
+                                             rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Place> .
 
 
 
@@ -314,13 +347,13 @@ above the local reference ellipsoid).""" ;
 <http://www.jimlemmers.com/scenicroute#Route> rdf:type owl:Class ;
                                               
                                               owl:equivalentClass [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://www.jimlemmers.com/scenicroute#hasDestination> ;
-                                                                    owl:onClass <http://www.jimlemmers.com/scenicroute#Destination> ;
+                                                                    owl:onProperty <http://www.jimlemmers.com/scenicroute#hasStart> ;
+                                                                    owl:onClass <http://www.jimlemmers.com/scenicroute#Start> ;
                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
                                                                   ] ,
                                                                   [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://www.jimlemmers.com/scenicroute#hasStart> ;
-                                                                    owl:onClass <http://www.jimlemmers.com/scenicroute#Start> ;
+                                                                    owl:onProperty <http://www.jimlemmers.com/scenicroute#hasDestination> ;
+                                                                    owl:onClass <http://www.jimlemmers.com/scenicroute#Destination> ;
                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
                                                                   ] .
 
@@ -331,13 +364,46 @@ above the local reference ellipsoid).""" ;
 <http://www.jimlemmers.com/scenicroute#ScenicRoute> rdf:type owl:Class ;
                                                     
                                                     owl:equivalentClass [ rdf:type owl:Class ;
-                                                                          owl:unionOf ( [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty <http://www.jimlemmers.com/scenicroute#hasPlace> ;
-                                                                                          owl:someValuesFrom <http://www.jimlemmers.com/scenicroute#Bridge>
+                                                                          owl:unionOf ( [ rdf:type owl:Class ;
+                                                                                          owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                 owl:onProperty <http://www.jimlemmers.com/scenicroute#hasPlace> ;
+                                                                                                                 owl:onClass <http://www.jimlemmers.com/scenicroute#Park> ;
+                                                                                                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                                                               ]
+                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                 owl:onProperty <http://www.jimlemmers.com/scenicroute#hasPlace> ;
+                                                                                                                 owl:onClass <http://www.jimlemmers.com/scenicroute#Bridge> ;
+                                                                                                                 owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+                                                                                                               ]
+                                                                                                             )
+                                                                                        ]
+                                                                                        [ rdf:type owl:Class ;
+                                                                                          owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                 owl:onProperty <http://www.jimlemmers.com/scenicroute#hasPlace> ;
+                                                                                                                 owl:onClass <http://www.jimlemmers.com/scenicroute#Square> ;
+                                                                                                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                                                               ]
+                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                 owl:onProperty <http://www.jimlemmers.com/scenicroute#hasPlace> ;
+                                                                                                                 owl:onClass <http://www.jimlemmers.com/scenicroute#Building> ;
+                                                                                                                 owl:minQualifiedCardinality "5"^^xsd:nonNegativeInteger
+                                                                                                               ]
+                                                                                                             )
                                                                                         ]
                                                                                         [ rdf:type owl:Restriction ;
                                                                                           owl:onProperty <http://www.jimlemmers.com/scenicroute#hasPlace> ;
-                                                                                          owl:someValuesFrom <http://www.jimlemmers.com/scenicroute#Building>
+                                                                                          owl:onClass <http://www.jimlemmers.com/scenicroute#Museum> ;
+                                                                                          owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                                        ]
+                                                                                        [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty <http://www.jimlemmers.com/scenicroute#hasPlace> ;
+                                                                                          owl:onClass <http://www.jimlemmers.com/scenicroute#Bridge> ;
+                                                                                          owl:minQualifiedCardinality "3"^^xsd:nonNegativeInteger
+                                                                                        ]
+                                                                                        [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty <http://www.jimlemmers.com/scenicroute#hasPlace> ;
+                                                                                          owl:onClass <http://www.jimlemmers.com/scenicroute#Building> ;
+                                                                                          owl:minQualifiedCardinality "10"^^xsd:nonNegativeInteger
                                                                                         ]
                                                                                       )
                                                                         ] ;
@@ -358,9 +424,7 @@ above the local reference ellipsoid).""" ;
 
 <http://www.jimlemmers.com/scenicroute#Square> rdf:type owl:Class ;
                                                
-                                               rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Place> ;
-
-					       owl:equivalentClass yago:SquaresInAmsterdam .
+                                               rdfs:subClassOf <http://www.jimlemmers.com/scenicroute#Place> .
 
 
 
@@ -412,6 +476,43 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 #    Individuals
 #
 #################################################################
+
+
+###  http://www.jimlemmers.com/scenicroute#Bijenkorf
+
+<http://www.jimlemmers.com/scenicroute#Bijenkorf> rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#Brug1
+
+<http://www.jimlemmers.com/scenicroute#Brug1> rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#NieuweBrug
+
+<http://www.jimlemmers.com/scenicroute#NieuweBrug> rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#Sexmuseum
+
+<http://www.jimlemmers.com/scenicroute#Sexmuseum> rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#StationsBrug
+
+<http://www.jimlemmers.com/scenicroute#StationsBrug> rdf:type owl:NamedIndividual .
+
+
+
+###  http://www.jimlemmers.com/scenicroute#VictoriaHotel
+
+<http://www.jimlemmers.com/scenicroute#VictoriaHotel> rdf:type owl:NamedIndividual .
+
+
 
 
 
@@ -547,14 +648,6 @@ basic geo vocab
 #################################################################
 
 
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.jimlemmers.com/scenicroute#CulturalBuilding>
-                <http://www.jimlemmers.com/scenicroute#Heritage>
-                <http://www.jimlemmers.com/scenicroute#House>
-                <http://www.jimlemmers.com/scenicroute#Museum>
-                <http://www.jimlemmers.com/scenicroute#PublicBuilding>
-              )
-] .
 [ rdf:type owl:AllDifferent ;
   owl:distinctMembers ( <http://www.jimlemmers.com/scenicroute#Brug1>
                         <http://www.jimlemmers.com/scenicroute#NieuweBrug>
@@ -566,6 +659,14 @@ basic geo vocab
                         <http://www.jimlemmers.com/scenicroute#Sexmuseum>
                         <http://www.jimlemmers.com/scenicroute#VictoriaHotel>
                       )
+] .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.jimlemmers.com/scenicroute#CulturalBuilding>
+                <http://www.jimlemmers.com/scenicroute#Heritage>
+                <http://www.jimlemmers.com/scenicroute#House>
+                <http://www.jimlemmers.com/scenicroute#Museum>
+                <http://www.jimlemmers.com/scenicroute#PublicBuilding>
+              )
 ] .
 
 
