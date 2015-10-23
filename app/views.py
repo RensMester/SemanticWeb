@@ -25,26 +25,10 @@ def route():
     upper_bound, lower_bound, steps = query.get_maps_route(route_start,
                                                            route_dest)
     places = query.get_places_within(upper_bound, lower_bound)
-    # places.extend(query.get_dbpedia())
-    scenic = False
+    places.extend(query.get_dbpedia())
     if steps:
-        while not scenic:
-            if r > 0.1:
-                break
-            interesting, step_points = helper.get_in_area(steps, places, r)
-            uri = query.insert_route(interesting)
-            scenic = query.is_scenic(uri)
-            print(scenic)
-            r = r + 0.03
-            scenic = True
-            print('trying again')
+        interesting, step_points = helper.get_in_area(steps, places, r)
 
-    if scenic:
-        route, distance = helper.calculate_scenic_route(interesting, steps)
-    else:
-        route, distance = helper.calculate_scenic_route(interesting, steps)
-
-    # return render_template('map.html', scenic=scenic, on_route=route,
-    #                       step_points=step_points)
+    route, distance = helper.calculate_scenic_route(interesting, steps)
     return jsonify({'route': route, 'step_points': step_points,
-                    'scenic_distance': distance})
+                        'scenic_distance': distance})
