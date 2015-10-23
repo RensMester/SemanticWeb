@@ -1,6 +1,6 @@
 from app import app
 import pprint  # noqa
-from flask import render_template, request, jsonify  # noqa
+from flask import render_template, request, jsonify, url_for  # noqa
 import math  # noqa
 import json  # noqa
 from app import helper
@@ -10,20 +10,22 @@ from app import query
 
 @app.route('/', methods=['GET'])
 def home():
-    return render_template('index.html')
+    return render_template('map.html')
 
 
-@app.route('/route', methods=['GET'])
+@app.route('/route', methods=['POST', 'GET'])
 def route():
     r = 0.07 / 111
-    args = request.args
+    print(request.data)
+    print(request.form)
+    args = request.form
     route_start = args.get('start')
     route_dest = args.get('dest')
 
     upper_bound, lower_bound, steps = query.get_maps_route(route_start,
                                                            route_dest)
     places = query.get_places_within(upper_bound, lower_bound)
-    places.extend(query.get_dbpedia())
+    # places.extend(query.get_dbpedia())
     scenic = False
     if steps:
         while not scenic:
@@ -38,9 +40,11 @@ def route():
             print('trying again')
 
     if scenic:
-        route = helper.calculate_scenic_route(interesting, steps)
+        route, distance = helper.calculate_scenic_route(interesting, steps)
     else:
-        route = helper.calculate_scenic_route(interesting, steps)
+        route, distance = helper.calculate_scenic_route(interesting, steps)
 
-    return render_template('map.html', scenic=scenic, on_route=route,
-                           step_points=step_points)
+    # return render_template('map.html', scenic=scenic, on_route=route,
+    #                       step_points=step_points)
+    return jsonify({'route': route, 'step_points': step_points,
+                    'scenic_distance': distance})
