@@ -53,22 +53,6 @@ def is_in_circle(center_x, center_y, radius, x, y):
     return square_dist <= radius ** 2
 
 
-def router(point1, point2):
-    command = 'router --dir=data --prefix=am --lat1=%s --lon1=%s --lat2=%s ' +\
-              '--lon2=%s --output-text --output-stdout --transport=bicycle'
-    route = os.popen(command % (point1[0], point1[1], point2[0],
-                                point2[1])).readlines()[6:]
-    print(command % (point1[0], point1[1], point2[0], point2[1]))
-    points = [r.split() for r in route]
-    if points:
-        return [{'lat': float(point[0]), 'lon':float(point[1])} for point in
-                points], float(points[-1][6])
-    else:
-        print('failed')
-        print(points)
-        return [], 0
-
-
 def get_in_area(steps, places, r):
     step_points = []
     interesting = []
@@ -101,6 +85,22 @@ def get_in_area(steps, places, r):
     return interesting, step_points
 
 
+def router(point1, point2):
+    command = 'router --dir=data --prefix=am --lat1=%s --lon1=%s --lat2=%s ' +\
+              '--lon2=%s --output-text --output-stdout --transport=bicycle'
+    route = os.popen(command % (point1[0], point1[1], point2[0],
+                                point2[1])).readlines()[6:]
+    # print(command % (point1[0], point1[1], point2[0], point2[1]))
+    points = [r.split() for r in route]
+    if points:
+        return [{'lat': float(point[0]), 'lon':float(point[1])} for point in
+                points], float(points[-1][6])
+    else:
+        print('failed')
+        print(points)
+        return [], 0
+
+
 def calculate_scenic_route(interesting, steps):
     route = []
     distance = 0
@@ -114,7 +114,6 @@ def calculate_scenic_route(interesting, steps):
 
         points, route_distance = router((lat, lon), (n_lat, n_lon))
         route.extend(points)
-        print(route)
         distance += route_distance
 
     end_latlon = steps[-1]['end_location']['lat'], steps[-1]['end_location']['lng']
