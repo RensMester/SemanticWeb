@@ -62,10 +62,11 @@ def router(point1, point2):
     points = [r.split() for r in route]
     if points:
         return [{'lat': float(point[0]), 'lon':float(point[1])} for point in
-                points]
+                points], float(points[-1][6])
     else:
+        print('failed')
         print(points)
-        return []
+        return [], 0
 
 
 def get_in_area(steps, places, r):
@@ -102,16 +103,24 @@ def get_in_area(steps, places, r):
 
 def calculate_scenic_route(interesting, steps):
     route = []
+    distance = 0
 
     for i, p in enumerate(interesting):
         lat, lon = p['lat']['value'], p['lon']['value']
         if i == len(interesting) - 1:
-            print(i, len(interesting)-1)
             n_lat, n_lon = interesting[-1]['lat']['value'], interesting[i-1]['lon']['value']
         else:
             n_lat, n_lon = interesting[i+1]['lat']['value'], interesting[i+1]['lon']['value']
-        route.extend(router((lat, lon), (n_lat, n_lon)))
-    end_latlon = steps[-1]['end_location']['lat'], steps[-1]['end_location']['lng']
-    route.extend(router((lat, lon), end_latlon))
 
-    return route
+        points, route_distance = router((lat, lon), (n_lat, n_lon))
+        route.extend(points)
+        print(route)
+        distance += route_distance
+
+    end_latlon = steps[-1]['end_location']['lat'], steps[-1]['end_location']['lng']
+
+    end_points, distance = router((lat, lon), end_latlon)
+    route.extend(end_points)
+    distance += route_distance
+
+    return route, distance
