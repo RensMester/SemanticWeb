@@ -80,16 +80,15 @@ def get_in_area(steps, places, r):
         start_latlon = start['lat'], start['lng']
         end_latlon = end['lat'], end['lng']
 
-        distance = step['distance']['value']
-        if distance > 2 * r:
-            num_circles = int(distance / 2 * r)
+        distance = int(step['distance']['value'])
+        if distance > 2 * (r * 111000):
+            num_circles = int(distance / (2 * (r * 111000)))
             for i in range(0, num_circles + 1):
                 fraction = i/(num_circles + 1)
                 lat, lon = step_point(start_latlon, end_latlon, fraction)
                 in_circle = [p for p in places if
                              is_in_circle(lat, lon, r, p['lat']['value'],
-                                          p['lon']['value']) and
-                             p not in in_circle]
+                                          p['lon']['value'])]
                 step_points.append((lat, lon))
                 in_circle = list(in_circle)
                 if len(in_circle) > 5:
