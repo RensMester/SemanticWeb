@@ -36,53 +36,56 @@ def get_places_within(upper, lower):
 
 
 def get_dbpedia():
-	url = 'http://dbpedia.org/sparql'
-	headers = {'Accept': 'application/sparql-results+json',
-			'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-		   }
+    print('getting dbpedia objects')
+    url = 'http://dbpedia.org/sparql'
+    headers = {'Accept': 'application/sparql-results+json', 'Content-Type':
+               'application/x-www-form-urlencoded; charset=UTF-8', }
 
-	prefixes = '''PREFIX dbc: <http://dbpedia.org/resource/Category:>
-	PREFIX owl: <http://www.w3.org/2002/07/owl#>
-	PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-	'''
-	query = ''' 
-	SELECT ?uri
-	WHERE {
-	?x ?y dbc:%s .
-	?x owl:sameAs ?uri.
-	FILTER(regex(?uri, "wikidata.dbpedia"))
-	}
-	'''
-	DB_objects = ['Parks_in_Amsterdam','Squares_in_Amsterdam',
-				'Museums_in_Amsterdam']
+    prefixes = '''
+                PREFIX dbc: <http://dbpedia.org/resource/Category:>
+                PREFIX owl: <http://www.w3.org/2002/07/owl#>
+                PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+                '''
+    query = '''
+            SELECT ?uri
+            WHERE {
+            ?x ?y dbc:%s .
+            ?x owl:sameAs ?uri.
+            FILTER(regex(?uri, "wikidata.dbpedia"))
+            }
+            '''
+    DB_objects = ['Parks_in_Amsterdam', 'Squares_in_Amsterdam',
+                  'Museums_in_Amsterdam']
 
-	results = []
-	results2 = []
-	for object in DB_objects:
-		new_query = prefixes + query % (object)
-		response = requests.post(url, headers=headers, data={'query':
-															 new_query}).json()
-		if response['results']['bindings']:
-			results.extend(response['results']['bindings'])
+    results = []
+    results2 = []
+    for object in DB_objects:
+        new_query = prefixes + query % (object)
+        response = requests.post(url, headers=headers, data={'query':
+                                                             new_query}).json()
+        if response['results']['bindings']:
+            results.extend(response['results']['bindings'])
 
-	url = 'http://wikidata.dbpedia.org/sparql'
+    url = 'http://wikidata.dbpedia.org/sparql'
 
-	query = '''
-	SELECT ?lat ?long WHERE {
-	<%s> geo:lat ?lat ;
-	 geo:long ?long .
-	}
-	'''
+    query = '''
+            SELECT ?lat ?lon WHERE {
+            <%s> geo:lat ?lat ;
+            geo:long ?lon .
+            }
+            '''
 
-	for place in results:
-		new_query = prefixes + query % (place['uri']['value'])
-		response = requests.post(url, headers=headers, data={'query':
-															 new_query}).json()
-		if response['results']['bindings']:
-			if response['results']['bindings'][0].get('lat'):
-				response['results']['bindings'][0]['uri'] = place['uri']['value']
-				results2.extend(response['results']['bindings'])
-	return results2
+    for place in results:
+        new_query = prefixes + query % (place['uri']['value'])
+        response = requests.post(url, headers=headers, data={'query':
+                                                             new_query}).json()
+        if response['results']['bindings']:
+            bindings = response['results']['bindings']
+            if bindings[0].get('lat'):
+                bindings[0]['place'] = {'value': place['uri']['value']}
+                results2.extend(bindings)
+    print('got ', len(results2), ' objects')
+    return results2
 
 
 def get_maps_route(start, dest, travel='walking'):
@@ -124,24 +127,24 @@ def insert_route(waypoints):
 
     query = '''
         insert data{
-        scr:Start1 a scr:Start;
+        scr:Start%d a scr:Start;
                 geo:lat %s;
                 geo:long %s.
-        scr:Destination1 a scr:Destination;
+        scr:Destination%d a scr:Destination;
                 geo:lat %s;
                 geo:long %s.
             scr:Route%d a scr:Route ;
-                scr:hasStart scr:Start1;
-                scr:hasDestination scr:Destination1.
-            ''' % (start['lat']['value'], start['lon']['value'],
-                   destination['lat']['value'], destination['lon']['value'],
-                   number)
+                scr:hasStart scr:Start%d;
+                scr:hasDestination scr:Destination%d.
+            ''' % (number, start['lat']['value'], start['lon']['value'],
+                   number, destination['lat']['value'],
+                   destination['lon']['value'], number, number, number)
 
     for uri in waypoints:
-        query = query + 'scr:Route0 scr:hasPlace <' + uri['place']['value'] + '/>. \n'
+        query = query + 'scr:Route%d scr:hasPlace <' % (number) + \
+            uri['place']['value'] + '/>. \n'
 
     query = query + '}'
-    print(query)
     sparql.setQuery(query)
     sparql.query()
     return 'scr:Route%d' % (number)
